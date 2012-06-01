@@ -1,8 +1,8 @@
 The tool nb first searches its indexes for file:line references¹
 with all the given keywords (without any keyword starting with -).
-It then indexes lines starting with nb or #nb in files in the current
-directory (nbindex), and adds the current directory to a list of known
-indexes (nbindexes).²
+It then indexes lines starting with nb or #nb in files in the
+current directory (nbindex), and adds the current directory to
+a list of known indexes (nbindexes).²
  ¹ The index contains lines of the form file:line which can be
 directly clicked on in Acme to bring up the file and highlight
 the line.
