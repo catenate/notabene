@@ -1,17 +1,25 @@
-sh /git/notabene/sh-inferno/nb demon
-sh /git/notabene/sh-inferno/nb dæmon
-sh /git/notabene/sh-inferno/nb year
-sh /git/notabene/sh-inferno/nb years
-sh /git/notabene/sh-inferno/nb demon | sh /git/notabene/sh-inferno/nbdoc
-sh /git/notabene/sh-inferno/nb dæmon | sh /git/notabene/sh-inferno/nbdoc
-sh /git/notabene/sh-inferno/nb year | sh /git/notabene/sh-inferno/nbdoc
-sh /git/notabene/sh-inferno/nb years | sh /git/notabene/sh-inferno/nbdoc
 sh /git/notabene/sh-inferno/kanban t testdata
-sh /git/notabene/sh-inferno/kanban testdata
-sh /git/notabene/sh-inferno/kanban tv testdata
-sh /git/notabene/sh-inferno/kanban v testdata
 sh /git/notabene/sh-inferno/kanban t testdata | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/kanban testdata
 sh /git/notabene/sh-inferno/kanban testdata | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/kanban tv testdata
 sh /git/notabene/sh-inferno/kanban tv testdata | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/kanban v testdata
 sh /git/notabene/sh-inferno/kanban v testdata | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/nb demon
+sh /git/notabene/sh-inferno/nb demon | sed 's,'^`{pwd}^'/,,' | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb demon | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/nb demon | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb dæmon
+sh /git/notabene/sh-inferno/nb dæmon | sed 's,'^`{pwd}^'/,,' | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb dæmon | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/nb dæmon | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb year
+sh /git/notabene/sh-inferno/nb year | sed 's,'^`{pwd}^'/,,' | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb year | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/nb year | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb years
+sh /git/notabene/sh-inferno/nb years | sed 's,'^`{pwd}^'/,,' | sh /git/notabene/sh-inferno/so
+sh /git/notabene/sh-inferno/nb years | sh /git/notabene/sh-inferno/nbdoc
+sh /git/notabene/sh-inferno/nb years | sh /git/notabene/sh-inferno/so
 |sort|uniq

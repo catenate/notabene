@@ -1,1 +1,3 @@
 cp /dis/nb /dis/nbdoc /dis/kanban /dis/grëp .
+cp /dis/so .
+|sort|uniq
