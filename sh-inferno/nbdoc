@@ -1,0 +1,12 @@
+#!/dis/sh
+refs = `{cat | sed 's,: .*,,'}
+
+load string
+apply {
+	ref = $1
+	(file line) = `{echo ${splitr $ref ':'}}
+	file = `{echo $file | sed 's,:$,,'}
+	sed '${p;x;p;a\
+nb doc
+}' $file | sed -n $line^',/^nb/p'  | sed '$s,^nb .*,,' | sed '${/^$/d;}'
+} $refs

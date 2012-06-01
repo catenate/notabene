@@ -1,0 +1,37 @@
+#!/dis/sh
+load std
+arg0=$0
+nbindexes = nbindexes
+nbpath = `{echo $arg0 | sed 's,/[^/]+$,,'}
+if {~ $1 '-x'} {(opt re res) = $*} {(re res) = $*}
+tmp1 = /tmp/nb1.${pid}
+tmp2 = /tmp/nb2.${pid}
+
+if {test -r $nbindexes} {
+	sh $nbpath^/grëp $re `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
+
+	apply {
+		re=$1
+		if {~ $re '-*'} {
+			re = `{echo $re | sed 's,^-,,'}
+			grep -v $re $tmp1 > $tmp2
+		} {
+			sh $nbpath^/grëp $re $tmp1 > $tmp2
+		}
+		mv $tmp2 $tmp1
+	} $res
+
+	cat $tmp1
+	rm -f $tmp1 $tmp2
+}
+
+if {! ~ $opt '-x'} {
+	files=`{ls -d -F * | sed 's,\*$,,' | grep -v '.exe$' | grep -v '/$' | grep -v nbindex}
+	grep -n '^#?nb ' $files /dev/null | grep -v '^nbindex' | sed 's,nb ,,' > nbindex
+
+	echo `{pwd}^'/nbindex' >> $nbindexes
+	sort $nbindexes | uniq > /tmp/nbindexes
+	mv /tmp/nbindexes $nbindexes
+}
+
+exit

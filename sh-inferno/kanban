@@ -1,0 +1,110 @@
+#!/dis/sh
+# story states: _buy≤2 _bound  _examine≤2 _examined  _develop≤4  _developed  _attest≤2 _attested  _incorporate≤1 _incorporated
+# task states: _todo _writing≤2 _valid _undo
+# bug states: _seen _rooting≤2 _quashed
+
+arg0=$0
+nbpath = `{echo $arg0 | sed 's,/[^/]+$,,'}
+
+(f re) = $*
+
+if {~ $#* 0} {
+	f = bedactwvsrq
+	re = .
+}
+
+if {~ $#* 1} {
+	re = $f
+	f = bedactwvsrq
+}
+
+if {~ $f '*A*'} {
+	f = bedactwvsrq^$f
+}
+
+if {~ $f '*u*'} {
+	sh $nbpath^/nb -x ' _undo ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if {~ $f '*p*'} {
+	sh $nbpath^/nb -x ' _ping ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if {~ $f '*c*'} {
+	sh $nbpath^/nb -x ' _incorporated ' $re | sed 's,'^`{pwd}^'/,,'
+	
+	sh $nbpath^/nb -x ' _incorporate ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _incorporate ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 1 gt} 1} {echo too many}
+}
+
+if {~ $f '*b*'} {
+	sh $nbpath^/nb -x ' _bound ' $re | sed 's,'^`{pwd}^'/,,'
+	
+	sh $nbpath^/nb -x ' _buy ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _buy ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 2 gt} 1} {echo too many}
+}
+
+if {~ $f '*a*'} {
+	sh $nbpath^/nb -x ' _attested ' $re | sed 's,'^`{pwd}^'/,,'
+	
+	sh $nbpath^/nb -x ' _attest ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _attest ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 2 gt} 1} {echo too many}
+}
+
+# tasks
+if {~ $f '*v*'} {
+	sh $nbpath^/nb -x ' _valid ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+# bugs
+if {~ $f '*q*'} {
+	sh $nbpath^/nb -x ' _quashed ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if {~ $f '*e*'} {
+	sh $nbpath^/nb -x ' _examined ' $re | sed 's,'^`{pwd}^'/,,'
+
+	sh $nbpath^/nb -x ' _examine ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _examine ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 2 gt} 1} {echo too many}
+}
+
+if {~ $f '*t*'} {
+	sh $nbpath^/nb -x ' _todo ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if {~ $f '*s*'} {
+	sh $nbpath^/nb -x ' _seen ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if {~ $f '*d*'} {
+	sh $nbpath^/nb -x ' _developed ' $re | sed 's,'^`{pwd}^'/,,'
+
+	sh $nbpath^/nb -x ' _develop ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _develop ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 4 gt} 1} {echo too many}
+}
+
+if {~ $f '*w*'} {
+	sh $nbpath^/nb -x ' _writing ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _writing ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 4 gt} 1} {echo too many}
+}
+
+if {~ $f '*r*'} {
+	sh $nbpath^/nb -x ' _rooting ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{sh $nbpath^/nb -x ' _rooting ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	load expr 
+	if {~ ${expr $count 2 gt} 1} {echo too many}
+}
+
+exit 0

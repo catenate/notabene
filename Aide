@@ -1,5 +1,7 @@
-osd git add Aide README
-osd git commit -m 'Aide collects frequent commands.  README describes project.'
+osd git add Aide
+osd git add sh-inferno
+osd git commit -a -m 'Add scripts and test for inferno sh.'
+osd git commit -m 'Add scripts and test for inferno sh.'
 osd git push -u origin master
 osd git remote add origin git@github.com:catenate/notabene.git
 osd git status
