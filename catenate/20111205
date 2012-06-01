@@ -1,0 +1,11 @@
+nb git delete head commit
+git reset --hard "HEAD^"
+
+
+nb git delete remote branch
+$ git push origin :jason-jason-start-assemble
+
+
+nb git delete local branch no merge
+os -T git branch -D jason-jason-start-assemble
+os -T git branch -D temp2

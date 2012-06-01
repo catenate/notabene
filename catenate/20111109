@@ -1,0 +1,31 @@
+nb open stack gui cli interface cloud virtual machine iaas nova swift glance keystone horizon
+Gentle, A. 20111108.  Project of the month: OpenStack, a universal
+cloud front end.  Dr Dobb’s: Web development.
+
+OpenStack provides an easy-to-use GUI front end and a command line
+front end for all major cloud platforms and all major VM formats.
+OpenStack is an open-source project that provides software to build
+and manage public and private clouds.  Its community includes more
+than 130 companies and 1,350 developers, who use OpenStack as a
+universal front end to Infrastructure as a service (IaaS) resources.
+The overarching mission of OpenStack is to make clouds simple to
+implement and massively scalable.  This article provides hands-on
+information to guide you through setting up and managing your cloud,
+whether public or private, using the Open Stack front end.
+
+The best place to get started with OpenStack Compute is the DevStack
+site at devstack.org with a scripted installation for a development or
+proof-of-concept installation.  The OpenStack Starter Guide on
+docs.openstack.org also offers step-by-step instructions for setting
+up OpenStack Compute, an Image Service, and an all-in-one Object
+Storage installation on Ubuntu 11.10.  If you have a server lying
+around that you want to use for a proof of concept, OpenStack also
+works with the StackOps bare metal distribution available here¹ for a
+CD or USB stick installation.
+ ¹ http://sourceforge.net/projects/stackops/files/
+
+
+nb electric cloud commander accelerator stack overflow search
+http://stackoverflow.com/search?q=%22electric+cloud%22
+http://stackoverflow.com/search?q=%22electric+commander%22
+http://stackoverflow.com/search?q=%22electric+accelerator%22

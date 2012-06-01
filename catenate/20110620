@@ -1,0 +1,72 @@
+nb program language purpose interactive art code advance field study discipline maker respect acquire learn skill practice persist
+Shaw, Z.  2010.  The hard way is easier; Advice from an old programmer.
+Learn Python the hard way, 2ed.
+http://learnpythonthehardway.org/book/intro.html
+http://learnpythonthehardway.org/book/advice.html
+
+Typing the code samples and getting them to run will help you learn
+the names of the symbols, get familiar with typing them, and get you
+reading the language.  … Without paying attention to the tiniest
+details of your work, you will miss key elements of what you create. …
+Your job is to compare what you have written to what's required,
+and fix all the differences.  By doing so, you will train yourself to
+notice mistakes, bugs, and other problems.  … The point of these
+exercises is to train your hands, your brain, and your mind in how to
+read, write, and see code.  If you copy-paste, you are cheating
+yourself out of the effectiveness of the lessons.  … I know that to
+get good at anything you have to practice every day, even if I suck
+that day (which is often) or it's difficult.  … If you keep trying,
+keep typing it in, trying to understand it and reading about it, you
+will eventually get it.  … But, if you go through this whole book,
+and you still do not understand how to code, at least you gave it a shot.
+You can say you tried your best and a little more and it didn't work out,
+but at least you tried.  You can be proud of that.
+
+Do not get sucked into the religion surrounding programing languages as
+that will only blind you to their true purpose of being your tool for
+doing interesting things.  … Programming as an intellectual activity is
+the only art form that allows you to create interactive art.  …
+People who can code in the world of technology companies are a dime a
+dozen and get no respect.  People who can code in biology, medicine,
+government, sociology, physics, history, and mathematics are respected
+and can do amazing things to advance those disciplines.  … The world
+needs more weird people who know how things work and who love to figure
+it all out.  … Being different is not a crime, and people who tell you
+it is are just jealous that you have picked up a skill they [believe they]
+never in their wildest dreams could acquire.
+
+
+nb music wsaari yoiker sami sing chant techno ambient rinneradio essence signature person animal place
+http://en.wikipedia.org/wiki/Wimme_Saari
+http://en.wikipedia.org/wiki/Yoik
+
+Each joik is meant to reflect a person or place.  This does not mean
+that it is a song about the person or place, but that the joiker is
+attempting to transfer "the essence" of that person or place into song—
+one joiks their friend, not about their friend.  … Joik is traditionally
+chanted a cappella and often dedicated to a human being, an animal,
+or a landscape as a personal signature.
+
+
+nb bsd build script sh library configure premake ide project file
+http://hypertriton.com/bsdbuild/
+http://dev.hypertriton.com:8080/bsdbuild/trunk/
+
+BSDBuild is a simple, self-contained and portable build system derived
+from the traditional 4.4BSD share/mk files.  BSDBuild uses BSD-style
+makefiles, but without BSD make extensions (it uses standard Bourne
+script fragments instead), so the build system is portable to most
+operating systems and make flavors.  Because BSDBuild is implemented
+as a library, makefiles are edited directly and never need to be
+"regenerated".
+	BSDBuild can generate Bourne-type configure scripts.  The base
+distribution currently includes over 90 built-in tests for detecting
+and testing the compatibility of various software, and writing new
+tests is easy.
+	BSDBuild can also interface with different build systems.
+Using the external Premake utility, if available on the host system,
+BSDBuild can output the "project files" for various IDEs such as
+CodeBlocks and Visual Studio automatically.
+
+
+nb doc

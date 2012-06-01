@@ -1,0 +1,331 @@
+nb _roadmap port bsdbuild mkdep credo find header depend
+/lib/do/bsdbuild/mkdep
+
+
+nb _roadmap naur85 section communicate software design read source code
+https://mail.google.com/mail/u/0/#mbox/130a2f7fc3bf3fd2
+
+
+nb theory mind model mismatch software translate abstract generate source code detail overwhelm perceive structure
+info@ralfw.de: So you´re saying, the model of a software is just in
+the heads of developers.  And it needs to always be reproduced by some
+developer to convey it to another.  Or it has to be extracted from code.
+Correct?
+
+ronjeffries@acm.org: That's not what I'm saying, nor is it what I hear
+others saying.  However, I am saying something similar: First, the
+model that matters most is the one in the heads of the developers,
+because that is the one that will have the most impact on what they do
+and how they do it.
+
+info@ralfw.de: True!  It´s so important, that by all means we should
+strive for making it the same in all heads.  And it needs to match reality.
+Model mismatch is a huge impediment.  And as long as mental models are
+just that, it´s more likely they are different.
+
+ronjeffries@acm.org: Second, the model in a developer's mind can be
+much richer than anything that is readily transmitted via diagrams or
+written words.  The best writing is a poor copy of what the author
+knows, and the best reading picks up only a poor copy of what is in
+the written material.
+
+info@ralfw.de: Agree.  That´s why the translation effort (from head to
+code, from code to head) should be minimized.  It should be made as
+easy as possible.  Build a mental model from code is more difficult
+than build it from a picture.  Take a FSM for example.  Would you
+prefer a diagram or a table or code to understand how a software
+reacts to events?
+
+ronjeffries@acm.org: Third, what we want is to have the greatest fidelity
+possible when we try to move understanding from one mind to another.
+We would like to have everyone understand everything we know.
+This is, of course, quite difficult.
+
+info@ralfw.de: True.
+
+ronjeffries@acm.org: Fourth, the only document that is guaranteed not
+to be out of date is the code.  Any other document may or may not reflect
+what is really there.  The source code reflects what is really there.
+
+info@ralfw.de: True.  The question is, though, what to make of that?
+Rest with the source code—or strive to "enrich" the source code¹ so that
+helpful diagrams and textual source code don´t get out of sync anymore?
+ ¹ Generating a class diagram from source code is a start, I´d say.
+But they are not very informative in terms of how a software system
+actually works.  Sequence diagrams generated from source code also
+help.  But for "entering a system" they are mostly too fine grained.
+
+An approach which has worked in the past: a general, higher-level
+language which completely covers the meaning of the language below,
+and is more efficient to write.  For example, C replaced assembler.
+Domain-specific languages provide a notation which abstracts the
+complicated features of a problem domain.  DSLs within a language¹
+benefit from the support of the language for writing programs.
+ ¹ Compare make's DSL to cons/scons/rake.  Make reinvents much of the
+shell in which it runs its commands: macros, if constructs, etc.,
+whereas the others just use the host language (perl/python/ruby).
+With credo I’ve tried to abstract the dependency-management function
+into a controlling script, and leave the rest in a shell-script
+library framework.
+
+ronjeffries@acm.org: Fifth, the source code contains much of the
+nuance of the implementation.  It says /how/ things are being done,
+always, and if well written it can say what is being done and why.
+
+info@ralfw.de: Sure, the source contains all the details.  Important,
+inevitable, crucial details.  Like a fallen tree blocking my way in the
+mountains.  It´s not on the map, but has a big impact on me.  Does that
+make the map useless?  No. I´d be a fool to make a trip to the mountains
+without a map.  It can even help me deal with the fallen tree.
+
+ronjeffries@acm.org: Therefore, for maximum certainty about the
+program, and for maximum detail, the better the source code
+communicates, the better we'll understand.  This cannot be discounted.
+Every good programmer knows that when document and code conflict, the
+code is the truth.
+
+You want the truth?  You can’t handle the truth!  In a literal sense:
+people get overwhelmed with too much truth, and too few simplifying,
+convenient lies.  Do you delve right into all the contradictions of
+the English language right away, or learn the general cases and make
+notes of exceptions?
+
+info@ralfw.de: Again the "out of sync" argument.  Please take it that
+I understand this argument.  It just leads me to a different conclusion.
+
+ronjeffries@acm.org: And therefore, for maximum understanding, direct
+communication with someone who knows is invaluable.
+
+info@ralfw.de: True for any subject.
+
+ronjeffries@acm.org: The result of this chain of reasoning is that
+while we may find other documents to be helpful and valuable in
+entering into understanding, we prefer to rely heavily on the source
+and on those who already understand.  With those who understand,
+we prefer conversation.  With the source, we prefer source that
+expresses the various ideas of how, what, and why as well as possible.
+
+In the most abstract language which has agreed translations to the
+language that supports the remainder of the program.
+
+info@ralfw.de: Nice reasoning.  But it too rests on assumptions which
+might be true or not.  (1) Any description of a design necessarily
+gets out of sync with reality.  (2) Experts are readily on hand
+whenever I need them to get into and around a software system.
+(3) The "absolute truth" of source code is so important it outweights
+any other concern.
+	If "source code first" had no drawback, I´d be all for it.
+But there are quite some, e.g.  (a) Depending on my informational
+needs source code contains noise (irrelevant detail).  (b) Building
+"mental pictures" from text is harder than building them from pictures
+(it takes longer, it is more error prone).  (c) Repeatedly recreating
+temporary pictures from source code is inefficient (strange for an
+industry so focused on reuse.  ;-)
+
+
+nb communicate design oral tradition blueprint simple abstract common language agree hide detail
+info@ralfw.de: That means, probably the most complicated "machines" on
+earth (man made systems consisting of inanimate parts) have a design
+which can only be transmitted by oral tradition—or by reverse-engineering
+it from the "machine" itself.  (Since I´m talking about the structure
+of the source code itself I don´t mean source code to be the design.)
+
+ronjeffries@acm.org: In the source code, if a design idea is not put
+in, it is not in the final product.  The source code, in a very key
+sense, is the final and definitive statement of the design.
+
+info@ralfw.de: True.  But isn´t that like saying "Throw away the
+blueprints after you built the empire state building!  The truth of
+the design is in the building."
+
+It wasn’t really built to the blueprint in the first place, and the
+blueprint is a poor reflection of the architect’s model and the
+constructor’s reality.  Best to construct a common language
+(procedural and functional programming languages) that covers details
+of both the model (program flow control) and the reality (a directive
+to test and branch), and express the building (program) in this
+abstraction.  A tool (compiler) can then translate the abstract form
+into low-level instructions for actual construction.
+
+ronjeffries@acm.org: It's true that sometimes reading source code
+feels a lot like "reverse engineering" as we try to decode what the
+heck the author was doing.  We try to write code so that this is not
+necessary, so that the code more directly expresses what we are doing,
+why, and how.
+
+info@ralfw.de: True for any form of intent expression.  I can say the
+same for a baking recipe or a process diagram.
+
+
+nb state art evolve design language influence idiom efficient write quick customer use build theory mind model test refactor remember clear intent text limit express abstract level
+info@ralfw.de: That´s state of the art.  That´s how you should do it.
+
+ronjeffries@acm.org: That's the essential truth of the art: it is how
+we must do it.
+
+info@ralfw.de: Ok, so we´ve come to an end.  This is it.  The industry
+does not need to look further?  We´re at the pinnacle?
+
+info@ralfw.de: Have the design in your head and code it.
+
+ronjeffries@acm.org: We must have the design in our head in order to
+code it.  (Clearly it is not possible to code something that does not
+pass through our head first.)
+
+info@ralfw.de: Or let it emerge through TDD …
+
+ronjeffries@acm.org: We are unlikely to create a perfect design in our
+head or on paper:
+
+info@ralfw.de: Interesting: You´re striving for an absolute?
+You´re looking for the perfect design?
+
+ronjeffries@acm.org: when the design meets the code, the code needs to
+have a say.
+
+The language dictates how programs are efficiently coded in it,
+its idioms, and which tasks become so difficult they drive people to
+use other languages.
+
+ronjeffries@acm.org: In addition, there is great value to having parts of the
+program sooner, both in terms of customers learning what they really
+wanted, and, often, in terms of their receiving actual value from
+using the program.
+
+info@ralfw.de: Is there a hidden assumption #4?  "Any other form of
+design than designing through coding takes too long."
+
+ronjeffries@acm.org: If we are going to build the system as we go, we
+need a strong framework of tests and a design that always includes and
+shows our improving design ideas.  Therefore we use TDD (red/green/
+refactor) to drive out the design, protect it, and keep it clean.
+
+info@ralfw.de: and remember it.
+
+ronjeffries@acm.org: We need to remember it, that is, to have it in our
+heads, in order to work effectively with us.  Therefore, we write the
+code to be as memorable, and as clear, as possible.  We would like,
+as we read it, to be reminded of the design ideas we had when we wrote it.
+
+info@ralfw.de: I wonder whether I´m the only one feeling a tension
+between one dimensional textual representations of a design and the
+actual multidimensional reality of a design.  Text, especially formal
+language text, is so limited in its expressiveness.  What takes just
+two circles and an arrow on paper might end up as a whole page of text
+or more.  Add some color to the diagram to maybe express different
+threads and you need to add more text in the same dimension whereas
+the diagram essential became 3D.  Does nobody except me feel the pain
+the "dehydration" of text into multi dimensional mental (visual)
+models causes?  If you emphasize the importance of broad bandwidth
+communication between humans to efficiently and effectively develop
+software, why are you content with a one dimensional representation of
+the rich multi dimensional models created by such communication?
+
+This presumes text is a one-dimensional, simple representation, like a
+series of assembly-language instructions.  Text can actually be more
+efficient and powerful than diagrams, depending on the abstraction
+level behind the words.
+
+
+nb whiteboard teach temporary selective view solve present problem
+info@ralfw.de: To teach it, temporarily dump it onto a whiteboard,
+
+ronjeffries@acm.org: To talk about the design, diagrams may be
+helpful.  The best diagrams seem to be those drawn in the moment.
+These both reflect the ongoing conversation better, but also, somehow,
+the physical act of drawing seems to help things go into our minds
+more easily.  This is not a "dump".  On the contrary, it is a selective
+view of all that we understand, custom fitted to the thing we are
+communicating in that moment.  Thus, it is much more suited to talking
+about the important matters than any comprehensive document, paper or
+whiteboard, could ever be.
+
+info@ralfw.de: then erase it.
+
+ronjeffries@acm.org: Or save it if you like.  But the next picture will
+probably be better, more applicable, and more suited to the moment.
+
+info@ralfw.de: The recipient will have built her own mental model from
+the whiteboard sketches.  Don´t come back to any whiteboard sketches,
+don´t store them, because they get out of sync immediately with the
+only source of truth: the source code.
+
+ronjeffries@acm.org: More importantly, like any such document,
+no matter how large or small, they are out of sync with the question
+of the moment.  Every drawing, every document, represents the subset
+that its author thought important at that moment.  A live diagram,
+with a conversation, reflects what both participants think is important.
+As such, every new joint document is the best document we could have
+at that time.
+
+
+nb text source code symbol abstract sync
+info@ralfw.de: It´s not that "just source code" (or "mainly focus on
+source code") does not work.  It works, it even has benefits over
+"formal docs first".  But that´s like saying Fortran has benefits over
+assembler. :-)  It´s not the end, it´s just a start.  It´s an important
+insight how little "formal docs" help for software (compared to maybe
+electrical engineering).  However, I can´t believe we as an industry
+would want to rest on that.  We want to deal with the most complicated
+"machines" in a way medieval masons dealt with static things like
+houses or even cathedrals?  This is not to say I´m against collective
+code ownership, pair programming, TDD or the like.  That´s all great
+and well.  Is that it, though?  We´ve reached the pinnacle of software
+development methodology?  "Read the code, let and expert guide you
+through it.  Use TDD to find the right structure for the code.
+Don´t think for long, don´t use diagrams for more than a very
+temporary sketch, then sit down and code." That´s it?
+	I believe we can do better.  The reason: Our brains are made
+for more than reading.  To build a mental model from text is almost
+the hardest way to go.  Simple example: Would you prefer a map or a
+spoken description for finding your way across an unknown city?
+At least I never print out the Google Maps route description, just the
+map with the line showing my way from A to B. Again: I understand how
+frustrating it is to look at a diagram (map) and later find out it was
+not telling the truth about the code (terrain).  To rather explore the
+terrain myself or to rely on a scout to guide me through unknown
+terrain is a natural reaction.  Exploration of the real thing surely
+leads to deep knowledge.  But is that the most efficient way of
+getting acquaintant with some terrain?  At least not for me.  I love
+Google Maps including Street View.  I can zoom in and out as I like
+before or after actually visiting a place.
+	Script was a huge invention.  Translating spoken words into a
+durable form that can even be copied.  Great!  However, I´d argue that
+Symbols are an equally huge invention.  Translating mental models into
+a durable form.  And I would like to think we both agree on that—
+the main difference between our points of view being the meaning of
+"symbols getting out of sync with the symbolized".  I understand you say,
+"Since any symbolizations are not the real thing they are of limited/
+temporary value only.  The truth is in the symbolized only.
+Therefore we should focus our work on the symbolized." And I´m saying:
+"If syncing is a problem, then let´s solve it.  Symbolization is so powerful
+we don´t want to relegate it to some occasional and optional use."
+	What do you think?
+
+
+nb _ping rjeffries rwestphal article reference paper build program theory permission publish conversation
+jason.catena@gmail.com: Gentlemen, I believe the brilliant exchange
+below clearly gets at the heart of the methodology conflict between
+those who reason, as Naur did in 1985, that "programming is theory
+building", and those who insist that artifacts need better convey the
+essence of software.  May I reproduce the exchange in my collection of
+articles discussing the ideas of Naur's paper?  It's not commercial,
+I won't be selling the words or trying to make any money off them.
+I personally believe that programming is theory building, and I'm
+collecting for myself the best articles on the topic.  I'm asking
+permission because the text will be publicly available, and I wanted
+to give you a chance to redact anything, or to provide any additional
+text you would like included.  Thanks for your time!
+ ¹ https://dl.dropbox.com/u/502901/naurtf.pdf
+
+ronjeffries@acm.org: Hello, Jason.  OK with me, with reference to
+Ron Jeffries, www.XProgramming.com, Copyright (c) 2011.  I plan to
+base an article on my site on the same subject and will reference your
+materials if (a) I remember or (b) you remind me.
+
+info@ralfw.de: Sure, Jason, go ahead.  I also plan a "position paper" ;-)
+on my blog; and if I remember I´ll let you know so you can include a
+link in your material.
+
+
+nb doc

@@ -1,0 +1,128 @@
+nb build system developer hard soft skill @huettermann agile alm book
+huettermann: For building a solid build system, many skills are necessary:
+soft skills and hard skills.
+
+catenate: @huettermann Hard skills to implement code and understand
+dependencies, soft skills to get developers to use it and be patient
+with changes?
+
+huettermann: @catenate for example, yes.  Other hard skills e.g. include
+designing software.  Build systems are about communication too.
+
+catenate: @huettermann Which type of design?  Do build systems care
+about UI or architecture, beyond division into files, libraries, programs?
+
+huettermann: @catenate UI? :) ==> software architecture
+
+catenate: @huettermann UI or UX, short for user interface or user experience.
+Don't build systems only need to know how to gather and transform files?
+
+huettermann: @catenate yes, know what UI is, but don't see any direct
+relation to build systems.  If u don't care about design => monolithic builds.
+
+catenate: @huettermann So by the hard skill “designing software”,
+do you mean designing build system software, as distinct from applications?
+
+huettermann: @catenate Both.  A bit hard to explain in a tweet,
+thus I've written a book.
+
+catenate: @huettermann Which of your three books talks most about
+build system skills or its place in agile?
+
+huettermann: @catenate Agile ALM
+
+
+nb spam infrastructure diversity bank dns affiliate
+Bright, P.  20110531.  A way to take out spammers?: 3 banks process 95%
+of spam transactions.  Ars technica: Law & disorder.
+http://arstechnica.com/tech-policy/news/2011/05/a-way-to-take-out-spammers-3-banks-process-95-of-spam-transactions.ars
+
+The researchers visited the URLs spammers sent them, following their
+redirects until they reached an actual online store.  Almost one
+billion URLs were received in spam, but these led to just 45 different
+affiliate networks.  The researchers made 120 purchases from the
+different affiliate networks to track the actual money.  76 payments
+were authorized by the credit card networks, and of those, 56 payments
+completed.  49 products were actually delivered.
+
+At every part of the process, bottlenecks, where the behind-the-scenes
+infrastructure was much less diverse than the spam itself, were
+identified.  … Though many [web] hosts and [DNS] registrars want
+nothing to do with spam operations, there are many hundreds of
+companies offering such services, and the cost of switching to a new
+host or registrar if often minimal.  … The top three banks—Azerigazbank
+in Azerbaijan, St Kitts & Nevis Anguilla National Bank in St Kitts & Nevis,
+and Danish-owned DnB Nord in Latvia—together accounted for more than
+95 percent of all money paid to spam vendors.  … Even when switching
+does occur, it's disruptive, with payment processors typically introducing
+delays of days or weeks for due diligence to be performed.
+
+If Western banks refused to settle certain kinds of credit card
+transactions with banks known to be spam-friendly, an approach already
+used in the US to block access to online gambling sites—it would
+severely diminish the ability for the spam vendors to get paid,
+sucking the cash out of the spam business.
+
+
+nb gnu linux source code line count ubuntu natty gnome glibc gcc binutils gdb
+Côrte-Real, P.  20110531. How much GNU is there in GNU/Linux?
+Split perspective.
+http://pedrocr.net/text/how-much-gnu-in-gnu-linux
+
+Figure 1 shows the total LOC in Ubuntu natty split by the major
+projects that produce it.  By this metric GNU software is about 8%.
+I didn’t include GNOME in the GNU category because it seems to now be
+effectively run outside GNU but including that the total for GNU would
+be around 13%.  … small projects actually dominate the total amount.
+It seems that at least for what Ubuntu packages, the origin of the
+software is highly dispersed.  … As you’d expect glibc/gcc/binutils/
+gdb are the big ticket items.  What strikes me from this split is that
+nearly all these packages have popular alternatives in use.  It seems
+you could put together a fully functional distribution without any GNU
+software and not cause too much disruption to end-users.  gdb is
+probably the notable exception and is still shipped even by those that
+would rather avoid GNU software, like FreeBSD.
+
+
+nb perforce automate continuous integration build commander checkin detect fault quarantine publish valid change list latest stable version
+Cisneros, L.  20110528.  Continuous builds at Perforce.  p4 blog.
+http://blog.perforce.com/blog/?p=5359
+
+Each product has a set of depot directories that is associated with it.
+Periodically (every 5 minutes), a check is done as to if there have
+been any check ins, that is Perforce changes, made in the associated
+depot directories since the last successful build.  If there have been
+changes, a build is kicked off for all the appropriate platforms
+(if a build is already running it waits).  If there is an error during
+the build, a build failure email message is sent to the person or
+people who have checked in changes since the last successful build
+(as well as to an email list to which other interested parties can subscribe).
+This loop continues, which means that with new changes, unless a fix
+has been made, the build may continue to have errors and the build
+failure messages will continue to be sent out to everyone who has
+checked in a change since the last successful build.
+
+eli: Nice writeup, Laurette!  And an interesting comment from Gabi Davar.
+I have worked in both environments—one that detects problems (early)
+after checkin, and one that uses a “preflight” and/or promotion
+process to prevent the problems from ever getting in.  (And both based
+on Perforce, BTW!) Each of them has its place.  Preventing a bad
+checkin is certainly the gold standard, but it has a cost, and in some cases,
+where the arrival rate of changes is rapid, the cost may be too high.
+I think that the key to the “after-the-fact” approach is to prevent
+the problem from reaching the rest of the development community.
+This is easy to do with Perforce.  Just keep track of (and publish)
+the most recent changelist that is part of “Validated Build”—that is,
+one that passed all of the CI tests.  When a developer wants to sync,
+he will just sync to the published changelist (rather than the tip),
+using an automated process to retrieve it.  He is then guaranteed to
+be updating to a known working version.  Granted, it may not be the
+latest version, but it is the latest one that is known to work.
+The delay is a small price to pay (usually) for safety.
+
+jcatena: Perforce describes automated continuous-integration builds
+with Electric Commander (& comment on latest-stable syncing).
+http://j.mp/j3gIxm
+
+
+nb doc

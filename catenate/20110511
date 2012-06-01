@@ -1,0 +1,121 @@
+nb congress library history record audio player national jukebox music
+http://www.loc.gov/jukebox/?loclr=jb_004
+
+
+nb moby picture tweet
+http://www.mobypicture.com/my/stream
+
+
+nb port media
+http://www.mediaportability.com/
+
+
+nb evolve contract model change control contract backlog kanban
+http://www.infoq.com/articles/the-curse-of-the-change-control-mechanism
+
+
+nb commercial open source server feature debug maintain report automate complete process continuous integrate distribute resource machine common environment dependency language cberntson @craigber
+Berntson, C. 20110510.  Don’t roll your own build system.
+Developer.Blog();: Software craftsmanship, agility, continuous
+integration, .NET, and community.
+http://www.craigberntson.com/blog/?p=931
+
+
+nb credo clobber file user change modify
+newt0311@gmail.com: Jason, What happens if credo creates a file which
+the user subsequently modifies.  Will credo clobber the user changes
+or recognize they are there?
+
+me: credo creates a *.sum file for the target, which stores the md5sum of
+the target the last time credo built it.  If the current md5sum of the file
+is different than this stored value, then credo assumes that something
+other than credo changed it, and (like redo) says it won't regenerate it.
+
+newt0311@gmail.com: What if it is called to create a file that does have
+an associated do file but has already been first created by the user?
+
+me: I found three different ways to say "credo will clobber it". 
+	If there is a target file, and its *.do file, but no *.sum file,
+then either the target was created by something else, or (more commonly)
+something deleted the *.sum file.  If the user deletes the *.sum file after
+a build (eg, out of frustration at all these annoying files cluttering up
+the directory), then if credo takes the absence of a *.sum file as evidence
+that the user created the file, then I've locked up the system (credo won't
+rebuild the file) until the user recreates the *.sum file with a matching
+md5sum (admittedly as simple as "md5sum a > a.sum").
+	Stated another way: I could check whether the target has a *.sum
+file, and refuse to rebuild it if there isn't one and the target exists.
+However, I expect users may delete all the files that comprise the
+dependency-checking state (eg, from rage at credo for not recompiling when
+the user thinks it should), so I don't want that possibly common user
+action to lock up the system.  I would rather credo start over from
+scratch, and again build up the state of the system.
+	Restated yet again: If the user wants credo ignore a file with a
+*.do script, the user can either build it once and modify it, or create a
+*.sum file with a mismatching (eg, 0) md5sum (echo '0	a' with a tab
+separator).  Just creating the target file is not enough, since credo's
+imperative is to rebuild files with *.do files, and without a *.sum file it
+assumes the user has messed with the files in which it stores its state.
+It may mean I build one more time than I would if I had perfect
+information, but I'd rather build once more than lock up the system.
+
+
+nb credo file expose state tool feature creep
+me: You might ask yourself at this point whether it's really a good idea
+for credo to store its state out in the open, divided up into small files,
+cluttering up the directory.  I agree that it's less pleasant to edit all
+the little files out of one's view of the directory.  However, I believe
+the greater good is that the state of the rebuild system, and all its
+little scripts and dependency lists, /is/ so accessible and modifiable.
+This directly supports adding other tools over top of credo that use its
+state and files, without adding additional features to credo.  This means
+credo can stick to its core function of checking dependency lists and
+calling itself, and leaving the rest to other tools.  (Credo is currently
+only 110 lines of actual code spread over 5 shell scripts that call each other).
+
+Also, having data in small files, and locking on a target basis, means less
+contention.
+
+
+nb credo default build rule do script
+apenwarr@gmail.com: What about files like default.do?  Just the fact that
+default.do exists shouldn't mean that every file in $PWD must be generated.
+
+me: I believe the name default.do means different things to credo and redo.
+In credo, it's how to build a target (possibly a file) named default.
+It has no role in building targets generally, nor generated-file checking.
+In redo, if I take it correctly, it's something that is applied as a do
+script for all files, or only those without their own do script.
+	Let's take as an example default.o.do, which I assume is
+interpreted similarly in both redo and credo as the do file to call when
+c?redo needs to make a *.o file.¹  The presence of this file does tell credo
+that every *.o file in the directory should be generated from it, if the
+*.o file is out-of-date, regardless whether the file is present or not,
+unless its *.sum file is out-of-date.  Iterate this over default.*.do with
+* standing in for any file extension.
+ ¹ Presumably from *.c files, and headers, and the values
+of shell variables like $cc and $ccflags; but this depends on the content
+of the default.o.do file.
+
+
+nb mozilla build system
+http://anamariamoz.wordpress.com/2010/11/08/mozillas-build-system/
+
+
+nb open distribute build system ruby community @travisci github
+Travis is an open, distributed build system for the Ruby community.
+http://travis-ci.org/
+
+
+nb php build deploy phingistrano utility github codememe
+PHP software build and deployment utility using phing.
+https://github.com/CodeMeme/Phingistrano
+
+
+nb openshake haskell library source build system batterseapower nmitchell
+An open source reimplementation of Neil Mitchell's Shake build system.
+https://github.com/batterseapower/openshake
+http://community.haskell.org/~ndm/downloads/slides-shake_a_better_make-01_oct_2010.pdf
+
+
+nb doc

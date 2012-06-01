@@ -1,0 +1,397 @@
+nb plan9port rsc
+Plan 9 from User Space
+http://swtch.com/plan9port/
+
+
+nb organize religion practice human nature
+http://www.economist.com/blogs/babbage/2011/04/science_and_faiths
+
+A religion like yours, on the other hand, harnessing mankind’s deep-
+seated proclivities, will continue to thrive…
+
+
+nb india english dialect
+http://www.santoshgs.com/blog/186/quirks-of-indian-english/
+
+
+nb jenkins intro use case continuous integration tool
+http://altdevblogaday.org/2011/04/21/meet-jenkins-he%E2%80%99ll-do-your-boring-jobs/
+
+
+nb ruby pipe idiom grep awk wc sed
+https://github.com/grosser/pru
+
+
+nb produce digital music market sgoldmann
+http://www.littlewhiteearbuds.com/feature/everything-popular-is-wrong-making-it-in-electronic-music-despite-democratization/
+
+
+nb gnu screen tutorial keyboard command
+Kemp, S.  20041017.  Using GNU screen.  Debian administration.
+http://www.debian-administration.org/articles/34
+
+screen	Run a new screen session.
+screen -R	Reattach to a previously detatched session.
+Ctrl-a c	Create a new window.
+Ctrl-a k	Kill the current window—after confirmation.
+Ctrl-a Ctrl-a	Switch to the other window.
+Ctrl-a S	Split the current window in two.
+Ctrl-a TAB	Move between split sections of the screen.
+Ctrl-a A	Give the the current window a name.
+Ctrl-a "	List all windows—move around to change the window with the arrow keys.
+
+
+nb dropbox free paid user convert rate economy cloud storage cost startup fund
+Woloszynowicz, M.  20110420.  The economics of Dropbox.
+Web 2.0 development and business lessons.
+http://www.w2lessons.com/2011/04/economics-of-dropbox.html
+
+With that in mind it looks like Dropbox needs a conversion rate
+somewhere in the 1.8% to 2% range.  Since freemium conversion rates
+run anywhere from 0.5% to 5% this is neither a low nor high hurdle,
+and is certainly attainable.  Dropbox's challenge is that these
+numbers will constantly shift as they depend heavily on the speed at
+which free users convert vs. how quickly new free users sign up and
+consume their space.  If the rate of new sign-ups drastically outpaces
+conversions, then Dropbox will need to seek further venture financing.
+The final thing to consider is that Dropbox's total funding is in the
+$7.2M–$10M range.  Given the high burn rate of $3.1M–$5.8M per month,
+Dropbox must have a good base of paid users already as they wouldn't
+be able to survive on outside financing alone.
+
+
+nb open source apache tika parse file format convert text xhtml sax
+Woloszynowicz, M. 20110123.  Why are you still making crap?
+Open source to the rescue.  Web 2.0 development and business lessons.
+http://www.w2lessons.com/2011/01/why-are-you-still-making-crap-open.html
+
+
+nb open source lucene search index analyze solr hibernate
+Ibidem.
+
+
+nb open source google map reduce mongodb hadoop cloud distribute merge data schedule failover function program amazon
+Ibidem.
+
+
+nb open source apache mahout data mine machine learn recommend customer hadoop
+Ibidem.
+
+
+nb open source web user interface dojo backbone javascript model view controller jquery
+Ibidem.
+
+
+nb memetics information theory quote jgleick
+Gleick, J. 201105.  What defines a meme?  Smithsonian magazine:
+Arts & Culture.
+http://www.smithsonianmag.com/arts-culture/What-Defines-a-Meme.html
+
+Our world is a place where information can behave like human genes and
+ideas can replicate, mutate and evolve.  With the rise of information theory,
+ideas were seen as behaving like organisms, replicating by leaping
+from brain to brain, interacting to form new ideas and evolving in
+what the scientist Roger Sperry called "a burstwise advance".
+
+“What lies at the heart of every living thing is not a fire, not warm
+breath, not a ‘spark of life.’ It is information, words, instructions. …
+All life evolves by the differential survival of replicating entities. …
+Memes propagate themselves in the meme pool by leaping from brain to
+brain via a process which, in the broad sense, can be called imitation. …
+I believe that, given the right conditions, replicators automatically
+band together to create systems, or machines, that carry them around
+and work to favor their continued replication.”
+―Richard Dawkins.
+	They compete with one another for limited resources:
+brain time or bandwidth.  They compete most of all for attention.
+
+“It was obviously predictable that manufactured electronic computers, too,
+would eventually play host to self-replicating patterns of information.…
+when their owners pass floppy discs around.  … Many of them are
+literally wired up together in electronic mail exchange.  …
+It is a perfect milieu for self-replicating programs to flourish.”
+―Richard Dawkins.
+
+“Ideas have retained some of the properties of organisms.  Like them,
+they tend to perpetuate their structure and to breed; they too can fuse,
+recombine, segregate their content; indeed they too can evolve, and in
+this evolution selection must surely play an important role.  … [they have]
+spreading power, infectivity, as it were.”
+―Jacques Monod
+
+“Ideas cause ideas and help evolve new ideas.  They interact with each
+other and with other mental forces in the same brain, in neighboring brains,
+and thanks to global communication, in far distant, foreign brains.
+And they also interact with the external surroundings to produce in toto
+a burstwise advance in evolution that is far beyond anything to hit
+the evolutionary scene yet.”
+―Roger Sperry
+
+“A wagon with spoked wheels carries not only grain or freight from
+place to place; it carries the brilliant idea of a wagon with spoked
+wheels from mind to mind.  … I don’t know about you, but I am not
+initially attracted by the idea of my brain as a sort of dung heap in
+which the larvae of other people’s ideas renew themselves,
+before sending out copies of themselves in an informational diaspora. …
+Who’s in charge, according to this vision—we or our memes?”
+―Daniel Dennett
+
+/Tinker, tailor, soldier, sailor./  … Rhyme and rhythm help people
+remember bits of text.  Or: rhyme and rhythm help bits of text get
+remembered.  Rhyme and rhythm are qualities that aid a meme’s
+survival, just as strength and speed aid an animal’s.  Patterned
+language has an evolutionary advantage.  Rhyme, rhythm and reason—
+for reason, too, is a form of pattern.  /I was promised on a time to
+have reason for my rhyme; from that time unto this season, I received
+nor rhyme nor reason./
+
+As they broadcast their influence on the world, memes thus influence
+the conditions affecting their own chances of survival.  … In a way,
+these are the most interesting—the memes that thrive to their hosts’
+detriment,¹ such as the idea that suicide bombers will find their
+reward in heaven.
+ ¹ But not to the detriment of the hosts’ society, like altruism.
+
+Researchers studying the Internet itself as a medium—crowdsourcing,
+collective attention, social networking and resource allocation—
+employ not only the language but also the mathematical principles of
+epidemiology.
+
+“Well, now, Walton’s own viral text, as you can see here before your eyes,
+has managed to commandeer the facilities of a very powerful host—
+an entire magazine and printing press and distribution service.
+It has leapt aboard and is now—even as you read this viral sentence—
+propagating itself madly throughout the ideosphere!”
+—Douglas Hofstadter
+
+“In the night when I cannot sleep, thoughts crowd into my mind. …
+Whence and how do they come?  I do not know and I have nothing to do
+with it.”
+―repeated by Mozart
+
+The term “meme” could be applied to a suspicious cornucopia
+of entities, from small to large.  For Dennett, the first four notes of
+Beethoven’s Fifth Symphony (quoted above) were “clearly” a meme,
+along with Homer’s Odyssey (or at least the idea of the Odyssey),
+the wheel, anti-Semitism and writing.  “Memes have not yet found their
+Watson and Crick,” said Dawkins; “they even lack their Mendel.”
+
+A well-developed marketplace of ideas, to repeat a meme quoted by
+Thomas Jefferson.
+
+“The human world is made of stories, not people, The people the
+stories use to tell themselves are not to be blamed.”
+―David Mitchell
+
+“As with all knowledge, once you knew it, you couldn’t imagine how it
+was that you hadn’t known it before.  Like stage magic, knowledge
+before you knew it took place before your very eyes, but you were
+looking elsewhere.”
+―Margaret Atwood
+
+“A life poured into words—apparent waste intended to preserve the
+thing consumed.”
+―John Updike
+
+“In the beginning there was information.  The word came later.  …
+The transition was achieved by the development of organisms with the
+capacity for selectively exploiting this information in order to
+survive and perpetuate their kind.”
+―Fred Dretske
+	Now we might add, thanks to Dawkins, that the transition was
+achieved by the information [society] itself, surviving and
+perpetuating its kind and selectively exploiting organisms.
+
+
+nb chain letter history vary example threat forward promise
+Ibidem.
+
+The very purpose of a chain letter is replication; whatever else a
+chain letter may say, it embodies one message: Copy me.  One student
+of chain-letter evolution, Daniel W. VanArsdale, listed many variants,
+in chain letters and even earlier texts: “Make seven copies of it
+exactly as it is written” (1902); “Copy this in full and send to nine
+friends” (1923); “And if any man shall take away from the words of the
+book of this prophecy, God shall take away his part out of the book of life”
+(Revelation 22:19).  Chain letters flourished with the help of a new
+19th-century technology: “carbonic paper,” sandwiched between sheets
+of writing paper in stacks.  Then carbon paper made a symbiotic
+partnership with another technology, the typewriter.  Viral outbreaks
+of chain letters occurred all through the early 20th century.
+Two subsequent technologies, when their use became widespread,
+provided orders-of-magnitude boosts in chain-letter fecundity:
+photocopying (c. 1950) and e-mail (c. 1995).
+
+Analysis of a set of chain letters collected during the photocopier era.
+They had 33, all variants of a single letter, with mutations in the
+form of misspellings, omissions and transposed words and phrases.
+“These letters have passed from host to host, mutating and evolving,”
+they reported in 2003.  Like a gene, their average length is about
+2,000 characters.  Like a potent virus, the letter threatens to kill
+you and induces you to pass it on to your “friends and associates”—
+some variation of this letter has probably reached millions of people.
+Like an inheritable trait, it promises benefits for you and the people
+you pass it on to.  Like genomes, chain letters undergo natural
+selection and sometimes parts even get transferred between coexisting
+“species.”
+
+Reaching beyond these appealing metaphors, the three researchers set
+out to use the letters as a “test bed” for algorithms used in
+evolutionary biology.  The algorithms were designed to take the
+genomes of various modern creatures and work backward, by inference
+and deduction, to reconstruct their phylogeny—their evolutionary trees.
+If these mathematical methods worked with genes, the scientists
+suggested, they should work with chain letters, too.  In both cases
+the researchers were able to verify mutation rates and relatedness
+measures.
+
+
+nb bsg soundtrack bmccreary music
+http://en.wikipedia.org/wiki/Music_of_Battlestar_Galactica_(reimagining)
+
+
+nb fate theme bsg soundtrack bmccreary music 
+Ibidem.
+
+The Shape of Things to Come theme.  This theme, also referred to as the
+"Passacaglia", "Allegro", or "Opera House theme", is one of the few
+recurring motifs in Battlestar Galactica—along with "Worthy of Survival"—
+not associated with a particular character or group of characters.
+Appearing in the first season soundtrack as "Passacaglia" after the Spanish
+and Italian musical form that it follows, the theme was first introduced
+over the opening montage of episode "Kobol's Last Gleaming, Part 1".
+In "Kobol's Last Gleaming, Part 2", it plays as Baltar has a vision amid
+the ruins of the Opera House on Kobol of that structure as it was during
+Kobol's glory days.  He is informed by his internal Number Six that the
+mysterious infant he sees within—apparently Hera Agathon—is "the first
+of a new generation of God's children" and "the face of the shape of things
+to come." The theme also accompanies Number Three's visions of the Final
+Five set in the Opera House in "Hero", but its usage is not limited to the
+Opera House setting: in "Home, Part 2", "Pegasus", and "Unfinished
+Business" it accompanies emotionally resonant scenes that concern the fate
+of characters or their relationships.  In the third season soundtrack,
+it features in the track "Violence and Variations", where it is interwoven
+with Lee and Kara's love theme, and "Under the Wing." The final version
+serves as the outro to "An Easterly View", which plays as Admiral Adama
+sits next to Laura Roslin's grave in the series finale.  Each major
+variation of this theme is in a different meter: "Passacaglia" is in 3/4,
+"The Shape of Things to Come" is in 6/8 and "Allegro" is in 4/4.
+Appearances: "Kobol's Last Gleaming, Parts 1 and 2", "Scattered", "Home,
+Part 2", "Hero", "Unfinished Business", "Crossroads, Part 2," "Daybreak,
+Part 2."
+
+
+nb worthy survival theme bsg soundtrack bmccreary music 
+Ibidem.
+
+Worthy of Survival.  The "Worthy of Survival" theme was developed as a
+melancholy variation of the "Prelude to War" cue used to score the combat
+scenes in "Pegasus" and "Resurrection Ship, Parts 1 and 2".  "While the
+accompanimental [sic] figures come from Prelude, the melody is wholly
+original to this theme.  First stated on a lonely duduk, and then in
+octaves by the violins and violas, it is a melancholy and contemplative
+tune."—Bear McCreary.  Taking its title from a line of dialogue in
+"Resurrection Ship, Part 2", the theme was intended to play as Starbuck
+prepares to assassinate Admiral Helena Cain, but only a small fragment was
+used in the final cut of the episode.  McCreary re-worked the theme for the
+second season finale, "Lay Down Your Burdens, Part 2", and a bolder
+statement of the theme played over the Cylons' occupation of New Caprica.
+"Worthy of Survival" returned in its most tragic and melancholy statement
+as the cue playing over Saul Tigh's uxoricide of Ellen Tigh.
+Appearances: "Resurrection Ship, Part 2", "Lay Down Your Burdens, Part 2",
+"Exodus, Part 2", "Daybreak, Part 2".
+
+
+nb watchtower theme bsg soundtrack bmccreary music bdylan
+http://en.wikipedia.org/wiki/Music_of_Battlestar_Galactica_(reimagining)#The_Shape_of_Things_to_Come_theme
+
+All Along the Watchtower.  A somewhat exotic-themed version of the 1967
+Bob Dylan song "All Along the Watchtower" features prominently in the third
+season track "A Distant Sadness", and specially the season finale episodes
+"Crossroads, Parts 1 and 2", in the tracks "Heeding the Call", and the
+penultimate "All Along the Watchtower".  McCreary's arrangement utilizes
+the electric sitar, harmonium, duduk, fretless bass, yayli tanbur, electric
+violin and zurna, and features McCreary's brother Brendan "Bt4" McCreary
+and former Oingo Boingo guitarist Steve Bartek.  The song haunts the
+characters Saul Tigh, Galen Tyrol, Samuel Anders, and Tory Foster
+throughout the two parts of "Crossroads" and plays over the final scenes of
+"Crossroads, Part 2": like "Metamorphosis One", it is one of the few pieces
+of music in the reimagined Battlestar Galactica that is both diegetic and
+non-diegetic.  Variations of the theme can also be heard by Saul Tigh in
+"He That Believeth In Me", the four of the final cylons revealed thus far
+in "Revelations", and Samuel Anders (who remembers playing the song on
+guitar) in "Sometimes A Great Notion" . A piano version of the tune
+entitled "Kara Remembers" can also be heard in the episode "Someone to
+Watch Over Me".  The most famous version of the song, recorded by Jimi
+Hendrix, plays at the very end of "Daybreak, Part 2", making it the last
+song played in the series.
+
+
+nb supernova string quartet melody bsg soundtrack bmccreary music
+McCreary, B.  A promise to return.  Battlestar Galactica: Season 2.
+
+
+nb vocal sitar bsg soundtrack bmccreary music
+McCreary, B.  The cylon prisoner.  Battlestar Galactica: Season 2.
+McCreary, B.  Gina escapes.  Battlestar Galactica: Season 2.
+
+
+nb boomer hagathon bsg soundtrack bmccreary music
+McCreary, B.  Boomer takes Hera.  Battlestar Galactica: Season 2.
+
+
+nb battle bsg soundtrack bmccreary music 
+McCreary, B.  Prelude to war.  Battlestar Galactica: Season 2.
+
+
+nb lroslin wadama apollo bsg soundtrack bmccreary music
+McCreary, B.  Roslin and Adama.  Battlestar Galactica: Season 2.
+McCreary, B.  Laura runs.  Battlestar Galactica: Season 2.
+McCreary, B.  Goodbye Apollo.  Battlestar Galactica: Season 4.
+McCreary, B.  Roslin and Adama reunited.  Battlestar Galactica: Season 4.
+McCreary, B.  The heart of the sun.  Battlestar Galactica: Daybreak.
+
+
+nb colony anthem bsg soundtrack bmccreary music
+McCreary, B.  Colonial anthem.  Battlestar Galactica: Season 2.
+
+
+nb battlestar galactica bsg soundtrack bmccreary music
+McCreary, B.  Grand old lady.  Battlestar Galactica: Season 4.
+
+
+nb battlestar pegasus adama bsg soundtrack bmccreary music
+McCreary, B.  Pegasus.  Battlestar Galactica: Season 4.
+
+
+nb watchtower kthrace bsg soundtrack bmccreary music
+McCreary, B.  Kara remembers.  Battlestar Galactica: Season 4.
+http://bsgorchestra.com/forum/viewtopic.php?f=2&t=14
+http://en.wikipedia.org/wiki/Kara_Thrace#The_song
+
+McCreary, B.  Kara’s coordinates.  Battlestar Galactica: Daybreak.
+
+
+nb allegro sanders bsg soundtrack bmccreary music
+McCreary, B.  Allegro.  Battlestar Galactica: Season 2.
+McCreary, B.  Goodbye Sam.  Battlestar Galactica: Daybreak.
+McCreary, B.  An easterly view.  Battlestar Galactica: Daybreak.
+
+
+nb taiko drum bsg soundtrack bmccreary music
+McCreary, B.  Main title.  Battlestar Galactica: Season 2.
+
+
+nb stigh bsg soundtrack bmccreary music
+McCreary, B.  Martial law.  Battlestar Galactica: Season 2.
+
+
+nb gbaltar bsg soundtrack bmccreary music
+McCreary, B.  Baltar's dream.  Battlestar Galactica: Season 2.
+
+
+nb soundtrack bmccreary music
+McCreary, B.  Among the ruins.  Battlestar Galactica: Season 4.
+
+
+nb doc

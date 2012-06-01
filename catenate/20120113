@@ -1,0 +1,8 @@
+nb _buy credo checksum reuse sum file derived object
+For each run, store list of checksums of .sum files after dependencies
+updated, along with path to file generated for .sum file.  If the
+checksum for an updated .sum file matches an already-stored checksum,
+copy the derived-object file associated with the already-stored
+checksum to the file associated with the updated .sum file.
+
+Also consider the .do file.

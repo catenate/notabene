@@ -1,0 +1,127 @@
+nb clang preprocessor include header file depend analysis @rvcx
+C-style include files are the canonical example of dependency analysis.
+Any build system that has to treat them as a special case is broken.
+
+
+nb lambda function gcc clang
+http://walfield.org/blog/2010/08/25/lambdas-in-c.html
+
+
+nb tiny code minimum source reddit _daily
+http://www.reddit.com/r/tinycode/
+
+
+nb improve programmer skill
+Ahlström, A.  20110630.  10 ways to improve your programming skills.
+AntoArts.
+http://www.antoarts.com/10-ways-to-improve-your-programming-skills/
+
+Learn a new lisp, stack, array, functional, logic, or concurrent language.
+Read a good, challenging programming book.¹ Join an open source
+project.  Solve programming puzzles.  Program.  Read and study code.
+Hang out at programming sites and read blogs.  Write about coding.
+Learn low-level programming in e.g.  C or assembly.  Don’t rush to
+StackOverflow—Think!
+ ¹ For example, TAOCP, SICP, A discipline of programming, or the
+dragon book.
+
+
+nb programmer job board @usethesource @jgrahamc
+http://jobs.usethesource.com/
+
+
+nb @jgrahamc
+http://www.jgc.org/
+
+
+nb programming news _daily reddit
+http://www.reddit.com/r/programming
+
+
+nb harvard classic book list project gutenberg
+http://www.gutenberg.org/wiki/Harvard_Classics_(Bookshelf)
+
+The Harvard Classics, originally known as Dr. Eliot's Five Foot Shelf,
+is a 51-volume anthology of classic works from world literature,
+compiled and edited by Harvard University president Charles W. Eliot,
+that was first published in 1909.  Dr. Eliot, then President of
+Harvard University, had stated in speeches that the elements of a
+liberal education could be obtained by spending 15 minutes a day
+reading from a collection of books that could fit on a five-foot shelf.
+(Originally he had said a three-foot shelf.)
+
+
+nb project gutenberg book list category agriculture child country crime educate fine art general geography health history language literature law library organize music periodic magazine newspaper polity psychology philosophy religion science society technology war
+
+
+nb openhatch build free source software community task mentor
+Openhatch: Community tools for free and open source software.
+http://openhatch.org/
+
+Free, open source software loses tons of prospective contributors
+because it is difficult to learn how and where you can fit in.
+OpenHatch is an open source community aiming to help newcomers find
+their way into free software projects.  We work toward this goal
+through this website and in-person outreach events.
+
+
+nb rmorris biography
+Markoff, J.  20110629.  Robert Morris, pioneer in computer security,
+dies at 78.  The New York times: Technology.
+http://www.nytimes.com/2011/06/30/technology/30morris.html?_r=1
+
+
+nb windows master boot record botnet
+Keizer, G.  20110629.  Massive botnet 'indestructible,' say researchers:
+4.5M-strong botnet 'most sophisticated threat today' to Windows PCs.
+Computerworld: Security.
+http://www.computerworld.com/s/article/9218034/Massive_botnet_indestructible_say_researchers
+
+
+nb phase change memory pcm ibm reliable solid state store
+Sakr, S.  20110630.  IBM develops 'instantaneous' memory,
+100x faster than flash.  Engadget: Science, storage.
+http://www.engadget.com/2011/06/30/embargo-ibm-develops-instantaneous-memory-100x-faster-than-fl/
+
+A new kind of phase change memory (PCM) that reads and writes 100
+times faster than flash, stays reliable for millions of write-cycles
+(as opposed to just thousands with flash), and is cheap enough to be
+used in anything from enterprise-level servers all the way down to
+mobile phones.  PCM is based on a special alloy that can be nudged
+into different physical states, or phases, by controlled bursts of
+electricity.  … Not only is their latest variant more reliable, it can
+also store four data bits per cell.
+
+
+nb tundra accurate fast increment build system @deplinenoise
+https://github.com/deplinenoise/tundra
+
+
+nb learn perl book edition 6 oreilly
+Schwartz, R.L. et al.  201106.  Learning Perl 6ed.  O’Reilly.
+http://oreilly.com/catalog/0636920018452
+
+
+nb introduce algorithm python mit course document distance peak find binary search tree avl hash sort search short path bellman ford dijkstra dynamic program numeric geometry reduce complex
+2011.  6.006: Introduction to algorithms.  MIT.
+http://courses.csail.mit.edu/6.006/spring11/notes.shtml
+
+
+nb arc lisp pgraham tutorial forum repl
+http://www.paulgraham.com/arc.html
+http://ycombinator.com/arc/tut.txt
+http://arclanguage.org/forum
+http://tryarc.org/
+
+
+nb π pi manifesto τ tau
+http://www.thepimanifesto.com/
+
+
+nb git tutorial dmiessler define term index branch remote repo merge manage website command list
+http://danielmiessler.com/study/git/
+
+
+nb dos history
+Paterson, T.  2011.  DosMan drivel: From the original author of DOS.
+http://dosmandrivel.blogspot.com/

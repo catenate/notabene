@@ -1,0 +1,51 @@
+nb efficient little language environment simple tool affordance script dictionary run button output pane applescript rename artist itunes
+DeNigris, S.  20110425.  Love poor technology for simple tasks.
+seandenigris.com.
+
+For example, I wanted to change the artist info of a batch of tracks
+in iTunes.  In less?  time than it would have taken me to google a
+solution, I had whipped up an AppleScript¹ (yes, ouch) in AppleScript
+Editor (double ouch).  Yes, I could have used rb-appscript to script
+from Ruby, which I usually do.  But, AE gave me easy access to iTunes’
+scripting dictionary, a nice little “Run” button, and an output pane.
+ ¹ 	tell application "iTunes"
+		set wrongName to ""
+		set rightName to ""
+		set track_list to tracks of playlist "Music" of source "Library" whose artist is wrongName
+		repeat with t in track_list
+			set artist of t to rightName
+		end repeat
+	end tell
+
+
+nb todate 20110511 sicp scheme study group p2pu
+http://new.p2pu.org/en/groups/sicp-study-group/
+
+
+nb build system interview psmith 
+Heusser, M.  20110426.  Building a better build system: An interview
+with Peter Smith.  InformIT.
+http://www.informit.com/articles/article.aspx?p=1702971
+
+
+nb software build system principle experience book psmith pearson review bappleton usman
+Smith, P.  201103.  Software build systems: Principles and experience.
+Pearson education.
+http://www.amazon.com/Software-Build-Systems-Principles-Experience/dp/0321717287
+http://www.amazon.com/gp/product/B004SH6XIE
+test/1/credo/psmith
+
+Finally, acknowledgment must be given to everybody who has contributed
+to the design or construction of a build tool.  Most software projects
+use some type of build tool, making the build system a critical piece
+of technology.  The people who create these tools don’t always get the
+credit they deserve.
+
+
+nb book mark software build system principle experience
+builds/0321717287.pdf
+builds/0321717287:/^     Components of a Build System/
+/usr/jcatena/dump/psmith
+
+
+nb doc

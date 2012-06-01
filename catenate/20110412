@@ -1,0 +1,94 @@
+nb waterloo best western hotel
+Can skype desktop in evening via phone ethernet port.  Better
+continental breakfast.  $2 laundry.  Free parking.  Close to RIM.
+Fridge.  Keep bag over weekend.
+
+
+nb waterloo destination inn hotel
+Both wired and wireless internet too poor in evening to skype desktop.
+Basic continental breakfast.  $3.75 laundry.  Free parking.  Close to
+RIM.  Fridge.  Keep bag over weekend.
+
+
+nb kitchener walper terrace hotel
+Wireless internet too poor in evening to skype desktop.  No wired
+access.  Shower unevenly hot/cold.  Park in downtown city garage.  No
+fridge.  No breakfast.
+
+
+nb waterloo comfort inn motel
+Close to RIM.  No breakfast.  No laundry.
+
+
+nb unicode character video
+Piringer, J.  20110410.  Unicode.  NetPoetic.
+http://netpoetic.com/2011/04/unicode/
+
+I made video called “unicode”.  It shows all displayable characters in
+the unicode range 0–65536 (49571 characters), one character per frame.
+
+
+nb stomp 1.1 message protocol specification frame utf8 server client send subscribe message
+STOMP Protocol Specification, Version 1.1.
+http://stomp.github.com/stomp-specification-1.1.html
+
+STOMP is a frame based protocol, with frames modelled on HTTP.
+A frame consists of a command, a set of optional headers and an
+optional body.  STOMP is text based but also allows for the
+transmission of binary messages.  The default encoding for STOMP is
+UTF-8, but it supports the specification of alternative encodings for
+message bodies.  A STOMP server is modelled as a set of destinations
+to which messages can be sent.  The STOMP protocol treats destinations
+as opaque string and their syntax is server implementation specific.
+Additionally STOMP does not define what the delivery semantics of
+destinations should be.  The delivery, or “message exchange”,
+semantics of destinations can vary from server to server and even from
+destination to destination.  This allows servers to be creative with
+the semantics that they can support with STOMP.  A STOMP client is a
+user-agent which can act in two (possibly simultaneous) modes: As a
+producer, sending messages to a destination on the server via a
+SEND frame; As a consumer, sending a SUBSCRIBE frame for a given
+destination and receiving messages from the server as MESSAGE frames.
+
+
+nb p4 perforce usage help client global registry system variable windows lame fail
+# This sets P4CLIENT for all(!) processes on a Windows machine.
+export P4CLIENT=$[ClientSpec]
+
+# Instead use the -c option to each p4 command.
+p4 -c $client edit -c $changelist …
+
+
+nb p4 force client sync
+p4 -c $client sync -f //depot/projects/...
+
+
+nb cmake build system process
+http://en.wikipedia.org/wiki/CMake
+
+The build process with CMake is straightforward: configuration files,
+called CMakeLists.txt files, are placed in the source directories and
+are then used to create standard build files.  It can generate
+makefiles for many platforms and IDEs including Unix, Windows, Mac OS
+X, MSVC, Cygwin, MinGW and Xcode.  The platform's native build tools
+are used for the actual building.  Each build project consists of a
+CMakeLists.txt file in every directory that controls the build process.
+The CMakeLists.txt has one or more commands in the form COMMAND (args...),
+with COMMAND representing the name of each command and args the list
+of arguments, each separated by white space.  While there are many
+built-in rules for compiling the software libraries (static and
+dynamic) and executables, there are provisions for custom build rules.
+Some build dependencies can be determined automatically.
+Moreover, advanced users can create and incorporate additional
+makefile generators to support their specific compiler and OS needs.
+
+
+nb cmake build system manual
+http://www.cmake.org/cmake/help/documentation.html
+
+
+nb cmake build system download
+http://www.cmake.org/cmake/resources/software.html
+
+
+nb doc

@@ -1,0 +1,23 @@
+nb bash shell filter function test script
+# os -T sh filter.sh
+
+function filter() {
+  f=$1
+  shift
+  for x in $@; do
+    if $f $x; then
+      echo $x
+    fi
+  done
+}
+
+function notZero() {
+  if (( $1 != 0 )); then
+    return 0
+  else
+    return 1
+  fi
+}
+
+nonZeroes=$(filter notZero -1 0 1)
+echo $nonZeroes

@@ -1,0 +1,124 @@
+nb sample utf8 poem eat glass hurt pangram
+http://www.columbia.edu/kermit/utf8.html
+
+
+nb playlist mknopfler live montreux jazz festival
+Knopfler, M.  2010.  44th Montreux jazz festival.
+http://www.youtube.com/user/TheSGTNicolai#p/c/A8887D14BF74B2ED/0/KnVLMJpupMM
+
+
+nb ur babylon museum end empire archæology lwoolley
+Wilkins, A. 20110525.  The story behind the world’s oldest museum,
+built by a Babylonian princess 2,500 years ago.  Io9.
+http://io9.com/5805358/the-story-behind-the-worlds-oldest-museum-built-by-a-babylonian-princess-2500-years-ago
+
+That there should be a collection is altogether in accordance with the
+antiquarian piety of the age and especially of the ruler Nabonidus
+with whose daughter this building is probably to be associated.
+That the museum should be connected with a school is also no matter
+for surprise.  Schools were commonly organised in temples, and some at
+least of the teaching was of a sort that would be fitly illustrated by
+specimens of antiquity.  In Larsa schools we find that copies of old
+historical inscriptions extant in the city were regular objects of study.
+―Leonard Woolley
+
+
+nb etufte career history review clear present multiple dimension data ink ratio sparkline
+Yaffa, J.  201105.  Information sage.  Washington monthly: Magazine.
+http://www.washingtonmonthly.com/magazine/mayjune_2011/features/the_information_sage029137.php?page=all&print=true
+
+The underlying philosophy behind sparklines—and, really, all of Tufte’s work—
+is that data, when presented elegantly and with respect, is not confounding
+but clarifying.  … “It’s not about making the complex simple,” Grefe¹ told me.
+“It’s about making the complex clear.”
+ ¹ Richard Grefe, executive director of American Institute of Graphic Artists
+
+
+nb automate programmer task efficient increment specific environment reduce dross wait language measure perform
+O’Connor, M.  20110526.  Work is fascinating: The metagame.
+Yield thought.
+http://yieldthought.com/post/5862066767/work-is-fascinating-metagame
+
+A nice side-benefit is that much of the code I write to automate
+things is not production code; I can write it however I like,
+using whichever languages and tools take my fancy.  Yet it all goes
+towards making me—one day—into an extraordinary programmer.
+
+Spend time improving your efficiency instead of hacking away with a
+blunt axe.  Write the simplest, smallest thing you can to speed you up
+and then get back to work.  Make your scripts specific to you and your
+workflow: if they’re great, you can extend them to the team; if they
+love it, you can extend it to the world and put it on GitHub—but do it
+in that order.  [Use a daily environment in which you can automate the
+tasks you do in that environment.] The goal is to build up scripts,
+commands and systems that feed you a flow of meaningful decisions to
+make and interesting problems to solve, while automating away dross.
+If you catch yourself typing a command then waiting for it to finish
+before you can type the next one, that’s an ideal place for a script.
+Write in all the fun languages you can’t use at work.  Write a simple
+script to measure your performance: Seeing it climb gives a real sense
+of satisfaction that might be otherwise missing in your daily work.
+
+
+nb decode gif golang lzw block io reader interface code study slice array
+Pike, R. and Tao, N. 20110525.  A GIF decoder: an exercise in
+Go interfaces.  The Go programming language blog.
+http://blog.golang.org/2011/05/gif-decoder-exercise-in-go-interfaces.html
+
+
+nb senator rwyden hold senate consider bill internet protect intellect property act pipa coica
+In December of last year I placed a hold on similar legislation,
+commonly called COICA, because I felt the costs of the legislation far
+outweighed the benefits.  After careful analysis of the Protect IP Act,
+or PIPA, I am compelled to draw the same conclusion.  I understand and
+agree with the goal of the legislation, to protect intellectual property
+and combat commerce in counterfeit goods, but I am not willing to muzzle
+speech and stifle innovation and economic growth to achieve this objective.
+At the expense of legitimate commerce, PIPA’s prescription takes an
+overreaching approach to policing the Internet when a more balanced and
+targeted approach would be more effective.  The collateral damage of
+this approach is speech, innovation and the very integrity of the Internet.
+The Internet represents the shipping lane of the 21st century.
+It is increasingly in America’s economic interest to ensure that the
+Internet is a viable means for American innovation, commerce, and the
+advancement of our ideals that empower people all around the world.
+By ceding control of the Internet to corporations through a private
+right of action, and to government agencies that do not sufficiently
+understand and value the Internet, PIPA represents a threat to our
+economic future and to our international objectives.  Until the many
+issues that I and others have raised with this legislation are addressed,
+I will object to a unanimous consent request to proceed to the legislation.
+―Ron Wyden
+
+
+nb scan ocr backup shred reduce paper macosx rule
+Losh, S.  20110526.  Going paper-free for $220.  Steve Losh blog.
+http://stevelosh.com/blog/2011/05/paper-free/
+
+After all of this I’ve now got a mostly-automated system that lets me
+go paper-free.  The costs are: Doxie Scanner: $160.  JotNot: $7. 
+PDF OCR X: $30.  Hazel: $21.  Backblaze: $5 per month.
+
+
+nb oberon acme sac clone
+http://hardware.slashdot.org/story/11/05/26/1539213/Computer-De-evolution-Awesome-Features-Weve-Lost
+
+bugs2squash: Other things I miss: TUIs like Project Oberon and
+Symbolics Lisp.  Hell, Lisp in general is now such a niche it's sad.
+"Real" Unix—lots of little programs that do one thing and do them well.
+cat -n considered harmful and all that.
+
+me: For a text interface influenced by Oberon, see the successors to
+Unix by the original crew: Plan 9 (Plan9port brings it to Mac/Linux),
+Inferno (a VM environment), and even Acme SAC (Inferno edited down
+to Acme).  I use Acme SAC every day as my tiled text-based window
+manager/shell/editor, for both its minimized (fewer options, cleaned up)
+versions of a key set of unixy tools (the ones not harmful:), and a
+wrapper to run the host OS' command line tools.  (I can intersperse its
+unixy commands with Cygwin and Windows commands in the same script,
+for example).  Here's my server-side clone of the Acme SAC repository:
+Just hg clone,¹ and run Acme.exe.
+ ¹ http://code.google.com/r/jasoncatena-acmesac/
+
+
+nb doc

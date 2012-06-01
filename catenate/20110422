@@ -1,0 +1,48 @@
+nb parse file extension commit multiple derived object transaction
+http://groups.google.com/group/redo-list/browse_thread/thread/c2630e971f4185fa
+
+trost@cloud.rain.com: target extensions.  I started using redo at work
+today and have bumped into an annoyance: Some programs use the
+target's extension to determine what to do.  For instance, ffmpeg uses
+the target's extension to determine how to encode the output file.
+Thankfully, ".tmp" is not used as a video format (yet!), but I'm
+wondering if there might be a general solution to this problem in the
+offing.  Put the "tmp" at the front of the temp file, perhaps?
+
+jason.catena@gmail.com: (Speaking only for my variant, credo, and not
+trying to convert anyone:) I thought something like this would happen
+when I noticed that redo worked on a temporary, renamed version of the
+output file, so instead my credo saves off the current version automatically,
+and restores it if the do-script tells it to.  From the credo(1) man page:
+
+          target.reold stores the previously-built content of target.
+          If target.do returns the status revert then credo copies
+          target to target.renew and restores target.reold to target.
+
+This approach does leave the file to be created in a bad way if the
+do-script never gets a chance to return the revert status to credo.
+I understand that to avoid broken derived objects is a principle of redo,
+but I figured that the overall system would be in an inconsistent state
+as soon as you recompile with a partial failure of the code base which
+hits only one of two files with coördinated changes.
+	Because, for example, the arguments to a function changed, and
+that object file compiled correctly, but another object file with a
+corresponding call failed.  So now you can't build an executable,
+because you followed the rule to commit a new derived file version to
+its name based on only it compiling correctly.
+	I might solve this in redo's approach by copying all the temporary
+files to their real names only at the end of the entire redo run, as one
+complete transaction, when you know that no targets failed.  Or, as you
+say, by moving the tmp letters somewhere else in the filename…
+if the compiler or other program doesn't use the rest of the name to
+create other derived objects, which would also need their names de-tmp'd.
+
+
+nb immerse manipulate wall computer interface minority report
+Boutin, P. 20110422.  The struggle to spread the Minority Report interface:
+Economics and user expectations are bigger hurdles than the technology.
+Technology review: Business.
+http://www.technologyreview.com/business/37450/?a=f
+
+
+nb doc

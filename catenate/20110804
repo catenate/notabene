@@ -1,0 +1,52 @@
+nb shell option exit error
+Coker, R.  20091120.  Some tips for shell code that won’t destroy your OS.
+ebte—Russell Coker.
+http://etbe.coker.com.au/2009/11/20/shell-code-destroy-your-os/
+
+#!sh-e
+set -e
+sh -e $script
+
+Not abort on a command that might fail:
+command-might-fail || true
+
+
+nb absolute full path find xdev type maxdepth getent passwd
+Ibid.
+
+
+nb shell option exit error
+Pollock, A.  20091120.  "#!/bin/sh -e" considered harmful.
+Diary of a geek: Tech.
+http://blog.andrew.net.au/2009/11/20
+
+I advocate an explicit set -e on the second line of shell scripts instead.
+As much as making shell scripts set -e is a good practice, it drives
+me absolutely batty having to deal with scripts that spontaneously
+exit as soon as something they run exits non-zero.  Particularly when
+you've chained a bunch of shell scripts together, or have one sourcing
+a bunch of script fragments from a directory.  For this reason,
+I prefer to write in Bash and use an exit handler, to make it very
+obvious when a shell script has abended due to set -e.
+
+
+nb shell script
+Dowland, J.  20091120.  Shell scripts.  Jmtd: Log.
+http://jmtd.net/log/sh/
+
+
+nb bash option pipefail set error exit
+Eisentraut, P.  20101104.  Pipefail.  Peter Eisentraut's blog on
+software development, open source, databases, and geek stuff.
+http://petereisentraut.blogspot.com/2010/11/pipefail.html
+
+With [bash option] set -o pipefail, the return status of a pipeline is
+"the value of the last (rightmost) command to exit with a non-zero status,
+or zero if all commands exit successfully".  So if some_command fails,
+the whole pipeline fails, and set -e kicks in.  So you need to use
+set -o pipefail and set -e together to get this effect.
+
+
+nb port shell script cat wc count line print range specify sh quote variable embedded space locale output text remove temporary file
+Minia, J. 20091120.  Most mistakes when writing shell scripts.  Jogger Minia.
+http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fminio.jogger.pl%2F2009%2F11%2F21%2Fpopularne-bledy-popelniane-podczas-pisania-skryptow-powloki%2F&sl=pl&tl=en

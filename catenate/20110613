@@ -1,0 +1,47 @@
+nb portable perl issue newline number endian width file path system command network ipc process external subroutine standard module time date character set i18n system resource secure style cpan platform unixy dos windows os2 cygwin 
+perlport - Writing portable Perl.  Perl programming documentation:
+Language reference.
+http://perldoc.perl.org/perlport.html :/^PLATFORMS$/
+
+
+nb perl operating system name osname use english
+$^O
+/test/1/perl/osname/guide
+
+use English;
+print "$OSNAME\n";
+
+my $isWindows = ($OSNAME eq "MSWin32");
+my $isLinux = ($OSNAME eq "linux");
+my $isMacOSX = ($OSNAME eq "darwin");
+
+if ($isWindows) { print "Windows\n");
+if ($isLinux) { print "Linux\n");
+if ($isMacOSX) { print "MacOSX\n");
+
+
+nb portable tradeoff
+Ibidem.
+
+There is a tradeoff between taking full advantage of one particular
+type of computer and taking advantage of a full range of them.
+Naturally, as you broaden your range and become more diverse,
+the common factors drop, and you are left with an increasingly smaller
+area of common ground in which you can operate to accomplish a
+particular task.  Thus, when you begin attacking a problem,
+it is important to consider under which part of the tradeoff curve you
+want to operate.  Specifically, you must decide whether it is
+important that the task that you are coding have the full generality
+of being portable, or whether to just get the job done right now.
+This is the hardest choice to be made.  … Here's the general rule:
+When you approach a task commonly done using a whole range of
+platforms, think about writing portable code.  That way, you don't
+sacrifice much by way of the implementation choices you can avail
+yourself of, and at the same time you can give your users lots of
+platform choices.  On the other hand, when you have to take advantage
+of some unique feature of a particular platform, as is often the case
+with systems programming (whether for Unix, Windows, VMS, etc.),
+consider writing platform-specific code.
+
+
+nb doc

@@ -1,0 +1,56 @@
+nb unix text ascii utf8 latex one true document editor jcatena etufte notebook
+Catena, J.  20091019.  The one true document editor.  ET notebooks:
+Software for typesetting a book.
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001Be
+
+Poster suggested one grandiose program to typeset text, perform
+mathematics, pivot tables, project slides, and generally be the One
+True Document Editor for any page-oriented purpose.
+
+I humbly submit that such an environment was in fact available before
+the advent of the WYSIWYG editor.  In the UNIX text editing system,
+all data is in ASCII (later UTF-8 in Plan 9), and the writer has at
+hand a wide variety of customizable tools, to slice and dice the data
+or text, and to then recombine them, in any way conceivable, without
+relying on which features a GUI programmer saw fit to make available
+via drop-down menus.
+
+This text editing system also supports the generation of (La)TeX
+documents, so far the best (maturity and depth) and most widely
+available (free for Windows, Linux, MacOS) tool for typesetting
+mathematics and integrating graphics with technical papers.  Evidence
+of its utility may be found in its widespread use by academia for
+publishing papers.
+
+The UNIX text editing system, and (La)TeX, uses encoded source to
+generate documents, instead of trying (usually poorly) to both display
+the final document and support editing at once.  The advantage of this
+approach—text-based encoding with separate generation and presentation
+steps—becomes apparent when one must make widespread structural
+changes which the GUI tool does not support, or other transformations
+of the text which may be automated in text form, but usually aren't in
+commercial tools since they're too rare for publishing houses to
+justify including and debugging.
+
+-- Jason Catena (email), October 19, 2009
+
+
+nb cigarette pack layout jcatena etufte surgeon general warning
+Catena, J.  20071024.  Cigarette pack layout.  ET notebooks:
+Data in sentences: Evidence on women and smoking.
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000K4
+
+A layout which properly emphasizes keywords in the Surgeon General's warning.
+I don't think I'll see this behind the counter any time soon.¹
+ ¹ /n/C/Users/jcatena/Desktop/backgrounds/000320-7412.jpg
+
+
+nb women cigarette smoking data sentence
+CDC.  20020830.  Data in sentences: Women and smoking.
+MMWR recommendations and reports.
+http://www.edwardtufte.com/tufte/women-smoking
+
+
+nb talmud page layout text commentary name tractate chapter number page code cross reference literature marginal gloss
+Segal, E.  A page from the Babylonian Talmud.
+http://people.ucalgary.ca/~elsegal/TalmudPage.html

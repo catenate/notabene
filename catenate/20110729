@@ -1,0 +1,58 @@
+nb pfsh parallel functional shell program script library
+
+
+nb pfsh map
+cat > map <<EOF
+f=\$1
+shift
+for x in \$@; do
+    \$f \$x
+done
+EOF
+chmod +x map
+
+
+nb pfsh test map
+PATH=$PATH:.
+
+cat > out <<EOF
+a 1
+a 2
+EOF
+
+map 'echo a ' 1 2 > test
+
+diff out test
+
+
+nb windows shell cmd execute command terminate option
+cmd /c
+
+
+nb man page col elide control character
+man grep | col -b
+
+
+nb gnu grep word option letter digit underscore
+       -w, --word-regexp
+	      Select  only  those  lines  containing  matches that form whole
+	      words.  The test is that the matching substring must either  be
+	      at  the  beginning  of the line, or preceded by a non-word con-
+	      stituent character.  Similarly, it must be either at the end of
+	      the  line	 or  followed  by  a  non-word constituent character.
+	      Word-constituent characters are letters, digits, and the under-
+	      score.
+
+
+nb online partial evaluate function program language
+Cook W.R.  and Lämmel, R.  2011 Tutorial on online partial evaluation.
+To appear in proceedings of DSL 2011.
+http://softlang.uni-koblenz.de/dsl11/
+
+This paper is a short tutorial introduction to online partial evaluation.
+We show how to write a simple online partial evaluator for a simple,
+pure, first-order, functional programming language.  In particular,
+we show that the partial evaluator can be derived as a variation on a
+compositionally defined interpreter.  We demonstrate the use of the
+resulting partial evaluator for program optimization in the context of
+model-driven development.

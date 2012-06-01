@@ -1,0 +1,25 @@
+nb small large team communicate coordinate qsm defect rate  fbrooks mythical man month
+Erickson, C. 20120111.  Small teams are dramatically more efficient
+than large teams.  Atomic spin: Atomic Object’s blog on software
+design & development.
+http://spin.atomicobject.com/2012/01/11/small-teams-are-dramatically-more-efficient-than-large-teams/
+
+Communication and coordination overhead rises dramatically with team
+size.  In the worst possible case where everyone on the project needs
+to communicate and coordinate with everyone else, the cost of this
+effort rises as the square of the number of people in the team.
+That’s such a powerful effect, in fact, that a large team couldn’t
+possibly hope to achieve the goal of everyone coordinating their
+effort.  But a small team could.
+
+QSM found another explanation for the huge cost differential between
+small and large teams.  The defect rate for the large teams was five
+times greater than for the small teams.  Defects consume time in
+discovery, documentation, and repair.  That effort is obviously
+necessary, but doesn’t contribute directly to creating the desired
+software, and therefore inflates cost without any benefit to the
+schedule.
+
+
+nb nap
+chrome http://www.boston.com/bostonglobe/ideas/naps/

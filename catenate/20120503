@@ -1,0 +1,17 @@
+nb gerrit upload git repo push
+http://en.wikibooks.org/wiki/Git/Gerrit_Code_Review#Importing_project_into_Gerrit
+http://stackoverflow.com/questions/8353988/how-to-upload-a-git-repo-to-gerrit
+
+
+nb gerrit upload git repo push
+http://stackoverflow.com/questions/6347243/gerrit-setup-for-my-git-server
+
+You don’t import projects into Gerrit.  You point it to your git repos
+and it operates directly on them.  I'd look at the log file for gerrit
+to see if it’s complaining about any paths or anything.  One tip:
+for us, ¹ is sourced by ².  In it, we set the umask to “2” so that
+files and directories created by gerrit will be group-writable.
+This is important if you have different users using gerrit, which is
+the whole point.
+ ¹ /etc/default/gerritcodereview
+ ² test_site/bin/gerrit.sh

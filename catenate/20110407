@@ -1,0 +1,29 @@
+nb plan9 bin ape sh pdksh 
+yarikos@gmail.com: finally, there are /bin/ape/sh which is a pdksh
+with its "features".
+
+comeau@panix.com: And in our opinion it is nicely done in terms of
+supporting ksh'y things (at least it's taken some large and "wacked
+out stuff" we've thrown at it like a champ), but I'll guess probably
+one needs to look also at its footprint vs (or in addition to) rsh's,
+if this read issue and similar is of such concern to OP.
+
+
+nb perlster tidy critic code format standard
+echo=echo
+f=waitTimebyComponent.ecmd
+$echo os -T bash perlster $f
+$echo diff $f $f^.tidy
+f=waitTimebyComponent.ecmd
+$echo mv $f^.tidy $f
+
+
+nb apply rename file
+apply {
+	old = $1
+	new = `{echo $old | sed 's,usageResource,countBuildsAndServersByHour,'}
+	mv $old $new
+} usageResource.*
+
+
+nb doc

@@ -1,0 +1,51 @@
+nb unicode point chart
+Palmer, S.B.  Unicode codepoint chart.  Inamidst.com.
+http://inamidst.com/stuff/unidata/
+
+
+nb omero user interface distribute file system application widget planb
+Ballesteros, F.J. et al.  ca 2006.  Omero: Ubiquitous user interfaces
+in the Plan B operating system.  Laboratorio de Sistemas, Universidad
+Rey Juan Carlos, Madrid, Spain.
+http://lsub.org/ls/export/omero.pdf
+
+It is difficult to build user interfaces that must be distributed over
+a set of dynamic and heterogeneous I/O devices.  This difficulty
+increases when we want to split, merge, replicate, and relocate the UI
+across a set of heterogeneous devices, without the application
+intervention.  Furthermore, using generic tools, e.g.  to search for
+UI compoments or to save/restore them, is usually not feasible.
+We follow a novel approach for building UIs that overcomes these
+problems: Using distributed file systems that export widgets to
+applications.  In this paper we describe Omero, a UI server built
+along this line for the Plan B Operating System.
+
+
+nb omero source code nemo fjballesteros
+Hebble, P.  20070330.  [9fans] Plan B call for help.  comp.os.plan9.
+http://newsgroups.derkeiler.com/Archive/Comp/comp.os.plan9/2007-03/msg00590.html
+
+/n/sources/contrib/nemo/sys/src/cmd/omero/
+
+
+nb latex font catalog
+Dansk TeX-brugergruppe.  The LaTeX font catalogue.
+http://www.tug.dk/FontCatalogue/
+
+
+
+nb mathematic history logic constraint sequence amusement arithmetic recreation algebra number theory calculus real analysis fourier series differential equation complex ellipsis function euclid geometry trigonometry technical drawing project synthetic physics quaternion probability periodical miscellany latex typeset book project gutenberg
+Mathematics (bookshelf).  Project Gutenberg.
+http://www.gutenberg.org/wiki/Mathematics_%28Bookshelf%29
+
+History.  Logic.  Constants and numerical sequences.  Amusements,
+arithmetics, recreations.  Algebra.  Number theory.  Calculus, real
+analysis, Fourier series.  Differential equations.  Complex analysis,
+elliptic functions.  Euclidean and non-Euclidean geometry.
+Trigonometry, technical drawing.  Differential, projective, and
+synthetic geometry.  Mathematical physics.  Quaternions.  Probability.
+Periodicals.  Miscellaneous.
+
+
+nb git dæmon manual
+http://schacon.github.com/git/git-daemon.html

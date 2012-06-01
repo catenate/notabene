@@ -1,0 +1,18 @@
+nb scharffen berger favorite chocolate bar baking bittersweet cocoa powder
+http://www.scharffenberger.com/
+
+
+nb man flock file lock usage example
+#
+# Guard against update-deb-repo running at the same time.
+# The following opens file descriptor #9 on update-deb-repo;
+# it must exist in the current directory
+#
+exec 9<$BIN_DIR/update-deb-repo
+#
+# Now, lock this file.  This will block indefinitely if it is locked
+# by update-deb-repo.  Once the lock is acquired, it is released
+# when this script ends.
+#
+echo Acquiring the lock
+flock -x 9

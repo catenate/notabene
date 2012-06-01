@@ -1,0 +1,130 @@
+nb function agilecomplex program
+Harms, A.  20110904.  Functional agile: how does it work?
+http://myagileeducation.com/2011/functional-agile-how-does-it-work
+
+angelaharms: So I was thinking in the shower about how agile technical
+practices and functional programming both aim for something like
+“good” code, but then it occurs to me that—no surprise—“good” doesn’t
+tell me much.
+	I want to listen to what each “side” is excited about—not for
+“niceness” or for getting along or for unicorns and rainbows,
+but because I am all juiced about both, and I want to share that juice
+so I have more people to play with.
+	My first thoughts are that functional talks about correctness,
+and agile talks about utility.  Functional programmers want clarity of
+vision, I think, with a precise understanding of the solutions they
+create, so they’re as simple as they can be, reusable and composable.
+And maybe agile developers are thinking about extensibility,
+maintainability, helping coders with stuff like staying focused,
+learning new stuff, avoiding getting buried in complexity.
+	I am guessing each would smile heartily at the things that
+motivate the other.
+	The thing that got me excited this morning was noticing that agile—
+even the technical practices—is about people.  Pair programming, test-
+driven development, specification by example, and continuous
+integration are strategies for getting working, extensible, maintainable
+code, given that we are creative beings, going through life reaching
+for treasures without being able to predict the results of what we do.
+I call us mistake-makers; we poke at things and sometimes like what
+happens.  We have brilliant days, and low energy or sad or un-brilliant days.
+We often don’t know what a solution will look like until it begins to
+take shape, and our solutions often involve learning, collaboration,
+discovery.
+	Here’s what I want to know: how do collaboration, discovery,
+emergence of solutions, and other agile values fit with functional
+programming?  And as agile devs become fascinated with functional
+programming, what changes?  Does this mean they leave their agile
+peeps behind?  Or does the new functional stuff they’re discovering
+become part of their agile world?
+
+catenate: I program functionally because I can’t stand to look at
+complex code.  At the very least, I replace every for loop I can with
+a map, reduce, or filter of a function over a structure of data.
+This allows me to stub out the function with a debugging one, or call
+the function with controlled input data.  In turn, this allows me to
+develop incrementally, and write the minimum bit of code that could
+possibly work.  This also fixes the interface between the code and the
+data it’s working on, which leads to more modular, easier-to-
+understand code, composed of parts which are hopefully so simple
+they’re obviously right.  I can chart my progress on these little bits
+through something like kanban, where I have many parts in backlog,
+a few (never more than 5 or so) ready to write, just one or two
+in-progress, several that are complete and pending acceptance,
+and then finally an archive of completed work.  This serves me well as
+a consultant, where work is relatively small and piecemeal,
+and completion of it changes priorities and what is possible in the
+given time.  The upshot of all this is that having a library of
+functional bits to work with well complements for me working in an
+agile approach.  (I prefer kanban over scrum, because kanban limits
+work in progress, easily works with constantly changing priorities,
+and measures throughput of small units to predict performance rather
+than relying on estimates.)
+
+angelaharms: @catenate What an astounding answer! Thank you!
+
+kaleidic: @catenate I agree with @angelaharms; your answer on her blog
+is particularly clear and useful.
+
+
+nb grill vegetable cook time
+http://literature.mhsc.com/vc_grills/manuals/20303021_VCS310_Users_1.pdf
+
+Asparagus	325–350°F	6–8m	Cut off ends of stems. Lay across  the grills.
+Beans	325–350°F	30–35m	Wrap in foil with butter or margarine. Turn over once.
+Carrots	325–350°F	20–30m	Cook directly on the grill.
+Cob Corn	325–350°F	25–35m	Soak in cold water for 15 minutes. Cook with husk on.
+Eggplant	325–350°F	6–8m/side	Cut into slices and coat with oil. 	
+Mushrooms	325–350°F	6–8m	Cook directly on the grill.
+Onions	325–350°F	40–45m	Wrap in foil. Turn over once during cooking.
+Peppers	400–450°F	15–20m	Remove charred skin before eating.
+Potatoes	325–350°F	50–60m		Wrap in foil. Turn over once.
+Garlic	325–350°F	30–40m		Cut off top of bud and lightly coat with Olive oil. Wrap in foil.
+Tomatoes	325–350°F	5–7m	Cut in half and coat in Olive oil.
+Zucchini	325–350°F	6–8m/side	Cut into slices and coat with oil.
+
+
+nb music jukebox afroman got high
+Afroman.  Because I got high.
+
+
+nb music jukebox superman kryptonite
+Kryptonite: Will you still call me Superman?
+
+
+nb music jukebox superman kinks
+The Kinks.  (Wish I could fly like) Superman.
+http://www.youtube.com/watch?v=fUT9KQ-LuaU
+
+
+nb music jukebox captain america fall kinks
+The Kinks.  Catch me now I'm falling.
+http://www.youtube.com/watch?v=gCR83LxGKkg
+
+
+nb music jukebox kinks come dancing
+The Kinks.  Come dancing.
+http://www.youtube.com/watch?v=gs2kFrGluKs
+
+
+nb music jukebox kinks lola
+The Kinks.  Lola.
+http://www.youtube.com/watch?v=nVXmMMSo47s
+
+
+nb music jukebox kinks paranoia self destroyer
+The Kinks.  1981.  Destroyer.  Give the people what they want.
+http://www.youtube.com/watch?v=WSbSueq_KSY
+
+
+nb music jukebox cathedral evanhalen guitar solo
+Van Halen.  Cathedral.  Diver down.
+http://www.youtube.com/watch?v=Z2WRGVJLZu0
+
+
+nb music jukebox video svai crossroads
+http://www.youtube.com/watch?v=atw6F47UCYM
+
+
+nb music jukebox rjohnson kitchen
+Robert Johnson.  Come on in my kitchen.
+http://www.youtube.com/watch?v=4up4VP8zjyc

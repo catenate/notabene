@@ -1,0 +1,93 @@
+nb racecar palindrome
+
+
+nb palindrone palindrome spalin
+palindrone: Uncritical follower of a political demagogue;
+or, speech issuant therefrom, of equal sense backward.
+
+
+nb carry cost delete code inventory lean mfeathers
+Feathers, M.  20110517.  The carrying-cost of code:
+Taking lean seriously.  Michael Feathers.
+http://michaelfeathers.typepad.com/michael_feathers_blog/2011/05/the-carrying-cost-of-code-taking-lean-seriously.html
+
+No, to me, *code is inventory*.  It is stuff lying around and it has
+substantial cost of ownership.  It might do us good to consider what
+we can do to minimize it.  I think that the future belongs to
+organizations that learn how to strategically *delete* code.
+Many companies are getting better at cutting unprofitable features
+in their products, but the next step is to pull those features out
+by the root: the code.  Carrying costs are larger than we think.
+There's competitive advantage for companies that recognize this.
+
+
+nb automate deploy reuse command model convention
+Phillips, A.  201105.  Deployment is the new build.  CM journal.
+http://www.cmcrossroads.com/cm-articles/275-articles/14053
+
+This would differentiate [deployment] from build and release in that
+it assumes that the application components have already been created,
+and from provisioning and other infrastructure tasks in that the
+target infrastructure is already assumed to be present.
+
+Rather than copy-pasting the same OS commands into every new build
+script, we encapsulated these commands as libraries of reusable
+components that only needed to be written once.  Further,
+we discovered that certain patterns of step sequences would appear in
+many different builds.  These 'chunks', such as constructing a
+classpath, or copying and processing static resources, evidently
+represented some higher-level build activity with a distinct function. …
+Combining the sequence of common chunks with the new domain model that
+structured the data being processed gave rise to notion of distinct phases,
+in which parts of the build model are generated, prepared and made
+available to subsequent commands.  … This has led to a generation of
+build tools, such as Gradle, that aim to restore the developer to a
+position of full control in which arbitrary actions can easily be
+defined and organised into phases, tasks and entire builds.
+Of course, given how used we have become to the convenience of
+"it just works" in simple cases, these tools still support the full
+domain models and conventions of common technologies such as Java.
+
+[T]he concepts are commonly found in all organisations.  But giving
+these things explicit labels helps not just formalize the ideas and
+gives developers and vendors something to support.  It also creates a
+shared vocabulary and language around deployment, which is the first
+step to shared understanding and reusable functionality.
+
+Recording [actual deployment] information is critical because it is
+very hard to be able to intelligently and correctly adapt an
+application's state—when upgrading to a new version, for instance,
+or adding new servers to the target cluster—if you do not know where
+[and how] the application is currently running.
+
+Sticking with defaults not only encourages reusability because the
+chances are much higher that a solution developed for a different
+scenario will also work in yours.  It also improves maintainability
+and cuts down on the risk of "ripple" changes, where a custom value in
+the setting for the servers hosting application X requires further
+changes to the setup of application Y etc.
+
+In deployment-land, we seldom have the ability to clean build, and
+this is one of the main causes for the stressful, time- and resource-
+consuming troubleshooting hunts that are still far too common.
+Of course, in order to clean build a system we need full versioning of
+the environment, its configuration and the applications deployed to it.
+Virtual appliances and virtualization solutions with snapshot capabilities
+will have a major role to play here.  We also need a known state for
+durable resources such as databases, which remains challenging but is
+being addressed by a growing number of products out there.
+
+In fact, it's not so much technological advances that are required—
+many startups are pretty close to push-button deployments and
+continuous delivery.  Indeed, the "poster children" of this movement
+already have setups where every commit can pass through an entire
+regression, integration and performance testing suite and potentially
+go straight to production.  No, the important hurdles to be taken are
+procedural and mental, changing rusty ways of working and entrenched
+mindsets.
+
+jcatena: Overview of the deployment problem, from the point of view of
+a Java application.
+
+
+nb doc

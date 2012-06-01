@@ -1,0 +1,76 @@
+nb minimum java build system peersim
+jeeger: Pragmatic build system for #java: 'javac $(find src
+-name "*.java")'.  Taken from the #peersim source code.
+
+
+nb irish accent
+http://www.soyouwanna.com/soyouwanna-speak-irish-accent-1632.html
+http://en.wikipedia.org/wiki/Hiberno-English
+http://www.ehow.com/how_2002845_speak-irish-accent.html
+
+Top o' the mornin' to ye, me dearie.
+
+http://en.wikipedia.org/wiki/Mid_Ulster_English
+
+
+nb scot accent
+http://en.wikipedia.org/wiki/Scottish_English
+http://www.ehow.com/how_2081077_talk-scottish-accent.html
+
+Ye arrways count wit me, bonnie lass!
+
+
+nb boston accent
+http://en.wikipedia.org/wiki/Boston_accent
+http://www.wikihow.com/Speak-With-a-Bostonian-Accent
+
+Ah think they ah *emotionally invested* in thah team's victahy.
+Yah speak th' Lahd's truth, missy.
+Nah, it's not Vancouveh and ah'm not fahm Bahstahn.
+
+
+nb os specific windows linux macosx perl conditional use eval win32 driveinfo module
+use English '-no_match_vars';
+my $isWindows = ($OSNAME eq "MSWin32");
+my $isLinux = ($OSNAME eq "linux");
+my $isMacOSX = ($OSNAME eq "darwin");
+
+if ($isWindows) {
+	eval "use Win32::DriveInfo";
+}
+
+
+nb xerox star 8010 1981 polaroid computer keyboard display desktop graphic font
+Xerox Star 8010 Interfaces, high quality polaroids (1981).
+Digibarn computer museum.
+http://www.digibarn.com/collections/screenshots/xerox-star-8010/index.html
+
+The following are scans of high quality polaroid photographs of the
+screen of the Xerox Star 8010 workstation on its launch in 1981.
+Some of these photographs show earlier icon development.
+See Norm Cox's even earlier Star icon development pages to look at the
+evolution of Star's icons up to this final product.
+
+
+nb xerox star 8010 history graphic desktop metaphor wysiwyg compose document ethernet email scan network laser print software develop environment smalltalk commerce product fail dmachine wildflower elixir
+The Xerox Star 8010 "Dandelion". Digibarn computer museum.
+http://www.digibarn.com/collections/systems/xerox-8010/index.html
+
+The Xerox Star 8010 "Dandelion" is one of the most significant introductions
+of any computer system.  The DigiBarn museum has a special interest in the
+lineage of Xerox workstations but especially the Star—Viewpoint—Globalview
+series as these represented the most complete implementation of the
+"Desktop Metaphor" of any systems until the advent of mature Desktop
+graphical interfaces later on the Mac and PC/Unix/Linux in the 1990s.
+These systems were a full 15 years ahead of their time with sophisticated
+WYSIWYG document composition, built in Ethernet, email, scanning networked
+laser printing, development environments including Smalltalk, and much more.
+The Xerox workstations, while a commercial failure, occupy an important
+position in the lineage of visual computing systems.  There is a lot packed
+into the "D Machines" or "Wildflowers" and a big story behind them, which
+will be elaborated on this site in the future.  DigiBarn Museum Curator
+Bruce Damer's work on the Elixir Desktop was directly inspired and
+derivative of the graphical desktops you see here.
+
+
+nb doc

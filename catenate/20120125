@@ -1,0 +1,121 @@
+nb fibonacci recurse add number series
+fc 433494437 701408733 +
+|fmt -w 1
+
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+987
+1597
+2584
+4181
+6765
+10946
+17711
+28657
+46368
+75025
+121393
+196418
+317811
+514229
+832040
+1346269
+2178309
+3524578
+5702887
+9227465
+14930352
+24157817
+39088169
+63245986
+102334155
+165580141
+267914296
+433494437
+701408733
+1134903170
+
+
+nb unset positional parameter bash
+http://wiki.bash-hackers.org/commands/builtin/set :/^--$/
+
+set --: If no arguments follow, the positional parameters are unset.
+With arguments, the positional parameters are set, even if the strings
+begin with a - (dash) like an option.
+
+
+nb implement minimal lisp ruby
+Fogus.  20120125.  Lisp in 32 lines of Ruby.
+Fogus' thoughts on life, programming, and thinking.
+http://blog.fogus.me/2012/01/25/lisp-in-40-lines-of-ruby/
+https://raw.github.com/gist/1677501
+
+class Lisp 
+  def initialize 
+    @env = { 
+      :label => lambda { |(name,val), _| @env[name] = val }, 
+      :quote => lambda { |sexpr, _| sexpr[0] }, 
+      :car   => lambda { |(list), _| list[0] }, 
+      :cdr   => lambda { |(list), _| list.drop 1 }, 
+      :cons  => lambda { |(e,cell), _| [e] + cell }, 
+      :eq    => lambda { |(l,r), _| l == r }, 
+      :if    => lambda { |(cond, thn, els), ctx| eval(cond, ctx) ? eval(thn, ctx) : eval(els, ctx) }, 
+      :atom  => lambda { |(sexpr), _| (sexpr.is_a? Symbol) or (sexpr.is_a? Numeric) } 
+    } 
+  end 
+ 
+  def apply fn, args, ctx=@env 
+    return @env[fn].call(args, ctx) if @env[fn].respond_to? :call 
+ 
+    self.eval @env[fn][2], Hash[*(@env[fn][1].zip args).flatten(1)] 
+  end 
+ 
+  def eval sexpr, ctx=@env 
+    if @env[:atom].call [sexpr], ctx 
+      return ctx[sexpr] if ctx[sexpr] 
+      return sexpr 
+    end 
+ 
+    fn = sexpr[0] 
+    args = (sexpr.drop 1) 
+    args = args.map { |a| self.eval(a, ctx) } if not [:quote, :if].member? fn 
+    apply(fn, args, ctx) 
+  end 
+end
+
+http://www.brool.com/index.php/the-tiniest-lisp-in-python 
+http://norvig.com/lispy.html
+http://fogus.me/fun/lithp
+https://gist.github.com/1679611	# javascript
+
+snilan: Very cool!  One thing I noticed is that the above doesn’t
+allow for closures though.  Changing the following line should work:
+
+	self.eval @env[fn][2], Hash[*(@env[fn][1].zip 
+	args).flatten(1)] to self.eval @env[fn][2], 
+	ctx.merge(Hash[*(@env[fn][1].zip args).flatten(1)])
+
+
+nb http return code
+http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+
+200 OK
+204 No Content
+301 Moved Permanently
+401 Unauthorized
+403 Forbidden
+404 Not Found

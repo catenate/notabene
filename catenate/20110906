@@ -1,0 +1,75 @@
+nb pattern summary architect store compress data structure allocate small memory software cweir jnoble 2004
+Weir, C. and Noble, J.  2004.  Pattern summaries.¹  Small memory software:
+Patterns for systems with limited memory.²  Addison-Wesley professional.³
+ ¹ http://www.cix.co.uk/~smallmemory/PatternSummaries.pdf
+ ² http://www.smallmemory.com/
+ ³ http://www.amazon.com/exec/obidos/ASIN/0201596075/o/qid=977367436/sr=8-1/ref=aps_sr_b_1_3/103-0218636-3331016
+
+Small architecture: How can you manage memory use across a whole system?
+Make every component responsible for its own memory use.  Memory limit:
+How can you share out memory between multiple competing components?
+Set limits for each component and fail allocations that exceed the limits.
+Small interfaces: How can you reduce the memory overheads of component
+interfaces?  Design interfaces so that clients control data transfer.
+Captain Oates: How can you fulfil the most important demands for memory?
+Sacrifice memory used by less vital components rather than fail more
+important tasks.  Read-only memory: What can you do with read-only code
+and data?  Store read-only code and data in read-only memory.  Hooks:
+How can you change information in read-only storage?  Access read-only
+information through hooks in writable storage and change the hooks to give
+the illusion of changing the information.
+
+Secondary storage: What can you do when you have run out of primary storage?
+Use secondary storage as extra memory at runtime.  Application switching:
+How can you reduce the memory requirements of a system that provides many
+different functions?  Split your system into independent executables,
+and run only one at a time.  Data file: What can you do when your data
+doesn’t fit into main memory?  Process the data a little at a time and keep
+the rest on secondary storage.  Resource files: How can you manage lots of
+configuration data?  Keep configuration data on secondary storage, and load
+and discard each item as necessary.  Packages: How can you manage a large
+program with lots of optional pieces?  Split the program into packages,
+and load each package only when it’s needed.  Paging: How can you provide
+the illusion of infinite memory?  Keep a system’s code and data on
+secondary storage, and move them to and from main memory as required.
+
+Compression: How can you fit a quart of data into a pint pot of memory?
+Use a compressed representation to reduce the memory required.
+Table compression: How do you compress many short strings?  Encode each
+element in a variable number of bits so that the more common elements
+require fewer bits.  Difference coding: How can you reduce the memory used
+by sequences of data?  Represent sequences according to the differences
+between each item.  Adaptive compression: How can you reduce the memory
+needed to store a large amount of bulk data?  Use an adaptive compression
+algorithm.
+
+Small data structures: How can you reduce the memory needed for your data?
+Choose the smallest structure that supports the operations you need.
+Packed data: How can you reduce the memory needed to store a data structure?
+Pack data items within the structure so that they occupy the minimum space.
+Sharing: How can you avoid multiple copies of the same information?
+Store the information once, and share it everywhere it is needed.
+Copy-on-write: How can you change a shared object without affecting
+its other clients?  Share the object until you need to change it, then
+copy it and use the copy in future.  Embedded pointer: How can you
+reduce the space used by a collection of objects?  Embed the pointers
+maintaining the collection into each object.  Multiple representations:
+How can you support several different implementations of an object?
+Make each implementation satisfy a common interface.
+
+Memory allocation: How do you allocate memory to store your data structures?
+Choose the simplest allocation technique that meets your need.
+Fixed allocation: How can you ensure you will never run out of memory?
+Pre-allocate objects during initialisation.  Variable allocation:
+How can you avoid unused empty space?  Allocate and deallocate
+variable-sized objects as and when you need them.  Memory discard:
+How can you allocate temporary objects?  Allocate objects from a
+temporary workspace and discard it on completion.  Pooled allocation:
+How can you allocate a large number of similar objects?  Pre-allocate
+a pool of objects, and recycle unused objects.  Compaction: How do you
+recover memory lost to fragmentation?  Move objects in memory to
+remove unused space between them.  Reference counting: How do you know
+when to delete a shared object?  Keep a count of the references to
+each shared object, and delete each object when its count is zero.
+Garbage collection: How do you know when to delete shared objects?
+Identify unreferenced objects, and deallocate them.

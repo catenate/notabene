@@ -1,0 +1,24 @@
+nb perl punctuation mark variable use english
+http://perldoc.perl.org/English.html
+use English '-no_match_vars';	# match vars slow regexes
+
+http://perldoc.perl.org/perlvar.html
+|sed -f /lib/sed/perlvar
+/test/1/sed/perlvar/
+
+
+nb compress tool switch option performance size ratio time efficiency
+2010.  Summary of the multiple file compression benchmark tests.
+Maximum compression.
+http://www.maximumcompression.com/data/summary_mf.php
+
+
+nb askmrmake blog post archive emelski jgrahamcumming rloyd
+http://www.cmcrossroads.com/index.php?option=com_content&view=category&id=147&Itemid=100124
+
+
+nb ecloud blog build test deploy best practice cloud compute virtual devops tool product solution develop software awallgren drosen dfarhang emelski ecurtis martin mmaciag scastle sven usman
+http://www.electric-cloud.com/blog/
+
+
+nb doc

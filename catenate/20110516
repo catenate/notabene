@@ -1,0 +1,13 @@
+nb web app golang video google io2011
+Gerrand, A. and Pike, R. Google I/O 2011: Writing web apps in Go.
+Google code channel.
+http://www.youtube.com/watch?v=-i0hat7pdpk
+
+A year of Go. Moustachio demo, code, and data flow.  Code changes to
+deploy to Google app engine.  Questions on threading in app engine,
+language justification, app-engine api support, interface to other
+language libraries, concurrency support, memory management—
+garbage collection, os and browser support, 6g compiler on app engine.
+
+
+nb doc

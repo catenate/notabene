@@ -1,0 +1,35 @@
+nb acme mail gmail fail send receive
+Mail
+Mail: /mail/box/jcatena/mbox in use; opened read-only
+mail: can't open /mail/box/jcatena/mbox: '/mail' file does not exist
+
+acme(1)
+     Mail
+          In the directory /acme/mail there are two mail programs that
+          may be used under acme. These Mail and Mailpop3 can be run
+          to display the user's current mail, read the mail, reply to mail,
+          save or delete mail, send mail and write the user's mail box.
+
+          The former expects the user's mail box to be in the directory
+          and file specified as its first argument, the latter uses the POP3
+          protocol to connect to a server for the user's mail and will
+          prompt for a password when first run. Otherwise their
+          behaviour is the same.
+
+http://osdir.com/ml/os.inferno.general/2005-08/msg00004.html
+In your /lib/ndb/local set the smtp and pop3 variables for you site, e.g.,
+infernosite=
+	smtp=smtp.gmail.com
+	pop3=imap.gmail.com
+
+Log into inferno as the user you want to connect to your mail account.
+Set the DOMAIN environment variable for example
+  DOMAIN=comcast.net
+
+/appl/acme/acme/mail/Mailpop3.b:/DOMAIN/
+/lib/ndb/local
+
+DOMAIN=gmail.com
+echo 'this is a test.' | sendmail jason.catena@gmail.com
+sendmail: send failed : no domain name
+sendmail: send failed : MAIL receive failed ( 5.7.0 Must issue a STARTTLS command first. ew6sm17871065igc.6)

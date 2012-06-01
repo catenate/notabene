@@ -1,0 +1,3 @@
+nb inferno sh load expr seq
+load expr
+echo ${expr 0 9 seq}

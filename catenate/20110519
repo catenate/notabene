@@ -1,0 +1,73 @@
+nb linux skype alternative desktop share ekiga gnu telephony google usa only chat talk voice jitsi linphone
+Vaughan-Nichols, S.J.  20110519.  5 Skype alternatives for Linux users.
+IT world: Unified communications.
+http://www.itworld.com/unified-communications/166637/5-skype-alternatives-linux-users
+
+The Linux VoIP clients also have some other things in common.
+On the down side, none of them allow desktop sharing.
+
+Ekiga: This program is perhaps the best known of the Linux VoIP
+clients.  Formerly known as GnomeMeeting, it's an open source VoIP and
+video conferencing application for GNOME.  Besides SIP, Ekiga also
+supports the H.323 videoconferencing protocol.  With this protocol,
+Ekiga supports Microsoft NetMeeting interoperability.  It does not,
+however, support Microsoft's newer Windows Meeting Space replacement
+for NetMeeting.  In my experience, Ekiga works quite well.
+In particular I was also pleasantly surprised at how well it worked
+with NetMeeting.  If it weren't for the overall value in the Google
+Chat/Talk/Voice package, Ekiga would be my favorite Linux VoIP
+program.  That said, if free software is a priority for you, then
+Ekiga is the program for you.
+
+GNU Telephony is a project that has just reached the 1.0 stage.
+With the release of the GNU SIP Witch 1.0, a SIP server, this program
+is much closer to being something that end users would want to use.
+For now, though, GNU Telephony is better left for free software
+developers rather than users.
+
+Google Chat / Google Talk / Google Voice.  … Here's the truth of the
+matter: If you have Google Chat, which is Google's IM service, and
+Google Talk, which is its VoIP and video service, and Google Voice,
+which is Google's private branch exchange (PBX) service, you end up
+with the full range of VoIP and video services, including the ability
+to call landline and mobile numbers.  The only downside is that there
+isn't a client for this.  Instead, Linux and Mac users need to install
+a Google Talk video and voice plug-in to their Web browsers.
+Only Windows users get a client at this time.  On the plus side, you
+can use it right from your Google or Gmail page and it works quite well.
+To me, regardless of operating system, this is the real Skype
+replacement.  That is, if you're in the U.S.  All too many of the
+Google combination's features don't work outside the U.S.
+
+Jitsi, formerly SIP Communicator, is perhaps the most full-featured of
+the Linux VoIP clients.  It supports SIP, XMPP, and to one degree or
+another, VoIP to AIM, Windows Live, Yahoo!, and others.  It also runs
+on Windows and Mac and there's an Android port coming.  With all that
+I can't give Jitsi my full approval.  In my experience, after running
+it on Ubuntu, Mint and openSUSE, it never works that fast.  That might
+be in part because it's a Java application.  It also doesn't work with
+Ekiga.net due to some protocol problems.  It will work, however, with
+other SIP networks such as Iptel and ippi.
+
+Linphone is the one product that came out of the late Linspire Linux
+that's still going.  While it's "only" a SIP- based softphone, it has
+the advantage of working not only on Linux and Macs and Windows PCs
+as well, but of coming in versions that work on Android, iPhone and
+BlackBerry.  As such, it is, to the best of my knowledge, the single
+open source VoIP client with the broadest architecture support.
+In my experience, Linphone works OK, but doesn't knock my socks off.
+Jitsi has more promise and Google has more real-world functionality.
+
+If I were looking for a Skype replacement today, I'd have to go with
+the Google package, but then I live in the U.S.  and I would really
+like it if there was a single, easy-to-use and international Google
+Talk/Voice combination.  Over the years, I've liked Ekiga, but of the
+standalone clients I think Jitsi has the most potential to be a great
+VoIP client.
+
+
+nb motivate money subsist drive autonomy master purpose rsa animate video
+http://www.youtube.com/watch?v=u6XAPnuFjJc
+
+
+nb doc

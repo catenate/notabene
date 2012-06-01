@@ -1,0 +1,82 @@
+nb translate human language google
+http://translate.google.com/
+
+Google Translate currently supports 57 languages:
+
+Afrikaans Albanian Arabic Belarusian Bulgarian Catalan Chinese
+Croatian Czech Danish Dutch English Estonian Filipino Finnish French
+Galician German Greek Hebrew Hindi Hungarian Icelandic Indonesian
+Irish Italian Japanese Korean Latvian Lithuanian Macedonian Malay
+Maltese Norwegian Persian Polish Portuguese Romanian Russian Serbian
+Slovak Slovenian Spanish Swahili Swedish Thai Turkish Ukrainian
+Vietnamese Welsh Yiddish
+
+Current alpha languages are:
+
+Armenian Azerbaijani Basque Georgian Haitian Creole Urdu
+
+
+nb email list inferno acme sac announce credo
+subject: A new credo: no more complex makefiles.
+http://news.gmane.org/gmane.os.inferno.general
+http://groups.google.com/group/redo-list
+http://groups.google.com/group/acme-sac
+
+to: inferno-list@vitanuova.com, acme-sac@googlegroups.com 
+subject: credo: md5sum and shell-script "make" without makefile
+
+Since the last thing the world needs is more complicated makefiles,
+I am developing in sh in Acme SAC a little tool that strips down
+the task of related-file management to remove makefiles per se,
+but keep the part that only builds if prerequisites change.
+
+Instead of one file which combines target, prereqs, and commands,
+credo (a bit inspired by djb's redo, but without the redo-* commands)
+uses a shell script or program (per target) to store commands,
+and a list of files and checksums (per target) to store a target's
+view of its prerequisites.
+
+I also wrote a little script (mkdodep) to take templates for the build
+scripts and dependency lists from a library directory and customize
+them for the targets the user wants to create.
+
+The idea is to automate as much as possible, at as fine-grained a level
+as possible, the task of writing and customizing the build system.
+Simple, small, separate files of single purpose with defined interfaces
+seem better than the little language of makefiles in that regard.
+
+For your consideration, I posted manual pages for credo and mkdodep.
+
+http://jasoncatena-acmesac.googlecode.com/hg/test/1/credo/man1/credo.1
+
+http://jasoncatena-acmesac.googlecode.com/hg/test/1/credo/man1/mkdodep.1
+
+The code is in /dis and /lib/do in my clone of the Acme-SAC repository,
+ever under development.
+
+http://code.google.com/r/jasoncatena-acmesac/source/browse/#hg%2Fdis
+
+http://code.google.com/r/jasoncatena-acmesac/source/browse/#hg%2Flib%2Fdo
+
+Comments and constructive criticism welcome.
+
+
+nb build cbabbage analytical engine jgrahamcumming computer history steam gear calculate machine
+Plan 28: Building Charles Babbage’s analytical engine.
+http://plan28.org/
+
+Why hasn't someone done this before?  Because it takes time.
+It wasn't until the 1970s that Babbage's contributions were fully
+understood (see Bruce Collier's thesis), and until the 1980s that his
+plans had been deciphered by the likes of Allan Bromley.  Only then
+could the Difference Engine No. 2 be constructed.  It was finished in 1991.
+In many ways, The Difference Engine No. 2 was an 'easy' project
+because Babbage had left complete plans for it.  The Analytical Engine
+is a different matter.  Babbage left multiple plans for the Analytical
+Engine and was constantly refining its design up until his death.
+To build the Analytical Engine first requires a research project to
+figure out which plan to build from.  That's why the project has steps
+involving scanning all of Babbage's papers and a research project on them.
+
+
+nb doc

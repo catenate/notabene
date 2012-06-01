@@ -1,0 +1,159 @@
+nb css lint web service
+http://csslint.net/
+
+
+nb javascript lint web service
+http://www.jslint.com/
+
+
+nb rewrite example javascript lesson purpose restate problem assume reduce complex json increment benefit byte shave convention focus unique aspect immutable promise callback generic name assemble test small piece decompose reuse decouple mistake
+Murphey, R.  20110705.  Lessons from a rewrite.  Rmurphey:
+Adventures in javascript consulting.
+http://blog.rebeccamurphey.com/lessons-from-a-rewrite-9179
+
+The problem was that the PhoneGap side of things had been written to
+solve the problems of a single-purpose, one-off application, and it was
+becoming clear that it needed to be a flexible, extensible delivery
+system for all of the content combinations clients could dream up.  …
+We spent a lot of time at the beginning getting me up to speed on what,
+exactly, we were making; things that went without saying for existing
+team members did not, in fact, go without saying for me.  This constant
+need for explanation and clarification was frustrating at times, both for
+me and for the existing team, but it forced us to state the problem in
+plain terms.  The value of this was incredible—as a team, we were far
+less likely to accept assumptions from the original implementation,
+even assumptions that seemed obvious.  … In the new app, we replicated
+the feature with vastly less complexity…  Restating the problem led to a
+simpler, more elegant solution that greatly reduced the opportunities
+for errors and failure.  As an added benefit, using JSON has allowed us
+to meet needs that we never anticipated—the flexibility it provides has
+become a valuable tool in our toolbox.  … There were things that had
+come to be accepted burdens that were actually relatively easy to
+address.  … The theoretical payoff was smaller code in production,
+but the cost of that byte shaving was high, and the benefit somewhat
+questionable… My way was more right than others, but rather that we
+needed to choose a way, or else reuse and maintenance was going to
+become a nightmare.  … Once we spelled out the patterns, the immediate
+benefit wasn’t maintainability or reuse; rather, we found that we didn’t
+have to make these decisions on a component-by-component basis anymore,
+and we could focus on the questions that were actually unique to a component.
+With conventions we could rely on, we were constantly discovering new
+ways to abstract and DRY our code, and the consistency across components
+meant it was easier to work with code someone else had written. …
+The get method of toura.app.Data returns an immutable promise—
+the promise’s then method makes the resulting value of the asynchronous
+get method available to showImages, but does not allow showImages to
+alter the value.  The promise returned by the get method can also be
+stored in a variable, so that additional callbacks can be attached to it. …
+The time we spent (and spend) figuring out what to name a thing is not
+lost time; perhaps even more importantly, the goal should be to give a
+thing the most generic name that still conveys what the thing’s job—
+in the context in which you’ll use the thing—actually is.  … jmeyer:
+The secret to building large apps is never build large apps.  Break up
+your applications into small pieces.  Then, assemble those testable,
+bite-sized pieces into your big application.  … The more tied components
+are to each other, the less reusable they will be, and the more difficult it
+becomes to make changes to one without accidentally affecting another. …
+The blank slate offered by a rewrite allows us to fix old mistakes,
+but inevitably we will make new ones in the process.  As good stewards
+of our code, we must always be open to the possibility of a better way
+of doing a thing.  “It works” should never be mistaken for “it’s done.”
+
+
+nb maker taste pgraham simple timeless solve relevant problem suggest humor work hard appear easy symmetry nature redesign copy strange individual unconscious style community dare skill
+Graham, P.  200202.  Taste for makers.  Paul Graham.
+http://www.paulgraham.com/taste.html
+
+As in any job, as you continue to design things, you'll get better at it.
+Your tastes will change.  And, like anyone who gets better at their job,
+you'll know you're getting better.  If so, your old tastes were not merely
+different, but worse.  … How has your taste changed?  When you made
+mistakes, what caused you to make them?  What have other people
+learned about design?  … When you're forced to be simple, you're
+forced to face the real problem.  When you can't deliver ornament,
+you have to deliver substance.  … If something is ugly, it can't be
+the best solution.  There must be a better one, and eventually someone
+will discover it.  … If you can imagine someone surpassing you,
+you should do it yourself.  … If you can make something that will
+still look good far into the future [or past], then its appeal must
+derive more from merit and less from fashion.  … Solve the right problem:
+reuse the layout of the problem domain, rather than introduce conventions;
+prefer legibility to purity; refine the problem itself to equivalent,
+tractable problems.  … In software, it means you should give users a few
+basic elements that they can combine as they wish, like Lego. …
+To have a sense of humor is to be strong: to keep one's sense of humor
+is to shrug off misfortunes, and to lose one's sense of humor is to be
+wounded by them.  And so the mark—or at least the prerogative—
+of strength is not to take oneself too seriously.  The confident will often,
+like swallows, seem to be making fun of the whole process slightly. …
+If you're not working hard, you're probably wasting your time. …
+Fashions and flourishes get knocked aside by the difficult business of
+solving the problem at all.  … If function is hard enough, form is
+forced to follow it, because there is no effort to spare for error. …
+Some Leonardo heads are just a few lines.  You look at them and you think,
+all you have to do is get eight or ten lines in the right place and
+you've made this beautiful portrait.  Well, yes, but you have to get
+them in exactly the right place.  The slightest error will make the
+whole thing collapse.  … In most fields the appearance of ease seems
+to come with practice.  Perhaps what practice does is train your
+unconscious mind to handle tasks that used to require conscious
+thought.  In some cases you literally train your body.  … When people
+talk about being in "the zone," I think what they mean is that the
+spinal cord has the situation under control.  Your spinal cord is less
+hesitant, and it frees conscious thought for the hard problems. …
+In software, a problem that can be solved by recursion is nearly
+always best solved that way.  The danger of symmetry, and repetition
+especially, is that it can be used as a substitute for thought. …
+Nature has had a long time to work on the problem.  … Now that we have
+enough computer power, we can imitate nature's method as well as its
+results.  Genetic algorithms may let us create things too complex to
+design in the ordinary sense.  … Mistakes are natural.  Instead of treating
+them as disasters, make them easy to acknowledge and easy to fix.
+Leonardo more or less invented the sketch, as a way to make drawing
+bear a greater weight of exploration.  Open-source software has fewer
+bugs because it admits the possibility of bugs.  … It helps to have a
+medium that makes change [in practice] easy.  … I think the greatest
+masters go on to achieve a kind of selflessness.  They just want to
+get the right answer, and if part of the right answer has already been
+discovered by someone else, that's no reason not to use it.
+They're confident enough to take from anyone without feeling that
+their own vision will be lost in the process.  … He tried to make it
+true, and the truth turned out to be strange.  … The only style worth
+having is the one you can't help.  … Nothing is more powerful than a
+community of talented people working on related problems.  …
+At any given time there are a few hot topics and a few groups doing
+great work on them, and it's nearly impossible to do good work
+yourself if you're too far removed from one of these centers.  …
+If you want to discover great new things, then instead of turning a
+blind eye to the places where conventional wisdom and truth don't
+quite meet, you should pay particular attention to them.  … Most of
+the people who've made beautiful things seem to have done it by fixing
+something that they thought ugly.  Great work usually seems to happen
+because someone sees something and thinks, I could do better than that.  … 
+You have to understand a field well before you develop a good nose for
+what needs fixing.  … The recipe for great work is: very exacting taste,
+plus the ability to gratify it.
+
+
+nb euler formula identity lightbulb joke
+http://mathworld.wolfram.com/EulerFormula.html
+
+ℯ^(ιx) = cos x + ι sin x
+ιx = ln (cos x + ι sin x)
+ℯ^(ιπ) + 1 = 0
+
+How many mathematicians does it take to change a light bulb?
+−ℯ^(ιπ)
+
+
+nb lisp root jmccarthy
+Graham, P.  200105.  The roots of Lisp.  Paul Graham.
+http://www.paulgraham.com/rootsoflisp.html
+
+In this article I'm going to try to explain in the simplest possible
+terms what McCarthy discovered.  The point is not just to learn about
+an interesting theoretical result someone figured out forty years ago,
+but to show where languages are heading.  The unusual thing about Lisp—
+in fact, the defining quality of Lisp—is that it can be written in itself.
+To understand what McCarthy meant by this, we're going to retrace his steps,
+with his mathematical notation translated into running Common Lisp code.

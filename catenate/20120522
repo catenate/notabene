@@ -1,0 +1,50 @@
+nb extend editor environment tool acme usage light table smalltalk
+os chromium-browser 'http://news.ycombinator.com/item?id=4008758'
+
+kamaal: I would say eclipse already does what light table aims to do.
+
+stcredzero: Can you come to a realization in the middle of an Eclipse
+debugging session, get a great idea for making yourself more productive,
+take time to script yourself a working and fully debugged extension of
+Eclipse and continue what you were doing 20 minutes later?  I've done
+precisely this in Smalltalk on many occasions.  You can script
+something like a custom browser that shows you everything that uses
+function A and also function B and has a reference to class C
+(and with complete syntactic accuracy) in around that time.  I suspect
+that this kind of very small grained tool smithing is common for
+really good programmers in dynamic environments.  The only problem is
+that it's been harder than necessary to integrate that with the most
+commonly used coding tool.  (TextMate's ability to export selections
+to scripts is very nice, but it can go farther than that.  Emacs is
+very powerful for this, but not everyone wants to script in elisp.)
+It's not that Light Table is going to do something unprecedented.
+It's more like what git did with quick access to diffs: a quantitative
+change can become a qualitative change.  Change the cost-benefit of
+toolsmithing, and you can use it in new ways.
+
+catenate: Acme supports constantly improving how you work in little ways,
+better than tools with plugins or extension languages, by not having
+many features, and providing a good interface to route text through
+shell pipelines.  For a simple example, Acme has no paragraph justifier,
+but it doesn't need one, since fmt exists.  To use it, highlight a
+paragraph of text with the left mouse button, highlight a typed-in
+|fmt command with the middle mouse button, and release the middle
+mouse button to run the paragraph through |fmt and replace it in place.
+With this I can leverage anything I can call from the command line,
+in any language, to be part of my editor.  No need to rewrite tools in
+the program's specific extension language, whether Elisp or Smalltalk
+or Clojure.  As another example, since it's so easy to just run a shell
+command from Acme (highlight the command text and middle-click it),
+I'm constantly customizing pre-written shell commands to e.g.  grep
+for lines in code (to the point of creating indexes on the fly for files),
+and then right-clicking on grep -n output to jump to a specific line
+in a file.
+
+
+nb fmcbride meta domain specific language evolve layer lisp dsl
+http://www.free-variable.org/2012/05/an-intro-to-haskell-for-ruby-programmers/
+
+This version comes from Prof. Fred McBride in the 1970s, around the
+time he implemented pattern matching in Lisp.  It has three steps:
+write the program P you want to write; write another program Q which
+runs P; run P via Q.

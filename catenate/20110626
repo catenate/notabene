@@ -1,0 +1,46 @@
+nb evolve latin alphabet phœnician greek etruscan latin middle age european accent animate gif
+http://i.imgur.com/FyVXx.gif
+
+
+nb unix first edition 1ed source pdp11 simulate
+http://code.google.com/p/unix-jun72/source/browse/trunk/Readme
+
+
+nb hello world execute time c bash haskell chicken scheme r5rs perl python mono java clojure
+http://lists.nongnu.org/archive/html/chicken-users/2011-03/msg00070.html
+http://lists.nongnu.org/archive/html/chicken-users/2011-03/msg00089.html
+http://lists.nongnu.org/archive/html/chicken-users/2011-03/msg00090.html
+http://www.call-cc.org/
+
+John Cowan: It's astonishing that bash is faster than anything but C.
+
+Tobia Conforto: Astonishing indeed.  The whole thing confirmed my
+hunch that Bash, Chicken, and C provide a complete toolset to tackle
+99.9% of programming needs.
+
+Tobia Conforto: This benchmark purposefully measures the startup
+overhead of the runtime system.  It's hot-start, meaning that
+everything is already in the disk cache (in ram).  It doesn't measure
+at all the size of the executable, nor the performance of math
+algorithms, i/o, threads, gc, or anything else.  All of these things
+would give much different results.
+
+
+nb simple unix cli tool haskell
+http://www.haskell.org/haskellwiki/Simple_unix_tools
+
+The given Haskell codes presents yet a third way of doing things:
+much like the BusyBox suite of Unix tools, it is possible to compile a
+single monolithic binary and have it detect what name it is run by and
+then act appropriately.  This is the approach the following code takes:
+you can compile it and then make symbolic links (like ¹) and then run
+those commands (² would produce output of "foo").
+ ¹ ln -s UnixTools echo; ln -s UnixTools cat
+ ² ./echo foo | ./cat
+
+
+nb implement function program language slpeytonjones simonpj pwadler phancock dturner online 1987 book
+http://research.microsoft.com/en-us/um/people/simonpj/papers/slpj-book-1987/start.htm
+
+
+nb doc

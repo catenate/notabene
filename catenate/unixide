@@ -1,0 +1,16 @@
+nb apply du ls sed
+|sed '1,/^$/d;/^$/d;s,^\|,,;s,[|(], ,' unixide | awk '{print $1}' | sort | uniq | fmt | sed 's,^,nb ,'
+|sort|uniq
+
+apply {f = $1; (n f) = `{du -u $f}; echo $f `{date $1}} `{du -u * | sort -n | tail | sed 's,^.* ,,'}
+apply {f=$1; du -nt $f | sed 's,0$,'^`{md5sum $f | sed 's,	.*$,,'}^','} unixide
+apply {ls -l $1} `{du -n}
+date `{fc `{date -n} 3600 -}
+du -a | sort -n | tail
+du -n | grep -i '\.pdf$'
+du -au | sort -n
+ls -a
+ls -l
+ls -tr
+ls(1)
+|sed 10q

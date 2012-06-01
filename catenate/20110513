@@ -1,0 +1,57 @@
+nb compare gyp cmake generate ide project build step rule option
+Nelson, B.  20100419.  CMake as a build system?  webkit-dev.
+http://www.mail-archive.com/webkit-dev@lists.webkit.org/msg11029.html
+https://code.google.com/p/gyp/wiki/GypVsCMake
+
++: Ability to incrementally transition on Windows.  Generation of a more
+'normal' vcproj file.  Abstraction on the level of project settings,
+rather than command line flags.  Strong notion of module public/private
+interface.  Cross platform generation.  Gyp has rudimentary cross
+compile support from x86 to arm.
+ 
+
+-: Settings which might otherwise be shared in common between platforms
+(eg, flags to gcc on mac/linux), end up being repeated twice.  There a
+number of 'tool modules' for cmake, which are shared in a common
+community.  Assumes chromium's hermetic copy of cygwin on windows.
+CMake includes a fairly readable imperative language; currently Gyp has
+a somewhat poorly specified (LISP) declarative language.
+
+
+nb gyp publish target build setting transitive depend
+Ibid.
+
+Strong notion of module public/private interface.  Gyp allows targets
+to publish a set of direct_dependent_settings, specifying things like
+include_dirs, defines, platforms specific settings, etc.  This means that
+when module A depends on module B, it automatically acquires the right
+build settings without module A being filled with assumptions/knowledge of
+exactly how module B is built.  Additionally, all of the transitive dependencies
+of module B are pulled in.  This avoids their being a single top level view
+of the project, rather each gyp file expresses knowledge about its
+immediate neighbors.  This keep local knowledge local.  CMake effectively
+has a large shared global namespace.
+
+
+nb credo target dep env
+$target2^.env:cppflags = $cppflags -DTARGET2
+
+$target1^.dep:0	$target2
+$target1^.dep:0	$target2.env
+
+$target1^.env:cppflags = $cppflags -DTARGET1
+
+$target1^.do:echo cppflags = $cppflags
+
+/dis/credoer:apply {if {ftest -e $1} {run $1}} `{grep '\.env$' $target^.dep | sed $field2sed}
+/dis/credoer:if {ftest -e $target^.env} {run $target^.env}
+
+cppflags = -g
+credo $target1
+cppflags = -g -DTARGET2 -DTARGET1
+
+/test/1/sh/scope
+rm /test/1/credo/env
+
+
+nb doc

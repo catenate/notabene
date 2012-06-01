@@ -1,0 +1,178 @@
+nb acme sac virtual file system mount host inferno name space plan9 mac windows
+http://hackerne.ws/item?id=2428162
+
+I know this isn't a tech support forum, but in a fit of lunacy I
+figured I'd give Acme a try last night (the Acme-SAC version) and
+after using it for an hour of so I can't even figure out how to open a
+text file (it seems like it has its own virtual directory structure
+that I can't seem to navigate out of).  Anybody here successfully
+using Acme for coding?
+
+
+nb rsc rcox uses this hardware software
+http://russ.cox.usesthis.com/
+
+
+nb plan9 acme intro video
+http://www.youtube.com/watch?v=dopu3ZtdCsg
+http://www.youtube.com/watch?v=2vjD_B__SbQ
+http://www.youtube.com/watch?v=cR96WQ6OR00
+
+
+nb acme mail demo video upas
+http://www.youtube.com/watch?v=byoznMe8ab4
+
+
+nb harmful bloat efficient complex simple software tool
+http://harmful.cat-v.org/software/
+
+SGML, XML, YAML.
+JSON, CSV, ndb(6), plain(UTF-8) text.
+
+NFS, SMB, AFS, WebDAV.
+9p.
+
+C++, Java, Vala.
+C, Go, Limbo, Python.
+
+pthreads (PoSix threads).
+CSP-style concurrency: Go, libthread, libtask, Limbo, Erlang, Stackless Python, ...
+
+Perl, Ruby.
+rc, awk.
+
+PCRE
+Structural Regular Expressions or plain classic/extended regexps (as used in awk, sed, grep, etc.).
+
+Bash, tcsh, zsh.
+rc, OpenBSD's pdksh, ash/dash.
+
+GNU Coreutils.
+Plan 9 from User Space.
+
+GNU Screen.
+tmux.
+
+GNU info.
+Man pages.
+
+GCC.
+8c, tcc.
+
+glibc.
+ucLibc, DietLibc.
+
+Glib.
+libc (see above), p9p's C libraries.
+
+GTK, Qt, VxWindows.
+Tk, textual interfaces.
+
+Vim, Emacs, nano, Eclipse, ...
+Acme, Sam, ed.
+
+UTF-16, UTF-32, Latin-1, other encodings.
+UTF-8.
+
+iSCSI, FCoE.
+AoE (ATA over Ethernet).
+
+PAM (Pluggable Authentication Modules).
+Factotum.
+
+Jabber and XMPP.
+IRC (for IM), STOMP (for general distributed messaging).
+
+IMAP.
+SMAP(Simple Mail Access Protocol).
+
+SQL databases.
+Tutorial D, pq, BigTable, plain old hierarchical filesystems.
+
+Subversion, aka svn.
+Git, Mercurial (aka hg); hell, even CVS or plain old tarballs would be better than svn.
+
+FreeBSD, NetBSD, Solaris.
+OpenBSD.
+
+Apache, lighttpd.
+thttpd, OpenBSD's fork of apache 1.3, nginx, or best of all: don't use HTTP.
+
+SVG
+PS(PostScript)
+
+PDF
+PS(PostScript), DjVu.
+
+ALSA
+OSS4
+
+GPL, LGPL, Apache Software License, MPL, CC.
+In order of preference: public domain, ISC, MIT/X, BSD, CC0.
+
+head
+sed 11q
+
+
+nb harmful make dialect
+harmful: GNU autoconf/automake, CMake, imake, scons, waf.
+better: mk, or plain old portable makefiles.
+
+
+nb harmful make recurse pmiller
+Miller, P.  1997.  Recursive make considered harmful.
+http://miller.emu.id.au/pmiller/books/rmch/
+
+
+nb mks sh if debug test set command echo shell example
+debug=yes
+if [ "$debug" = "yes" ]; then set -x; fi
+
+
+nb mks sh if debug test set command echo shell example
+debug=yes
+if [ "$debug" = "yes" ]; then set -x; fi
+
+
+nb p4 diff count line test if empty or headline revert perforce example
+difflines=`p4 diff '$[TemplateDepotDir]/$[ProjectVer]' | wc -l | sed 's,[ 	],,g'`
+if [ "$difflines" = "0" ] || [ "$difflines" = "1" ]; then
+	p4 revert '$[TemplateDepotDir]/$[ProjectVer]'
+	echo "No changes to template.  Reverted edit."
+	exit 0
+fi
+
+
+nb json pipe line format zvoase xml pyx smcgrath sgmls esis cgoldfarb
+Dumbill, E.  20110410.  Lines rule: Jsonpipe and a 22-year old itch.
+Eddology, by edd dumbill.
+
+… these tools [sgmls, PYX and jsonpipe] unpack a data format that uses
+bracketing delimiters and permits multiple data elements per line,
+and delivers a format that can be used with conventional UNIX command
+line utilities such as grep and awk.
+
+
+nb sed tetris bash sedtris
+Tetris written in sed, and a bash script to make sedtris playable.
+http://uuner.doslash.org/forfun/
+
+
+nb poetic license
+Genaud, A.E.  20051010.  Poetic license.  Expatiari expatria.
+http://genaud.net/2005/10/poetic-license/
+
+This work `as-is' we provide.
+No warranty, express or implied.
+We've done our best,
+to debug and test.
+Liability for damages denied.
+
+Permission is granted hereby,
+to copy, share, and modify.
+Use as is fit,
+for free, not profit.
+On this notice, these rights rely.
+
+
+nb doc

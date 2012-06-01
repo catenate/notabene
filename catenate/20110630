@@ -1,0 +1,82 @@
+nb major technical plan change review board thesis defense team
+Lopp, M. 20110629.  Everyone wants to grow: DNA.  Rands in repose:
+Management.
+http://www.randsinrepose.com/archives/2011/06/29/dna.html
+
+The DNA³ team is the set of engineers who are not only the best
+candidates to vet the big idea,⁴ but they have ability to talk about how
+to make it better, can constructively criticize, and are distinctly
+drama and politics-free.  … First, the rule for all attendees in a DNA is:
+if you don’t contribute, you won’t be invited back.  DNA is not a
+regular meeting; DNA is an active and healthy debate about a bet big
+enough that we’re gathering our bright minds to make sure we don’t
+fuck it up.  If you’re in the room, it’s because we believe you have
+something to add and if you don’t, we’ll correct our misperception. …
+Second, it needs to be culturally understood that if you don’t bring
+your A game to DNA, the team is authorized to mentally kick the shit out
+of you.  The end result of a healthy DNA will have members of the
+receiving team sitting with their heads squarely planted on their desks,
+whispering, “Oh shit, I can’t believe we didn’t think of that”.¹ …
+DNA is a living, breathing example of a team of engineers who put the
+value of design and technical excellence above all else.  They don’t
+rule by mandate, they influence by being great at what they do. …
+Our goal was to predict every single question DNA might ask and have
+every answer in our back pocket.  Winning in DNA was silence. …
+Pure managers are not considered for the team because DNA is about
+cultivating technical leadership.  A DNA meeting is a staff meeting of
+the influential engineers who don’t want direct reports, but they want
+to lead.  If managers have anything to do with DNA, the meeting will
+become about the managers and not the technical leaders.² …
+It is the end result of a well-defined journey that any engineer who is
+interested can embark upon.  At the prior gig, it was a combination of
+tenure and experience, shipped products, and visible technical
+contributions to the team.  Some measures will be subjective, but the
+end result is that when someone arrives on DNA, everyone would agree,
+“Yeah, they belong here…”  DNA recognizes team members who we want as
+examples of folks who live and breath technical experience, who are
+selfless, and who contribute exceptional value to the company.
+ ¹ Management can ask the DNA team to validate significant changes in
+product technical direction, reviewing these management plans for
+technical feasibility, redundancies, needs, and opportunities.
+The voice of the product, so management does not undermine it.
+ ² For example, all the various change control boards.
+ ³ z: DNA = Design 'n Architecture.  It is the technical conscience of
+the group.  … mlancaster: Metaphorically, the core heritage or
+founding structure of a company, product, or team.  For example, “Good
+design” is in Apple’s DNA to what “Crush the enemy” is in Microsoft’s.
+ ⁴ vats: In agile terminology DNA sounds very similar to a developer
+huddle or its also known as dev huddle.  Whenever an engineer hits a
+road block he can call for a dev huddle in which all the other
+talented members of the team could provide him suggestions.
+This meeting does not include non engineers.  Here the only rule thats
+followed is openness of ideas, like @matt said even a junior member
+can provide a suggestion which not even members have thought of.
+
+
+nb bjohnson play alchemist alchemy 1610
+Johnson, J.  2003 ed.  The alchemist.  Project Gutenberg.
+http://www.gutenberg.org/cache/epub/4081/pg4081.txt
+
+
+nb focus say no opportunity cost press stock strategy deliver product customer sjobs open developer question 1997 invent reuse community core competent proprietary better compute network access backup gigabit ethernet reduce state strength weakness vertical integrate innovate development environment market app manage complex communicate contribute believe scratch itch email productive improv quantrix spreadsheet compete hardware destandard license clone price royalty volume improve general public practice reduce code raise abstract improve library journalist column print public relation profit pareto high order bit big win vision customer experience decide mistake fix learn maintain software stack execute
+https://www.youtube.com/watch?v=3LEXae1j6EY
+
+fbrooke: Eventually, if you add enough people, cost of communicating
+overwhelms the new person’s contribution.
+
+Stand on the shoulders of giants to deliver more and project work farther.
+
+Don’t gate success of self on failure of entrenched system:
+serve needs better.
+
+
+nb bcrypt work factor slow crack password trial brute force attack
+Hale, C.  20100131.  How to safely store a password.  codahale.com.
+http://codahale.com/how-to-safely-store-a-password/
+http://www.usenix.org/events/usenix99/provos.html
+http://en.wikipedia.org/wiki/Bcrypt
+
+This is not cryptographically significantly stronger than the standard
+Blowfish key schedule, but the number of rekeying rounds is configurable;
+the hashing process can therefore be made arbitrarily slow,
+which helps deter brute-force attacks upon the hash or salt.

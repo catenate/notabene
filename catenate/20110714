@@ -1,0 +1,22 @@
+nb chkdsk disk memory cache shutdown crash power
+catena: Your computer does not actually write files to the hard disk
+when it says it does, because if it did then it would go much slower.
+The processor is much much faster than the disk.  So part of what a
+computer does when you shut down is go through all the little bits of
+files that it loaded up into main memory, and write them all out to disk,
+so the system is in the state you expect, the next time you turn it on.
+If, however, the computer just suddenly stops running, either because
+it crashed or you shut off the power, the hard disk will still be in a weird
+state, which chkdsk tries to clean up, producing the results you see.
+I'm not actually sure it has much to do with the fragmentation of
+files across your hard disk, because an orphan file isn't an orphan
+because it's split up into pieces, it's an orphan because the
+directory no-longer refers to it (for example, the file was deleted
+from the directory, and the directory update made it out to disk,
+but the file wasn't marked as deleted).  Overall, I wouldn't worry if
+you don't get stuff like this often, just try to be gentle when you
+bring down your computer.
+
+
+nb politic math debt job deficit penny shot health care
+http://www.youtube.com/user/10000Pennies

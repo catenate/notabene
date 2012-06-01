@@ -1,6 +1,6 @@
 osd git add Aide
-osd git add sh-inferno/so
-osd git commit -a -m 'reformat a paragraph to shorten lines'
+osd git add catenate
+osd git commit -a -m 'add my public notebook'
 osd git commit -m 'Add scripts and test for inferno sh.'
 osd git push origin master
 osd git push -u origin master	# first time

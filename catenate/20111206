@@ -1,0 +1,17 @@
+nb git squash combine head commit rebase
+http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html
+
+git rebase -i HEAD~4
+
+
+nb double parentheses shell arithmetic bash cramey
+http://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/dblparens.html
+
+Chet Ramey apparently snuck a bunch of undocumented C-style constructs
+into Bash (actually adapted from ksh, pretty much).  In the Bash docs,
+Ramey calls ((...)) shell arithmetic, but it goes far beyond that.
+Sorry, Chet, the secret is now out.  See also "for" and "while" loops
+using the ((...)) construct.  These work only with Bash, version 2.04
+or later.
+
+if (( ${LINES_FOUND} > 0 )); then

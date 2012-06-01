@@ -1,0 +1,26 @@
+nb acme sac win label rc cd pwd path cygwin shell
+loteroc@gmail.com:Thanks.  I am using rc (plan 9 shell) in windows
+(compiled with cygwin) and it works fine started with ¹.  I am trying
+to "re-write" the built-in cd command (as suggested in ²) as ³ but
+I can't get awd.dis working.  Both ⁴ and ⁵ crashed.  And ⁶ didn't crash
+but the window title didn't change.  Any idea?  Thanks for your time.
+ ¹ win os rc.exe -l -i
+ ² http://plan9.bell-labs.com/magic/man2html/1/acme
+ ³ fn cd { builtin cd $1 && awd $sysname }
+ ⁴ acme-0.13/sys/emu/Nt/emu awd.dis
+ ⁵ acme-0.13/sys/emu/Nt/acme awd.dis
+ ⁶ /cygdrive/d/acme-0.13/Acme.exe /acme/dis/awd.dis /l
+
+arvindht@gmail.com: A simpler way is to setup the rc environment to
+send out a special control sequence on cd, and have acme-sac win
+update its label.  Please see ¹.  It may be necessary to rewrite the
+'pwd' output in ².  For example, pwd.exe from 9pm prints
+<drive>:<path>, which should be rewritten as /n/<drive>/<path>,
+to enable b3 on relative file names.  I use this trick when I launch
+cygwin shell from acme-sac and also when I ssh to solaris workstations
+with u9fs running.
+ ¹ http://9fans.net/archive/2010/05/498
+ ² http://swtch.com/usr/local/plan9/bin/awd
+
+
+nb doc

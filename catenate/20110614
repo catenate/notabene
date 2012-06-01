@@ -1,0 +1,165 @@
+nb music pmetheny jazz guitar
+http://en.wikipedia.org/wiki/Pat_Metheny
+
+
+nb music dream theater prog metal concept album
+http://en.wikipedia.org/wiki/Dream_Theater
+http://en.wikipedia.org/wiki/Metropolis_Pt._2:_Scenes_from_a_Memory
+
+
+nb music dweckl jazz fusion drum
+http://en.wikipedia.org/wiki/Dave_Weckl
+
+
+nb music pachabel rant rparavonian four chord song axis awesome string quartet canon paganini humor
+http://www.youtube.com/watch?v=JdxkVQy7QLM
+http://www.youtube.com/watch?v=bAVIqoLsfWU
+http://www.youtube.com/watch?v=j_dKCrKJR7Y
+
+
+nb travel advice irony satire humor
+http://www.economist.com/blogs/gulliver/2011/06/tourist-advice
+
+
+nb empty language reference langref vb.net c#.net c++ c# java javascript perl php python ruby microsoft sql oracle vb.net visual basic 6
+http://langref.com/
+
+
+nb rosetta code program language chrestomathy compare task solution
+http://rosettacode.org/wiki/Help:Similar_Sites
+
+Rosetta Code is a programming chrestomathy site.  The idea is to
+present solutions to the same task in as many different languages as
+possible, to demonstrate how languages are similar and different,
+and to aid a person with a grounding in one approach to a problem in
+learning another.  Rosetta Code currently has 518 tasks, and is aware
+of 384 languages, though we do not (and cannot) have solutions to
+every task in every language.
+
+
+nb project euler program math chrestomathy
+http://projecteuler.net/
+
+Read the details of the problem very carefully and make note of any
+example cases given.  Experiment with pencil and paper to get a feel
+for the ideas behind the problem.  If the ideas are new to you,
+use the internet or books to get some background; the problem should
+contain clues as to what to look-up.  Try writing a program to
+generate for simple cases and check that your output agrees with the
+example cases; this will confirm you've understood the problem and are
+heading in the right direction.  Based on this try to extrapolate to
+estimate the time it will take to get the final answer and if it's
+going to take significantly more than a minute rethink your strategy.
+
+
+nb chrestomathy collect choose literature passage sequence example text develop language style compare program syntax semantic idiom
+Chrestomathy¹ is a collection of choice literary passages,
+used especially as an aid in learning a foreign language.
+In philology or in the study of literature, it is a type of reader or
+anthology which presents a sequence of example texts, selected to
+demonstrate the development of language or literary style.
+In computer programming, a program chrestomathy² is a collection of
+similar programs written in various programming languages, for the
+purpose of demonstrating differences in syntax, semantics and idioms
+for each language.
+ ¹ Pronounced krɛsˈtɑːmʌθiː/kres-TA-muh-thee from the Greek words
+khrestos, useful, and mathein, to know
+ ² This term is thought to have been first used by Eric S. Raymond in
+the Retrocomputing Museum web site.  It is used by analogy to a
+linguistic chrestomathy.
+
+
+nb retrocomputing esr prepc before 1982 computer history brand make document reference
+http://www.brouhaha.com/~eric/retrocomputing/
+
+
+nb sparkbuild community electric cloud make
+http://www.sparkbuild.com/profile/JasonCatena
+
+SparkBuild is a make and NMAKE-compatible build tool with an
+intelligent build avoidance feature that dramatically reduces build
+time, and graphical tools to analyze and debug build results.
+
+
+nb devops automate process build deploy test release hardware system environment
+Humble, J.  20110510.  Tired of playing ping-pong with dev, QA and ops?
+CIO update.
+http://www.cioupdate.com/trends/print.php/11047_3933106_1
+
+Apply agile practices to the work of operations.  In particular,
+aggressively automate build, deploy, test, and release processes for
+hardware and system environments.  … This requires operations people
+to work with developers from early on to automate provisioning,
+deployment and monitoring of environments and systems under
+development.  Meanwhile testers work with developers—throughout the
+delivery process—to create comprehensive suites of automated
+regression tests that validate that every change to the system meets
+established business needs and can be deployed with minimal risk of
+defects or system failure.  … First, it requires an organizational
+culture where developers, testers and operations teams collaborate
+throughout all phases of the service lifecycle.  Second, it requires
+the adoption of agile techniques by operations teams such as
+aggressive automation, comprehensive environment configuration
+management and test-driven systems evolution.  And, finally, it
+involves the adoption of new tools such as cloud computing stacks,
+test automation frameworks and systems monitoring tools.
+
+
+nb develop open story world alternate reality game script conducttr
+http://www.tstoryteller.com/developing-an-open-storyworld
+Robert.  20110610.  Developing an open storyworld.  Transmedia blog.
+
+
+nb alternate reality game 
+http://en.wikipedia.org/wiki/Alternate_reality_game
+
+
+nb coder programmer age answer question stack overflow reputation quantity quality
+Knego, P. -20110613.  It's official: developers get better with age,
+and scarcer.  Peter's blog about coding and stuff.
+http://coding-and-more.blogspot.com/2011/06/its-official-developers-get-better-with.html
+
+Senior developers ask fewer questions and provide more answers.
+A 40-year old coder provides about 100 answers, roughly double the
+answers of his half younger colleague.  … Quality of posts does not
+significantly change with age.  Number of upvotes varies about 10%
+across all ages.  So, senior coders earn their higher reputation by
+providing more answers, not by having answers of (significantly)
+higher quality.
+
+
+nb _roadmap credo add svr4 builtin suffix rule
+
+
+nb _complete credo findh search clang source file print header file path adddep
+/dis/findh
+/test/1/findh/c
+/lib/do/c/findh
+
+
+nb _roadmap credo findh recurse search clang source file print header file path adddep
+
+
+nb cpp header search directory path
+http://www.linuxquestions.org/questions/programming-9/where-standard-system-include-directory-is-defined-gcc-466068/
+
+If you want to get a listing of what search directories are supported
+by default, try running this command: `cpp -v < /dev/null` This runs
+the GNU C Preprocessor with no input; in the process it will print
+(given the -v flag) the inclusion directory search paths.  You should
+see phrases like "#include <...> search starts here:" followed by a
+list of directories.  Those are your standard inclusion search paths,
+in the order that they're searched.
+
+os -T cpp-3 -v </dev/null >[2=1] | sed -n '/^#include <...> search starts here:$/,/^End of search list.$/p' | sed '1d;$d;s,^ *,,'
+
+os -T cpp-3 -v </dev/null >[2=1] | sed -n '/^#include "..." search starts here:$/,/^End of search list.$/p' | sed '1d;$d;/^#include <...> search starts here:$/d;s,^ *,,'
+
+
+nb _roadmap credo port golang
+
+
+nb _roadmap credo port bash
+
+
+nb doc

@@ -1,0 +1,15 @@
+nb mixtex initexmf bera map update config make font error source file not found
+TeX 2.9/fonts/enc/dvips/fontname/8r.enc}Trying to make PK font fvmr8r at 510 DPI...
+Running miktex-makemf.exe...
+miktex-makemf: The fvmr8r source file could not be found.
+Running ttf2pk.exe...
+miktex-makepk: PK font fvmr8r could not be created.
+
+!pdfTeX error: pdflatex (file fvmr8r): Font fvmr8r at 510 not found
+ ==> Fatal error occurred, no output PDF file produced!
+
+http://docs.miktex.org/manual/advanced.html
+
+$ initexmf --edit-config-file updmap
+Map bera.map
+$ initexmf --mkmaps

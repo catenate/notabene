@@ -1,0 +1,24 @@
+nb regular expression regexp character class literal backslash square bracket caret hyphen
+Goyvaerts, J.  20110719.  Character classes or character sets.
+Regexp? tutorial.
+http://www.regular-expressions.info/charclass.html
+
+To include a backslash as a character without any special meaning
+inside a character class, you have to escape it with another backslash.¹
+The closing bracket (]), the caret (^) and the hyphen (-) can be included
+by escaping them with a backslash, or by placing them in a position
+where they do not take on their special meaning.  I recommend the
+latter method, since it improves readability.  To include a caret, place
+it anywhere except right after the opening bracket.² You can put the
+closing bracket right after the opening bracket, or the negating caret.³
+The hyphen can be included right after the opening bracket, or right
+before the closing bracket, or right after the negating caret.⁴
+ ¹ [\\x] matches a backslash or an x.
+ ² [x^] matches an x or a caret.
+ ³ []x] matches a closing bracket or an x.  [^]x] matches any
+character that is not a closing bracket or an x.
+ ⁴ Both [-x] and [x-] match an x or a hyphen.
+
+
+nb catenate github coderwall social programmer achievement badge
+http://coderwall.com/catenate

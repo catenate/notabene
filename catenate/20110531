@@ -1,0 +1,104 @@
+nb two letter internet domain country code
+http://ftp.ics.uci.edu/pub/websoft/wwwstat/country-codes.txt
+
+
+nb three two letter language code iso639
+http://www.loc.gov/standards/iso639-2/php/code_list.php
+
+
+nb ninja build system perform
+Martin, E.  20110206.  Ninja, a new build system.  Chromium notes.
+http://neugierig.org/software/chromium/notes/2011/02/ninja.html
+
+
+nb release software mistake autotools make distcheck build system scons waf cmake gradle maven gant sbt leiningen
+laurencetratt: No matter how often I do it, releasing software doesn't
+get any easier.  It's always a nerve-wracking experience!
+
+russel_winder: @laurencetratt Possibly means you're not releasing often
+enough and/or you haven't got enough automation to the release process?
+
+laurencetratt: @russel_winder I remember a Linux kernel release ~'98
+that sometimes didn't compile.  Mistakes can happen easily, no matter
+the automation!
+
+rossburton: @laurencetratt and that is why god invented autotools and
+make distcheck
+
+laurencetratt: @rossburton I had never previously thought of autotools as
+being designed in heaven.  I am choosing my words very carefully here.
+
+rossburton: @laurencetratt sure it's a bit weird but it works.
+Bit like the duck billed platypus really.
+
+russel_winder: @rossburton But sticking with Autotools when you have SCons,
+Waf, CMake, Gradle, Maven, Gant, SBT, Leiningen, Ant to choose from?
+
+rossburton: @russel_winder they suck more for what I want a build
+system to do.
+
+
+nb tweet topic explore group frequent related word
+http://tweettopicexplorer.neoformix.com/#n=catenate
+
+
+nb imperative function program valid use intuit arbitrary language type restrict reference transparent
+Rúnar.  20110530.  Imperative vs functional programming.
+Apocalisp: The end of programming as you know it.
+http://apocalisp.wordpress.com/2011/05/30/imperative-vs-functional-programming/
+
+On the validity of the FP approach.  On the utility of the FP
+approach.  On the way programmers think.  A word on OO and
+the arbitrary.  On “types of languages”.
+
+Functional programming is a restriction that the programmer puts on
+his programs.
+
+
+nb startup relationship ask help
+Freedman, J.  20110531.  You don't get shit you don't ask for.
+humbledMBA: Jason Freedman's lessons learned… and relearned.
+http://www.humbledmba.com/you-dont-get-shit-you-dont-ask-for
+
+"If there's ever anything I can ever do to help, please let me know."
+
+Ask for what you want.  This is a common Paul Graham statement to YC
+companies.  Figure out exactly what you need and just ask for it.
+Don't play games, don't posture, don't hint.  Just ask for what you want.
+
+Make your request very concrete.  We didn't ask for general advice.
+We did our homework and made very specific requests.  It's much easier
+for people to respond to concrete requests.  Even if they can't
+provide for that direct request, the specificity of the request helps
+them find an alternative way to help.
+ 
+Don't use and abuse.  I only wanted to ask these incredibly busy
+investors for help once or maybe twice.  Obtaining industry
+introductions was one of the most important necessities of
+our startup.  I made sure to ask for something that they could provide
+with minimal effort and risk.
+ 
+Pay it forward.  We're all part of the same innovation community.
+This whole entrepreneurship thing is hard for everyone,
+but fortunately, everyone has something to offer.  Don't procrastinate
+on giving back.
+ 
+Say thank you.  Investors love knowing the outcome.  For both personal
+and professional reasons, they're interested in long term relationships.
+Do your part by keeping them up to date with your successes.
+I like to email everyone that helped me immediately prior to something
+showing up on Techcrunch.  It helps me communicate to them that I
+appreciate everything they did to be a part of our success.
+
+
+nb credo dodep library vary system compile command
+Since the system's do-library is separate from files delivered in a
+source-code package, source code doesn't have to deliver an entire
+build system.  source code can say in its guide file or configure-like
+script that it wants the system-standard way to compile files of the
+program’s languages.  The system’s do library will also identify itself,
+for conditional compilation or to choose which system-specific source
+files build.
+
+
+nb doc

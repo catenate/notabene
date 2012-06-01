@@ -1,0 +1,37 @@
+nb obsolete file encode bit rot utf8 latex dropbox
+Catena, J. 20120427.  Bit rot: The world is losing its ability to
+reconstruct history; Better regulation could fix that.
+The economist: Digital data.
+http://www.economist.com/comment/1388057#comment-1388057
+
+To get around this problem with my own documents and data, I only
+encode them in UTF-8 text files, or in LaTeX documents, and store them
+in an internet file-distribution service.
+
+UTF-8 is a subset of Unicode (the project to encode all the world's
+alphabets) which is compatible with ASCII (the standard of
+representing Latin-alphabet text and Arabic numerals on teleprinters,
+terminals, and in computer filesystems since the 1960s).  UTF-8 is a
+published standard understood by modern programming languages and web
+browsers, and likely to be understood as well as ASCII by future
+languages and browsers.
+
+LaTeX is a high-quality technical document-preparation markup language
+used extensively by academics.  It was written by Donald Knuth, an
+extremely influential computer scientist, and is free software
+maintained by the open-source programming community.
+
+I store my files in directories not only on my own computer, but also
+in directories stored in the internet, and replicated to my other
+computers, through the DropBox service.  If DropBox should cease
+business, I still have the copies on my machines.
+
+So there's no single point of failure that can delete my most
+important files; they are encoded in formats free from vendor lock-in;
+and in formats that the widest possible variety of programs (from
+command-line utilites, to email and word processors, to web browsers)
+can understand and manipulate.
+
+
+nb star wars doggerel c3po
+I see 3D P.O.

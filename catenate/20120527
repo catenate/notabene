@@ -1,0 +1,2 @@
+nb set change time zone sudo dpkg reconfigure tzdata
+sudo dpkg-reconfigure tzdata

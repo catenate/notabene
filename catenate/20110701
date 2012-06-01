@@ -1,0 +1,385 @@
+nb rmorris rhm crack login crypt store password
+Trb.  20110630.  Memory of rhm.  Slashdot: Early UNIX contributor
+Robert Morris dead at 78.
+http://it.slashdot.org/comments.pl?sid=2285212&cid=36628248
+
+So Bob had hacked /bin/login to save usernames and passwords in a file
+somewhere, I think xored with -1 or something.  Nothing fancy.  There
+were also uucp logs of his sending either the login.c or his password
+booty to some another Bell Labs research system (allegra, I think, for
+those who remember).
+
+
+nb sjobs keynote powerpoint scratch itch build better video
+Agarwal, S.  20101028.  Apple built Keynote because Steve Jobs
+hates PowerPoint.  Sachin’s posterous.
+http://sachin.posterous.com/apple-built-keynote-because-steve-jobs-hates
+
+It's always best to start a company or build a product around personal frustration,
+to solve a problem that you have yourself.  Keynote is the best app in iWork suite.
+It's clear how much Steve was involved with the development: it's a joy to use,
+the level of polish is incredible.
+
+
+nb lex src obj example
+Credo example: from lex and c source to cygwin executable, across directories
+
+This article walks through building a trivial example of lex source
+code into C, and then compiling the generated C source code into
+object files and an executable in a different directory.  The point is
+to demonstrate using dodep to generate and customize build scripts
+and list dependencies, and credo to execute the build process.
+
+Lines which start with ; are shell commands; lines without are output.
+Key commands are displayed in red text.
+
+Starting state
+
+; grep -n '^' * */*
+
+We start with the files lorem, src/dcr.l, src/header.c, src/lex.h,
+and an empty obj directory.
+
+lorem:1: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+lorem:2: doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+lorem:3: inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+lorem:4: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+lorem:5: fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+lorem:6: sequi nesciunt.  Neque porro quisquam est, qui dolorem ipsum quia dolor
+lorem:7: sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+lorem:8: tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+lorem:9: Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+lorem:10: suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+lorem:11: Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+lorem:12: quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+lorem:13: voluptas nulla pariatur?
+
+Each line of lorem ends with a carriage return (not usually printed),
+which we want to strip.
+
+src/dcr.l:1: %{
+src/dcr.l:2: #include "lex.h"
+src/dcr.l:3: %}
+src/dcr.l:4: %%
+src/dcr.l:5: \xd	;
+src/dcr.l:6: %%
+src/dcr.l:7: int yywrap(void) {
+src/dcr.l:8: 	return YYWRAP_RETURN;
+src/dcr.l:9: }
+src/dcr.l:10: 
+src/dcr.l:11: int main() {
+src/dcr.l:12: 	header();
+src/dcr.l:13: 	yylex();
+src/dcr.l:14: }
+
+header.c is an ordinary C source file to compile and link.
+
+src/header.c:1: #include <stdio.h>
+src/header.c:2: #include "lex.h"
+src/header.c:3: 
+src/header.c:4: void header(void) {
+src/header.c:5: 	printf("yywrap will return %d\n", YYWRAP_RETURN);
+src/header.c:6: }
+
+lex.h gives us a local header to find.
+
+src/lex.h:1: #define YYWRAP_RETURN 1
+
+Generate source code
+
+; cd src
+; echo flex > dcr.c.lex.env
+
+We first go into the src directory, and set the lex shell variable to flex,
+to specify which lexer to use.  To demonstrate an unusual feature,
+that would be valid across ports to different operating systems,¹
+we’ll capture it with this command.
+ ¹ Inferno and Plan 9 store variables by name in the directory /env,²
+different for each process.  This gives it a definite advantage in
+capturing dependencies on variables, since we can just list the name
+of the shell-variable file as a dependency.
+ ² http://www.vitanuova.com/inferno/man/3/env.html
+
+src/dcr.c.lex.env:1: flex
+
+This setting applies (is transformed into a shell variable) when credo
+processes the target dcr.c, if dcr.c depends on /env/lex.
+
+; dodep (c lex l c) dcr.c
+credo dcr.c
+
+We ask dodep to generate a shell script and list of dependencies with
+this command.  The content of these files comes from a library,¹
+indexed by the four parameters given before the name of the file we
+want to build.  In this case, we want to look in the “c” namespace,
+at the command “lex”, to translate an “l” file to a “c” file.
+ ¹ http://code.google.com/r/jasoncatena-acmesac/source/browse/#hg%2Flib%2Fdo
+
+The generated dependency list includes the name of the lex source file,
+and references to the variables lex and lflags.
+
+src/dcr.c.dep:1: 0	dcr.l
+src/dcr.c.dep:2: 0	/env/lex
+src/dcr.c.dep:3: 0	/env/lflags
+
+Credo passes the name of its target, the C source file, to the shell script,
+which prints the name of the C source file if it was able to create it.
+
+src/dcr.c.do:1: #!/dis/sh
+src/dcr.c.do:2: c = $1
+src/dcr.c.do:3: (sum l) = `{grep '\.l$' $c^.dep}
+src/dcr.c.do:4: 
+src/dcr.c.do:5: if {no $lex} {lex = lex}
+src/dcr.c.do:6: 
+src/dcr.c.do:7: if {
+src/dcr.c.do:8: 	flag x  +
+src/dcr.c.do:9: 	os -T $lex $lflags $l
+src/dcr.c.do:10: 	mv lex.yy.c $c
+src/dcr.c.do:11: } {
+src/dcr.c.do:12: 	echo $c
+src/dcr.c.do:13: }
+
+The hosted-Inferno command os¹ calls host-OS commands.  Under Cygwin,
+it calls Cygwin or Windows commands.
+ ¹ http://www.vitanuova.com/inferno/man/1/os.html
+
+Dodep finally prints a credo command to build the requested target.
+
+; credo dcr.c
+credo   dcr.l
+credo dcr.c
+os -T flex dcr.l
+mv lex.yy.c dcr.c
+dcr.c
+
+Credo builds all its non-/env dependencies in parallel.  Once these
+are complete, it determines whether the checksum of each file on which
+it depends is different than the checksum stored for that file the
+last time credo built this target.  
+
+This credo command creates a build-avoidance marker file dcr.l.redont,
+which tells further runs of credo that the file dcr.l does not need
+any processing, so exit early.  It calls the host’s flex program,
+on the path set when the Inferno environment started, to create the
+target file dcr.c.
+
+It updates the check sums in the file dcr.c.dep, to reflect content at
+the time of compilation.  This means that each target has its own view
+of its dependencies, and any change to any file on which it depends,
+or a change to the list of files on which it depends, prompts the
+target to rebuild.
+
+src/dcr.c.dep:1: 79f9925952d9cfb5a58270c0e2b67691	dcr.l
+src/dcr.c.dep:2: 897a779351421523cadbafccdce22efe	/env/lex
+src/dcr.c.dep:3: 0	/env/lflags
+
+It creates these checksum files to detect any changes to the target’s
+dependencies or build script.
+
+src/dcr.c.dep.sum:1: c33129421847b7d897d4e244caf1b8c0	dcr.c.dep
+
+src/dcr.c.do.sum:1: 71d94d651922bd5ff5b543bba52f47d0	dcr.c.do
+
+It also checksums the target file itself.  If credo finds, the next
+time it runs, that the current checksum of the target does not match,
+then it assumes that the target was changed by hand, and will not
+overwrite it.
+
+src/dcr.c.sum:1: 2fed3667f390fd80993e090a7eb92c75	dcr.c
+
+Compile objects and executable
+
+We now have all the source, so we go to the object-file and executable
+directory, and ask dodep to provide do and dep files to build dcr.exe.
+From the “c”-language toolset, we use “cc” to compile an “o”bject file
+into an “exe”cutable.
+
+; cd ../obj
+; dodep (c cc o exe) dcr.exe
+credo dcr.exe
+
+This time the dodep command created two *.do files, dcr.exe.dep.do and
+dcr.exe.do, instead of a do and dep file for the target dcr.exe.
+
+obj/dcr.exe.dep.do:1: #!/dis/sh
+obj/dcr.exe.dep.do:2: dep = $1
+obj/dcr.exe.dep.do:3: exe = `{echo $dep | sed 's,\.dep,,'}
+obj/dcr.exe.dep.do:4: (stem ext o) = `{crext o $exe}
+obj/dcr.exe.dep.do:5: 
+obj/dcr.exe.dep.do:6: adddep $exe /env/ars /env/cc /env/cflags /env/ldflags /env/objs
+obj/dcr.exe.dep.do:7: adddep $exe $o
+obj/dcr.exe.dep.do:8: adddep $exe `{/lib/do/c/coneed $o}
+
+dcr.exe.dep.do creates the dependency list dcr.exe.dep for the target
+dcr.exe by adding a set of credo-specific (ars and objs) and standard
+(cc, cflags, and ldflags) shell variables; the primary object file,
+named for the executable; and any other object files which the primary
+one needs.  The tool coneed does this last bit of analysis by compiling
+the primary object file, looking for unresolved symbols in available
+source code, compiling the source code to make sure, and printing the
+set of matching object files.
+
+obj/dcr.exe.do:1: #!/dis/sh
+obj/dcr.exe.do:2: exe = $1
+obj/dcr.exe.do:3: if {no $cc} {cc = cc}
+obj/dcr.exe.do:4: if {
+obj/dcr.exe.do:5: 	flag x  +
+obj/dcr.exe.do:6: 	os -T $cc $cflags -o $exe $objs $ars $ldflags
+obj/dcr.exe.do:7: } {
+obj/dcr.exe.do:8: 	echo os -T ./$exe
+obj/dcr.exe.do:9: }
+
+To gather enough information to compile the executable, credo relays
+information from dependencies back to calling targets through *.relay
+files, which are shell scripts that set the environment for calling targets.
+
+Finally, to start the build process, we locate the source code,
+record which compilation tools to use, and again call credo.
+
+; srcdir = ../src/
+; echo cpp-3 > default.cpp.env
+; echo -I../src/ > default.cppflags.env
+; echo gcc-3 > default.cc.env
+; credo dcr.exe
+credo   dcr.exe.dep
+os -T gcc-3 -I../src/ -c ../src/dcr.c
+os -T gcc-3 -I../src/ -c ../src/header.c
+credo     dcr.o.dep
+credo   dcr.o
+credo     header.o.dep
+credo   header.o
+credo dcr.exe
+os -T gcc-3 -o dcr.exe dcr.o header.o
+os -T ./dcr.exe
+
+Credo first runs dcr.exe.dep.do to find and store the dependencies of
+dcr.exe in dcr.exe.dep.  dcr.exe.dep is an implicit dependency of dcr.exe,
+so credo runs its *.do script automatically.
+
+obj/dcr.exe.dep:1: 0	/env/ars
+obj/dcr.exe.dep:2: 131eb9ab2f6a65b34e0158de1b321e3c	/env/cc
+obj/dcr.exe.dep:3: 0	/env/cflags
+obj/dcr.exe.dep:4: 0	/env/ldflags
+obj/dcr.exe.dep:5: 84a1a3c306e006dd723bebe9df29ee6c	/env/objs
+obj/dcr.exe.dep:6: 3f0d90c1c7483ad1805080cf9e48d050	dcr.o
+obj/dcr.exe.dep:7: 1db618b791dc87ac0bd5504f69434273	header.o
+
+Coneed uses $srcdir to find dcr.c, and the setting of cppflags in
+default.cppflags.env to find lex.h.  Once coneed compiles dcr.o,
+it finds the unresolved symbol for the header function, finds a
+definition of header() in header.c, and compiles header.o to verify
+that it defines the symbol.  Coneed finds no other unresolved symbols
+supplied by other source code in $srcdir (c.f. printf), so it stops.
+Coneed uses “dodep (c cc c o)” to compile the source code in $srcdir
+into object files in the current directory (obj).  This generates
+*.o.dep.do and *.o.do for each source file: those for dcr are shown,
+the ones for header are identical.
+
+obj/dcr.o.dep.do:1: #!/dis/sh
+obj/dcr.o.dep.do:2: dep = $1
+obj/dcr.o.dep.do:3: o = `{echo $dep | sed 's,\.dep,,'}
+obj/dcr.o.dep.do:4: (stem ext c) = `{crext c $srcdir^$o}
+obj/dcr.o.dep.do:5: 
+obj/dcr.o.dep.do:6: adddep $o /env/cc /env/cflags /env/cppflags
+obj/dcr.o.dep.do:7: adddep $o $c
+obj/dcr.o.dep.do:8: adddep $o `{/lib/do/c/findh $c}
+
+obj/dcr.o.do:1: #!/dis/sh
+obj/dcr.o.do:2: o = $1
+obj/dcr.o.do:3: (sum c) = `{grep '\.c$' $o^.dep}
+obj/dcr.o.do:4: 
+obj/dcr.o.do:5: if {no $cc} {cc = cc}
+obj/dcr.o.do:6: 
+obj/dcr.o.do:7: if {
+obj/dcr.o.do:8: 	flag x  +
+obj/dcr.o.do:9: 	os -T $cc $cflags $cppflags -c $c
+obj/dcr.o.do:10: } {
+obj/dcr.o.do:11: 	echo 'objs = $objs '^$o > $o^.relay
+obj/dcr.o.do:12: }
+
+Before credo runs dcr.o.do it runs dcr.o.dep.do to generate dcr.o.dep
+(header.o likewise).  To find the paths to C header files it calls findh,
+which gathers header-file #includes from the C source files,
+and searches for them in local and system directories using cppflags
+and the search list printed by $cpp -v.
+
+obj/dcr.o.dep:1: 131eb9ab2f6a65b34e0158de1b321e3c	/env/cc
+obj/dcr.o.dep:2: 0	/env/cflags
+obj/dcr.o.dep:3: 9134215aef7b4657beb5c4bb7a20d4a1	/env/cppflags
+obj/dcr.o.dep:4: 2fed3667f390fd80993e090a7eb92c75	../src/dcr.c
+obj/dcr.o.dep:5: feea1fa232f248baa7a7d07743ee86c4	../src/lex.h
+obj/dcr.o.dep:6: fb584676de41ee148c938983b2338f5b	/n/C/cygwin/usr/include/stdio.h
+obj/dcr.o.dep:7: f6409b1008743b1866d4ad8e53f925cc	/n/C/cygwin/usr/include/string.h
+obj/dcr.o.dep:8: 468b1dd86fef03b044dceea020579940	/n/C/cygwin/usr/include/errno.h
+obj/dcr.o.dep:9: 4e6678324ba6b69666eba8376069c950	/n/C/cygwin/usr/include/stdlib.h
+obj/dcr.o.dep:10: c7575313e03e7c18f8c84a5e13c01118	/n/C/cygwin/usr/include/inttypes.h
+obj/dcr.o.dep:11: a8fd5fa102b8f74d1b96c6c345f0e22d	/n/C/cygwin/usr/include/unistd.h
+
+obj/header.o.dep:1: 131eb9ab2f6a65b34e0158de1b321e3c	/env/cc
+obj/header.o.dep:2: 0	/env/cflags
+obj/header.o.dep:3: 9134215aef7b4657beb5c4bb7a20d4a1	/env/cppflags
+obj/header.o.dep:4: ecd87752a211e69078e6bc37afbb561b	../src/header.c
+obj/header.o.dep:5: feea1fa232f248baa7a7d07743ee86c4	../src/lex.h
+obj/header.o.dep:6: fb584676de41ee148c938983b2338f5b	/n/C/cygwin/usr/include/stdio.h
+
+At this point credo has the dependencies for dcr.exe, so it works
+through them, calling the *.relay files—generated by the object files’
+do scripts—to gather object names in $objs.
+
+obj/dcr.o.relay:1: objs = $objs dcr.o
+
+obj/header.o.relay:1: objs = $objs header.o
+
+There's not much to do since coneed already compiled the object files,
+so it links them, and prints an os command to run the executable,
+since Inferno can’t directly run a Cygwin executable.
+
+Clean up
+
+To clean up, we remove generated files in the src and obj directories.
+
+; rm -f *.redoing *.redont *.renew *.reold *.sum
+
+This¹ removes all the temporary state files created by credo.
+Once this is done credo will rebuild from scratch, and reconstruct
+each target’s view of its dependencies.
+ ¹ http://code.google.com/r/jasoncatena-acmesac/source/browse/lib/do/credo/rm-f.state..do
+
+; rm -f `{lsdo | sed 's,^c?redo ,,'}
+
+This¹ removes all the targets created by do scripts.  The lsdo command
+(called by credo with no targets) prints credo commands for all the
+credo targets in the current directory.  For example:
+ ¹ http://code.google.com/r/jasoncatena-acmesac/source/browse/lib/do/credo/rm-f.target..do
+
+; cd src; credo
+credo dcr.c
+
+; cd obj; credo
+credo dcr.exe
+credo dcr.exe.dep
+credo dcr.o
+credo dcr.o.dep
+credo header.o
+credo header.o.dep
+
+Once the targets are removed, credo will unconditionally generate them.
+
+; rm -f *.do *.dep *.relay
+
+This¹ removes all the instructions credo uses to build files.
+These may usually be regenerated by dodep, adddep (which adds
+to the given target’s dependency list the given files), and
+rmdep (which removes the given files).
+ ¹ http://code.google.com/r/jasoncatena-acmesac/source/browse/lib/do/credo/rm-f.dodep..do
+
+A single library script¹ is provided to remove the state, target,
+and dodep files.
+ ¹ http://code.google.com/r/jasoncatena-acmesac/source/browse/lib/do/credo/rm-f.std..do
+
+; rm -f *.env
+
+This removes default and per-target environment settings.
+
+Once we remove these sets of files, the directories contain only the
+files present in their starting state.

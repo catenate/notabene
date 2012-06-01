@@ -1,0 +1,73 @@
+nb reduce combinator gnu make sdmarlow
+http://www.haskell.org/pipermail/cvs-ghc/2011-May/062100.html
+
+marlowsd@gmail.com: If you want some make code that is hard to
+understand, try this:
+
+define ap
+$(strip \
+  $(if $(findstring $(dollar),$1$2),\
+    $(dollar)$(lpar)call ap$(comma)$1$(comma)$2$(rpar),\
+    $(if $(findstring >>$(lpar)PAP,>>$1),\
+      $(subst $(space)<-TMPSPACE,$(comma),\
+       $(patsubst >>$(lpar)PAP_%,$(dollar)$(lpar)call %$(comma)$2,\
+	 >>$(subst $(comma),$(space)<-TMPSPACE,$1))),\
+      $(dollar)$(lpar)call $1$(comma)$2$(rpar))))
+endef
+
+That's my implementation of combinator reduction in GNU make.
+
+
+nb gorwell reduce vocabulary control thought newspeak principle appendix 1984
+http://orwell.ru/library/novels/1984/english/en_app
+
+
+nb punctuate logic quote period comma
+Yagoda, B. 20110512.  The rise of "logical punctuation": The period
+outside the quotation marks is /not/ a copy error.  Slate: Language.
+http://www.slate.com/id/2293056/pagenum/all/
+
+Insinuating a period or comma within the unit alters it in a rather
+underhanded manner.  American style is inconsistent, moreover,
+because when it comes to other punctuation marks—semicolons, colons,
+exclamation points, question marks, dashes—we follow British/logical
+protocol.
+
+
+nb twitter social conference directory lanyrd chicago google calendar
+http://lanyrd.com/places/chicago/
+
+
+nb independent game pirate online register pay procrastinate customer jvogel
+Vogel, J.  20110511.  The final answer for what to do to prevent piracy.
+The bottom feeder: Thoughts on Indie game design.
+http://jeff-vogel.blogspot.com/2011/05/final-answer-for-what-to-do-to-prevent.html
+
+You need some way to force people to pay.  Not because they are evil
+or dishonest, but because they procrastinate.  Registration is a pain.
+They'd rather be spending their time playing your game!  If you don't
+do anything at all to make them pay, they'll just forget.  But tread lightly.
+Once you have any barrier in place at all, you'll get your payment
+from all the honest people, the people who know that, if nobody pays,
+you won't make more awesome games for them.  Anything beyond that will
+inconvenience your paying customers and do little to nothing to
+prevent piracy.
+
+
+nb _roadmap real world golang io2011 video
+@go_nuts: My I/O Bootcamp talk "Real World Go" is now up on YouTube:
+http://goo.gl/WXiFh #golang #io2011
+
+
+nb _backlog land use history north america @usgs environment human impact
+http://biology.usgs.gov/luhna/index.html
+
+Past clues our future.  Expanding agriculture and population.
+Night lights and urbanization.  Patterns in plant diversity.
+Baltimore–Washington urbanization.  Great lakes landscape change.
+Upper Mississippi river vegetation.  Greater Yellowstone biodiversity.
+Southwestern US paleoecology.  Palouse bioregion land use history.
+Northeastern forest dynamics.
+
+
+nb doc

@@ -1,0 +1,11 @@
+nb train practice complex system individual perform art simple
+Aggressive, planned, intentional simplicity is the only defence against
+complexity.  Remove redundant features.  Combine multiple ways to do
+things into fewer mechanisms, embedded languages, or methods, with
+smaller interfaces.¹ Translate expanded features into combinations of
+primitives.² Training, or learning a complex system through practice,
+is an individual performance art.  Proficiency decays with time as the
+system and its external environment change.
+ ¹ E.g. plan9/inferno's treatment of the unix API.
+ ² E.g. head becomes sed 11q or sed '11,$d' to read all input.
+cat -n becomes awk -f /lib/awk/linenum.

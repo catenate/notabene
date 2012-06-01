@@ -1,0 +1,9 @@
+nb compare operator strict not equal type value greater lesser javascript
+Infinite Software Solutions.  2005.  JavaScript Operators: == != ===
+!== > >= < <=.  DevGuru.
+http://www.devguru.com/technologies/ecmascript/quickref/comparison_operators.html
+
+
+nb set error command fail true exit early undefined variable print command trace bash 
+set -eux
+$command_ok_to_fail || true

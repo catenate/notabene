@@ -1,0 +1,32 @@
+nb to timestamp microsecond ms ff3 date field oracle
+http://dbaspot.com/oracle-server/195264-to_date-milliseconds.html
+
+Ana C. Dent: to_date and milliseconds.  Hello, I am trying to convert
+a string to date.¹  I was trying to use ms or ff3 where are the '??'
+and I am getting an error.²  I can not convert this date with milliseconds,
+but without milliseconds works perfectly.³  Any Idea?!
+ ¹ INSERT INTO table VALUES (to_date('2007-01-11 14:46:28.035','yyyy-mm-dd hh24:mi:ss.??'));
+ ² ERROR at line 1:
+ORA-01821: date format not recognized
+ ³ to_date('2007-01-11 14:46:28','yyyy-mm-dd hh24:mi:ss').
+
+Lucas Carvalho Teixeira: Use TO_TIMESTAMP in place of TO_DATE.
+
+Sybrand Bakker: Sure, and use a TIMESTAMP column in table instead of a
+DATE column.
+
+Ana C. Dent: Thank you. Now it is working.¹
+ ¹ INSERT INTO table VALUES (to_timestamp('2007-01-11 14:46:28.035','yyyy-mm-dd hh24:mi:ss.ff3'));
+
+
+nb oracle select statement from where
+http://psoug.org/reference/select.html
+http://psoug.org/reference/where.html
+
+SELECT <column_name> FROM <table_name> WHERE ....
+
+SELECT i.item_number, i.name, i.supplier_id, i.status, i.inventory_quant,
+s.provider_id, s.name
+FROM items i, provider s
+WHERE s.provider_id = i.provider_id
+AND s.name = 'XYZ Corp';
