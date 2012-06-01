@@ -1,5 +1,5 @@
 /dis/Aide
-Dump dump
+Dump /git/notabene/catenate/dump
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
 ls|mc
 nbnew
