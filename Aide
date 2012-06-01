@@ -1,6 +1,6 @@
 osd git add Aide
 osd git add sh-inferno/so
-osd git commit -a -m 'git push -u only needed first time.'
+osd git commit -a -m 'Installation and usage notes for nb.'
 osd git commit -m 'Add scripts and test for inferno sh.'
 osd git push origin master
 osd git push -u origin master	# first time

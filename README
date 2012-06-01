@@ -1,7 +1,14 @@
-The tool nb searches for the given keyword in its indexes,
-then indexes lines starting with nb or #nb in files in the
-current directory (nbindex), and adds the current directory
-to a list of known indexes (nbindexes).
+The tool nb first searches its indexes for file:line references¹
+with all the given keywords (without any keyword starting with -).
+It then indexes lines starting with nb or #nb in files in the current
+directory (nbindex), and adds the current directory to a list of known
+indexes (nbindexes).²
+ ¹ The index contains lines of the form file:line which can be
+directly clicked on in Acme to bring up the file and highlight
+the line.
+ ² Add an absolute path to nbindexes.  As provided, nbindexes
+is stored in the current directory, which does not let you search
+indexes across directories.
 
 The filter nbdoc expands file:line references, in nb output,
 to the full text of the indexed note.
