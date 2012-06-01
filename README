@@ -1,5 +1,16 @@
-Index and search (nb) keywords of comments in text files anywhere
-in file system.  Includes tools to remix (nbdoc), list keywords which
-occur with a keyword (so), and manage todo lists (kanban).
+The tool nb searches for the given keyword in its indexes,
+then indexes lines starting with nb or #nb in files in the
+current directory (nbindex), and adds the current directory
+to a list of known indexes (nbindexes).
 
-Includes my public notebook.
+The filter nbdoc expands file:line references, in nb output,
+to the full text of the indexed note.
+
+The filter so counts keywords in nb output, and orders them
+by frequency.
+
+The tool kanban lists index lines which match a set of
+specific _keywords, modelled after a kanban process.
+
+This project also includes an extensive example:
+my public notebook.
