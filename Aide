@@ -1,6 +1,6 @@
 osd git add Aide
-osd git add sh-inferno
-osd git commit -a -m 'Add keyword-counting filter (so) for inferno sh.'
+osd git add sh-inferno/so
+osd git commit -a -m 'Add keyword-counting filter (so) script for inferno sh.'
 osd git commit -m 'Add scripts and test for inferno sh.'
 osd git push -u origin master
 osd git remote add origin git@github.com:catenate/notabene.git
