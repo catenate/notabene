@@ -1,0 +1,5 @@
+Index and search (nb) keywords of comments in text files anywhere
+in file system.  Includes tools to remix (nbdoc), list keywords which
+occur with a keyword (so), and manage todo lists (kanban).
+
+Includes my public notebook.
