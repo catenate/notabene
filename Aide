@@ -1,9 +1,10 @@
 osd git add Aide
 osd git add catenate
-osd git commit -a -m 'Add usage note for redirect.'
+osd git commit -a -m 'Add log command to Aide.'
 osd git commit -m 'Add scripts and test for inferno sh.'
-osd git push origin master
+osd git log --graph --oneline --all
 osd git push -u origin master	# first time
+osd git push origin master
 osd git remote add origin git@github.com:catenate/notabene.git
 osd git status
 |sort|uniq
