@@ -1,9 +1,10 @@
 /dis/Aide
 Dump /git/notabene/catenate/dump
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
+grëp resume * | wc -l
 ls|mc
 nbnew
-sh /git/notabene/sh-inferno/nb
+sh /git/notabene/sh-inferno/nb plan9port
 |sort|uniq
 
 
@@ -22,4 +23,4 @@ END {
     for (word in freq)
         printf "%d\t%s\n", freq[word], word
 }' | sort -n -r | sed '/^1	/d;s,^[0-9]+	,,g'}
-echo $words | sed '1s,^,'^`{os date +%b}^' study: ,' | fmt -w 140
+echo $words | sed '1s,^,'^`{os date +%b}^' study: ,' | fmt -w 120 | sed 's,$, http://j.mp/JElwo1,'
