@@ -1,7 +1,7 @@
 osd git add Aide
 osd git add catenate
-osd git commit -a -m 'clean up dump'
-osd git commit -m '/dis/redirect, renamed to another sh script, searches for and runs that script with sh.'
+osd git commit -a -m 'Add usage note for redirect.'
+osd git commit -m 'Add scripts and test for inferno sh.'
 osd git push origin master
 osd git push -u origin master	# first time
 osd git remote add origin git@github.com:catenate/notabene.git

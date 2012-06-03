@@ -19,5 +19,9 @@ by frequency.
 The tool kanban lists index lines which match a set of
 specific _keywords, modelled after a kanban process.
 
+Since inferno will only find and run scripts from the current
+directory or /dis, the tool redirect takes the name of a script in
+another directory structure, and searches for and runs that script.
+
 This project also includes an extensive example:
 my public notebook.
