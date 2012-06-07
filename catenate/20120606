@@ -1,0 +1,26 @@
+nb bash calculate euler number ℯ decimal place
+Rethinkdb.  20120606.  Bash hacker in search of gold, glory, and gospel?
+Hacker News.
+http://news.ycombinator.com/item?id=4072637
+
+Send a bash program that calculates Euler's number to N decimal places
+(where N is specified on the command line) to jobs@rethinkdb.com.
+We're in Mountain View, CA. All the standard terms apply (VC funded,
+competitive salary and equity, mission to change the world, etc., etc.)
+There are three key differences: We invent hardcore technology to
+allow people to disrupt stagnant industries.  We don't touch, nor care
+for stagnant industries ourselves.  When people look at our latest
+product, they're blown away by what it can do.  Even our administrative
+hires understand NHST in depth and kick the CEO's butt in chess.
+
+load expr
+apply {osd time bash en $1} ${expr 0 100 seq}
+osd time bash en 50
+
+
+nb surreal fortune joke giraffe color machine tool bathtub cup fur
+How many surrealists does it take to change a light bulb?
+Two, one to hold the giraffe, and the other to fill  the bathtub
+with brightly colored machine tools. 
+
+Surrealist jokes just aren't my cup of fur.

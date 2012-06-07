@@ -1,0 +1,28 @@
+#set -eux
+e=1
+echo 1 > lastprod
+n=$1
+
+function foldal {
+	f=$1
+	shift
+	v=$1
+	shift
+	for x in $@; do
+		v=$($f $v $x)
+	done
+	echo $v
+}
+
+function adden {
+	echo $(echo $n k $1 $(en $2) + p | dc)
+}
+
+function en {
+	lastprod=$(echo $(cat lastprod) $1 \* p | dc)
+	echo $lastprod > lastprod
+	echo $(echo $n k 1 $lastprod / p | dc)
+}
+
+foldal adden $e $(seq 1 $n)
+#echo lastprod=$(cat lastprod)

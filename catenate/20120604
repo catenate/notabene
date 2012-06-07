@@ -1,0 +1,82 @@
+nb dthomas father death poem audio author read
+Thomas, D.  Do not go gentle into that good night.
+http://www.poets.org/viewmedia.php/prmMID/15377
+
+And you, my father, there on the sad height,
+Curse, bless, me now with your fierce tears, I pray.
+Do not go gentle into that good night.
+Rage, rage against the dying of the light.
+
+
+nb inferno introduce tutorial install run file namespace mount styx limbo
+Blower, J.  20050915.  Inferno tutorial.  TWiki>Resc Web>Technical
+Notes>VitaNuovaInferno>InfernoTutorial (01 Sep 2008, ArchangelUriel).
+http://www.resc.rdg.ac.uk/twiki/bin/view/Resc/InfernoTutorial
+
+Requirements.  Why Inferno?  Installing Inferno.  Running Inferno.
+Basic Inferno.  Basic commands.  GUI applications.  Key Inferno concepts.
+Everything looks like a file.  Namespaces.  Mounting remote namespaces.
+No difference between local and remote files.  The Styx protocol.
+The Limbo programming language.  A simple distributed system.
+Making a connection.  Per-process namespaces.  A note about security.
+Conclusions.
+
+
+nb contact rpike email rob@plan9.bell-labs.com
+
+
+nb introduce text editor sam paper rpike
+Pike, R. 198711.  The text editor sam.  Software—Practice and
+Experience 17:11:813–845.
+http://doc.cat-v.org/plan_9/4th_edition/papers/sam/
+
+Sam is an interactive multi-file text editor intended for bitmap displays.
+A textual command language supplements the mouse-driven, cut-and-paste
+interface to make complex or repetitive editing tasks easy to specify.
+The language is characterized by the composition of regular expressions
+to describe the structure of the text being modified.  The treatment
+of files as a database, with changes logged as atomic transactions,
+guides the implementation and makes a general ‘undo’ mechanism
+straightforward.
+
+Sam is implemented as two processes connected by a low-bandwidth
+stream, one process handling the display and the other the editing
+algorithms.  Therefore it can run with the display process in a bitmap
+terminal and the editor on a local host, with both processes on a
+bitmap-equipped host, or with the display process in the terminal and
+the editor in a remote host.  By suppressing the display process,
+it can even run without a bitmap terminal.
+
+This paper is reprinted from Software—Practice and Experience, Vol 17,
+number 11, pp.  813-845, November 1987.  The paper has not been
+updated for the Plan 9 manuals.  Although Sam has not changed much
+since the paper was written, the system around it certainly has.
+Nonetheless, the description here still stands as the best introduction
+to the editor.
+
+
+nb plan9 sources jsickel
+Sickel, J.  20090128.  How to connect using plan 9 protocol.
+gmane.os.inferno.general.  
+http://thread.gmane.org/gmane.os.inferno.general/4264/focus=4280
+
+I just had to write up some notes on this kind of issue myself.  After  
+a bit of time combing through various other lists and links on getting  
+Inferno to talk to sources (or any 9fs mount), I jotted down the  
+following tools and notes for using Inferno more successfully.
+	Factotum needs to be able to get back and authenticate when
+connecting to sources.  Add the following to /lib/ndb/local .¹
+Before attempting to connect to network services, make sure the
+following programs are running [ps].²  If /n/sources doesn't exist,
+or you need to create it on demand or per user, ³.  Now you're ready
+to connect to sources.⁴  Feedkey will prompt you as required for
+authentication if required.  If all works, sources will be mounted.
+ ¹ auth=sources.cs.bell-labs.com
+authdom=outside.plan9.bell-labs.com
+ ² ndb/cs
+auth/factotum
+auth/feedkey
+ ³ mount -ac {mntgen} /n
+ ⁴ mount -9 tcp!sources.cs.bell-labs.com!9fs /n/sources
+	Now hopefully Google will index this listserv and more so I
+can find these notes again.
