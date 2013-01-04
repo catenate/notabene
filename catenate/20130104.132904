@@ -1,0 +1,15 @@
+nb python dictionary idiom playbook
+http://blog.amir.rachum.com/post/39501813266/python-the-dictionary-playbook
+
+key in dct
+key not in dct
+dct[key] = dct.get(key, 0) + 1
+
+from collections import Counter
+d = [1, 1, 1, 2, 2, 3, 1, 1]
+Counter(d)
+
+dct = defaultdict(list) 
+for (key, value) in data: 
+    dct[key].append(value) # all keys have a default already
+

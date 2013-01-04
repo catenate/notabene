@@ -1,0 +1,16 @@
+nb twitter recent study post text
+yyyymm = `{os date +%Y%m}
+yyyymm = 201205
+words = `{sh /git/notabene/sh-inferno/nb -x $yyyymm | grep /catenate/ | sed 's,^.*: ,,' | fmt -w 1 | sort | os awk '# Print list of word frequencies
+{
+    $0 = tolower($0)    # remove case distinctions
+    gsub(/[^a-z0-9_ \t]/, "", $0)  # remove punctuation
+    for (i = 1; i <= NF; i++)
+        freq[$i]++
+}
+
+END {
+    for (word in freq)
+        printf "%d\t%s\n", freq[word], word
+}' | sort -n -r | sed '/^1	/d;s,^[0-9]+	,,g'}
+echo $words | sed '1s,^,'^`{os date +%b}^' study: ,' | fmt -w 120 | sed 's,$, http://j.mp/JElwo1,'
