@@ -1,12 +1,15 @@
 /dis/Aide
-Dump /git/notabene/catenate/dump
+Dump /github/notabene/catenate/dump
 Edit ,|sort|uniq
+Load /github/notabene/catenate/dump
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
 grëp resume * | wc -l
 ls -F | mc
-nb twitter recent study post text
 nb python
+nb twitter recent study post text
 nbnow
 rm *~
+rm 20130108.131959
+sh /dis/Gedit
 sh /git/notabene/sh-inferno/nb plan9port
 |sort|uniq
