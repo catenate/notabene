@@ -1,0 +1,42 @@
+nb md5sum not secure file checksum message digest
+Wikipedia.  20130110.  md5sum.
+log web http://en.wikipedia.org/wiki/Md5sum
+
+The underlying MD5 algorithm is no longer deemed secure, thus while
+md5sum is well-suited for identifying known files in situations that
+are not security related, it should not be relied on if there is a
+chance that files have been purposefully and maliciously tampered.
+In the latter case, the use of a newer hashing tool such as sha256sum
+is highly recommended.
+
+
+nb shasum sha1sum sha224sum sha256sum sha384sum sha512sum linux freebsd windows secure file checksum
+Wikipedia.  20121121.  sha1sum.
+log web http://en.wikipedia.org/wiki/Sha1sum
+
+Variants include shasum (which permits SHA-1 through SHA-512 hash
+functions to be selected manually) and sha224sum, sha256sum, sha384sum
+and sha512sum, which use a specific SHA-2 hash function.  Versions for
+Microsoft Windows also exist.  On FreeBSD this utility is called 'sha512'
+and contains additional features.
+
+
+nb python hash library hashlib module md5 sha1 sha224 sha256 sha384 sha512 openssl
+Python Software Foundation.  20130204.  hashlib—Secure hashes and
+message digests.  Python standard library: Cryptographic services.
+log web 'http://docs.python.org/2/library/hashlib.html#module-hashlib'
+
+
+nb python hashlib usage buffer large file memory limit example
+20090615.  Get MD5 hash of a files without open it in Python.  Stack overflow.
+log web http://stackoverflow.com/questions/1131220/get-md5-hash-of-a-files-without-open-it-in-python
+
+
+nb python md5sum file example
+Cappell, S.  20011213.  md5sum (Python recipe).  ActiveState code:
+Recipes.
+log web http://code.activestate.com/recipes/576583-md5sum/
+
+cstocks: I suggest using 1<<20 instead of 2**20, but that is just my
+personal preference.  It won't improve the speed of your program
+measurably.

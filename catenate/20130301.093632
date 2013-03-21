@@ -1,0 +1,10 @@
+nb git stash no track file
+jdavidb.  20090507.  How do you stash an untracked file?  Stack overflow.
+web http://stackoverflow.com/questions/835501/how-do-you-stash-an-untracked-file
+
+Add (git add) the file and start tracking it.  Then stash.  Since the
+entire contents of the file are new, they will be stashed, and you can
+manipulate it as necessary.
+
+As of version 1.7.7 you can use git stash -u to stash untracked files
+without staging them.

@@ -1,0 +1,18 @@
+nb python command line argument tutorialspoint sys argv getopt error
+Tutorialspoint.  2013.  Python—Command line arguments.
+Tutorialspoint: Python programming.
+log web http://www.tutorialspoint.com/python/python_command_line_arguments.htm
+
+#!/usr/bin/python
+import sys
+print 'Number of arguments:', len(sys.argv), 'arguments.'
+print 'Argument List:', str(sys.argv)
+
+
+nb python print format string
+Python Software Foundation.  20130205.  Fancier output formatting.
+Python tutorial: Input and output.
+log web http://docs.python.org/2/tutorial/inputoutput.html
+
+s = 'The value of x is ' + repr(x) + ', and y is ' + repr(y) + '...'
+print s

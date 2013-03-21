@@ -3,13 +3,20 @@ Dump /github/notabene/catenate/dump
 Edit ,|sort|uniq
 Load /github/notabene/catenate/dump
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
+dos xrdb -merge solarized
+fortune fortunes | fmt
 grëp resume * | wc -l
-ls -F | mc
-nb python
+log
+log google python logging info debug
+ls -F | grep -v '^20' | mc
+nb
+nb make
 nb twitter recent study post text
 nbnow
 rm *~
 rm 20130108.131959
 sh /dis/Gedit
 sh /git/notabene/sh-inferno/nb plan9port
+|sed -f /lib/sed/editc
 |sort|uniq
+|tr A-Z a-z

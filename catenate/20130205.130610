@@ -1,0 +1,27 @@
+nb coursera compute invest part 1 tbalch georgia tech
+Balch, T.  20130222.  Computational investing, part 1.  Coursera:
+Georgia Tech.
+log web https://www.coursera.org/course/compinvesting1
+
+Find out how modern electronic markets work, why stock prices change in
+the ways they do, and how computation can help our understanding of them.
+Build algorithms and visualizations to inform investing practice.
+
+Build a working stock market simulator that you can use to test
+investing strategies.
+
+The course is intended for people with software programming experience
+and introductory level knowledge of investment practice.  The primary
+prerequisite is an excitement about the stock market.
+
+If you already use advanced software tools such as Mean Variance
+Optimizers in your regular investing practice, you will probably find
+that you are “overqualified” for this course.
+
+If you would like to receive a certificate of completion, you will
+have to turn in several programming projects using the Python
+programming language.  You should have Python experience, and Unix and
+Python software installation experience (i.e., PyPI, apt-get, easy install).
+You should have a genuine interest in the stock market and an
+understanding of basic statistical principles such as probability
+distributions.

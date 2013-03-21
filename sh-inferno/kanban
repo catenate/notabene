@@ -1,4 +1,5 @@
 #!/dis/sh
+# whiteboard states: _backlog _next _testing _standup _post
 # story states: _buy≤2 _bound  _examine≤2 _examined  _develop≤4  _developed  _attest≤2 _attested  _incorporate≤1 _incorporated
 # task states: _todo _writing≤2 _valid _undo
 # bug states: _seen _rooting≤2 _quashed
@@ -48,6 +49,10 @@ if {~ $f '*b*'} {
 	if {~ ${expr $count 2 gt} 1} {echo too many}
 }
 
+if {~ $f '*B*'} {
+	sh $nbpath^/nb -x ' _backlog ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
 if {~ $f '*a*'} {
 	sh $nbpath^/nb -x ' _attested ' $re | sed 's,'^`{pwd}^'/,,'
 	
@@ -55,6 +60,14 @@ if {~ $f '*a*'} {
 	count=`{sh $nbpath^/nb -x ' _attest ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
 	load expr 
 	if {~ ${expr $count 2 gt} 1} {echo too many}
+}
+
+if {~ $f '*P*'} {
+	sh $nbpath^/nb -x ' _post ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if {~ $f '*S*'} {
+	sh $nbpath^/nb -x ' _standup ' $re | sed 's,'^`{pwd}^'/,,'
 }
 
 # tasks
@@ -76,6 +89,10 @@ if {~ $f '*e*'} {
 	if {~ ${expr $count 2 gt} 1} {echo too many}
 }
 
+if {~ $f '*N*'} {
+	sh $nbpath^/nb -x ' _next ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
 if {~ $f '*t*'} {
 	sh $nbpath^/nb -x ' _todo ' $re | sed 's,'^`{pwd}^'/,,'
 }
@@ -91,6 +108,10 @@ if {~ $f '*d*'} {
 	count=`{sh $nbpath^/nb -x ' _develop ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
 	load expr 
 	if {~ ${expr $count 4 gt} 1} {echo too many}
+}
+
+if {~ $f '*T*'} {
+	sh $nbpath^/nb -x ' _testing ' $re | sed 's,'^`{pwd}^'/,,'
 }
 
 if {~ $f '*w*'} {

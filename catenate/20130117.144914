@@ -1,0 +1,9 @@
+nb ccache decompress space speed analysis hit miss maximum size overflow compile time algorithm
+Should we consider CCACHE_COMPRESS?  All c->o productions will go
+slower by using compression.  Each object file stored in the cache
+will take up less space.  This space could be claimed from the cache,
+or used to store more objects, which means more potential cache hits,
+if people are getting cache misses for objects once stored in the cache.
+More hits means that the build will go faster, by an amount equal to
+the time saved from compiling the extra reused objects (if any),
+minus the time it takes to decompress those objects.

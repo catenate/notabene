@@ -1,0 +1,4 @@
+nb python ulimit resource set rlimit stack size process unix
+Python software foundation.  20130228.  Resource limits.
+Python standard library: Unix specific services.
+web 'http://docs.python.org/2.7/library/resource.html?highlight=setrlimit#resource.setrlimit'

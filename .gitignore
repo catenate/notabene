@@ -1,0 +1,9 @@
+*.jpg
+*.test.out
+*.test.sh
+google.log
+host.log
+pydoc.log
+python.log
+sed.log
+web.log

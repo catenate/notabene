@@ -1,0 +1,11 @@
+	> python versep.py 1_2_3
+	['1', '2', '3']
+
+	> python versep.py 1.2.3
+	['1', '2', '3']
+
+	> python versep.py 1_2
+	['1', '2', '0']
+
+	> python versep.py 1.2
+	['1', '2', '0']

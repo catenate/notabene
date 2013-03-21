@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "versep.py", line 5, in <module>
+    if length(ver) == 2:
+NameError: name 'length' is not defined
+Traceback (most recent call last):
+  File "versep.py", line 5, in <module>
+    if length(ver) == 2:
+NameError: name 'length' is not defined
+Traceback (most recent call last):
+  File "versep.py", line 5, in <module>
+    if length(ver) == 2:
+NameError: name 'length' is not defined
+Traceback (most recent call last):
+  File "versep.py", line 5, in <module>
+    if length(ver) == 2:
+NameError: name 'length' is not defined

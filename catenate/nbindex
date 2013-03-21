@@ -935,6 +935,36 @@
 20130115.105817:6: master basic git slide 1 hour video free
 20130115.105817:12: master git 5 hour video
 20130115.105817:29: intro git 1.5 hour video
-Aide:8: python
-Aide:9: twitter recent study post text
+20130117.134953:1: near getco chicago downtown lunch restaurant caffè baci menu italian panini pizza pizzette tiramisu gelato
+20130117.144914:1: ccache decompress space speed analysis hit miss maximum size overflow compile time algorithm
+20130122.151041:1: xrdb solarized xresources color scheme
+20130124.101953:1: python doc import submodule
+20130124.101953:5: contact python logging howto email mailto vinay_sajip@red-dove.com
+20130124.101953:8: python logging howto vsajip
+20130124.101953:13: python standard library logging usage
+20130129.105808:1: make clear suffixes dot target disable builtin rule library credo
+20130129.105808:6: gnu make order only prereq type pipe symbol
+20130131.105139:1: ccache fast c c++ compiler cache
+20130131.132350:1: imagemagick import screenshot type root window
+20130204.094121:1: md5sum not secure file checksum message digest
+20130204.094121:13: shasum sha1sum sha224sum sha256sum sha384sum sha512sum linux freebsd windows secure file checksum
+20130204.094121:24: python hash library hashlib module md5 sha1 sha224 sha256 sha384 sha512 openssl
+20130204.094121:30: python hashlib usage buffer large file memory limit example
+20130204.094121:35: python md5sum file example
+20130204.124004:1: acme search text backward
+20130204.134217:1: posix standard 1003.1 2004  shell command language quote token reserve word parameter variable expand redirect exit status error pipeline list compound function  batch environment service  utility admin alias ar asa at awk basename batch bc bg break c99 cal cat cd cflow chgrp chmod chown cksum cmp colon comm command compress continue cp crontab csplit ctags cut cxref date dd delta df diff dirname dot du echo ed env eval ex exec exit expand export expr false fc fg file find fold fort77 fuser gencat get getconf getopts grep hash head iconv id ipcrm ipcs jobs join kill lex link ln locale localedef logger logname lp ls m4 mailx make man mesg mkdir mkfifo more mv newgrp nice nl nm nohup od paste patch pathchk pax pr printf prs ps pwd qalter qdel qhold qmove qmsg qrerun qrls qselect qsig qstat qsub read readonly renice return rm rmdel rmdir sact sccs sed set sh shift sleep sort split strings strip stty tabs tail talk tee test time times touch tput tr trap true tsort tty type ulimit umask unalias uname uncompress unexpand unget uniq unlink unset uucp uudecode uuencode uustat uux val vi wait wc what who write xargs yacc zcat
+20130205.130610:1: coursera compute invest part 1 tbalch georgia tech
+20130205.142243:1: python command line argument tutorialspoint sys argv getopt error
+20130205.142243:12: python print format string
+20130207.123244:1: pink floyd several species lyrics translate dmasters battle langside defeat mary queen scot
+20130213.140523:1: windows cmd cygwin command linux bash polyglot
+20130219.103554:1: python bytecode term glossary
+20130219.103554:20: serial object persist data marshal module standard library python
+20130219.103554:33: compiled python file
+20130219.103554:43: pyc file format machine architecture independent python version
+20130219.103554:53: pyc file format header magic number python version timestamp generate marshal module code object global data
+20130227.163119:1: monitor distcc text output format distribute c compile stat parallel
+20130227.163119:5: xoreax  exclusive or bit operation  eax cpu processor register  incredibuild computer software company name
+20130228.142803:1: python ulimit resource set rlimit stack size process unix
+20130301.093632:1: git stash no track file
 unixide:1: apply du ls sed

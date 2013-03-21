@@ -1,0 +1,4 @@
+nb windows cmd cygwin command linux bash polyglot
+ⁱ apparently works as a script on both a linux machine, and a windows
+machine with cygwin installed and bash on the path.
+ ⁱ bash -c  "cd %app_dir_name% ; make %make_parameters%"

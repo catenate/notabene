@@ -1,0 +1,9 @@
+Dump /github/notabene/test/1/python/dump
+Edit ,|sort|uniq
+Load /github/notabene/test/1/python/dump
+du -n
+log
+ls -F | mc
+nbnow
+New versep.py
+pastout

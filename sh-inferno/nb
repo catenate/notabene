@@ -1,17 +1,20 @@
 #!/dis/sh
 load std
 arg0=$0
-nbindexes = nbindexes
+if {no $*} {nb `{os date '+%Y%m%d'}; exit 0}
+
+nbindexes = /nbindexes
 nbpath = `{echo $arg0 | sed 's,/[^/]+$,,'}
 if {~ $1 '-x'} {(opt re res) = $*} {(re res) = $*}
 tmp1 = /tmp/nb1.${pid}
 tmp2 = /tmp/nb2.${pid}
 
 if {test -r $nbindexes} {
-	sh $nbpath^/grëp $re `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
+	sh $nbpath^/grëp `{echo $re | sed 's,\+,\\\+,g'} `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
 
 	apply {
-		re=$1
+		re = $1
+		re = `{echo $re | sed 's,\+,\\\+,g'}
 		if {~ $re '-*'} {
 			re = `{echo $re | sed 's,^-,,'}
 			grep -v $re $tmp1 > $tmp2
@@ -25,13 +28,15 @@ if {test -r $nbindexes} {
 	rm -f $tmp1 $tmp2
 }
 
+log nb $*
+
 if {! ~ $opt '-x'} {
-	files=`{ls -d -F * | sed 's,\*$,,' | grep -v '.exe$' | grep -v '/$' | grep -v nbindex}
-	grep -n '^#?nb ' $files /dev/null | grep -v '^nbindex' | sed 's,nb ,,' > nbindex
+	files=`{ls -F >[2]/dev/null | sed 's,\*$,,' | grep -v '~$' | grep -v '.exe$' | grep -v '/$' | grep -v '^Aide$' | grep -v '^nb.log$' | grep -v nbindex}
+	grep -n '^(#|\.\\")?nb ' $files /dev/null | grep -v '^nbindex' | sed 's,nb ,,;s,\.\\",,' > nbindex
 
 	echo `{pwd}^'/nbindex' >> $nbindexes
 	sort $nbindexes | uniq > /tmp/nbindexes
 	mv /tmp/nbindexes $nbindexes
 }
 
-exit
+exit 0

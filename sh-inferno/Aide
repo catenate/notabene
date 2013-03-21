@@ -1,6 +1,0 @@
-For normal usage, you'd copy these scripts to /dis, to avoid
-sh /path/to/a/sh-inferno/script
-
-cp /dis/nb /dis/nbdoc /dis/kanban /dis/grëp .
-cp /dis/so .
-|sort|uniq
