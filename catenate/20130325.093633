@@ -1,0 +1,7 @@
+nb git fsck detect corrupt repo mirror case
+
+jason.catena: Run git fsck regularly to detect corruption.
+web http://jefferai.org/2013/03/24/too-perfect-a-mirror/
+
+jason.catena: More on git fsck, if we don't yet use it.
+web https://news.ycombinator.com/item?id=5431409

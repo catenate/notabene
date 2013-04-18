@@ -1,0 +1,49 @@
+nb csp communicate sequential process thoare 1978 paper implement golang
+
+web http://godoc.org/github.com/thomas11/csp
+
+
+nb hacker news recommend technical talk
+
+web https://news.ycombinator.com/item?id=5511466
+
+
+nb semantic diff public git repo server commitq tour intro discuss signup
+
+jcatena: Programming language-aware Git repository hosting.
+This is a public git repository server, created to present a better
+interface than diff, to understand what a commit actually means.
+Something like this might be useful if it was within the intranet,
+or a stand-alone tool, or offered to host closed-source projects
+for companies that are okay with that.
+
+web http://commitq.com/tour.html
+web http://commitq.com/blog/2013/04/01/hello/
+web https://news.ycombinator.com/item?id=5511280
+web http://signup.commitq.com/
+
+
+nb bitcoin currency unicode point symbol letter b vertical stroke ฿ btc
+
+https://news.ycombinator.com/item?id=5510583
+
+
+nb hacker news discuss bitcoin
+
+https://news.ycombinator.com/item?id=5509883
+
+
+nb teensy tiny reduce program size clang gcc libc assembly main start return exit linux system call linker ld elf executable format
+
+http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
+https://news.ycombinator.com/item?id=5508981
+
+
+nb hacker news discuss sed faq
+
+https://news.ycombinator.com/item?id=5507047
+
+
+nb hacker news discuss git alias
+
+https://news.ycombinator.com/item?id=5508870

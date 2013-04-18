@@ -1,0 +1,3 @@
+nb vagrant up ssh destroy  manage virtual machine status template
+
+web http://docs.vagrantup.com/v2/getting-started/up.html

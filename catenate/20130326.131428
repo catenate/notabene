@@ -1,0 +1,18 @@
+nb algorithm efficient complex square root log n factorial exponent data structure
+Negruseri, C.  20130326.  Numbers everyone should know.  Infoarena blog.
+web http://www.infoarena.ro/blog/numbers-everyone-should-know
+
+The table below shows the limits that can be reached in a few seconds
+by algorithms of different complexities, n being the input size.
+I've added some algorithms and data structure examples for each
+complexity class.
+
+
+nb write latency read cache memory lock compress disk seek global share data scale contend parallel google app engine jdean big table shard counter comment page
+Dean, J. and Slatkin, B. -20090218.  Numbers everyone should know.
+High scalability: Building bigger, faster, more reliable websites.
+web http://highscalability.com/numbers-everyone-should-know
+
+This group of numbers is from Brett Slatkin in Building Scalable Web
+Apps with Google App Engine.
+web http://sites.google.com/site/io/building-scalable-web-applications-with-google-app-engine
