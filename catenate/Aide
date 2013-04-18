@@ -1,4 +1,5 @@
-/dis/Aide
+/gitco/notabene/sh-inferno/Aide
+/lib/sed/Aide
 Dump /github/notabene/catenate/dump
 Edit ,|sort|uniq
 Load /github/notabene/catenate/dump
@@ -10,13 +11,12 @@ log
 log google python logging info debug
 ls -F | grep -v '^20' | mc
 nb
-nb make
+nb map usa
 nb twitter recent study post text
 nbnow
 rm *~
 rm 20130108.131959
 sh /dis/Gedit
 sh /git/notabene/sh-inferno/nb plan9port
-|sed -f /lib/sed/editc
-|sort|uniq
+|fmt
 |tr A-Z a-z

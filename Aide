@@ -3,8 +3,9 @@ du -n | grep -v '^\.git'
 du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
-git commit -a -m 'Add Bob Marley quote about conscience.'
+git commit -a -m 'Add BNTSP nto kanban.  New fortunes.  Recent notes.'
 git diff
+git log --decorate --oneline | sed 10q
 git log --decorate --graph --oneline --all | sed 10q
 git pull --rebase
 git remote add origin git@github.com:catenate/notabene.git

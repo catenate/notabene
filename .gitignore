@@ -1,6 +1,7 @@
 *.jpg
 *.test.out
 *.test.sh
++Errors
 google.log
 host.log
 pydoc.log
