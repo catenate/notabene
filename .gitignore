@@ -2,6 +2,7 @@
 *.test.out
 *.test.sh
 +Errors
+git.log
 google.log
 host.log
 pydoc.log
