@@ -1,0 +1,15 @@
+nb nwirth compiler self speed complex perform balance new feature add time
+
+Franz, M.  Oberon–The overlooked jewel.  University of California, Irvine.
+web https://www.ics.uci.edu/~franz/Site/pubs-pdf/BC03.pdf
+web 'https://news.ycombinator.com/item?id=5606237'
+
+[Wirth] used the compiler’s self-compilation speed as a measure of the
+compiler’s quality.  Considering that Wirth’s compilers were written
+in the languages they compiled, and that compilers are substantial and
+non-trivial pieces of software in their own right, this introduced a
+highly practical benchmark that directly contested a compiler’s
+complexity against its performance.  Under the self-compilation speed
+benchmark, only those optimizations were allowed to be incorporated
+into a compiler that accelerated it by so much that the intrinsic cost
+of the new code addition was fully compensated.

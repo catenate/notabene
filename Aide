@@ -3,7 +3,7 @@ du -n | grep -v '^\.git'
 du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
-git commit -a -m 'Actually add new files.'
+git commit -a -m 'Add kanban file for nanocluster project.  Add python test for removing items from list.  Recent notes and fortunes from postits.'
 git log --decorate --oneline | sed 10q
 git log --decorate --graph --oneline --all | sed 10q
 git remote add origin git@github.com:catenate/notabene.git

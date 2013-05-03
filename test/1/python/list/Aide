@@ -1,0 +1,9 @@
+Dump /gitco/build-systems/test/1/python/list/dump
+Edit ,|sort|uniq
+Load /gitco/build-systems/test/1/python/list/dump
+New remove.test
+du -n
+log
+ls -F | mc
+nbnow
+pastout

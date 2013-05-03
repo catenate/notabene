@@ -1,5 +1,6 @@
 #!/dis/sh
 load std
+
 arg0=$0
 if {no $*} {nb `{os date '+%Y%m%d'}; exit 0}
 

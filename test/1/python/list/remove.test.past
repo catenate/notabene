@@ -1,0 +1,8 @@
+['bb', 'ccc', 'eeeee']
+['a', 'bb', 'eeeee']
+['a', 'bb', 'ccc']
+['bb']
+Traceback (most recent call last):
+  File "remove.py", line 23, in <module>
+    print "list " + list
+TypeError: cannot concatenate 'str' and 'list' objects
