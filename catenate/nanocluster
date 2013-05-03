@@ -1,5 +1,8 @@
-backlog: order raspberry pi (rpi)
-backlog: install plan 9 on rpi: web http://trogrd.tumblr.com/post/38874675677/plan-9-on-rasberry-pi
-backlog: order beagle bone black (bbb)
-backlog: install inferno on bbb
 backlog: research kvm switch with hdmi to switch mouse/keyboard between computers
+backlog: order raspberry pi (rpi)
+backlog: order beagle bone black (bbb)
+backlog: install plan 9 on rpi: web http://trogrd.tumblr.com/post/38874675677/plan-9-on-rasberry-pi
+backlog: install inferno on bbb
+backlog: google 4-port kvm switch usb hdmi vga
+backlog: check that monitor has hdmi and vga inputs
+Edit ,|sort -r
