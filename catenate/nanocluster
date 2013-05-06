@@ -4,6 +4,8 @@ backlog: order raspberry pi (rpi)
 backlog: order beagle bone black (bbb)
 backlog: install plan 9 on rpi: web http://trogrd.tumblr.com/post/38874675677/plan-9-on-rasberry-pi
 backlog: install inferno on bbb
+backlog: install angstrom linux: web http://downloads.angstrom-distribution.org/demo/beaglebone/
+backlog: http://beagleboard.org/Getting%20Started
 backlog: google 4-port kvm switch usb hdmi vga
 backlog: check that monitor has hdmi and vga inputs
 Edit ,|sort -r
