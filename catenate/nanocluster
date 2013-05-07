@@ -1,11 +1,19 @@
-backlog: sshfs to mount nanos on main Ubuntu/Linux box
+test: order beagle bone black (bbb)
+next: sshfs to mount nano fs on main Ubuntu/Linux box, and vice-versa
+next: install inferno on bbb
+next: each (cluster cc i o) do script runs its  .i→.o transform on the least-loaded cluster machine
+next: a script returns the least-loaded cluster machine, as rated by uptime’s load average
+backlog: use sshfs to work with credo agents, to minimize agent requirements
+backlog: use ccache on server, if cache misses send job to agents
+backlog: use but don’t distribute ccache, to keep agents anonymous, little-vested, and lightweight
 backlog: research kvm switch with hdmi to switch mouse/keyboard between computers
 backlog: order raspberry pi (rpi)
-backlog: order beagle bone black (bbb)
 backlog: install plan 9 on rpi: web http://trogrd.tumblr.com/post/38874675677/plan-9-on-rasberry-pi
-backlog: install inferno on bbb
-backlog: install angstrom linux: web http://downloads.angstrom-distribution.org/demo/beaglebone/
+backlog: install latest angstrom linux: web http://downloads.angstrom-distribution.org/demo/beaglebone/
 backlog: http://beagleboard.org/Getting%20Started
 backlog: google 4-port kvm switch usb hdmi vga
-backlog: check that monitor has hdmi and vga inputs
+backlog: get cable from bbb microhdmi to extra monitor hdmi
+backlog: get 5VDC power supply from e.g. adafruit
+backlog: don’t use ccache on agents, to keep them anonymous, little-vested, and lightweight
+backlog: distribute ccache across cluster via sshfs, or properly shared filesystem, to share prebuilt .i→.o objects
 Edit ,|sort -r

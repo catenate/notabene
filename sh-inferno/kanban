@@ -1,4 +1,6 @@
 #!/dis/sh
+load std
+
 # story states: _buy≤2 _bound  _examine≤2 _examined  _develop≤4  _developed  _attest≤2 _attested  _incorporate≤1 _incorporated
 # task states: _todo _writing≤2 _valid _undo
 # bug states: _seen _rooting≤2 _quashed
