@@ -3,7 +3,7 @@ du -n | grep -v '^\.git'
 du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
-git commit -a -m 'Load std for run from host.  Update nanocluster plan.'
+git commit -a -m 'Add test for list regex match in Python.  Update nanocluster plan.'
 git log --decorate --oneline | sed 10q
 git log --decorate --graph --oneline --all | sed 10q
 git remote add origin git@github.com:catenate/notabene.git

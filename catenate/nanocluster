@@ -1,8 +1,7 @@
-test: order beagle bone black (bbb)
-next: sshfs to mount nano fs on main Ubuntu/Linux box, and vice-versa
-next: install inferno on bbb
-next: each (cluster cc i o) do script runs its  .i→.o transform on the least-loaded cluster machine
-next: a script returns the least-loaded cluster machine, as rated by uptime’s load average
+test: sshfs to mount nano fs on main Ubuntu/Linux box, and vice-versa
+report: order beagle bone black (bbb)
+report: install inferno on bbb
+next: each (cluster cc i o) do script runs its  .i→.o transform on a random (eg fortune hosts) cluster machine
 backlog: use sshfs to work with credo agents, to minimize agent requirements
 backlog: use ccache on server, if cache misses send job to agents
 backlog: use but don’t distribute ccache, to keep agents anonymous, little-vested, and lightweight
@@ -14,6 +13,8 @@ backlog: http://beagleboard.org/Getting%20Started
 backlog: google 4-port kvm switch usb hdmi vga
 backlog: get cable from bbb microhdmi to extra monitor hdmi
 backlog: get 5VDC power supply from e.g. adafruit
+backlog: eth NAS with raid for backup and distributed store for nanocluster
 backlog: don’t use ccache on agents, to keep them anonymous, little-vested, and lightweight
 backlog: distribute ccache across cluster via sshfs, or properly shared filesystem, to share prebuilt .i→.o objects
+backlog: a script returns the least-loaded cluster machine, as rated by uptime’s load average
 Edit ,|sort -r

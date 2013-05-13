@@ -1,9 +1,10 @@
 Dump /gitco/build-systems/test/1/python/list/dump
 Edit ,|sort|uniq
 Load /gitco/build-systems/test/1/python/list/dump
-New remove.test
+cp -x remove.test match.test
+cp -x remove.py match.py
 du -n
 log
 ls -F | mc
 nbnow
-pastout
+pastout match
