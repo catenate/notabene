@@ -1,0 +1,12 @@
+nb dynamic linker shared library object specific version resolve symbolic load path run rpath option  manos ld.so
+
+Linuxexplore et al.  20130205.  How to link with specific name
+(version) of a shared library.  Stack overflow.
+web http://stackoverflow.com/questions/14704314/how-to-link-with-specific-name-version-of-a-shared-library
+
+Z.Zen et al.  20100802.  How to link a specific version of a shared
+library in makefile without using LD_LIBRARY_PATH?  Stack overflow.
+web http://stackoverflow.com/questions/3384897/how-to-link-a-specific-version-of-a-shared-library-in-makefile-without-using-ld
+
+$ld … -R${OPENSSLDIR}/lib … ${OPENSSLDIR}/lib/libssl.so.1.0.0
+$cxx … -l:libssl.so.1.0.0

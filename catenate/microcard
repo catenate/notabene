@@ -2,11 +2,13 @@ test: sshfs to mount nano fs on main Ubuntu/Linux box, and vice-versa
 report: order beagle bone black (bbb)
 report: install inferno on bbb
 next: each (cluster cc i o) do script runs its  .i→.o transform on a random (eg fortune hosts) cluster machine
+next: /github/microcard
 backlog: use sshfs to work with credo agents, to minimize agent requirements
 backlog: use ccache on server, if cache misses send job to agents
 backlog: use but don’t distribute ccache, to keep agents anonymous, little-vested, and lightweight
 backlog: research kvm switch with hdmi to switch mouse/keyboard between computers
 backlog: order raspberry pi (rpi)
+backlog: leastloaded: while {~ 1 1} {apply {host = $1; host ssh $host uptime | sed 's,.*load average: ([0-9]*[0-9]+\.[0-9][0-9]+).*,\1,' > $host.load} `{cat hosts}; grep . *.load | host sort -n -k 2 | sed 1q; sleep 60}
 backlog: install plan 9 on rpi: web http://trogrd.tumblr.com/post/38874675677/plan-9-on-rasberry-pi
 backlog: install latest angstrom linux: web http://downloads.angstrom-distribution.org/demo/beaglebone/
 backlog: http://beagleboard.org/Getting%20Started
