@@ -1,0 +1,68 @@
+#!/usr/bin/env rc
+
+arg0=$0
+if (~ $#* 1) {nb `{date '+%Y%m%d'}; exit 0}
+
+nbindexes=/home/rje/nbindexes
+nbpath=`{echo $arg0 | sed 's,/[^/]+$,,'}
+
+if (~ $1 '-x') {
+	opt=$1
+	shift
+	re=$1
+	shift
+	res=$*
+}
+if not {
+	re=$1
+	shift
+	res= $*
+}
+
+tmp1=`{mktemp}
+tmp2=`{mktemp}
+
+if (test -r $nbindexes) {
+	$nbpath^/grëp `{echo $re | sed 's,\+,\\\+,g'} `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
+	#dash $nbpath^/grep `{echo $re | sed 's,\+,\\\+,g'} `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
+
+	for (i in $res) {
+		re = $i
+		re = `{echo $re | sed 's,\+,\\\+,g'}
+		if (~ $re '-*') {
+			re = `{echo $re | sed 's,^-,,'}
+			grep -v $re $tmp1 > $tmp2
+		}
+		if not {
+			$nbpath^/grëp $re $tmp1 > $tmp2
+			#dash $nbpath^/grep $re $tmp1 > $tmp2
+		}
+		mv $tmp2 $tmp1
+	}
+
+	cat $tmp1
+	rm -f $tmp1 $tmp2
+}
+
+#log nb $*
+
+if (! ~ $opt '-x') {
+	cwd=`{pwd}
+
+	for (i in `{cat $nbindexes}) {
+		cd `{ echo $i | sed 's,^(/.*/).*$,\1,' }
+		files=`{ls -F >[2]/dev/null | sed 's,\*$,,' | grep -v '~$' | grep -v '.exe$' | grep -v '/$' | grep -v '^Aide$' | grep -v '^nb.log$' | grep -v nbindex}
+		grep -n '^(#|\.\\")?nb ' $files /dev/null | grep -v '^nbindex' | sed 's,nb ,,;s,\.\\",,' > nbindex
+	}
+
+	cd $cwd
+
+	files=`{ls -F >[2]/dev/null | sed 's,\*$,,' | grep -v '~$' | grep -v '.exe$' | grep -v '/$' | grep -v '^Aide$' | grep -v '^nb.log$' | grep -v nbindex}
+	grep -n '^(#|\.\\")?nb ' $files /dev/null | grep -v '^nbindex' | sed 's,nb ,,;s,\.\\",,' > nbindex
+
+	echo `{pwd}^'/nbindex' >> $nbindexes
+	sort $nbindexes | uniq > /tmp/nbindexes
+	mv /tmp/nbindexes $nbindexes
+}
+
+exit 0

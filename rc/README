@@ -1,0 +1,15 @@
+These will work in the rc shell provided by Plan 9 and plan9port.
+They will also work in Byron Rakitzis's port of rc to *nix.
+
+nb works slightly differently here than it does in sh-inferno.  When run
+without any arguments, it will regenerate indices for all of the
+indexes listed in 'nbindexes', rather than just the current directory.
+This allows it be run in a cronjob, periodically updating one's nb
+archives in the background.
+
+The version of kanban provided here has a few extra identifiers that it
+searches for.  It will search for nb lines tagged with '_ref', '_fig', and
+'_footnote', which are useful when writing reports and research articles.
+
+You may need to change the shebang line (the top line of each script
+that starts with #!) for your system.

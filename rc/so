@@ -1,0 +1,14 @@
+#!/usr/bin/env rc
+
+cat | sed 's,^/,,;s,/, ,g;s,:.*: *, ,' | fmt -w 1 | sort | awk '# Print list of word frequencies
+{
+    $0 = tolower($0)    # remove case distinctions
+    gsub(/[^a-z0-9_ \t]/, "", $0)  # remove punctuation
+    for (i = 1; i <= NF; i++)
+        freq[$i]++
+}
+
+END {
+    for (word in freq)
+        printf "%d\t%s\n", freq[word], word
+}' | sort -n -r | sed 's,(.*)	(.*),\2	\1,'
