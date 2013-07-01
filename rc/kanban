@@ -1,0 +1,139 @@
+#!/usr/bin/env rc
+
+# story states: _buy≤2 _bound  _examine≤2 _examined  _develop≤4  _developed  _attest≤2 _attested  _incorporate≤1 _incorporated _ref _fig _footnote
+# task states: _todo _writing≤2 _valid _undo
+# bug states: _seen _rooting≤2 _quadashed
+
+arg0=$0
+nbpath = `{echo $arg0 | sed 's,/[^/]+$,,'}
+
+f=$1
+shift
+re=$*
+
+if (~ $#f 0) {
+	f = bedactwvsrqf
+	re = .
+}
+
+if (~ $#f 1) {
+	if (~ $#re 0) {
+		re = $f
+		f = bedactwvsrqf
+	}
+}
+
+if (~ $f *A*) {
+	f = bedactwvsrqf^$f
+}
+
+if (~ $f *u*) {
+	$nbpath^/nb -x ' _undo ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *p*) {
+	$nbpath^/nb -x ' _ping ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *f*) {
+	$nbpath^/nb -x ' _fig ' $re | sed 's,'^`{pwd}^'/,,'
+
+	$nbpath^/nb -x ' _footnote ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _footnote ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 1) {echo too many}
+}
+
+if (~ $f *c*) {
+	$nbpath^/nb -x ' _incorporated ' $re | sed 's,'^`{pwd}^'/,,'
+	
+	$nbpath^/nb -x ' _incorporate ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _incorporate ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 1) {echo too many}
+}
+
+if (~ $f *b*) {
+	$nbpath^/nb -x ' _bound ' $re | sed 's,'^`{pwd}^'/,,'
+	
+	$nbpath^/nb -x ' _buy ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _buy ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 2) {echo too many}
+}
+
+if (~ $f *a*) {
+	$nbpath^/nb -x ' _attested ' $re | sed 's,'^`{pwd}^'/,,'
+	
+	$nbpath^/nb -x ' _attest ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _attest ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 2) {echo too many}
+}
+
+# tasks
+if (~ $f *v*) {
+	$nbpath^/nb -x ' _valid ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+# bugs
+if (~ $f *q*) {
+	$nbpath^/nb -x ' _quadashed ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *e*) {
+	$nbpath^/nb -x ' _examined ' $re | sed 's,'^`{pwd}^'/,,'
+
+	$nbpath^/nb -x ' _examine ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _examine ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 2) {echo too many}
+}
+
+if (~ $f *t*) {
+	$nbpath^/nb -x ' _todo ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *s*) {
+	$nbpath^/nb -x ' _seen ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *d*) {
+	$nbpath^/nb -x ' _developed ' $re | sed 's,'^`{pwd}^'/,,'
+
+	$nbpath^/nb -x ' _develop ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _develop ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 4) {echo too many}
+}
+
+if (~ $f *w*) {
+	$nbpath^/nb -x ' _writing ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _writing ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 4) {echo too many}
+}
+
+if (~ $f *r*) {
+	$nbpath^/nb -x ' _rooting ' $re | sed 's,'^`{pwd}^'/,,'
+	$nbpath^/nb -x ' _ref ' $re | sed 's,'^`{pwd}^'/,,'
+	count=`{$nbpath^/nb -x ' _rooting ' $re | sed 's,'^`{pwd}^'/,,' | grep -v 'todate:' | wc -l}
+	if (test $count -gt 2) {echo too many}
+}
+
+
+# capital flow whiteboard states: _backlog _next _test _standup _post
+if (~ $f *B*) {
+	$nbpath^/nb -x ' _backlog ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *N*) {
+	$nbpath^/nb -x ' _next ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *P*) {
+	$nbpath^/nb -x ' _post ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *T*) {
+	$nbpath^/nb -x ' _test ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+if (~ $f *S*) {
+	$nbpath^/nb -x ' _standup ' $re | sed 's,'^`{pwd}^'/,,'
+}
+
+exit 0

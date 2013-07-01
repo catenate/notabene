@@ -23,5 +23,8 @@ Since inferno will only find and run scripts from the current
 directory or /dis, the tool redirect takes the name of a script in
 another directory structure, and searches for and runs that script.
 
+Check the rc directory for versions of these scripts that will run in
+the rc shell (Plan 9, plan9port, Byron Ratiktzis's rewrite for *nix).
+
 This project also includes an extensive example:
 my public notebook, in directory catenate.
