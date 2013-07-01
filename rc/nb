@@ -24,7 +24,6 @@ tmp2=`{mktemp}
 
 if (test -r $nbindexes) {
 	$nbpath^/grëp `{echo $re | sed 's,\+,\\\+,g'} `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
-	#dash $nbpath^/grep `{echo $re | sed 's,\+,\\\+,g'} `{cat $nbindexes} /dev/null | sed 's,nbindex: ,,' > $tmp1
 
 	for (i in $res) {
 		re = $i
