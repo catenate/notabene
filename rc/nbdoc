@@ -1,0 +1,14 @@
+#!/usr/bin/env rc
+
+refs=`{cat | sed 's,: .*,,'}
+
+for (i in $refs) {
+	ref = $i
+	file_line = `{echo $ref | tr ':' '
+	'}
+	file = $file_line(1)
+	line = $file_line(2)
+	#(file line) = `{echo ${splitr $ref ':'}}
+	file = `{echo $file | sed 's,:$,,'}
+	sed '{p; x; p;}' $file | sed -n $line^',/^nb/p'  | sed '$s,^nb .*,,' | sed '${/^$/d;}'
+}
