@@ -3,7 +3,8 @@ du -n | grep -v '^\.git'
 du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
-git commit -a -m 'Update microcard plan.  Recent notes.'
+git add .
+git commit -a -m 'Recent notes.'
 git log --decorate --oneline | sed 10q
 git log --decorate --graph --oneline --all | sed 10q
 git remote add origin git@github.com:catenate/notabene.git

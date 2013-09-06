@@ -1,0 +1,3 @@
+nb fpm manage create package dir rpm deb python gem empty solaris puppet jsissel
+
+web https://github.com/jordansissel/fpm/wiki

@@ -1,0 +1,81 @@
+nb bcu bind mount command unmount subdirectory file overwrite delete remove
+
+(Temporarily) combining two directories in Linux
+
+Summary
+
+The bash script bcu uses sudo to make the files and directories in one
+Linux directory temporarily appear within another’s (if they don’t
+already exist) while running a command (shell), and keep their changes
+after unmount.
+
+Why?
+
+Sometimes I want two directories to (temporarily) become one, so I can
+treat all their contents as appearing in the same place.
+
+For examples, I would not have to add yet another directory to a path,
+account in a program for files living in more than one place, remember
+which directory I used to store files, or re-add my own new (build)
+files to a third-party source tree each time I update it to a new version.
+
+At the same time, directory hierarchies are useful to keep things
+separate, so I can work with one aspect of a filesystem without
+changing others, as in the last example.
+
+Wherefore?
+
+The operating systems that Bell Labs developed after Unix (Plan 9
+and Inferno) have a command called bind¹ that accomplishes this,
+but bind in Linux is a bash builtin that maps keyboard keys to shell
+commands.² One of the really neat features of the later-OS bind
+commands is that it mixes the two directories together, so several
+other directories can be bound in one place.  In Inferno, this is used
+to construct one single directory with all the programs in the system,
+so there is no $PATH.
+ ¹ http://man.cat-v.org/plan_9/1/bind
+http://www.vitanuova.com/inferno/man/1/bind.html
+ ² http://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html
+
+Not in Linux?
+
+I didn’t think I could do this in Linux, since I thought Linux mount
+only works to bind a device to a mount point.  I just learned that
+Linux since 2.4 can `mount --bind`³ directories over other directories,
+or files over other files, within one filesystem.  Unlike the later OSes,
+this does not combine the directories: instead it simply lays one
+(source) over another (destination), so you don’t see the contents of
+the destination.⁴
+ ³ http://linux.die.net/man/8/mount
+ ⁴ http://www.cyberciti.biz/faq/how-to-mount-bind-partitions-filesystems-in-linux/
+
+Bind, command, unmount
+
+So I wote a quick script (took longer to write this post and explain it)
+to actually combine two directories into one, execute a command,
+and then un-combine them.  The command can be a shell, to noodle
+around in the combined filesystem before the script unmounts it.
+
+http://git.getco.com/build-systems/build-systems/blobs/master/bash/bcu
+
+usage: bcu $src $dst $cmd
+        mount files from $src in $dst while running $cmd
+
+Notes
+
+The script uses sudo, since Linux requires root access to mount.
+It only uses sudo to mount and unmount, not for the user command.
+
+The script is safe: if any file in the source directory already exists
+in the destination directory, the script will abort instead of mounting.
+
+The script cleans up after itself, removing all the mount points it
+created to bind files or subdirectories into the destination directory.
+
+Any changes you make to the files, or files you add to the bound
+subdirectories, are stored in the source file tree, and so accessible
+through the source file tree as you make changes in the destination
+file tree.
+
+Bcu stands for either mount --Bind, Command, and Unmount; or Blessed|
+Cursed|Uncursed, depending on how much a Nethack fan you are.

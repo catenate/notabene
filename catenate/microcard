@@ -19,4 +19,5 @@ backlog: eth NAS with raid for backup and distributed store for nanocluster
 backlog: don’t use ccache on agents, to keep them anonymous, little-vested, and lightweight
 backlog: distribute ccache across cluster via sshfs, or properly shared filesystem, to share prebuilt .i→.o objects
 backlog: a script returns the least-loaded cluster machine, as rated by uptime’s load average
+backlog: set up separate beaglebone as an Inferno auth server
 Edit ,|sort -r

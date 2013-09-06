@@ -335,8 +335,7 @@
 20110302:1: redo rebuild target source file change djbernstein
 20110302:7: doc
 20110303:1: siam truffle vosges lemongrass gift jason julie
-20110303:7: perl hash howto
-20110303:11: doc
+20110303:8: perl hash howto
 20110307:1: @hipchat api converse build system skype
 20110307:7: redo web dependency example
 20110307:22: entaggle tag people software developer
@@ -993,6 +992,7 @@
 20130409.130715:17: chair joust build time wait compile slack xkcd cartoon
 20130411.115249:1: demention conversation pass mad dimension alternate reality transitive verb
 20130412.142524:1: gnu troff man macro usage
+20130414.212134:1: julie purse clutch handbag gift radley london
 20130415.125029:1: hacker news discuss open source high frequency trade system
 20130415.125029:5: hacker news discuss haskell learn monad
 20130416.131301:1: esquivalience dord trap word street fake copy
@@ -1003,10 +1003,22 @@
 20130418.130313:1: hacker news discuss pip virtualenv python intro
 20130418.130313:6: currency move border map america usa economy division where george
 20130418.130313:15: plan 9 sed man page
-20130414.212134:1: julie purse clutch handbag gift radley london
-Aide:13: make
-Aide:14: twitter recent study post text
 20130418.130313:20: start guide tutorial introduce inferno
 20130418.130313:25: inferno plan 9 resource concurrent program link discuss
 20130419.142714:1: google code search regular expression match trigram index word re2 implement history
+20130425.131519:1: nwirth compiler self speed complex perform balance new feature add time
+20130429.141140:1: efficient automate reduce task time save break even
+20130503.094912:1: strong opinion weak loose hold change mind test position
+20130503.124640:1: c++14 language library feature standard meeting
+20130503.124640:9: hacker news discuss beagle bone black embedded linux controller computer pcb board card usb microsd cloud9 ide
+20130503.124640:13: beagle bone black texas instruments ti
+20130503.124640:17: beagle board community forum
+20130503.124640:21: beagle board gsoc google summer code 
+20130514.111125:1: dynamic linker shared library object specific version resolve symbolic load path run rpath option  manos ld.so
+20130625.150945:1: complex system fail ricook emerge cause human change safe
+20130628.161021:1: automate developer maintenance task
+20130701.170230:1: bcu bind mount command unmount subdirectory file overwrite delete remove
+20130708.145640:1: dfarley video talk slide presentation continuous delivery
+20130711.101630:1: fpm manage create package dir rpm deb python gem empty solaris puppet jsissel
+20130815.114927:1: easy install python setup tools package
 unixide:1: apply du ls sed

@@ -1,0 +1,40 @@
+nb autoconf manual portable program shell script make file
+
+http://www.gnu.org/software/autoconf/manual/autoconf.html#Portable-Shell
+Shellology: A zoology of shells
+Invoking the Shell: Invoking the shell as a command
+Here-Documents: Quirks and tricks
+File Descriptors: FDs and redirections
+Signal Handling: Shells, signals, and headaches
+File System Conventions: File names
+Shell Pattern Matching: Pattern matching
+Shell Substitutions: Variable and command expansions
+Assignments: Varying side effects of assignments
+Parentheses: Parentheses in shell scripts
+Slashes: Slashes in shell scripts
+Special Shell Variables: Variables you should not change
+Shell Functions: What to look out for if you use them
+Limitations of Builtins: Portable use of not so portable /bin/sh
+Limitations of Usual Tools: Portable use of portable tools
+
+http://www.gnu.org/software/autoconf/manual/autoconf.html#Portable-Make
+$< in Ordinary Make Rules: $< in ordinary rules
+Failure in Make Rules: Failing portably in rules
+Special Chars in Names: Special Characters in Macro Names
+Backslash-Newline-Empty: Empty lines after backslash-newline
+Backslash-Newline Comments: Spanning comments across line boundaries
+Long Lines in Makefiles: Line length limitations
+Macros and Submakes: make macro=value and submakes
+The Make Macro MAKEFLAGS: $(MAKEFLAGS) portability issues
+The Make Macro SHELL: $(SHELL) portability issues
+Parallel Make: Parallel make quirks
+Comments in Make Rules: Other problems with Make comments
+Newlines in Make Rules: Using literal newlines in rules
+Comments in Make Macros: Other problems with Make comments in macros
+Trailing whitespace in Make Macros: Macro substitution problems
+Command-line Macros and whitespace: Whitespace trimming of values
+obj/ and Make: Don't name a subdirectory obj
+make -k Status: Exit status of “make -k”
+VPATH and Make: VPATH woes
+Single Suffix Rules: Single suffix rules and separated dependencies
+Timestamps and Make: Subsecond timestamp resolution

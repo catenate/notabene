@@ -1,0 +1,11 @@
+nb automate developer maintenance task
+
+scm: I will add a TODO in the defect tracker to upgrade build boxes.
+
+dev: And a TODO to make all the devs upgrade theirs J
+
+me: Unfortunately, I haven't yet automated the developer control routine.
+It's still a painstaking manual process with a conversational interface.
+There is an automated alert facility, and an amount of peering that
+raises the priority of the usually-niced process, but it seldom
+directly engages with the developer's execution routine.
