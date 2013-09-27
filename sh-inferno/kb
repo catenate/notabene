@@ -1,0 +1,4 @@
+#!/dis/sh
+# ,|sed 's,^([^:]+): ,kb \1	,g'
+(drop cmd) = $*
+$cmd

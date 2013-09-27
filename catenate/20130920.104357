@@ -1,0 +1,13 @@
+python function program filter map reduce
+
+http://docs.python.org/2/tutorial/datastructures.html#functional-programming-tools
+
+filter(function, sequence) returns a sequence consisting of those
+items from the sequence for which function(item) is true.
+
+map(function, sequence) calls function(item) for each of the
+sequence’s items and returns a list of the return values.
+
+reduce(function, sequence) returns a single value constructed by
+calling the binary function function on the first two items of the
+sequence, then on the result and the next item, and so on.

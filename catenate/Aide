@@ -3,6 +3,7 @@
 Dump /github/notabene/catenate/dump
 Edit ,|sort|uniq
 Load /github/notabene/catenate/dump
+New options
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
 dos xrdb -merge solarized
 fortune fortunes | fmt

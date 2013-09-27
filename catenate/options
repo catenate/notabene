@@ -1,0 +1,38 @@
+	An optional abecedarium
+	Edit ,|sort|uniq
+D…	Define preprocessor macro for C/C++ compiler.
+F	Format filenames with ls: / for directories and * for executables.
+I…	Include directory in search for header files.
+L…	Include directory in search for library files.
+R	Recurse directories with chmod and chown.
+U…	Undefine preprocessor macro for C/C++ compiler.
+W…	Warning selection for C/C++ compiler.
+a	Add unstaged changes to known files in git commit.
+a	List all branches with git branch.
+a	List all files with du, with sizes.
+a	List all files with ls, including hidden files.
+b	Elide binary characters with col.
+c	Compile only with C/C++ compilers, do not link.
+f	Force files and directories to delete with rm.
+f…	Feature selection for C/C++ compiler.
+g	Globally replace all occurrences with sed s.
+g	Leave symbol table in objects created by C/C++ compiler for debugging.
+h	Human-readable sizes with df and du.
+i	Case-insensitive match with grep.
+k	Keep going despite errors in make production commands.
+l	Login name of user for ssh.
+l	Long listing with ls, reporting details of each file.
+l	Omit log by host.
+l	[Hard]link files with cp, instead of copy.
+l…	Link library in C/C++ compiler.
+m…	Message for git commit.
+n	List all files with du, and no sizes.
+n	Print production commands in make, instead of executing them.
+o…	Output file name for C/C++ compilers.
+p	Print lines with sed / and s.
+q	Quit when pattern matched by sed’s line matching.
+r	Recurse directories with cp and rm.
+s	Silence grep.
+s	Symbolic-link files with cp, instead of copy.
+v	Invert sense of match with grep.
+x	Preserve permissions on files copied with cp.
