@@ -1,0 +1,11 @@
+nb posix ksh bash shell set option errexit error nounset variable xtrace print command aeux
+set -aeux
+set -o allexport
+set -o errexit
+set -o nounset
+set -o xtrace
+
+
+nb posix ksh bash shell set option noexec only read command
+set -n
+set -o noexec

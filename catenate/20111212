@@ -1,5 +1,5 @@
 nb create ssh id_rsa key  global config user name email  git windows
-http://help.github.com/win-set-up-git/
+web http://help.github.com/win-set-up-git/
 
 In section “Set Up SSH Keys”, steps 1–3 generate ssh keys for any
 git repository.
