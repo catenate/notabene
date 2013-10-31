@@ -1,0 +1,126 @@
+Stranger.  Minimize points from Tarot cards on your side or shared
+with each other player.
+
+"Fugitive.  x0 This card stack has no point sum.  XXII This card alone."
+When played as part of a card stack, multiply the point sum of the
+card stack by zero.  When played alone, on any side or share,
+its point value is 22.  This means that it can’t be combined with any
+other cards and keep its value of 22.
+
+"Misery I. Move a card from another side to your side.  Play this
+in its place." You may replace a card in a stack, except Pillar and
+its stack, or Sisyphus.
+
+"Magus II. Play this card in place of another.  Replay that card."
+You may replace a card in a stack, except Pillar and its stack,
+or Sisyphus.
+	A player may play Sun to replay Magus, and then use Magus to
+replay Sun, et cetera, only so long as it makes a difference in the
+card layout.
+
+"Mother III.  Move a shared card to your side.  Play this in its place."
+Replace a card in one of your shares.  You may replace a card in
+a stack, except Pillar and its stack, or Sisyphus.
+
+"Father IIII.  Play this on your side.  Share a card from your side."
+Move a card on your side into one of your shares.  You may remove a
+card from a stack, except Pillar and its stack, or Sisyphus.
+
+"Constancy V.  Play this on your side.  Move a card to another side."
+Move a card from your side into another side.  You may remove a
+card from a stack, except Pillar and its stack, or Sisyphus.
+
+"Lovers =VI.  Share this card between 2 players.  They share points of
+their side cards."  Their side cards are not moved to the shared area,
+so any card which moves away Lovers cancels the point sharing.
+
+"Temperance VII.  Play this on a side.  Share a card stack from that
+side with each other player."  Share only as many card stacks as there
+are other players.  Do not share Pillar and its stack, or Sisyphus.
+(This may separate Sisyphus from the remainder of his stack.)
+Temperance may share, because it plays before stacks move.
+
+"Fortitude 3xVIII.  Triple the point sum of this card stack."
+Sum the values of all the cards in the stack, then multiply.
+Fortitude adds at least 24 points to the card stack it joins.
+
+"Stranger VIIII.  In hand: your turn next.  Each turn starts by moving
+this card to share or side with fewest points." The player dealt this
+card plays it as the first play of the game.  At the beginning of each turn,
+the card moves to the share or side with fewest points.  If more than
+one share or side has the same number of fewest points, then the
+current player decides where to move the card.
+
+"Fortune X. Play on your side.  Each player passes one card stack
+left to another side."  Fortune may move, because it plays before
+the stacks move.  Do not move Pillar and its stack, or Sisyphus.
+(This may separate Sisyphus from the remainder of his stack.)
+
+"Adjustment XI. Move highest-point card stack to side with fewest
+points.  Play this card in its place."  Do not move Pillar and its stack,
+or Sisyphus.  (This may separate Sisyphus from the remainder of
+his stack.)  Adjustment is not the highest-point card stack, because
+it does not play to a side until after the stack moves.
+
+"Traitor -XII.  Negate the point sum of this card stack."
+Multiply the point sum of the card stack by -1.
+
+"Death XIII.  Remove a card from play.  Play this card in its place."
+This card affects Pillar and Sisyphus, and other cards in their stacks.
+Death removes the card entirely from play, and no cards bring it
+back into play.
+
+"Trebuchet XIIII.  Play in any share.  Move a card stack from one of
+its sides to the other."  Play the Trebuchet to the share between the
+source and destination sides.  Do not move Pillar and its stack,
+or Sisyphus.  (This may separate Sisyphus from the remainder of
+his stack.)
+
+"Devil XV.  Move a card stack to each other side from a side.
+Play this on the source side."  Move only as many card stacks as there
+are other players.  Do not move Pillar and its stack, or Sisyphus.
+(This may separate Sisyphus from the remainder of his stack.)
+Devil does not move, because it does not play on the source side until
+after the other stacks move.
+
+"Pillar XVI.  This card stack does not move or replay."
+Pillar and other cards in its stack may NOT be moved, passed,
+picked up, replaced, replayed, et cetera from a stack containing
+Pillar.  All such cards may die.
+
+"Star 2xXVII.  Double the point sum of this card stack."
+Sum the values of all the cards in the stack, then multiply.
+Fortitude adds at least 34 points to the card stack it joins.
+
+"Moon XVIIII. Shuffle and deal a share’s cards to players’ hands.
+Play this on that share."  Pick up all cards on the share, except
+Pillar and its stack, or Sisyphus.  Play Moon after you distribute all
+the other cards.
+
+"Sun XVIIII. Shuffle and deal a side’s cards to players’ hands.
+Play this on that side."  Pick up all cards on the side, except
+Pillar and its stack, or Sisyphus.  Play Sun after you distribute all
+the other cards.
+	A player may play Sun to replay Magus, and then use Magus to
+replay Sun, et cetera, only so long as it makes a difference in the
+card layout.
+
+"Judgement XX.  Play to a share.  The share’s players switch hand
+and position."  The simplest way to do this is to have the two players
+put face down their hand of cards on each side, and get up and
+sit in each other’s seats.
+
+"Sisyphus XXI.  Replay all cards from your side.  Play this card on
+your side.  It does not move or replay." Play Sisyphus after you
+replay all the other cards, so none of the replayed cards are played
+on Sisyphus.  While the cards are replayed, the Sisyphus card is
+effectively hidden.
+	Other cards may be moved or replayed from a stack containing
+Sisyphus.
+
+Cards grouped by function.  Fugitive, Lovers, Fortitude, Traitor, and
+Star change point sums.  Misery, Magus, Mother, Father, Constancy,
+Stranger, and Death (re)move or replay one card.  Moon, Sun, and
+Sisyphus distribute or replay card stacks.  Temperance, Fortune,
+Adjustment, Trebuchet, Devil, and Pillar (don’t) move card stacks.
+Judgement changes player sides.

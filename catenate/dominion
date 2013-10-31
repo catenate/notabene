@@ -1,0 +1,442 @@
+Dominion	Cellar	Action	$2	+1 Action.  Discard any number of cards. +1 Card per card discarded.
+Dominion	Chapel	Action	$2	Trash up to 4 cards from your hand.
+Dominion	Moat	Action – Reaction	$2	+2 Cards.  When another player plays an Attack card, you may reveal this from your hand. If you do, you are unaffected by that Attack.
+Dominion	Chancellor	Action	$3	+$2.  You may immediately put your deck into your discard pile.
+Dominion	Village	Action	$3	+1 Card; +2 Actions.
+Dominion	Woodcutter	Action	$3	+1 Buy; +$2.
+Dominion	Workshop	Action	$3	Gain a card costing up to $4.
+Dominion	Bureaucrat	Action – Attack	$4	Gain a silver card; put it on top of your deck. Each other player reveals a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards).
+Dominion	Feast	Action	$4	Trash this card. Gain a card costing up to $5.
+Dominion	Gardens	Victory	$4	Worth 1 Victory for every 10 cards in your deck (rounded down).
+Dominion	Militia	Action – Attack	$4	+$2.  Each other player discards down to 3 cards in his hand.
+Dominion	Moneylender	Action	$4	Trash a Copper from your hand. If you do, +$3.
+Dominion	Remodel	Action	$4	Trash a card from your hand. Gain a card costing up to $2 more than the trashed card.
+Dominion	Smithy	Action	$4	+3 Cards.
+Dominion	Spy	Action – Attack	$4	+1 Card; +1 Action.  Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice.
+Dominion	Thief	Action – Attack	$4	Each other player reveals the top 2 cards of his deck. If they revealed any Treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards.
+Dominion	Throne Room	Action	$4	Choose an Action card in your hand. Play it twice.
+Dominion	Council Room	Action	$5	+4 Cards; +1 Buy.  Each other player draws a card.
+Dominion	Festival	Action	$5	+2 Actions, +1 Buy; +$2.
+Dominion	Laboratory	Action	$5	+2 Cards; +1 Action.
+Dominion	Library	Action	$5	Draw until you have 7 cards in hand. You may set aside any Action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing.
+Dominion	Market	Action	$5	+1 Card; +1 Action; +1 Buy; +$1.
+Dominion	Mine	Action	$5	Trash a Treasure card from your hand. Gain a Treasure card costing up to $3 more; put it into your hand.
+Dominion	Witch	Action – Attack	$5	+2 Cards.  Each other player gains a Curse card.
+Dominion	Adventurer	Action	$6	Reveal cards from your deck until you reveal 2 Treasure cards. Put those Treasure cards in your hand and discard the other revealed cards.
+Intrigue	Courtyard	Action	$2	+3 Cards.  Put a card from your hand on top of your deck.
+Intrigue	Pawn	Action	$2	Choose two: +1 Card; +1 Action; +1 Buy; +$1.  (The choices must be different.)
+Intrigue	Secret Chamber	Action – Reaction	$2	Discard any number of cards. +$1 per card discarded.  When another player plays an Attack card, you may reveal this from your hand. If you do, +2 cards, then put 2 cards from your hand on top of your deck.
+Intrigue	Great Hall	Action – Victory	$3	1 Victory Point.  +1 Card; +1 Action.
+Intrigue	Masquerade	Action	$3	+2 Cards.  Each player passes a card in their hand to the player on their left. You may trash a card from your hand.
+Intrigue	Shanty Town	Action	$3	+2 Actions.  Reveal your hand. If you have no Action cards in hand, +2 Cards.
+Intrigue	Steward	Action	$3	Choose one: +2 Cards; or +$2; or trash 2 cards from your hand.
+Intrigue	Swindler	Action – Attack	$3	+$2.  Each other player trashes the top card of his deck and gains a card with the same cost that you choose.
+Intrigue	Wishing Well	Action	$3	+1 Card; +1 Action.  Name a card, then reveal the top card of your deck. If it is the named card, put it in your hand.
+Intrigue	Baron	Action	$4	+1 Buy.  You may discard an Estate card. If you do, +$4. Otherwise, gain an Estate card.
+Intrigue	Bridge	Action	$4	+1 Buy; +$1.  All cards (including cards in players’ hands) cost $1 less this turn, but not less than $0.
+Intrigue	Conspirator	Action	$4	+$2.  If you’ve played 3 or more Actions this turn (counting this): +1 Card; +1 Action.
+Intrigue	Coppersmith	Action	$4	Copper produces an extra $1 this turn.
+Intrigue	Ironworks	Action	$4	Gain a card costing up to $4. If it is an… Action card, +1 Action. Treasure card, +$1. Victory card, +1 Card.
+Intrigue	Mining Village	Action	$4	+1 Card; +2 Actions.  You may trash this card immediately. If you do, +$2.
+Intrigue	Scout	Action	$4	+1 Action.  Reveal the top 4 cards of your deck. Put the revealed Victory cards into your hand. Put the other cards on top of your deck in any order.
+Intrigue	Duke	Victory	$5	Worth 1 Victory Point per Duchy you have.
+Intrigue	Minion	Action – Attack	$5	+1 Action.  Choose one: +$2; or discard your hand, +4 Cards; and each other player with at least 5 cards in hand discards his hand and draws 4 cards.
+Intrigue	Saboteur	Action – Attack	$5	Each other player reveals cards from the top of his deck until revealing one costing $3 or more. He trashes that card and may gain a card costing at most $2 less than it. He discards the other revealed cards.
+Intrigue	Torturer	Action – Attack	$5	+3 Cards.  Each other player chooses one: he discards 2 cards; or he gains a Curse card, putting it in his hand.
+Intrigue	Trading Post	Action	$5	Trash 2 cards from your hand. If you do, gain a silver card; put it into your hand.
+Intrigue	Tribute	Action	$5	The player to your left reveals then discards the top 2 cards of his deck. For each differently named card revealed, if it is an… Action Card; +2 Actions; Treasure Card; +$2; Victory Card; +2 Cards.
+Intrigue	Upgrade	Action	$5	+1 Card; +1 Action.  Trash a card from your hand. Gain a card costing exactly $1 more than it.
+Intrigue	Harem	Treasure – Victory	$6	Worth $2.  2 Victory Points
+Intrigue	Nobles	Action – Victory	$6	2 Victory Points.  Choose one: +3 Cards; or +2 Actions.
+
+Seaside
+
+Embargo	Action	$2	+$2
+Trash this card. Put an Embargo token on top of a Supply pile.
+When a player buys a card, he gains a Curse card per Embargo token on that pile.
+Haven	Action – Duration	$2	+1 Card; +1 Action
+Set aside a card from your hand face down. At the start of your next turn, put it into your hand.
+Lighthouse	Action – Duration	$2	+1 Action
+Now and at the start of your next turn: +$1.
+While this is in play, when another player plays an Attack card, it doesn’t affect you.
+Native Village	Action	$2	+2 Actions
+Choose one: Set aside the top card of your deck face down on your Native Village mat; or put all the cards from your mat into your hand. You may look at the cards on your mat at any time; return them to your deck at the end of the game.
+Pearl Diver	Action	$2	+1 Card; +1 Action
+Look at the bottom card of your deck. You may put it on top.
+Ambassador (part II)	Action – Attack	$3	Reveal a card from your hand. Return up to 2 copies of it from your hand to the Supply. Then each other player gains a copy of it.
+Fishing Village	Action – Duration	$3	+2 Actions, +$1
+At the start of your next turn: +1 Action; +$1.
+Lookout	Action	$3	+1 Action
+Look at the top 3 cards of your deck. Trash one of them. Discard one of them. Put the other one on top of your deck.
+Smugglers	Action	$3	Gain a copy of a card costing up to $6 that the player to your right gained on his last turn.
+Warehouse	Action	$3	+3 Cards; +1 Action
+Discard 3 cards.
+Caravan	Action – Duration	$4	+1 Card; +1 Action
+At the start of your next turn, +1 Card.
+Cutpurse	Action – Attack	$4	+$2
+Each other player discards a Copper card (or reveals a hand with no Copper).
+Island	Action – Victory	$4	Set aside this and another card from your hand. Return them to your deck at the end of the game.
+Worth 2 Victory Points
+Navigator	Action	$4	+$2
+Look at the top 5 cards of your deck. Either discard all of them, or put them back on top of your deck in any order.
+Pirate Ship	Action – Attack	$4	Choose one: Each other player reveals the top 2 cards of his deck, trashes a revealed Treasure that you choose, discards the rest, and if anyone trashed a Treasure you take a Coin token; or, +$1 per Coin token you’ve taken with Pirate Ships this game.
+Salvager	Action	$4	+1 Buy
+Trash a card from your hand. +$ equal to its cost.
+Sea Hag	Action – Attack	$4	Each other player discards the top card of his deck, then gains a Curse card, putting it on top of his deck.
+Treasure Map	Action	$4	Trash this and another copy of Treasure Map from your hand. If you do trash two Treasure Maps, gain 4 Gold cards, putting them on top of your deck.
+Bazaar	Action	$5	+1 Card; +2 Actions, +$1.
+Explorer	Action	$5	You may reveal a Province card from your hand. If you do, gain a Gold card, putting it into your hand. Otherwise, gain a Silver card, putting it into your hand.
+Ghost Ship	Action – Attack	$5	+2 Cards
+Each other player with 4 or more cards in hand puts cards from his hand on top of his deck until he has 3 cards in his hand.
+Merchant Ship	Action – Duration	$5	Now and at the start of your next turn: +$2.
+Outpost	Action – Duration	$5	You only draw 3 cards (instead of 5) in this turn’s Clean-up phase. Take an extra turn after this one. This can’t cause you to take more than two consecutive turns.
+Tactician	Action – Duration	$5	Discard your hand. If you discarded any cards this way, then at the start of your next turn, +5 Cards; +1 Buy; and +1 Action.
+Treasury	Action	$5	+1 Card; +1 Action; +$1
+When you discard this from play, if you didn’t buy a Victory card this turn, you may put this on top of your deck.
+Wharf	Action – Duration	$5	Now and at the start of your next turn: +2 Cards; +1 Buy.
+Alchemy
+
+Herbalist	Action	$2	+1 Buy; +$1
+When you discard this from play, you may put one of your Treasures from play on top of your deck.
+Potion	Treasure	$4	Worth 1◉.
+Apprentice	Action	$5	+1 Action
+Trash a card from your hand. +1 Card per Coin it costs. +2 Cards if it has ◉ in its cost.
+Transmute	Action	$0◉	Trash a card from your hand. If it is an… Action card, gain a Duchy; Treasure card, gain a Transmute; Victory card, gain a Gold.
+Vineyard	Victory	$0◉	Worth 1 Victory Point for every 3 Action cards in your deck (rounded down).
+Apothecary	Action	$2◉	+1 Card; +1 Action
+Reveal the top 4 cards of your deck. Put the revealed Coppers and Potions into your hand. Put the other cards back on top in any order.
+Scrying Pool	Action – Attack	$2◉	+1 Action
+Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice. Then reveal cards from the top of your deck until revealing one that isn’t an Action. Put all of your revealed cards into your hand.
+University	Action	$2◉	+2 Actions
+You may gain an Action card costing up to $5.
+Alchemist	Action	$3◉	+2 Cards; +1 Action
+When you discard this from play, you may put this on top of your deck if you have a Potion in play.
+Familiar	Action – Attack	$3◉	+1 Card; +1 Action
+Each other player gains a curse.
+Philosopher’s Stone	Treasure	$3◉	When you play this, count your deck and discard pile. Worth $1 per 5 cards total between them (rounded down).
+Golem	Action	$4◉	Reveal cards from your deck until you reveal 2 Action cards other than Golem Cards. Discard the other cards, then play the Action cards in either order.
+Possession	Action	$6◉	The player to your left takes an extra turn after this one, in which you can see all cards he can and make all decisions for him. Any cards he would gain on that turn, you gain instead; any cards of his that are trashed are set aside and returned to his discard pile at end of turn.
+Prosperity
+
+Loan	Treasure	$3	Worth $1
+When you play this, reveal cards from your deck until you reveal a Treasure. Discard it or trash it. Discard the other cards.
+Trade Route	Action	$3	+1 Buy; +$1 per token on the Trade Route mat.
+Trash a card from your hand.Setup: Put a token on each Victory card Supply pile. When a card is gained from that pile, move the token to the Trade Route mat.
+Watchtower	Action – Reaction	$3	Draw until you have 6 cards in hand.
+When you gain a card, you may reveal this from your hand. If you do, either trash that card, or put it on top of your deck.
+Bishop	Action	$4	+$1; +1 VP token
+Trash a card from your hand. +VP tokens equal to half its cost in coins, rounded down. Each other player may trash a card from his hand.
+Monument	Action	$4	+$2; +1 VP token.
+Quarry	Treasure	$4	Worth $1.
+While this is in play, Action cards cost $2 less, but not less than $0.
+Talisman	Treasure	$4	Worth $1.
+While this is in play, when you buy a card costing $4 or less that is not a Victory card, gain a copy of it.
+Worker’s Village	Action	$4	+1 Card; +2 Actions, +1 Buy
+City	Action	$5	+1 Card; +2 Actions
+If there are one or more empty Supply piles, +1 Card. If there are two or more, +$1 and +1 Buy.
+Contraband	Treasure	$5	Worth $3
++1 Buy
+When you play this, the player to your left names a card. You can’t buy that card this turn.
+Counting House	Action	$5	Look through your discard pile, reveal any number of Copper cards from it, and put them into your hand.
+Mint	Action	$5	You may reveal a Treasure card from your hand. Gain a copy of it.
+When you buy this, trash all Treasures you have in play.
+Mountebank	Action – Attack	$5	+$2
+Each other player may discard a Curse. If he doesn’t, he gains a Curse and a Copper.
+Rabble	Action – Attack	$5	+3 Cards
+Each other player reveals the top 3 cards of his deck, discards the revealed Actions and Treasures, and puts the rest back on top in any order he chooses.
+Royal Seal	Treasure	$5	Worth $2
+While this is in play, when you gain a card, you may put that card on top of your deck.
+Vault	Action	$5	+2 Cards
+Discard any number of cards. +$1 per card discarded. Each other player may discard 2 cards. If he does, he draws a card.
+Venture	Treasure	$5	Worth $1
+When you play this, reveal cards from your deck until you reveal a Treasure. Discard the other cards. Play that Treasure.
+Goons	Action – Attack	$6	+1 Buy; +$2
+Each other player discards down to 3 cards in hand.
+While this is in play, when you buy a card, +1 VP token.
+Grand Market	Action	$6	+1 Card; +1 Action; +1 Buy; +$2
+You can’t buy this if you have any Copper in play.
+Hoard	Treasure	$6	Worth $2.
+While this is in play, when you buy a Victory card, gain a Gold.
+Bank	Treasure	$7	Worth $?
+When you play this, it’s worth $1 per Treasure card you have in play (counting this).
+Expand	Action	$7	Trash a card from your hand. Gain a card costing up to $3 more than the trashed card.
+Forge	Action	$7	Trash any number of cards from your hand. Gain a card with cost exactly equal to the total cost in coins of the trashed cards.
+King’s Court	Action	$7	You may choose an Action card in your hand. Play it three times.
+Peddler	Action	$8*	+1 Card; +1 Action; +$1
+During your Buy phase, this costs $2 less per Action card you have in play, but not less than $0.
+Platinum	Treasure	$9	Worth $5
+Colony	Victory	$11	10 Victory Points
+Cornucopia
+
+Hamlet	Action	$2	+1 Card; +1 Action
+You may discard a card; if you do, +1 Action.
+You may discard a card; if you do, +1 Buy.
+Fortune Teller	Action – Attack	$3	+$2
+Each other player reveals cards from the top of his deck until he reveals a Victory or Curse card. He puts it on top and discards the other revealed cards.
+Menagerie	Action	$3	+1 Action
+Reveal your hand. If there are no duplicate cards in it, +3 Cards. Otherwise, +1 Card.
+Farming Village	Action	$4	+2 Actions
+Reveal cards from the top of your deck until you reveal an Action or Treasure card. Put that card into your hand and discard the other cards.
+Horse Traders	Action – Reaction	$4	+1 Buy; +$3; Discard 2 cards.
+When another player plays an Attack card, you may set this aside from your hand. If you do, then at the start of your next turn, +1 Card and return this to your hand.
+Remake	Action	$4	Do this twice: Trash a card from your hand; gain a card costing exactly $1 more than the trashed card.
+Tournament	Action	$4	+1 Action
+Each player may reveal a Province from his hand.
+If you do, discard it and gain a Prize (from the Prize pile) or a Duchy, putting it on top of your deck.
+If no-one else does, +1 Card, +$1.
+Young Witch	Action – Attack	$4	+2 Cards
+Discard 2 cards. Each other player may reveal a Bane card from his hand. If he doesn’t, he gains a Curse.Setup: Add an extra Kingdom card pile costing $2 or $3 to the Supply. Cards from that pile are Bane cards.
+Harvest	Action	$5	Reveal the top 4 cards of your deck, then discard them. +$1 per differently named card revealed.
+Horn of Plenty	Treasure	$5	Worth $0.
+When you play this, gain a card costing up to $1 per differently named card you have in play, counting this. If it’s a Victory card, trash this.
+Hunting Party	Action	$5	+1 Card; +1 Action.
+Reveal your hand. Reveal cards from your deck until you reveal a card that isn’t a duplicate of one in your hand. Put it into your hand and discard the rest.
+Jester	Action – Attack	$5	+$2
+Each other player discards the top card of his deck. If it’s a Victory card he gains a Curse. Otherwise either he gains a copy of the discarded card or you do, your choice.
+Fairgrounds	Victory	$6	Worth 2VP for every 5 differently named cards in your deck (round down).
+Prizes (these are not in the Supply, and only used with Tournament)
+
+Bag of Gold	Action – Prize	$0*	+1 Action
+Gain a Gold, putting it on top of your deck.
+Diadem	Treasure – Prize	$0*	Worth $2.
+When you play this, +$1 per unused Action you have (Action, not Action card).
+Followers	Action – Attack – Prize	$0*	+2 Cards
+Gain an Estate. Each other player gains a Curse and discards down to 3 cards in hand.
+Princess	Action – Prize	$0*	+1 Buy
+While this is in play, cards cost $2 less, but not less than $0.
+Trusty Steed	Action – Prize	$0*	Choose two: +2 Cards; or +2 Actions; or +$2; or gain 4 Silvers and put your deck into your discard pile.
+Hinterlands
+
+Crossroads	Action	$2	Reveal your hand.
++1 Card per Victory card revealed. If this is the first time you played a Crossroads this turn, +3 Actions.
+Duchess	Action	$2	+$2
+Each player (including you) looks at the top card of his deck, and discards it or puts it back.
+—
+In games using this, when you gain a Duchy, you may gain a Duchess.
+Fool’s Gold	Treasure – Reaction	$2	If this is the first time you played a Fool’s Gold this turn, this is worth $1, otherwise it’s worth $4.
+—
+When another player gains a Province, you may trash this from your hand. If you do, gain a Gold, putting it on your deck.
+Develop	Action	$3	Trash a card from your hand. Gain a card costing exactly $1 more than it and a card costing exactly $1 less than it, in either order, putting them on top of your deck.
+Oasis	Action	$3	+1 Card; +1 Action; +$1
+Discard a card.
+Oracle	Action – Attack	$3	Each player (including you) reveals the top 2 cards of his deck, and you choose one: either he discards them, or he puts them back on top in an order he chooses.
++2 Cards
+Scheme	Action	$3	+1 Card; +1 Action
+At the start of Clean-up this turn, you may choose an Action card you have in play. If you discard it from play this turn, put it on your deck.
+Tunnel	Victory – Reaction	$3	2 Victory Points
+—
+When you discard this other than during a Clean-up phase, you may reveal it. If you do, gain a Gold.
+Jack of All Trades	Action	$4	Gain a Silver.
+Look at the top card of your deck; discard it or put it back.
+Draw until you have 5 cards in hand.
+You may trash a card from your hand that is not a Treasure.
+Noble Brigand	Action – Attack	$4	+$1
+When you buy this or play it, each other player reveals the top 2 cards of his deck, trashes a revealed Silver or Gold you choose, and discards the rest. If he didn’t reveal a Treasure, he gains a Copper. You gain the trashed cards.
+Nomad Camp
+Action	$4	+1 Buy; +$2
+—
+When you gain this, put it on top of your deck.
+Silk Road	Victory	$4	Worth 1 Victory Point for every 4 Victory cards in your deck (round down).
+Spice Merchant	Action	$4	You may trash a Treasure from your hand. If you do, choose one:
++2 Cards and +1 Action;
+or +$2 and +1 Buy.
+Trader	Action – Reaction	$4	Trash a card from your hand. Gain a number of Silvers equal to its cost in coins.
+—
+When you would gain a card, you may reveal this from your hand. If you do, instead, gain a silver.
+Cache	Treasure	$5	Worth $3
+—
+When you gain this, gain two Coppers.
+Cartographer	Action	$5	+1 Card; +1 Action
+Look at the top 4 cards of your deck. Discard any number of them. Put the rest back on top in any order.
+Embassy	Action	$5	+5 Cards
+Discard 3 cards.
+—
+When you gain this, each other player gains a Silver.
+Haggler	Action	$5	+$2
+—
+While this is in play, when you buy a card, gain a card costing less than it that is not a Victory card.
+Highway	Action	$5	+1 Card; +1 Action
+—
+While this is in play, cards cost $1 less, but not less than $0.
+Ill-Gotten Gains	Treasure	$5	Worth $1
+When you play this, you may gain a Copper, putting it into your hand.
+—
+When you gain this, each other player gains a Curse.
+Inn	Action	$5	+2 Cards; +2 Actions
+Discard 2 cards.
+—
+When you gain this, look through your discard pile (including this), reveal any number of Action cards from it, and shuffle them into your deck.
+Mandarin	Action	$5	+$3
+Put a card from your hand on top of your deck.
+—
+When you gain this, put all Treasures you have in play on top of your deck in any order.
+Margrave	Action – Attack	$5	+3 Cards; +1 Buy
+Each other player draws a card, then discards down to 3 cards in hand.
+Stables	Action	$5	You may discard a Treasure. If you do, +3 Cards and +1 Action.
+Border Village	Action	$6	+1 Card; +2 Actions
+—
+When you gain this, gain a card costing less than this.
+Farmland	Victory	$6	2 VP
+—
+When you buy this, trash a card from your hand. Gain a card costing exactly $2 more than the trashed card.
+Dark Ages
+
+Madman	Action	$0*	+2 Actions
+Return this to the Madman pile. If you do, +1 Card per card in your hand.
+(This is not in the Supply.)
+Mercenary	Action – Attack	$0*	You may trash 2 cards from your hand. If you do, +2 Cards, + $2, and each other player discards down to 3 cards in hand.
+(This is not in the Supply.)
+Spoils	Treasure	$0*	$3
+When you play this, return it to the pile.
+Poor House	Action	$1	+$4
+Reveal your hand. -$1 per Treasure card in your hand, to a minimum of $0.
+Beggar	Action – Reaction	$2	Gain 3 Coppers, putting them into your hand.
+___
+When another player plays an Attack card, you may discard this. If you do, gain two Silvers, putting one on top of your deck.
+Squire	Action	$2	+$1
+Choose one: +2 Actions; or +2 Buys; or gain a Silver.
+___
+When you trash this, gain an Attack card.
+Vagrant	Action	$2	+1 Card; +1 Action
+Reveal the top card of your deck. If it’s a Victory card, Curse, Ruins, or Shelter, put it into your hand.
+Forager	Action	$3	+1 Action; +1 Buy
+Trash a card from your hand. +$1 per differently named Treasure in the trash.
+Hermit	Action	$3	Look through your discard pile. You may trash a card that is not a Treasure, from your discard pile or your hand. Gain a card costing up to $3.
+___
+When you discard this from play, if you didn’t buy any cards this turn, trash this and gain a Madman (from the Madman pile).
+Market Square	Action – Reaction	$3	+1 Card; +1 Action; +1 Buy
+___
+When one of your cards is trashed, you may discard this from your hand. If you do, gain a Gold.
+Sage	Action	$3	+1 Action
+Reveal cards from the top of your deck until you reveal one costing $3 or more. Put that card into your hand and discard the rest.
+Storeroom	Action	$3	+1 Buy
+Discard any number of cards. +1 Card per card discarded. Discard any number of cards. +$1 per card discarded the second time.
+Urchin	Action – Attack	$3	+1 Card; +1 Action
+Each other player discards down to 4 cards in hand.
+___
+When you play another Attack card with this in play, you may trash this. If you do, gain a Mercenary from the Mercenary pile.
+Armory	Action	$4	Gain a card costing up to $4. Put it on top of your deck.
+Death Cart	Action – Looter	$4	+$5
+You may trash an Action card from your hand. If you don’t, trash this.
+___
+When you gain this, gain two Ruins.
+Feodum	Victory	$4	Worth 1 VP for every 3 Silvers in your deck.
+___
+When you trash this, gain 3 Silvers.
+Fortress	Action	$4	+1 Card; +2 Actions
+___
+When you trash this, put it into your hand.
+Ironmonger	Action	$4	+1 Card; +1 Action
+Reveal the top card of your deck; you may discard it. If it is an Action card, +1 Action; a Treasure card, +$1; a Victory card, +1 Card.
+Marauder	Action – Attack – Looter	$4	Gain a Spoils. Each other player gains a Ruins.
+Procession	Action	$4	You may play an Action card from your hand twice. Trash it. Gain an Action card costing exactly $1 more than it.
+Rats	Action	$4	+1 Card; +1 Action
+Gain a Rats. Trash a card from your hand other than a Rats (or reveal a hand of all Rats).
+___
+When this is trashed, +1 Card.
+Scavenger	Action	$4	+$2
+You may put your deck into your discard pile. Look through your discard pile and put one card from it on top of your deck.
+Wandering Minstrel	Action	$4	+1 Card; +2 Actions
+Reveal the top 3 cards of your deck. Put the Actions back on top in any order and discard the rest.
+Band of Misfits	Action	$5	Play this as if it were an Action card in the Supply costing less than it that you choose. This is that card until it leaves play.
+Bandit Camp	Action	$5	+1 Card; +2 Actions
+Gain a Spoils.
+Catacombs	Action	$5	Look at the top 3 cards of your deck. Choose one: Put them into your hand; or discard them and +3 Cards.
+___
+When you trash this, gain a cheaper card.
+Count	Action	$5	Choose one: Discard 2 cards; put a card from your hand on top of your deck; or gain a Copper.
+Choose one: +$3; trash your hand; or gain a Duchy.
+Counterfeit	Treasure	$5	$1; +1 Buy
+When you play this, you may play a treasure from your hand twice. If you do, trash that treasure.
+Cultist	Action – Attack – Looter	$5	+2 Cards
+Each other player gains a Ruins. You may play a Cultist from your hand.
+___
+When you trash this, +3 Cards.
+Graverobber	Action	$5	Choose one: Gain a card from the trash costing from $3 to $6, putting it on top of your deck; or trash an Action card from your hand and gain a card costing up to $3 more than it.
+Junk Dealer	Action	$5	+1 Card; +1 Action; +$1
+Trash a card from your hand.
+Mystic	Action	$5	+1 Action
++$2
+Name a card. Reveal the top card of your deck. If it’s the named card, put it into your hand.
+Pillage	Action – Attack	$5	Trash this. Each other player with 5 or more cards in hand reveals his hand and discards a card that you choose. Gain 2 Spoils.
+Rebuild	Action	$5	+1 Action
+Name a card. Reveal cards from the top of your deck until you reveal a Victory card that is not the named card. Discard the other cards. Trash the Victory card and gain a Victory card costing up to $3 more than it.
+Rogue	Action – Attack	$5	+$2
+If there are any cards in the trash costing from $3 to $6, gain one of them. Otherwise, each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest.
+Altar	Action	$6	Trash a card from your hand. Gain a card costing up to $5.
+Hunting Grounds	Action	$6	+4 Cards
+___
+When this is trashed, gain a Duchy or 3 Estates
+Ruins			50 total, 10 of each type, shuffled into a pile of ten per opponent, like Curses
+Abandoned Mine	Action – Ruins	$0	+$1
+Ruined Library	Action – Ruins	$0	+1 Card
+Ruined Market	Action – Ruins	$0	+1 Buy
+Ruined Village	Action – Ruins	$0	+1 Action
+Survivors	Action – Ruins	$0	Look at the top 2 cards of your deck. Discard them or put them back in any order.
+Knights			One of each, all shuffled into one Kingdom pile
+Dame Anna	Action – Attack – Knight	$5	You may trash up to 2 cards from your hand.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Dame Josephine	Action – Attack – Victory – Knight	$5	Worth 2 VP.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Dame Molly	Action – Attack – Knight	$5	+2 Actions.
+Each other player discards the top 2 cards of his deck, and trashes one of them costing from $3 to $6. If a Knight is trashed by this, trash this card.
+Dame Natalie	Action – Attack – Knight	$5	You may gain a card costing up to $3.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Dame Sylvia	Action – Attack – Knight	$5	+$2
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Bailey	Action – Attack – Knight	$5	+1 Card; +1 Action
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Destry	Action – Attack – Knight	$5	+2 Cards
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Martin	Action – Attack – Knight	$4	+2 Buys
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Michael	Action – Attack – Knight	$5	Each other player discards down to 3 cards in hand.
+Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+Sir Vander	Action – Attack – Knight	$5	Each other player reveals the top 2 cards of his deck, trashes one of them costing from $3 to $6, and discards the rest. If a Knight is trashed by this, trash this card.
+___
+When this is trashed, gain a Gold.
+Shelters			Replaces starting Estates
+Hovel	Reaction – Shelter	$1	When you buy a Victory card, you may trash this from your hand.
+Necropolis	Action – Shelter	$1	+2 Actions
+Overgrown Estate	Victory – Shelter	$1	0 VP
+___
+When you trash this, +1 Card.
+Guilds
+
+Candlestick Maker	Action	$2	+1 Action. +1 Buy. Take a Coin token.
+Stonemason	Action	$2+	Trash a card from your hand. Gain 2 cards each costing less than it.
+—
+When you buy this, you may overpay for it. If you do, gain 2 Action cards each costing the amount you overpaid.
+Doctor	Action	$3+	Name a card. Reveal the top 3 cards of your deck. Trash the matches. Put the rest back on top in any order.
+—
+When you buy this, you may overpay for it. For each $1 you overpaid, look at the top card of your deck; trash it, discard it, or put it back.
+Masterpiece	Treasure	$3+	Worth $1
+—
+When you buy this, you may overpay for it. If you do, gain a Silver per $1 you overpaid.
+Advisor	Action	$4	+1 Action. Reveal the top 3 cards of your deck. The player to your left chooses one of them. Discard that card. Put the other cards into your hand.
+Herald	Action	$4+	+1 Card. +1 Action. Reveal the top card of your deck. If it is an Action, play it.
+—
+When you buy this, you may overpay for it. For each $1 you overpaid, look through your discard pile and put a card from it on top of your deck.
+Plaza	Action	$4	+1 Card. +2 Actions. You may discard a Treasure card. If you do, take a Coin token.
+Taxman	Action – Attack	$4	You may trash a Treasure from your hand. Each other player with 5 or more cards in hand discards a copy of it (or reveals a hand without it). Gain a Treasure card costing up to $3 more than the trashed card, putting it on top of your deck.
+Baker	Action	$5	+1 Card. +1 Action. Take a Coin token.
+—
+Setup: Each player takes a Coin token.
+Butcher	Action	$5	Take 2 Coin tokens. You may trash a card from your hand and then pay any number of Coin tokens. If you did trash a card, gain a card with a cost of up to the cost of the trashed card plus the number of Coin tokens you paid.
+Journeyman	Action	$5	Name a card. Reveal cards from the top of your deck until you reveal 3 cards that are not the named card. Put those cards into your hand and discard the rest.
+Merchant Guild	Action	$5	+1 Buy. +$1.
+—
+While this is in play, when you buy a card, take a Coin token.
+Soothsayer	Action – Attack	$5	Gain a Gold. Each other player gains a Curse. Each player who did draws a card.
+Promotional Cards
+
+Black Market	Action	$3	+$2
+Reveal the top 3 cards of the Black Market deck. You may buy one of them immediately. Put the unbought cards on the bottom of the Black Market deck in any order.Before the game, make a Black Market deck out of one copy of each Kingdom card not in the supply.
+Envoy	Action	$4	Reveal the top 5 cards of your deck. The player to your left chooses one for you to discard. Draw the rest.
+Walled Village	Action	$4	+1 Card; +2 Actions
+—
+At the start of Clean-up, if you have this and no more than one other Action card in play, you may put this on top of your deck.
+Governor	Action	$5	+1 Action
+Choose one; you get the version in parentheses: +1 (+3) Cards; or each player gains a Silver (Gold); or each player may trash a card from his hand and gain a card costing exactly $1 ($2) more.
+Stash	Treasure	$5	Worth $2
+When you shuffle, you may put this anywhere in your deck.

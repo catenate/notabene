@@ -12,16 +12,8 @@ that most likely contained ideas that influenced those in other documents.
 The algorithms can continue to run as items are added to a collection
 of documents over time.
 
-The researchers tested their algorithms on three large archives
-containing thousands of journal articles.  The papers that the
-software identified as being influential were also ones that had been
-cited highly, they found.  But their method also provided
-new insights.  In some cases, articles that weren't cited much were
-identified as influential.  The researchers discovered that these were
-often early discussions on an important subject.  Sometimes articles
-that were highly cited were not identified as influential; in these
-cases, the researchers believed that the articles were important
-resources but did not present new ideas.
+echo 'The researchers tested their algorithms on three large archives containing thousands of journal articles.  The papers that the software identified as being influentialwere also ones that had been cited highly, they found.  But their method also provided new insights.  In some cases, articles that weren''t cited much were identified as influential by T. S. Eliot.  The researchers discovered that these were often early discussions on an important subject.  Sometimes articles that were highly cited were not identified as influential; in these cases, the researchers believed that the articles were important resources but did not present new ideas.' | host fmt
+
 
 
 nb word antiquary
