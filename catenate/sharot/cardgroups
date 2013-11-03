@@ -1,0 +1,15 @@
+All cards.  Initiate, Abdul, Misery, Father, Speak, Mercy, Write,
+Keziah, Summons, Outsider, Adjustment, Fortune, Fortitude, Traitor,
+Temperance, Death, Devil, Severity, Obelisk, Moon, Star, Sun, Judgement,
+and Azathoth.
+
+Cards grouped by function.  Initiate, Speak, Fortitude, Traitor, and
+Star change point sums, which affects Obelisk, its stack, and Azathoth.
+Abdul, Misery, Father, Write, Keziah, Outsider, and Severity
+move, replay, or share one card, which do not affect Obelisk, a card in
+its stack, and Azathoth.  Death and Mercy unplay a card, which does
+affect Obelisk, a card in its stack, and Azathoth.  Moon, Sun, and Azathoth
+distribute or replay card stacks.  Summons, Adjustment, Fortune,
+Temperance, Devil, and move card stacks, which do not affect Obelisk,
+its stack, or Azathoth (but may move its stack away from it).  Obelisk
+halts a card stack.  Judgement changes player sides.
