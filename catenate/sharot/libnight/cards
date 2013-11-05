@@ -9,24 +9,24 @@ A player may play Abdul to replay other cards, and then use
 other cards to replay Abdul, et cetera, only so long as it makes
 a difference in the card layout.
 
-"Misery II. Move one card from one side to another.  Play in its
-place."
+"Nyarlathotep II. Move one card from one side to another.  Play in
+its place."
 
 "Nodens III.  Play on a side.  Share one card from that side."
 Move a card from a side into one of the side’s shares.
 Nodens may share, because it plays before a card moves.
 
-"Speak =IIII.  Share between two players.  They share points of their
-side cards."  Their side cards are not moved to the shared area,
-so any card which moves away Speak cancels the point sharing.
+"Discourse =IIII.  Share between two players.  They share points of
+their side cards." Their side cards are not moved to the shared area,
+so any card which moves away Discourse cancels the point sharing.
 
-"Mercy V.  Immediately play under a just-played card.  Cancel its
-effects, not its points."  Mercy cancels all the effects of any card.
+"Sleep V.  Immediately play under a just-played card.  Cancel its
+effects, not its points."  Sleep cancels all the effects of any card.
 This includes the effects of cards which change point sums,
 so such cards are worth just their face point value.
 
-"Write VI.  Play on a share.  Move one card to another share."
-Write may share, because it plays before a card moves.
+"Necronomicon VI.  Play on a share.  Move one card to another share."
+Necronomicon may share, because it plays before a card moves.
 
 "Keziah VII.  Play on a share.  Move one card from that share to its side." 
 A card moves from a share to one of the sides it separates.
@@ -83,7 +83,7 @@ card layout.
 Obelisk and other cards in its stack may not be moved, passed,
 picked up, replaced, replayed, shared, et cetera, from a stack
 containing Obelisk.  All such cards may die, or have their effects
-cancelled by Mercy as they are added to a stack containing Obelisk.
+cancelled by Sleep as they are added to a stack containing Obelisk.
 
 "Moon XVIIII.  Shuffle and deal a share’s cards to players’ hands.
 Play on that share." Pick up all cards on the share.  Play Moon after
