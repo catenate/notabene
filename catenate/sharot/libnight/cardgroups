@@ -1,16 +1,36 @@
-All cards.  Initiate, Abdul, Nyarlathotep, Father, Discourse, Sleep, Necronomicon,
-Keziah, Summons, Outsider, Adjustment, Fortune, Fortitude, Traitor,
-Temperance, Death, Devil, Severity, Obelisk, Moon, Star, Sun,
-Judgement, and Azathoth.
+All cards.
+Fool
+Magus
+Priestess
+Emperor
+Lovers
+Intuition
+Priest
+Empress
+Chariot
+Hermit
+Adjustment
+Fortune
+Fortitude
+Traitor
+Temperance
+Death
+Devil
+Truth
+Tower
+Moon
+Star
+Sun
+Judgement
+Universe
 
-Cards grouped by function.  Initiate, Discourse, Fortitude, Traitor,
-and Star change point sums, which affects Obelisk, its stack, and
-Azathoth.  Abdul, Nyarlathotep, Nodens, Necronomicon, Keziah,
-Outsider, and Severity move, replay, or share one card, which do not
-affect Obelisk, a card in its stack, and Azathoth.  Death and Sleep
-unplay a card, which does affect Obelisk, a card in its stack, and
-Azathoth.  Moon, Sun, and Azathoth distribute or replay card stacks.
-Summons, Adjustment, Fortune, Temperance, Hazrat, and move card
-stacks, which do not affect Obelisk, its stack, or Azathoth (but may
-move its stack away from it).  Obelisk halts a card stack.  Judgement
-changes player sides.
+Cards grouped by function.  Fool, Lovers, Fortitude, Traitor, and Star
+change point sums, which affects Tower, its stack, and Universe.
+Magus, Priestess, Emperor, Priest, Empress, Hermit, and Truth
+move, replay, or share one card, which do not affect Tower, a card in
+its stack, and Universe.  Intuition and Death unplay a card, which
+does affect Tower, a card in its stack, and Universe.  Moon, Sun, and
+Universe distribute or replay card stacks.  Chariot, Adjustment,
+Fortune, Temperance, and Devil move card stacks, which do not affect
+Tower, its stack, or Universe (but may move its stack away from it).
+Tower halts a card stack.  Judgement changes player sides.

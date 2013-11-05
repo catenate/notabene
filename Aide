@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'Major arcana is not the whole tarot.'
+git commit -a -m 'Finish VPG pitch.  Rename cards in descriptions and groups.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q
