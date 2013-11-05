@@ -1027,7 +1027,7 @@
 20130917.104407:1: timeout limit kill hung process wrap command
 20130918.104422:1: artifactory rest api
 20130918.142123:1: autonomy mastery purpose dpink rsa sketch video
-20131007.115222:1: posix ksh bash shell set option errexit nounset xtrace eux
-Aide:14: map usa
-Aide:15: twitter recent study post text
+20131007.115222:1: posix ksh bash shell set option errexit error nounset variable xtrace print command aeux
+20131007.115222:9: posix ksh bash shell set option noexec only read command
+20131104.161305:1: serial self map bash function
 unixide:1: apply du ls sed
