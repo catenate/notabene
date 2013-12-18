@@ -1030,4 +1030,5 @@
 20131007.115222:1: posix ksh bash shell set option errexit error nounset variable xtrace print command aeux
 20131007.115222:9: posix ksh bash shell set option noexec only read command
 20131104.161305:1: serial self map bash function
+20131121.114400:1: fpm package download create rpm convert python version local source setup
 unixide:1: apply du ls sed
