@@ -2,15 +2,20 @@ nb skyrim alchemy greenhouse planter potion
 >grep '[1-6]p'
 |sort
 
-1	DH+LDH+P/RvH	Imp stool planter; HumanF, SFE/SFS/MT/Scraw/ODW; STail, Scraw; etc.
-2	Fear+Slow+DH	PB, RB/Deathbell planter, CST/NRot/BDW/DædraH/NJ/PMT/GB
-3	RvH+RvS+RvM/DH	Scraw, SAsh, STail/CST/GL/SSP/ESC/JG planter; Scraw, DB, STail
+1	DH+LDH+P	Imp stool planter, HumanF, SFE/SFS/MT/Scraw/ODW
+	…+RvH	…, STail, Scraw
+2	Fear+Slow+DH	PB, RB/DB, CST/BDW/DædraH/NJ/PMT/GB/NRot planter
+	…+DM	PB, TramaR, DædraH/NRot planter (+FCW)
+	…+DSR	PB, DædraH, LA
+	…+WFi	PB, PMT, BSW
+3	RvH+RvS+RvM	Scraw, SAsh, STail/CST/GL/SSP/ESC/JG planter
+	…+DH	Scraw, DB, STail
 4	Frenzy+DH+DS	Blisterwort planter, HumanH/FEar/TFat, NirnR/CNR
-	Frenzy+FH+RsH	…, Boar tusk, W/BMF
-	Frenzy+DMR+DS	…, HumanH, SEgg/AMW/BBW/CHA
+	…+FH+RsH	…, Boar tusk, W/BMF
+	…+DMR+DS	…, HumanH, SEgg/AMW/BBW/CHA
 5	RsH+FH+RsS	Wheat planter, BClaws, ESC/CSH, (BMF)
-6	RS+RFi+RFr	Snowberries planter, Hawk beak, DT/ACC/MCC/AGP/FiS/SAsh/EE/BMeal
-	RP+RFi+RFr	…, MCC, ThistleB
+6	RFi+RFr+RS	Snowberries planter, Hawk beak, DT/ACC/MCC/AGP/FiS/SAsh/EE/BMeal
+	…+RP	…, MCC, ThistleB
 
 4-1	FCW/$	CC, 2 MT, SP
 4-2	,	BMF, DB, MT, W
@@ -23,6 +28,7 @@ BBW	4
 BClaws	5
 BDW	2
 BMF	4, (5)
+BSW	2
 BMeal	6
 Blisterwort	4p
 BoarT	4
@@ -33,7 +39,7 @@ CSH	5
 CST	2, 3
 DædraH	2
 DT	6
-Deathbell	2p, 3
+Deathbell	2, 3
 EE	6
 ESC	3, 5
 FEar	4
@@ -45,10 +51,11 @@ HumanH	4
 HawkB	6
 Imp stool	1p
 Jazbay grapes	3p
+LA	2
 MCC	6
 MT	1, 4-1 (2) lb
 NJ	2
-NRot	2
+NRot	2p
 NirnR	4
 ODW	1
 PB	2
