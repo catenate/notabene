@@ -1,44 +1,40 @@
-nb skyrim alchemy sort ingredient plantpart plantprod animalpart animalprod manpart manprod fungilichen supernatural saltfish
+nb skyrim alchemy sort ingredient plant plant animal animal humanoid humanoid fungilichen humanoid saltfish
 
-Ash Hopper Jelly
-Moon Sugar
-Netch Jelly
-Scathecraw
-Spawn Ash
-animalpart	Ancestor Moth Wing
-animalpart	Bear Claws
-animalpart	Bee
-animalpart	Blue Butterfly Wing
-animalpart	Blue Dartwing
-animalpart	Butterfly Wing
-animalpart	Charred Skeever Hide
-animalpart	Chaurus Hunter Antennae
-animalpart	Eye of Sabre Cat
-animalpart	Hawk Beak
-animalpart	Luna Moth Wing
-animalpart	Mudcrab Chitin
-animalpart	Orange Dartwing
-animalpart	Sabre Cat Tooth
-animalpart	Skeever Tail
-animalpart	Slaughterfish Scales
-animalpart	Torchbug Thorax
-animalprod	Beehive Husk
-animalprod	Boar Tusk
-animalprod	Chaurus Eggs
-animalprod	Chicken's Egg
-animalprod	Felsaad Tern Feathers
-animalprod	Hawk Feathers
-animalprod	Hawk's Egg
-animalprod	Honeycomb
-animalprod	Large Antlers
-animalprod	Pine Thrush Egg
-animalprod	Powdered Mammoth Tusk
-animalprod	Rock Warbler Egg
-animalprod	Slaughterfish Egg (hatchery)
-animalprod	Small Antlers
-animalprod	Spider Egg
+animal	Ancestor Moth Wing
+animal	Ash Hopper Jelly
+animal	Bear Claws
+animal	Bee
+animal	BeeHive Husk
+animal	Blue Butterfly Wing
+animal	Blue Dartwing
+animal	Boar Tusk
+animal	Butterfly Wing
+animal	Charred Skeever Hide
+animal	Chaurus Eggs
+animal	Chaurus Hunter Antennae
+animal	Chicken's Egg
+animal	Eye of Sabre Cat
+animal	Felsaad Tern Feathers
+animal	Hawk Beak
+animal	HAWK Feathers
+animal	Hawk's Egg
+animal	HONEYComb
+animal	Large Antlers
+animal	Luna Moth Wing
+animal	Mudcrab Chitin
+animal	Netch Jelly
+animal	Orange Dartwing
+animal	Pine Thrush Egg
+animal	Powdered Mammoth Tusk
+animal	Rock Warbler Egg
+animal	Sabre Cat Tooth
+animal	Skeever Tail
+animal	Small Antlers
+animal	Spawn Ash
+animal	Spider Egg
+animal	Torchbug Thorax
 fungilichen	Bleeding Crown
-fungilichen	Blisterwort
+fungilichen	BlisterWORT
 fungilichen	Fly Amanita
 fungilichen	Giant Lichen
 fungilichen	Glowing Mushroom
@@ -48,64 +44,69 @@ fungilichen	Namira's Rot
 fungilichen	Scaly Pholiota
 fungilichen	Swamp Fungal Pod
 fungilichen	White Cap
-manpart	Daedra Heart
-manpart	Falmer Ear
-manpart	Giant's Toe
-manpart	Hagraven Claw
-manpart	Human Flesh
-manpart	Human Heart
-manpart	Troll Fat
-manprod	Dwarven Oil
-manprod	Hagraven Feathers
-plantpart	Ash Creep Cluster
-plantpart	Burnt Spriggan Wood
-plantpart	Canis Root
-plantpart	Creep Cluster
-plantpart	Crimson Nirnroot
-plantpart	Elves Ear
-plantpart	Emperor Parasol Moss
-plantpart	Frost Mirriam
-plantpart	Garlic
-plantpart	Hanging Moss
-plantpart	Nirnroot
-plantpart	Spriggan Sap
-plantpart	Taproot
-plantpart	Thistle Branch
-plantpart	Trama Root
-plantprod	Ashen Grass Pod
-plantprod	Blue Mountain Flower
-plantprod	Briar Heart
-plantprod	Deathbell
-plantprod	Dragon's Tongue
-plantprod	Gleamblossom
-plantprod	Grass Pod
-plantprod	Jazbay Grapes
-plantprod	Juniper Berries
-plantprod	Lavender
-plantprod	Nightshade
-plantprod	Poison Bloom
-plantprod	Purple Mountain Flower
-plantprod	Red Mountain Flower
-plantprod	Snowberries
-plantprod	Tundra Cotton
-plantprod	Wheat
-plantprod	Yellow Mountain Flower
-saltfish	Abecean Longfin
-saltfish	Cyrodilic Spadetail
-saltfish	Histcarp
+humanoid	Bone Meal
+humanoid	DÆDRA Heart
+humanoid	Dwarven Oil
+humanoid	Ectoplasm
+humanoid	Falmer Ear
+humanoid	Fire Salts
+humanoid	Frost Salts
+humanoid	Giant's Toe
+humanoid	Glow Dust
+humanoid	HagRaven Claw
+humanoid	HagRaven Feathers
+humanoid	HUMAN Flesh
+humanoid	HUMAN Heart
+humanoid	Ice Wraith Teeth
+humanoid	Troll Fat
+humanoid	Vampire Dust
+humanoid	Void Salts
+humanoid	Wisp Wrappings
+plant	Ash Creep Cluster
+plant	Ashen Grass Pod
+plant	Blue Mountain Flower
+plant	Briar Heart
+plant	Burnt Spriggan Wood
+plant	Canis Root
+plant	Creep Cluster
+plant	Crimson Nirnroot
+plant	Deathbell
+plant	Dragon's Tongue
+plant	Elves Ear
+plant	Emperor Parasol Moss
+plant	Frost Mirriam
+plant	Garlic
+plant	GleamBlossom
+plant	Grass Pod
+plant	Hanging Moss
+plant	Jazbay Grapes
+plant	Juniper Berries
+plant	Lavender
+plant	NightShade
+plant	Poison Bloom
+plant	Purple Mountain Flower
+plant	Red Mountain Flower
+plant	ScatheCraw
+plant	SnowSerries
+plant	Spriggan Sap
+plant	Taproot
+plant	Thistle Branch
+plant	Trama Root
+plant	Tundra Cotton
+plant	Wheat
+plant	Yellow Mountain Flower
+precious	Moon Sugar
+precious	Nirnroot
+saltfish	Abecean Longfin (hatch)
+saltfish	Clam Meat (hatch)
+saltfish	Cyrodilic Spadetail (hatch)
+saltfish	HistCarp (hatch)
 saltfish	Nordic Barnacle
 saltfish	Pearl
-saltfish	River Betty
-saltfish	Salmon Roe (hatchery)
-saltfish	Salt Pile
-saltfish	Silverside Perch
-saltfish	Small Pearl
-supernatural	Bone Meal
-supernatural	Ectoplasm
-supernatural	Fire Salts
-supernatural	Frost Salts
-supernatural	Glow Dust
-supernatural	Ice Wraith Teeth
-supernatural	Vampire Dust
-supernatural	Void Salts
-supernatural	Wisp Wrappings
+saltfish	River Betty (hatch)
+saltfish	Salmon Roe (hatch)
+saltfish	SALT Pile
+saltfish	Silverside Perch (hatch)
+saltfish	SlaughterFish Egg (hatch)
+saltfish	SlaughterFish Scales
+saltfish	Small PEARL

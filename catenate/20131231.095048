@@ -1,11 +1,11 @@
 nb skyrim alchemy greenhouse planter potion
 
-1	DH+LDH+P/RvH	Imp stool planter; HFlesh, SFE/SFS/MT/Scraw/ODW; STail, Scraw; etc.
-2	Fear+Slow+DH	PB, RB/Deathbell planter, CST/NRot/BDW/DHeart/NJ/PMT/GB
-3	RvH+RvS+RvM/DH	Scraw, SAsh, STail/CST/GL/SSP/ESC/JBG planter; Scraw, DB, STail
-4	Frenzy+DH+DS	Blisterwort planter, HHeart/FEar/TFat, NirnR/CNR
+1	DH+LDH+P/RvH	Imp stool planter; HumanF, SFE/SFS/MT/Scraw/ODW; STail, Scraw; etc.
+2	Fear+Slow+DH	PB, RB/Deathbell planter, CST/NRot/BDW/DædraH/NJ/PMT/GB
+3	RvH+RvS+RvM/DH	Scraw, SAsh, STail/CST/GL/SSP/ESC/JG planter; Scraw, DB, STail
+4	Frenzy+DH+DS	Blisterwort planter, HumanH/FEar/TFat, NirnR/CNR
 	Frenzy+FH+RsH	Blisterwort planter, Boar tusk, W/BMF
-	Frenzy+DMR+DS	Blisterwort planter, HHeart, SEgg/AMW/BBW/CHA
+	Frenzy+DMR+DS	Blisterwort planter, HumanH, SEgg/AMW/BBW/CHA
 5	RsH+FH+RsS	Wheat planter, BClaws, ESC/CSH, (BMF)
 6	RS+RFi+RFr	Snowberries planter, Hawk beak, DT/ACC/MCC/AGP/FiS/SAsh/EE/BMeal
 	RP+RFi+RFr	Snowberries planter, MCC, ThistleB
@@ -29,7 +29,7 @@ CHA	4
 CNR	4
 CSH	5
 CST	2, 3
-DHeart	2
+DædraH	2
 DT	6
 Deathbell	2p, 3
 EE	6
@@ -38,11 +38,11 @@ FEar	4
 FiS	6
 GB	2
 GL	3
-HFlesh	1
-HHeart	4
+HumanF	1
+HumanH	4
 HawkB	6
 Imp stool	1p
-JBG	3p
+Jazbay grapes	3p
 MCC	6
 MT	1, 4-1 (2) lb
 NJ	2
