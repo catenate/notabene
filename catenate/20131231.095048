@@ -4,22 +4,24 @@ nb skyrim alchemy greenhouse planter potion
 
 1	DH+LDH+P	Imp stool planter, HumanF, SFE/SFS/MT/Scraw/ODW
 	…+RvH	…, STail, Scraw
+	P+DH+DS	Canis root, C?NR, HumanF/…
+	P+DH+Fear	PB, GB/NJ, HumanF/…
 2	Fear+Slow+DH	PB, RB/DB, CST/BDW/DædraH/NJ/PMT/GB/NRot planter
-	…+DM	PB, TramaR, DædraH/NRot planter (+FCW)
+	…+DM	PB, TramaR, DædraH/… (+FCW)
 	…+DSR	PB, DædraH, LA
 	…+WFi	PB, PMT, BSW
 3	RvH+RvS+RvM	Scraw, SAsh, STail/CST/GL/SSP/ESC/JG planter
 	…+DH	Scraw, DB, STail
-4	Frenzy+DH+DS	Blisterwort planter, HumanH/FEar/TFat, NirnR/CNR
+4	Frenzy+DH+DS	Blisterwort planter, HumanH/FEar/TFat, C?NR
 	…+FH+RsH	…, Boar tusk, W/BMF
 	…+DMR+DS	…, HumanH, SEgg/AMW/BBW/CHA
 5	RsH+FH+RsS	Wheat planter, BClaws, ESC/CSH, (BMF)
 6	RFi+RFr+RS	Snowberries planter, Hawk beak, DT/ACC/MCC/AGP/FiS/SAsh/EE/BMeal
 	…+RP	…, MCC, ThistleB
 
-4-1	FCW/$	CC, 2 MT, SP
-4-2	,	BMF, DB, MT, W
-4-3	FCW/$	CC, 2 MT, SP
+4-1	FCW/$	CC+5, 2 MT+3, SP+5
+4-2	,	BMF+3, DB+3, MT+3, W+4
+4-3	FCW/$	CC+5, 2 MT+3, SP+5
 
 ACC	6
 AGP	6
@@ -30,35 +32,35 @@ BDW	2
 BMF	4, (5)
 BSW	2
 BMeal	6
-Blisterwort	4p
+Blisterwort	4p+4
 BoarT	4
 CC	4-1 lb
 CHA	4
-CNR	4
+C?NR	1, 4
+CR	1+4
 CSH	5
 CST	2, 3
 DædraH	2
+DB	2, 3
 DT	6
-Deathbell	2, 3
 EE	6
 ESC	3, 5
 FEar	4
 FiS	6
-GB	2
+GB	1, 2
 GL	3
 HumanF	1
 HumanH	4
 HawkB	6
-Imp stool	1p
-Jazbay grapes	3p
+Imp stool	1p+4
+Jazbay grapes	3p+3
 LA	2
 MCC	6
 MT	1, 4-1 (2) lb
-NJ	2
-NRot	2p
-NirnR	4
+NJ	1, 2
+NRot	2p+3
 ODW	1
-PB	2
+PB	1, 2
 PMT	2
 RB	2
 SAsh	3, 6
@@ -69,7 +71,43 @@ SP	4-1 lb
 SSP	3
 STail	1, 3
 Scraw	1, 3
-Snowberries	6p
+Snowberries	6p+4
 TFat	4
 ThistleB	6
-W	4, 5p
+W	4, 5p+4
+
+Food
+Cabbage (2)
+Carrot (4)
+Gourd (3)
+Leek (2)
+Potato (3)
+
+Ingredients
+Bleeding Crown (3) BCrown
+Blisterwort (4)
+Blue Mountain Flower (3) BMF
+Canis Root (4) CR
+Creep Cluster (5) CC
+Deathbell (3) DB
+Dragon's Tongue (4) DT
+Fly Amanita (4) FA
+Giant Lichen (4) GL
+Glowing Mushroom (5) GM
+Grass Pod (3) GP
+Imp stool (4) IS
+Jazbay Grapes (3) JG
+Juniper Berries (4) JB
+Lavender (3) L
+Mora Tapinella (3) MT
+Namira's Rot (3) NRot
+Nightshade (3) NS
+Purple Mountain Flower (3) PMF
+Red Mountain Flower (3) RMF
+Scaly Pholiota (5) SP
+Snowberries (4) SB
+Swamp Fungal Pod (3) SFP
+Thistle Branch (3) Thistle
+Tundra Cotton (3) TC
+Wheat (4) W
+White Cap (2) WC

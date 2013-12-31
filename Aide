@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'Promote Namira’s rot.'
+git commit -a -m 'Expand planter 1.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q
