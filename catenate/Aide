@@ -14,6 +14,7 @@ ls -F | grep -v '^20' | mc
 nb
 nb map usa
 nb twitter recent study post text
+nbnow=`{nbnow}; touch $nbnow; plumb $nbnow
 nbnow
 rm *~
 rm 20130108.131959

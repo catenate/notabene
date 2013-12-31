@@ -1,0 +1,7 @@
+nb python map parallel pool
+
+A pretty straightforward way in Python to parallelize use of the
+functional programming directive “map”.ⁱ Discussion on
+Hacker News.⁲
+ ⁱ web 'https://medium.com/p/40e9b2b36148'
+ ⁲ web 'https://news.ycombinator.com/item?id=6982191'
