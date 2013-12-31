@@ -1,18 +1,20 @@
 nb skyrim alchemy greenhouse planter potion
+>grep '[1-6]p'
+|sort
 
 1	DH+LDH+P/RvH	Imp stool planter; HumanF, SFE/SFS/MT/Scraw/ODW; STail, Scraw; etc.
 2	Fear+Slow+DH	PB, RB/Deathbell planter, CST/NRot/BDW/DædraH/NJ/PMT/GB
 3	RvH+RvS+RvM/DH	Scraw, SAsh, STail/CST/GL/SSP/ESC/JG planter; Scraw, DB, STail
 4	Frenzy+DH+DS	Blisterwort planter, HumanH/FEar/TFat, NirnR/CNR
-	Frenzy+FH+RsH	Blisterwort planter, Boar tusk, W/BMF
-	Frenzy+DMR+DS	Blisterwort planter, HumanH, SEgg/AMW/BBW/CHA
+	Frenzy+FH+RsH	…, Boar tusk, W/BMF
+	Frenzy+DMR+DS	…, HumanH, SEgg/AMW/BBW/CHA
 5	RsH+FH+RsS	Wheat planter, BClaws, ESC/CSH, (BMF)
 6	RS+RFi+RFr	Snowberries planter, Hawk beak, DT/ACC/MCC/AGP/FiS/SAsh/EE/BMeal
-	RP+RFi+RFr	Snowberries planter, MCC, ThistleB
+	RP+RFi+RFr	…, MCC, ThistleB
 
 4-1	FCW/$	CC, 2 MT, SP
 4-2	,	BMF, DB, MT, W
-4-3
+4-3	FCW/$	CC, 2 MT, SP
 
 ACC	6
 AGP	6
