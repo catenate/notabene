@@ -1,0 +1,2 @@
+New insert.sed
+ls | host sed -f insert.sed

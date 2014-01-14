@@ -1,0 +1,5 @@
+dcaaa9463c3659a52e612cdac228463ef3e76e33	sha1.test
+Traceback (most recent call last):
+  File "sha1sum.py", line 25, in <module>
+    print '%s	%s' % sha1sum(exe_path), exe_path
+TypeError: not enough arguments for format string

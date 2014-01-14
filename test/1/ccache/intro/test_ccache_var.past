@@ -1,0 +1,80 @@
+Cleared cache
+Statistics cleared
+cache directory                     /home/apprun/.ccache
+cache hit (direct)                     0
+cache hit (preprocessed)               0
+cache miss                             0
+files in cache                         0
+cache size                             0 Kbytes
+max cache size                       1.0 Gbytes
+default.cc.env:1: cc = cc
+default.cc.env:2: cc = ccache $cc
+credo hello.o
+credo hello
+credo hello
+credo hello.dep
+credo hello.o
+credo hello.o.dep
+credo   hello.dep
+default cc = ccache cc
+credo     hello.o.dep
+default cc = ccache cc
+credo     hello.c
+credo   hello.o
+pwd
+os -d/usr/inferno/test/1/ccache/intro ccache cc -c hello.c
+credo hello
+pwd
+os -d/usr/inferno/test/1/ccache/intro ccache cc -o hello hello.o
+os -d/usr/inferno/test/1/ccache/intro ./hello
+ars
+cc
+cflags
+cppflags
+ldflags
+objs
+hello.c
+credo hello
+credo hello.dep
+credo hello.o
+credo hello.o.dep
+hello world
+cache directory                     /home/apprun/.ccache
+cache hit (direct)                     0
+cache hit (preprocessed)               0
+cache miss                             1
+called for link                        1
+files in cache                         2
+cache size                             8 Kbytes
+max cache size                       1.0 Gbytes
+credo   hello.dep
+default cc = ccache cc
+credo     hello.o.dep
+default cc = ccache cc
+credo   hello.o
+pwd
+os -d/usr/inferno/test/1/ccache/intro ccache cc -c hello.c
+credo hello
+pwd
+os -d/usr/inferno/test/1/ccache/intro ccache cc -o hello hello.o
+os -d/usr/inferno/test/1/ccache/intro ./hello
+ars
+cc
+cflags
+cppflags
+ldflags
+objs
+hello.c
+credo hello
+credo hello.dep
+credo hello.o
+credo hello.o.dep
+hello world
+cache directory                     /home/apprun/.ccache
+cache hit (direct)                     1
+cache hit (preprocessed)               0
+cache miss                             1
+called for link                        2
+files in cache                         2
+cache size                             8 Kbytes
+max cache size                       1.0 Gbytes

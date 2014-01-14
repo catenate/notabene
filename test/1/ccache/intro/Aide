@@ -1,0 +1,25 @@
+/github/credo/sh-inferno/
+/lib/do/c/
+/lib/env/c/
+/n/local/home/apprun/.ccache
+Dump /test/1/ccache/intro/dump
+Edit ,|sort|uniq
+Edit B < echo *.out
+Load /test/1/ccache/intro/dump
+addenv default cflags -s
+aide ccache
+apply {echo Edit D $1} `{sed 's, .*,,' /mnt/acme/[0-9]*/tag | grep '\.out$'}
+apply {plumb $1} *.out
+apply {plumb $1} `{ls test_* | grep -v '\.out$' | grep -v '\.past$'}
+cat default.cflags.env
+diff test_cc test_ccache
+dos ccache --show-stats
+dos ccache --version
+du -n
+ls *.out
+manos ccache
+nb ccache
+pastout
+rm *.out
+rmenv default cflags
+sed 's, .*,,' /mnt/acme/[0-9]*/tag | grep '\.out$'

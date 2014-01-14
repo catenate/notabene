@@ -1,0 +1,10 @@
+sh /lib/do/credo/rm-f.std..do
+rm *.env
+ls
+libenv default.cc (c cc cc)
+cat default.cc.env
+libdo (c cc c o) hello.o
+libdo (c cc o '') hello
+credo hello
+dos ./hello
+dos file hello.o hello

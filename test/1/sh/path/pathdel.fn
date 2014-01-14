@@ -1,0 +1,9 @@
+function pathdel {
+	p=$1
+	pat=$2
+	p=$(echo $p | tr : ' ' | fmt -w 1 | grep -v $pat)
+	echo $(echo $p | tr ' ' :)
+}
+
+pythonpath='/usr/inferno/gitco/prod/Enterprise/Python1:~/tb309/python:/usr/inferno/gitco/prod/Enterprise/Python2:$HOME/tb309/python/:/home/apprun/tb309/python:/python/usr/inferno/gitco/prod/Enterprise/Python3'
+pathdel $pythonpath 'tb309/python'

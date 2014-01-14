@@ -1,0 +1,28 @@
+dos ccache -C -z
+dos ccache --show-stats
+sh /lib/do/credo/rm-f.std..do
+rm *.env
+ls
+
+libenv default.cc (c cc cc)
+libenv default.cc (c cc ccache)
+cat default.cc.env
+addenv default cflags -s
+cat default.cflags.env
+
+libdo (c cc c o) hello.o
+libdo (c cc o '') hello
+credo hello
+dos ./hello
+dos ccache --show-stats
+
+dos file hello.o hello
+dos ccache strip hello.o
+dos ccache --show-stats
+dos file hello.o hello
+
+rm hello.o
+credo hello
+dos ./hello
+dos ccache --show-stats
+dos file hello.o hello

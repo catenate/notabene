@@ -1,0 +1,3 @@
+sed -f toascii.py.sed sha1sum.℘y > sha1sum.py
+sha1sum $0
+dos python sha1sum.py $0

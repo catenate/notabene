@@ -1,0 +1,18 @@
+sh /lib/do/credo/rm-f.std..do
+rm *.env
+ls
+
+libenv default.cc (c cc cc)
+cat default.cc.env
+echo 'cflags = -s' > default.cflags.env
+addenv default cflags -s
+cat default.cflags.env
+
+libdo (c cc c o) hello.o
+libdo (c cc o '') hello
+credo hello
+dos ./hello
+
+dos file hello.o hello
+dos strip hello.o
+dos file hello.o hello

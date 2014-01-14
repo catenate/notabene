@@ -1,0 +1,41 @@
+	> pythonpath='~/tb309/python:$HOME/tb309/python/:/home/apprun/tb309/python'
+	> echo $pythonpath
+	~/tb309/python:$HOME/tb309/python/:/home/apprun/tb309/python
+
+	> pythonpath=`{echo $pythonpath | tr : ' ' | fmt -w 1 | grep -v 'tb309/python'}
+	> echo $pythonpath
+
+	> pythonpath=`{echo $pythonpath | tr ' ' :}
+	> echo $pythonpath
+
+
+	> pythonpath='/usr/inferno/gitco/prod/Enterprise/Python1:~/tb309/python:/usr/inferno/gitco/prod/Enterprise/Python2:$HOME/tb309/python/:/home/apprun/tb309/python:/python/usr/inferno/gitco/prod/Enterprise/Python3'
+	> echo $pythonpath
+	/usr/inferno/gitco/prod/Enterprise/Python1:~/tb309/python:/usr/inferno/gitco/prod/Enterprise/Python2:$HOME/tb309/python/:/home/apprun/tb309/python:/python/usr/inferno/gitco/prod/Enterprise/Python3
+
+	> pythonpath=`{echo $pythonpath | tr : ' ' | fmt -w 1 | grep -v 'tb309/python'}
+	> echo $pythonpath
+	/usr/inferno/gitco/prod/Enterprise/Python1 /usr/inferno/gitco/prod/Enterprise/Python2 /python/usr/inferno/gitco/prod/Enterprise/Python3
+
+	> pythonpath=`{echo $pythonpath | tr ' ' :}
+	> echo $pythonpath
+	/usr/inferno/gitco/prod/Enterprise/Python1:/usr/inferno/gitco/prod/Enterprise/Python2:/python/usr/inferno/gitco/prod/Enterprise/Python3
+
+
+	> fn pathdel {p=$1; pat=$2; p=`{echo $p | tr : ' ' | fmt -w 1 | grep -v $pat}; echo `{echo $p | tr ' ' :}}
+	> pythonpath='/usr/inferno/gitco/prod/Enterprise/Python1:~/tb309/python:/usr/inferno/gitco/prod/Enterprise/Python2:$HOME/tb309/python/:/home/apprun/tb309/python:/python/usr/inferno/gitco/prod/Enterprise/Python3'
+	> pathdel $pythonpath 'tb309/python'
+	/usr/inferno/gitco/prod/Enterprise/Python1:/usr/inferno/gitco/prod/Enterprise/Python2:/python/usr/inferno/gitco/prod/Enterprise/Python3
+
+	> sh pathdel $pythonpath 'tb309/python'
+	/usr/inferno/gitco/prod/Enterprise/Python1:/usr/inferno/gitco/prod/Enterprise/Python2:/python/usr/inferno/gitco/prod/Enterprise/Python3
+
+	> host sh pathdel.sh $pythonpath 'tb309/python'
+	/usr/inferno/gitco/prod/Enterprise/Python1:/usr/inferno/gitco/prod/Enterprise/Python2:/python/usr/inferno/gitco/prod/Enterprise/Python3
+
+
+	> host sh pathdel.fn
+	/usr/inferno/gitco/prod/Enterprise/Python1:/usr/inferno/gitco/prod/Enterprise/Python2:/python/usr/inferno/gitco/prod/Enterprise/Python3
+
+	> host sh /usr/inferno/gitco/build-systems/bash/pathdel $pythonpath 'tb309/python'
+	/usr/inferno/gitco/prod/Enterprise/Python1:/usr/inferno/gitco/prod/Enterprise/Python2:/python/usr/inferno/gitco/prod/Enterprise/Python3

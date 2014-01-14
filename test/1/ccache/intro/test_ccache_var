@@ -1,0 +1,34 @@
+dos ccache -C -z
+dos ccache --show-stats
+rm *.env
+sh /lib/do/credo/rm-f.std..do
+lsenv
+lssrc
+lsdo
+
+libenv default.cc (c cc cc)
+libenv default.cc (c cc ccache)
+grep -n . *.env /dev/null
+lsenv
+lssrc
+lsdo
+
+libdo (c cc c o) hello.o
+libdo (c cc o '') hello
+lsenv
+lssrc
+lsdo
+credo hello
+lsenv
+lssrc
+lsdo
+dos ./hello
+dos ccache --show-stats
+
+rm hello.o hello
+credo hello
+lsenv
+lssrc
+lsdo
+dos ./hello
+dos ccache --show-stats

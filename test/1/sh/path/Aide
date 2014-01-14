@@ -1,0 +1,9 @@
+Dump /test/1/bash/path/dump
+Edit ,|sort|uniq
+Load /test/1/bash/path/dump
+New pathdel.fn
+du -n
+log
+ls -F | mc
+nbnow
+pastout

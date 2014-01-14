@@ -1,0 +1,8 @@
+Dump /test/1/python/if/dump
+Edit ,|sort|uniq
+Load /test/1/python/if/dump
+dos python statement.py
+du -n
+log
+ls -F | mc
+nbnow

@@ -1,0 +1,8 @@
+Edit ,s/", line /:/g
+Edit ,s,\.py,.℘y,g
+Edit ,s/, in / /g
+Edit ,|sort|uniq
+New sha1.test
+du -n
+log
+pastout

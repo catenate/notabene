@@ -1,0 +1,4 @@
+Edit ,|sort|uniq
+dos yum info jdk.x86_64
+dos yum provides '\*/java'
+dos yum search jdk

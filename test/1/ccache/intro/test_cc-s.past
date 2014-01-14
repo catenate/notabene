@@ -1,0 +1,44 @@
+Aide
+dos.log
+dump
+hello.c
+nbindex
+test_cc
+test_cc-s
+test_cc-s.out
+test_cc-s.past
+test_cc.out
+test_cc.past
+test_ccache
+test_ccache-s
+test_ccache-s.out
+test_ccache-s.past
+test_ccache.out
+test_ccache.past
+test_ccache_var
+test_ccache_var.out
+test_ccache_var.past
+cc = cc
+cflags = -s
+cflags = -s
+credo hello.o
+credo hello
+credo   hello.dep
+default cc = cc
+default cflags = -s
+credo     hello.o.dep
+default cc = cc
+default cflags = -s
+credo     hello.c
+credo   hello.o
+pwd
+os -d/usr/inferno/test/1/ccache/intro cc -s -c hello.c
+credo hello
+pwd
+os -d/usr/inferno/test/1/ccache/intro cc -s -o hello hello.o
+os -d/usr/inferno/test/1/ccache/intro ./hello
+hello world
+hello.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped
+hello:   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, stripped
+hello.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), stripped
+hello:   ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, stripped
