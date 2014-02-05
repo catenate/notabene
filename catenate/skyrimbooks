@@ -38,7 +38,9 @@ and excavated from the ruins of Nchuand-Zel behind and beneath.
 
 # Dwemer, Falmer, and Ayleid original works and translations (left top 18)
 Antecedants of Dwemer Law.  A historical account of the development of Dwemer law and custom from its roots in High Elven culture.
+Arcana Restored.  Wapna Nuestra, Praceptor Emeritus.  Cryptic instructions for the restoration of Arcana.
 Betrayed, The.  Engwe Emeloth.  Translated from Falmer Text by Calcelmo of Markarth.
+Butcher Journal #2.  The Butcher.  A serial killer's translation on "flesh" magic.
 Chronicles of Nchuleft.  An anonymous Altmer.  A historical chronicle of events in the Dwemer Freehold Colony of Nchuleft.
 Diary of Faire Agarwen.  Faire Agarwen.  Translated from Falmer Text by Calcelmo of Markarth.
 Hanging Gardens.  A travel guide to the Hanging Gardens of Wasten Coridale, written in both Dwemeris and Aldmeris.
@@ -52,6 +54,7 @@ Ghosts in the Storm.  Adonato Leotelli.  Author's tale of his encounter with the
 Glories and Laments.  Alexandre Hetrard.  The "glories" of the Ayleid ruin Ceyatatar and "laments" over the collapse of the Ayleid civilization.
 Habd's Journal.  Habd.  A journal detailing Habd's purchase of the Frostflow Lighthouse and the events leading up the massacre of his family by Falmer.
 Krag's Journal.  Krag.  Notes on an expedition team's progress into Nchuand-Zel.
+Merchant's Journal.
 Ramati's Journal.  Ramati.  A journal detailing a Redguard family's purchase of the Frostflow Lighthouse leading up to their massacre by Falmer.
 Ruined Trailbook.  Travel log of an ill-fated group's accidental foray into Falmer territory.
 Ruins of Kemel-Ze.  Rolard Nordssen.  An archæologist's adventure through ancient Dwemer ruins.
@@ -59,10 +62,14 @@ Staubin's Diary.  Staubin.  An account of an expedition into Nchuand-Zel.
 Stromm's Diary.  Stromm.  Research notes on an expedition into Nchuzand-Zel.
 Sudi's Journal.  Sudi.  A journal detailing the moments from Sudi moving into Frostflow Lighthouse until her family's massacre by Falmer.
 Sulla's Journal.  Sulla Trebatius.  A journal describing an ill fated excavation of Alftand.
+Torn Note.  Firir.  Last words of a Falmer captive.
 Umana's Journal.  Umana.  A record of an ill-fated exploration of Dwemer ruins in Skyrim.
 
 # DFA interactions recorded in contemporary sources of other cultures (left middle 18)
+2920, Second Seed, v5.  Carlovac Townway.  Volume 5 of an historical series about Vivec and the Empire.
+Ævar Stone-Singer.  Traditional Skaal myth about a young Skaal's journey to recover the Gifts of the All-Maker.
 Battle of Red Mountain.  Vivec.  The story of the Battle of Red Mountain and the Nerevarine Prophecies from Vivec's perspective.
+Cleansing of the Fane.  Fragmented script from a member of the Alessian Order.
 Daughter of the Niben.  Sathyr Longleat.  The history of Bravil town and its famous statue of the Lucky Old Lady.
 Fall of the Snow Prince.  Lokheim.  An account of the Battle of the Moesring as transcribed by Lokheim, chronicler to the chieftain Ingjaldr White-Eye.
 Song of Pelinal, v3, The.  A description of Pelinal's mortal enemy, Umaril the Unfeathered.
@@ -82,9 +89,11 @@ Dwemer Inquiries Vol I.  Thelwe Ghelein, Scholar.  Part of a series of scholarly
 Dwemer Inquiries Vol II.  Thelwe Ghelein, Scholar.  Part of a series of scholarly essays on the elusive Dwemer.
 Dwemer Inquiries Vol III.  Thelwe Ghelein, Scholar.  Part of a series of scholarly essays on the elusive Dwemer.
 Herbane's Bestiary: Automatons.  Herbane.  A guide to Dwemer Constructs.
+Imperial Report on Saarthal.  Heseph Chirirnis.  A report from a Mages Guild Scholar assigned to Imperial Archæologist Sentius Floronius.
 Research Notes.  Sulla Trebatius.  Research notes on the discovery of Dwarven Spider Automatons.
 
 # Treatises and journals of Falmer and Ayleid scholarship and research (middle middle 18)
+Before the Ages of Man.  Aicantar of Shimerene.  Chronicles the major events of the Dawn and Merethic Eras.
 Falmer: A Study, The.  Ursa Uthrax.  A study on Falmer, recounting their war with the Dwemer.
 Frontier, Conquest.  University of Gwylim Press, 3E 344.  Details the presence of humans in Tamriel prior to the original Nordic conquests thought to bring humans to Tamriel.
 Last King of the Ayleids, The.  Herminia Cinna.  Chronicles the downfall of the Ayleid Empire in the First Era.
@@ -107,7 +116,11 @@ Song of the Alchemists.  Marobar Sul.  Book 5 of an incomplete series of fiction
 Wild Elves, The.  Kier-Jo Chorvak.  Brief description of the Ayleids, or Wild Elves.
 
 # Modern study of Dwemer interests (right top 18)
-# metallurgy; reason, logic; Lorkhan’s heart; golems, amunculi, steam power
+# metallurgy; reason, logic; Lorkhan’s heart; golems, amunculi, steam power;
+# government, society, technology, architecture, stonework, city-planning,
+# engineering, crafting, metalwork, science, mathematics, arcane magic,
+# academic arts; alchemy, telepathy ("The Calling"); Earth bones, power of gods,
+# immortality; astronomy
 Accounting of the Scrolls, An.  Quintus Nerevelus, Former Imperial Librarian.  An author's report on the Elder Scrolls and his subsequent entry into the Cult of the Ancestor Moth.
 Catalogue of Armor Enchantments.  Yvonne Bienne, Synod researcher.  An incomplete list of all the spells and armor used in enchanting.
 Catalogue of Weapon Enchantments.  Yvonne Bienne, Synod researcher.  An incomplete list of all the spells and weapons used in enchanting.
@@ -283,7 +296,6 @@ Arondil's Journal, Part 2.  Arondil.  Arondils's account of his necromancy exper
 Arondil's Journal, Part 3.  Arondil.  Arondil's account of dealing with a trespasser into Yngvild.
 Arondil's Journal, Part 4.  Arondil.  Arondil's account of learning to reanimate the dead as ghosts.
 Butcher Journal #1.  The Butcher.  A serial killer's journal entries on stalking a victim.
-Butcher Journal #2.  The Butcher.  A serial killer's translation on "flesh" magic.
 Butcher Journal.  Calixto Corrium.  A journal revealing the ghoulish motivation behind killings in Windhelm.
 N'Gasta! Kvata! Kvakis!.  N'Gasta.  An obscure text written in the language of the Sload by a necromancer.
 Black Arts On Trial, The.  Hannibal Traven, Archmagister of the Mages Guild.  A summary of the salient points of the debate which led to the resolution of the Mages Guild on the subject of Necromancy.
@@ -362,7 +374,6 @@ Oghma Infinium.  Xarxes.  An ancient text containing the knowledge of Hermæus M
 Totems of Hircine, The.  Werewolf tales regarding artifacts of Hircine.
 
 # Dawn era, Merethic era
-Before the Ages of Man.  Aicantar of Shimerene.  Chronicles the major events of the Dawn and Merethic Eras.
 
 # Vampires, Werewolves
 Alva's Journal.  Alva.  A vampire's plot to take over all of Morthal.
@@ -373,7 +384,6 @@ Immortal Blood.  Anonymous.  Dialogues about fighting with vampires.
 2920, Sun's Dawn, v2.  Carlovac Townway.  Volume 2 of an historical series about Vivec and the Empire.
 2920, First Seed, v3.  Carlovac Townway.  Volume 3 of an historical series about Vivec and the Empire.
 2920, Rain's Hand, v4.  55.  Carlovac Townway.  Volume 4 of an historical series about Vivec and the Empire.
-2920, Second Seed, v5.  Carlovac Townway.  Volume 5 of an historical series about Vivec and the Empire.
 2920, MidYear, v6.  Carlovac Townway.  Volume 6 of an historical series about Vivec and the Empire.
 2920, Sun's Height, v7.  Carlovac Townway.  Volume 7 of an historical series about Vivec and the Empire.
 2920, Hearth Fire, v9.  Carlovac Townway.  Volume 9 of an historical series about Vivec and the Empire.
@@ -420,7 +430,6 @@ Words and Philosophy.  An interview with a Bosmer master swordsman about her lif
 Adabal-a, The.  The memoirs of Morihaus, consort to Alessia.
 Amulet of Kings, The.  Wenegrus Monhana.  Chronicles the creation of the Amulet of Kings.
 Battle of Sancre Tor.  The story of how General Talos defeated the stronghold of Sancre Tor.
-Cleansing of the Fane.  Fragmented script from a member of the Alessian Order.
 
 # Elsewyr, Khajiit, Black Marsh, Argonians
 Ahzirr Traajijazeri.  Anonymous.  The public manifesto of the Khajiit organization Renrijra Krin.
@@ -449,7 +458,6 @@ Karan's Journal.  Karan.  About a girl's ill-fated plan to elope with her Dunmer
 Scourge of the Gray Quarter.  Frilgeth Horse-Breaker.  A complaint on the presence and behavior of the growing Dunmer population of Skyrim.
 
 # Skyrim, Nords, Solstheim, Skaal (11x2)
-Ævar Stone-Singer.  Traditional Skaal myth about a young Skaal's journey to recover the Gifts of the All-Maker.
 Biography of the Wolf Queen.  Katar Eriphanes.  A history of the unambiguously evil Queen Potema, the so-called Wolf Queen of Solitude.
 Cats of Skyrim.  Aldetuile.  A brief treatise on the few felines that can be found in Skyrim.
 Children of the Sky.  Description of the Nords.
@@ -463,7 +471,6 @@ Five Songs of King Wulfharth.  A summary of five epic songs of King Wulfharth, p
 A Gentleman's Guide to Whiterun.  Mikæl the Bard.  A bard's description of life in the city of Whiterun.
 Holdings of Jarl Gjalund.
 Holds of Skyrim, The.  The official guide of the Imperial Legion to Skyrim and its holds.
-Imperial Report on Saarthal.  Heseph Chirirnis.  A report from a Mages Guild Scholar assigned to Imperial Archæologist Sentius Floronius.
 King Olaf's Verse.  A lost part of the Poetic Edda, sung during the burning of Olaf's effigy in Solitude.
 
 # journals, letters, notes (chest)
@@ -509,7 +516,6 @@ Killing - Before You're Killed.  Eduardo Corvus.  Tips on effective combat metho
 Kodlak's Journal.  Kodlak Whitemane.  The last writings of a Harbinger of the Companions.
 
 # mage skills, Mages' Guild
-Arcana Restored.  Wapna Nuestra, Praceptor Emeritus.  Cryptic instructions for the restoration of Arcana.
 Art of War Magic, The.  Zurin Arctus, with Commentary By Other Learned Masters.  Mastering the art of winning.
 Daynas Valen's Journal.  Daynas Valen.  Details Valen's efforts to hunt down the Gauldur Legend.
 Daynas Valen's Notes.  Daynas Valen.  A summary of research of the Gauldur Legend.
@@ -543,7 +549,6 @@ Master Illusion Text.
 Master Illusion Text.
 Master Illusion Text.
 Medresi's Notes.  Medresi Dran.  The Journal of Medresi Dran.
-Merchant's Journal.
 Midden Incident Report.
 Miner's Journal.  Hadrir.
 Minorne.  Moric Sidrey.
