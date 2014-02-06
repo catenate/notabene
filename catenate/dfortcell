@@ -18,5 +18,18 @@ Font /fonts/10646/9x15/9x15.font
 ###b##b##
 ### ## ##
 
-Water levers close hatch between cistern and well,
+Water levers close drawbridge between cistern and well,
 and open drawbridge between cistern and river.
+
+    ↓cistern
+  #####
+###   #####
+# db  db:≈#
+###   #####
+ ↑##### ↑↑stairs to river
+ |      |
+ |      grate
+ |
+ bottom of well
+
+ 
