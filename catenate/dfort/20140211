@@ -173,3 +173,20 @@ Wood to make still; and carpenter's workshop, for bins and barrels
 %b%
 %X%				Stairs to stone and 4M.
 %%%
+
+
+nb mine search pattern
+
+%%%%%%%%%%%%%
+%X111111111X%	
+%1  2   2  1%
+%1  2   2  1%
+%12222222221%
+%1  2   2  1%
+%1  2   2  1%
+%1  2   2  1%
+%12222222221%
+%1  2   2  1%
+%1  2   2  1%
+%X111111111X%	
+%%%%%%%%%%%%%
