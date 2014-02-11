@@ -175,7 +175,7 @@ Wood to make still; and carpenter's workshop, for bins and barrels
 %%%
 
 
-nb mine search pattern
+nb mine search patterns
 
 %%%%%%%%%%%%%
 %X111111111X%	
@@ -188,5 +188,19 @@ nb mine search pattern
 %12222222221%
 %1  2   2  1%
 %1  2   2  1%
+%X111111111X%	
+%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%
+%X111111111X%	
+%1    2    1%
+%1    2    1%
+%12222222221%
+%1    2    1%
+%1    2    1%
+%1    2    1%
+%12222222221%
+%1    2    1%
+%1    2    1%
 %X111111111X%	
 %%%%%%%%%%%%%
