@@ -1,0 +1,139 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb dining room chair table store food well middle
+
+T is the table which designates the dining room.
+o are the stacked wells, which do not obstruct each other.
+= are food storage.
+Walls and floor can be smoothed and engraved,
+to have dwarves see them more.
+
+%%%%%%%%%%%%%
+%XtttttttttX%	28 tables, 9 storage
+% ccccccccc %
+%           %
+% ccccccccc %
+% ttttttttt %
+% ttttTtttt %
+% ccccccccc %
+%           %
+% ccccccccc %
+% ttttttttt %
+%o=========o%
+%%%%%%%%%%%%%
+
+
+nb hospital well dining room middle
+
+Locate the hospital below the dining room to take advantage of the
+well holes, cistern, central location, and distance from fighting.
+
+
+nb start cell deep middle shallow outside 
+
+Outside: farm, graze, refuse.
+
+Shallow: bedrooms and workshops for farmer, carpenter, craftsdwarf, hunter.
+Trade depot and storage.
+
+Middle: dining room, hospital, cistern.
+
+Deep: bedrooms and workshops for miner, mason, mechanic, and metalsmith.
+Tomb stack.
+
+
+nb trade depot storage shallow
+5x5 trade depot, 4x5 mechanism pile, 1x9 overflow-sale pile
+2x(3x3 material pile, 3x3 workshop, 3x3 crafts pile)
+2 levers to control drawbridges around corridor traps
+Chain dogs at 5-wide space either near depot or outer wall.
+
+%%%%%%%%%%%%%
+%X≡==   ≡==X%	
+%≡===   ===ó%%≈%	close/open inner drawbridge
+%====   ===ó%%b%	close/open outer drawbridge
+%=≡===O   O %%d%…%%	chain a dog here
+%=====      db#‼…‼db
+%=====  O   db#‼…‼db
+%=====      db#‼…‼db
+%=====O   O %%%%…%%	chain a dog here
+%=≡==   ≡==ó%	open/close water supply from river
+%====   ===ó%	open/close hatches under floor grates to drain to cavern
+%X===   ===X%
+%%%%%%%%%%%%%
+
+
+nb military trade depot connection shallow
+
+Train the military right under the trading depot, since it is a wide
+forced opening in the fort, goods traded away (eg mechanisms) could be
+created deep in the fort, and because goods traded for could be needed
+anywhere in the fort.  Trade depot cell should be connected directly
+to mechanism cell and dining cell, to sell mechanisms and eat food,
+but should definitely have drawbridges to protect them from incursion.
+
+
+nb cage trap storage zoo 63 shallow
+
+! is the cage which designates the 63-cage zoo.  Walls and floor
+can be smoothed and engraved, to have dwarves see them more.
+Should be shallow near the cage traps, to store empty and full traps.
+
+%%%%%%%%%%%%%
+%X‼‼‼‼‼‼‼‼‼X%	
+%           %
+% ‼‼‼‼‼‼‼‼‼ %
+% ‼‼‼‼‼‼‼‼‼ %
+%           %
+% ‼‼‼‼!‼‼‼‼ %
+%           %
+% ‼‼‼‼‼‼‼‼‼ %
+% ‼‼‼‼‼‼‼‼‼ %
+%           %
+%X‼‼‼‼‼‼‼‼‼X%	
+%%%%%%%%%%%%%
+
+
+nb sculpture gallery 63 middle
+
+ω is the sculpture which designates the 63-sculpture gallery.
+Walls and floor can be smoothed and engraved, to have dwarves
+see them more.
+
+%%%%%%%%%%%%%
+%XΩΩΩΩΩΩΩΩΩX%	
+%           %
+% ΩΩΩΩΩΩΩΩΩ %
+% ΩΩΩΩΩΩΩΩΩ %
+%           %
+% ΩΩΩΩωΩΩΩΩ %
+%           %
+% ΩΩΩΩΩΩΩΩΩ %
+% ΩΩΩΩΩΩΩΩΩ %
+%           %
+%XΩΩΩΩΩΩΩΩΩX%	
+%%%%%%%%%%%%%
+
+
+nb tomb coffin 63 deep
+
+1 is the coffin which designates a 13x13 tomb.
+4 are the coffins which designate 4 5x5 tombs.
+Should be deep (to be near mason for coffins) and in its own stack
+(to be undisturbed).  Walls and floor can be smoothed and engraved,
+to up value of designated tombs.
+
+%%%%%%%%%%%%%
+%X000000000X%	
+%           %
+% 040000040 %
+% 000000000 %
+%           %
+% 000010000 %
+%           %
+% 000000000 %
+% 040000040 %
+%           %
+%X000000000X%	
+%%%%%%%%%%%%%
