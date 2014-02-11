@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'Dwarf fortress: 2-pass mine search pattern: dig 4+36+24=64 of 121, only 1 square left unknown.'
+git commit -a -m 'Dwarf fortress: 3-pass mine search pattern: dig 4+36+17+8=65 of 121, no squares left unknown.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q
