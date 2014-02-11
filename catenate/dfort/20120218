@@ -1,0 +1,54 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb cocoa extract
+plant_couverture.txt
+	[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:criollo cacao nib]
+		[STATE_NAME_ADJ:LIQUID:criollo cocoa extract]
+		[STATE_NAME_ADJ:GAS:boiling criollo cocoa extract]
+		[MATERIAL_VALUE:20]
+		[DISPLAY_COLOR:6:0:0]
+		[EDIBLE_COOKED]
+		[EXTRACT_STORAGE:BARREL]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:PRESS_LIQUID_MAT:LOCAL_PLANT_MAT:OIL]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+		[PREFIX:NONE]
+	[EXTRACT_BARREL:LOCAL_PLANT_MAT:EXTRACT]
+
+reaction_couverture.txt
+[REACTION:PRESS_COCOA_LIQUOR]
+	[NAME:press cocoa liquor]
+	[BUILDING:SCREW_PRESS:NONE]
+	[REAGENT:liquor:150:LIQUID_MISC:NONE:NONE:NONE]
+		[REACTION_CLASS:COUVERTURE]
+		[HAS_MATERIAL_REACTION_PRODUCT:PRESS_LIQUID_MAT]
+		[NOT_PRESSED]
+	[REAGENT:liquid container:1:TOOL:NONE:NONE:NONE]
+		[EMPTY]
+		[DOES_NOT_ABSORB]
+		[PRESERVE_REAGENT]
+		[HAS_TOOL_USE:LIQUID_CONTAINER]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:100:LIQUID_MISC:NONE:GET_MATERIAL_FROM_REAGENT:liquor:PRESS_LIQUID_MAT][PRODUCT_TO_CONTAINER:liquid container]
+	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:liquor:NONE][PRODUCT_PRESSED]
+	[SKILL:PRESSING]
+
+
+nb water supply keep cellar master industry plan
+Make the path from the stairs to the keep part snake around to
+maximize supply below ground, allow rectangles during construction,
+and walls to re-establish convolutions.
+
+%%%%%%%%%%X         X
+%%%%%%%%%%%%%%%%%%%%
+%Xwf       O %pdp  %
+%O%%%%%%%% % %pfd  %
+%          % %     %
+% %%%%%%%%%% %     %
+%          f %     %
+%%%%%%%%%%%%%%pfu  %
+%%%%%%%%%%%%<      %
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%X         X

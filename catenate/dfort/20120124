@@ -1,0 +1,171 @@
+nb plan chocolate mod
+http://en.wikipedia.org/wiki/Chocolate
+
+Plant gathering at a living cacao tree, a deep-tropical evergreen gets
+a cacao pod.  Farmer's workshop plant-processes to get an inedible
+cacao seed and inedible cacao pulp.  Still extracts (ferment, dry,
+clean, roast, and shell) cacao seeds into inedible cacao nibs, and
+cacao pulp into cacao sugar.  Brew cacao sugar into cacao alcohol.
+Mill or quern grinds cacao nibs into inedible cocoa mass (cooking
+ingredient).  Brew cacao mass (and optionally vanilla, chile pepper,
+achiote, or cinnamon) into edible cacao water (drink).  Brew cacao
+mass into inedible chocolate liquor (drink; cooking and brewing
+ingredient).  Screw press chocolate liquor into cocoa solids and cocoa
+butter.
+
+Chocolate melanger work basically in a still/kitchen/farmer's workshop, 
+with a heat-absorbing stone slab, and a double-broiler over a
+regulatable heat source.  Conche and temper cocoa liquor, cocoa
+solids, and cocoa butter or $animal fat into inedible “bitter
+chocolate couverture” (cooking ingredient) or “bitter $animal
+couverture” (with notes of $animal fat; cooking ingredient) . Conche
+and temper cocoa liquor, cocoa butter or $animal fat, and cacao/
+dwarven sugar into edible sweet chocolate/$animal couverture.  Conche
+and temper cocoa solids, cocoa butter or $animal fat, and cacao or
+dwarven sugar into edible dark chocolate/$animal couverture.  Conche
+and temper cocoa liquor, milk, and cacao/dwarven sugar into edible
+milk chocolate couverture.  Blend cocoa butter, cacao or dwarven
+sugar, and milk into edible white chocolate couverture (not a cooking
+ingredient).
+
+Brew bitter/sweet/milk/white chocolate and milk into edible
+chocolate milk.  Brew bitter/sweet/milk/white chocolate into
+edible hot chocolate.
+
+Eating edible chocolate products tantrums and gives a dwarf a happy thought.
+
+Chocolate crafters (chocolatier) can mold bitter/sweet/milk/white
+chocolate chocolate couverture into bars or other shapes (like an
+engraving or cloth decoration), which is named “chocolate $object”.
+
+
+nb implement chocolate mod
+Have to be a shrub rather than a tree, since trees can't have seeds.
+Evergreen, so grows year-round.
+
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/plant_standard.txt:/CACAO/
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/plant_standard.txt:/POD_SWEET/
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/plant_tcacao.txt
+
+[PLANT:CACAO_THEOBROMA]
+	[NAME:Theobroma cacao tree][NAME_PLURAL:Theobroma cacao trees][ADJ:Theobroma cacao tree]
+	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
+		[MATERIAL_VALUE:2]
+	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+	[PICKED_TILE:232][PICKED_COLOR:4:0:1]
+	[GROWDUR:500][VALUE:2]
+	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:frozen cacahuatl]
+		[STATE_NAME_ADJ:LIQUID:cacahuatl]
+		[STATE_NAME_ADJ:GAS:boiling cacahuatl]
+		[MATERIAL_VALUE:2]
+		[DISPLAY_COLOR:5:0:1]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[PREFIX:NONE]
+	[DRINK:LOCAL_PLANT_MAT:DRINK]
+	[USE_MATERIAL_TEMPLATE:MILL:PLANT_POWDER_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:cacao sugar]
+		[STATE_COLOR:ALL_SOLID:WHITE]
+		[DISPLAY_COLOR:6:0:0]
+		[MATERIAL_VALUE:20]
+		[EDIBLE_VERMIN]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[PREFIX:NONE]
+	[MILL:LOCAL_PLANT_MAT:MILL]
+	[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:frozen cocoa liquor]
+		[STATE_NAME_ADJ:LIQUID:cocoa liquor]
+		[STATE_NAME_ADJ:GAS:boiling cocoa liquor]
+		[MATERIAL_VALUE:20]
+		[DISPLAY_COLOR:6:0:0]
+		[EDIBLE_COOKED]
+		[EXTRACT_STORAGE:BARREL]
+		[PREFIX:NONE]
+	[EXTRACT_BARREL:LOCAL_PLANT_MAT:EXTRACT]
+	[USE_MATERIAL_TEMPLATE:SEED:SEED_TEMPLATE]
+		[MATERIAL_VALUE:1]
+		[EDIBLE_VERMIN]
+		[EDIBLE_COOKED]
+	[SEED:cacao seed:cacao seeds:2:0:1:LOCAL_PLANT_MAT:SEED]
+	[SPRING][SUMMER][AUTUMN][WINTER]
+	[FREQUENCY:100]
+	[CLUSTERSIZE:5]
+	[PREFSTRING:fermented nibs]
+	[DRY]
+	[BIOME:FOREST_TROPICAL_CONIFER]
+	[BIOME:FOREST_TROPICAL_MOIST_BROADLEAF]
+	[SHRUB_TILE:226]
+	[DEAD_SHRUB_TILE:226]
+	[SHRUB_COLOR:4:0:1]
+	[DEAD_SHRUB_COLOR:0:0:1]
+
+
+nb diary 251 hamlet emallikot
+Hamlet Emallikot, Slate 252, Reg Voiceguild
+
+Our hamlet received around two dozen migrants, from 18 dwarves to 41.
+We need to build a bowyer’s workshop for three migrants: novice Cog
+Fellsilvers, who dresses wounds and will join the hospital staff and
+squad; talented Mebzuth Glazeattacks, who designs buildings; and high
+master Tulon Craterpapers, who also grows and presses plants, and also
+knows architecture.
+
+Zasit Moonarrows joins us as a dedicated woodcutter.  Nil Tourearth
+the engraver became our first manager, with a chair in the dormitory.
+Ber Breedstaves, animal caretaker, seconds diagnoses and serves on
+the hospital squad.  Goden Mirrorpattern sutures and serve on the
+hospital squad when he isn't training animals, making lye, or dissecting fish.
+I expect Ber and Goden to try to keep their animals away from Zuntîr
+Smithbridge, who dissects them, and whom I asked to butcher.
+Zulban Shotshrine will be a more likely source of animals, as our high
+master hunter, fish dissector, and competent bowyer.  (This hamlet
+will not lack for crossbows!  We should probably set up four workshops
+and sell what we don’t use.)
+
+Logem Razormerged smelts, fishes, and crafts stone.  Libash Blockshot
+crafts metal, gathers plants, cleans fish, and also cares for animals.
+Goden Heldmine can work stone—her charcoal rubbings showed skill.
+Zuntîr and Ber say she has more talent as a weaponsmith.  Whether
+she’s good or not, she’s welcome—we have bars backing up and an anvil
+waiting for a forge.  Erush Rackoars can weave as long as we have dyed
+thread for her.  Ïngiz Cryptnets, another diagnostician for the
+hospital squad, makes mechanisms; fishes, cleans, and dissects; and
+processes plants.  Dodók Savedroofs is similarly fishy, and dresses
+wounds as a member of the hospital staff.  Doren Bannerrouts fishes
+and cooks.  She can also tell the value of goods, which will come in
+handy if something happens to Ineth.  In the meantime she’ll keep
+records (in the other dorm chair, with medium precision), since nobody
+here is good at that, and appraising is a start.  She also seems a
+good choice for militia captain.
+
+Rîsen Tinabbeys milks our pastured water buffalo and cow, and the yak
+cow they brought.  We also acquired a pet poult (so much for its meat),
+pet turkey gobbler, horse foal, chick, cow calf, 2 mule foals, pet
+duckling, ram, pet cavy pup, and a bull calf.  This adds to our
+current 3 horses, sow, and boar (expecting piglets someday).
+
+Kadol Fieldcrystals makes the most of our farm plots, and smiths metal
+(he can also swim).  Atír Basementmarket makes potash and dyes
+(the dwarf will die if he wastes too much of his time making potash).
+Dakost Drumcraft spins wool into yarn, and hair into thread, at the
+workshop we set up by the farms.  Aban Championbridged, our fifth
+bowyer, also weaves, acquires and shapes wood, and tans.
+Kikrost Feedceilings makes our fourth diagnoser, and probably won’t
+make the hospital squad.  And Kikrost Whispersmirrored, bloody peasant
+with some fighting skills, makes 24 immigrants.  Probably three new
+squads, and we don’t have a second barracks yet, for the six new
+recruits training at once.  Maybe breach the upper caverns and set up
+a walled-off barracks?
+
+Expanded the hospital squad to 9.  This minimizes the number of
+hospital recruits training as reserve defense.  Asked expert marks-
+dwarf Zulban to lead the archer squad, though still not enough
+marksdwarves to activate it.
+
+Two new squads: Silvery Bluenesses, led by Kikrost Whispersmirrored,
+an adequate speardwarf.  Goden Heldmine, a novice axedwarf, heads the
+Diamond Gulfs.  This leaves two dwarves (Tulon Craterpapers and Rîsen
+Tinabbeys) not in a squad, for the next wave of migrants.  Five squads
+active in the only barracks, which should be tolerable.

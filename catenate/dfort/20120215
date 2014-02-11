@@ -1,0 +1,90 @@
+nb dwarf profession name code
+Name a dwarf after the fully active (A) or partially active (a)
+categories of jobs.  Ordered by ability in the best skill,
+then by percentage of known skills in the category.
+
+V	definite vampire
+v	possible vampire
+
+N	hereditary or elected noble with mandates and room grudge: mayor
+n	appointed administrator: expedition leader, bookkeeper, broker
+
+S	military skill: Expert Professional Accomplished Great Master HighMaster GrandMaster Legendary
+s	military skill: Dabbling Novice Adequate Competent Skilled Proficient Talented Adept
+
+D	mining: Expert Professional Accomplished Great Master HighMaster GrandMaster Legendary
+d	mining: Dabbling Novice Adequate Competent Skilled Proficient Talented Adept
+
+a	architecture
+b	healthcare (5): diagnoser, surgeon, bone setter, suturer, wound dresser
+c	woodworking (3)
+e	metalsmithing and wood burning (5)
+g	engineering (4)
+h	fishing/related (3)
+j	jewelry (2)
+k	hunting/related (5)
+m	stoneworking (2)
+p	hauling (8)
+r	crafts and metal crafting (12)
+t	social skills
+w	farming/related (18)
+
+
+nb profession name default embark
+miner dP
+woodworker cP
+woodcutter cewP
+stonecrafter MagP
+jeweler JrP
+fish cleaner hrwP
+fisherdwarf hP
+
+
+nb profession name confuseroads
+Dastot Windbuck
+d	skilled miner
+t	dabbling social skills (10)
+s	dabbling combat skills (3)
+P	hauling
+
+Unib Atticwash
+M	novice engraver, mason
+d	novice miner
+a	novice building designer
+g	novice mechanic
+t	dabbling social skills (7)
+s	dabbling combat skills (4)
+P	hauling
+
+Nomal Constructstern
+c	adequate carpenter; novice bowyer
+s	dabbling combat skills (4)
+P	hauling
+
+Onget Namedroom
+c	competent wood cutter
+w	novice brewer, cook, grower, herbalist, lye maker, potash maker
+e	novice wood burner
+P	hauling
+
+Cilob Whippedfinger
+w	adequate herbalist; (grower), (miller), (brewer), (herbalist), (thresher), (cook), (presser)
+J	novice gem cutter, gem setter
+r	novice wood crafter, stone crafter, bone carver
+s	dabbling combat skills (4)
+P	hauling
+
+Dakost Paperpartner
+n	expedition leader
+w	adequate herbalist; novice butcher, tanner; (grower), (miller), (brewer), (thresher), (cook), (presser)
+r	novice weaver, clothier, leatherworker
+h	novice fish cleaner
+s	dabbling combat skills (4)
+P	hauling
+
+Urist Heatblockades
+h	novice fisherdwarf
+s	dabbling combat skills (4)
+n	dabbling record keeper
+r	dabbling stone crafter
+P	hauling

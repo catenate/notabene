@@ -1,0 +1,186 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb emallikot sensedinks
+
+
+nb diary emallikot 251
+Outpost Emallikot, Felsite 251, Reg Okoldomas
+
+From a strange mood, our building designer Avuz Adildolil brought us
+new plans for an overall layout of workshops, which we approved.
+This works within our halls: slightly overlapping, open 11x11-urist
+areas, with staircases in the four corners.
+
+Around a wood pile we will have workshops for the carpenter, crafter,
+bowyer, and wood burner, and piles for wood furniture, crafts, and
+crossbows.  Between the wood area and the metal area we will store
+charcoal, and bituminous coal and lignite if we find any.
+
+Below the stone workshops we'll pile interesting stones, near doors
+and hatches to the mines.  Around a magma-safe stone pile will be
+workshops for the mason, jeweler, mechanic, and crafter, and piles for
+stone furniture, encrusted furniture, mechanisms, and mugs.  (The mugs
+don't really need to be magma-safe, but it's not worth setting up a
+stone feed to an isolated craftsdwarf.  We can set up crafters in
+areas where the magma-safe stones are gone.) Between two staircases
+we'll put cut gems.
+
+From the charcoal between two staircases we'll locate three smelters,
+then three bar piles, then three forges.  Dedicate one smelter, bar
+pile, and forge to weapons, armor, trap components, and ammunition of
+weapons-grade metal other than iron and steel.  Another for iron and
+steel.  The last for forge-crafting other metals, except adamantine.
+The remaining margins fill with weapons and trap components, armor,
+and ammunition and crafts.
+
+Adamantine will have its own workshop area down by the magma, using
+microcline as our building material.  Around a pile of fuel we'll arrange
+a crafter, two smelters, and a forge, and piles for adamanite threads,
+wafers, wafers again, and weapons.  In three margins we'll store armor,
+and the fourth the raw adamantine for which we praise the miners.
+
+We'll make clothes and soap in the same area.  Around a pile of cloth,
+the loom for the weaver, workshops for the dyer and clothier, and a
+pile of clothes, with thread and dye in the margins.  Fill out the
+remainder with a pile of ash, the ashery, a pile of lye, and the
+soapmaker, with tallow and oil in the margin.
+
+We'll have to leave a wall around corpses and the butcher.
+(A pile for skins would delay them getting to the tanner.)
+Outside the miasma-room we can put the tanner, a leather pile of
+tanned hides, the leather worker, and a pile of leather goods.
+
+X         X
+ %%%%%%%%%
+ %ccccBBB%
+ %ccccBBB%
+ %ccccBBB%
+ %%%%%%%+%
+ LLLlllTTT
+ LLLlllTTT
+ LLLlllTTT
+ ggggggggg
+X         X
+
+Also together will be glass and ceramics.  In the middle a pile of
+bags, between two piles of fuel.  To one side, sand bags, a glass
+furnace, and a pile of glass, with pearlash and rock crystal in the
+margin.  To the other side, clay, a kiln, and ceramics, with ash and
+cassiterite in the margin.
+
+In a farm area, we'll have space for two 7-urist furrows for each of
+the four undergroud-plant arrangements (pig tails, and plump helmets
+in the off-season; cave wheat and dimple cups; sweet pods and plump
+helmets; and quarry bush and dimple cups).  A furrow-sized pile of
+seeds, and another of plants, between the two farm plot sets.  Farmer,
+kitchen, still, quern and screw press.  Raw food pile in one remaining
+margin, and edible food pile in the other.
+
+Near the trade depot, three craft lanes.  A pile of bone, horn, hoof,
+and skull for the bone carver, and a pile for her bone bolts and crafts.
+A pile of wood for a wood crafter, and a pile for his crafts.
+And a pile of non-magma-safe stone for the stone crafter, and a pile
+for her mugs.
+
+Nest boxes in the pasture for the livestock.  Hives near entrance.
+
+
+nb entrance plan trap trade depot kennel stone wood bone craft
+pile stone non-magma-safe
+build workshop crafter
+pile goods stone
+
+[pile wood
+build workshop crafter
+pile goods wood]
+
+pile refuse bone/horn/hoof/skull
+build workshop crafter
+pile goods bone-bolt/horn-craft/totem
+
+Archery target
+Depot
+Kennel
+X	stairs
+^	trap
+drawbridge
+
+           %%%%
+           %XX%
+           %XX%
+           %%b%
+%%%%%%%%%%%%%d%%%%%%%%        
+%psn       DDDDDKKKKK%
+%   bwr    DDDDDKKKKK%
+%      pgs DDDDDKKKKK%
+%pw        DDDDDKKKKK%
+%   bwr    DDDDDKKKKK%
+%      pdw      %%%%%%
+%prb            ^^^^bd
+%   bwr         ^^^^bd
+%      pgb AAAAA^^^^bd
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+nb false entrance trap siege water trap
+Create a false entrance to a deep stairwell with lever-linked hatches
+every 10 levels, or just one drawbridge at the exit.  Allow invading
+force to path in and go deep in the pipe, then shut the drawbridge
+behind them, or the hatches to separate them.  Leave them alone until
+they starve to death, or drown them, or send in a squad to mop them up piecewise.
+
+Create a false entrance to a room whose floor is (mostly?) a lever-
+linked bridge.  Shut the door to the room when most of the invasion
+force has assembled, which also retracts the bridge and drops them a
+large number of levels to their death, or for any that survive to be
+training for the military.
+
+Create a false entrance to the fortress, which leads to a room with
+three exits.
+	The first exit is a wall drawbridge which leads back outside.
+The second exit is a hole in the ceiling, which leads to a floodgate
+which leads to a tunnel filled with water which wants to get into the
+room (eg, a brook's flow from a higher level).  The third exit is a
+grated hole in the floor which leads down to a wall drawbridge which
+leads to a flow of water away from the room (eg, any open passage
+leading outside, and eventually to water or the edge of the map).
+	One lever shuts the first wall drawbridge (installed open),
+opens the hidden (except to flyers) floodgate (installed closed), and
+shuts the second drawbridge (installed open).  The water enters and
+has nowhere to go, so fills the room and drowns the invaders.
+Resetting the lever opens the death chamber for the next set of
+invaders, closes the floodgate, and drains the water (which inundates
+any invaders coming in from the outflow, if the outflow is not
+directly to water).
+	If a troll smashes up the first wall drawbridge, then they can
+get out.  If a flyer smashes up the floodgate, the invasion force gets
+inundated more quickly, and the room needs to be recovered by closing
+a floodgate closer to the water supply, if the room does not have
+enough drainage to reduce the water to construction depth.  If a troll
+smashes up the floor grate, then the possessions and corpses can leave
+the room with the draining water’s flow.  If a troll jumps down and
+smashes up the second wall drawbridge, then they might not drown.
+
+
+nb plot kitchen still farmer workshop seed plant quern screw press edible raw food pile layout industry master plan
+
+Xbp     qsX
+bp     bwwp
+bp        f
+bp        r
+pfs    bwl
+pfp
+bp
+bp     bwz
+bp
+bp
+Xpfe      X
+
+edible food: Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat,
+Plant Extracts (dwarven syrup), Animal Extracts (milks)
+
+raw food: Unprepared Fish, Egg, Plants (quarry bush, kobold bulb,
+valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes),
+Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight,
+golden salve), Animal Extracts (no milks)

@@ -1,0 +1,131 @@
+nb test chocolate mod
+Kitchen: 7 cacao seeds, 5 cacao pod, 6 cacao sugar, 6 cocoa butter,
+7 cacao nib.  Stocks: 2 cacao pod [2], cacao pod (plants); cacao sugar [2],
+4 cacao sugar (powder); 6 cocoa butter (liquid); glob, 7 cocoa solid (glob);
+7 cacao seeds (seeds).
+
+Activate kennel and carve animal traps.  Zoned pasture and hospital
+(make two coffers).  Make 2 sets of training gear for barracks.
+
+Moved two bags of cacao sugar from barrels to new stockpile, so try to
+make some more couverture of type ¹ as highest-priority kitchen task.
+ ¹ [PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:fat:COUVERTURE_MAT]
+
+Working with cocoa solid, chalk jug (with cocoa butter), and cacao
+sugar bag, making cocoa butter couverture, a white ≈ in fat pile.
+Make chocolate crafts is available! Try it after check on color change.
+Couverture is now brown.
+
+Kitchen: 7 cacao seeds, 5 cacao pod, 5 cacao sugar, 5 cocoa butter,
+cocoa butter couverture, 6 cacao nib.  Stocks: 2 cacao pod [2], cacao
+pod (plants); cacao sugar [2], 3 cacao sugar (powder); 5 cocoa butter
+(liquid); glob, cocoa butter couverture, 6 cocoa solid (glob); 7 cacao
+seeds (seeds).
+
+Nice.  Crafted it into a large cocoa butter couverture gem. :)
+Figurine would be far more interesting and realistic.
+
+Kitchen: 7 cacao seeds, 5 cacao pod, 5 cacao sugar, 5 cocoa butter,
+6 cacao nib.  Stocks: 2 cacao pod [2], cacao pod (plants); cacao sugar [2],
+3 cacao sugar (powder); 5 cocoa butter (liquid); glob, 6 cocoa solid (glob);
+7 cacao seeds (seeds); large cocoa butter couverture gem (large gems).
+
+Assigned the hunting dog to the hunter, and queued butcher to
+receive...  wow, butcher and tanner not yet built.  Add these labors
+to hunter.  Beekeeper should also be brewer, to make mead.  Presser
+should also be miller, to feed press.  Fish dissector can also fish.
+
+Kitchen: 7 cacao seeds, 6 cacao pod, cacao sugar (disable cook),
+4 cocoa butter, cocoa butter couverture, 5 cacao nib.  Stocks: 2 cacao
+pod [2], 2 cacao pod (plants); cacao sugar biscuits [3]¹ (prepared meals);
+cacao sugar (powder); 4 cocoa butter (liquid); glob, cocoa butter
+couverture, 5 cocoa solid (glob); 7 cacao seeds (seeds); large cocoa
+butter couverture gem (large gems).
+ ¹ This is a stack of 3 cacao sugar biscuits.  The ingredients are
+minced cacao sugar and minced cacao sugar.
+
+To get bags back, to make more sugar, cook the sugar.
+
+Make more couverture, and try to craft it.
+
+Enable quern and press.  Made cocoa butter couverture figurine of Odur.¹
+ ¹ The item is an image of Odur, the deity of lightning, storms,
+thunder, the rain, agriculture and food, depicted as a male dwarf in
+cocoa butter couverture by Likot Ralcagith.  Odur looks offended.
+
+Kitchen: 7 cacao seeds, 6 cacao pod, cacao sugar (disable cook),
+4 cocoa butter, 5 cacao nib.  Stocks: 2 cacao pod [2], 2 cacao pod
+(plants); cacao sugar biscuits [3]¹ (prepared meals); cacao sugar
+(powder); 4 cocoa butter (liquid); glob, 5 cocoa solid (glob); 7 cacao
+seeds (seeds); large cocoa butter couverture gem (large gems);
+cocoa butter couverture figurine of Odur (figurines).
+
+If this all works then we need to do the same with a fat-based couverture.
+First we need some fat, so capture a live land animal and slaughter it.
+Make the hunter also a trapper, and carve a trap and cage.
+Bah, just slaughter the water buffalo bull.¹
+ ¹ Only need 1, which migrants might have.  No water buffalo cows yet.
+
+Killed water buffalo.  Stored water buffalo fat [8] in barrel in fat stockpile.
+Make couverture from fat is available, and is now highest priority,
+over active easy meal, fine meal, and render fat (can’t make
+couverture from tallow).
+
+Kitchen: 10 cacao seeds, 4 cacao pod (disable cook), 3 cacao sugar,
+4 cocoa butter, 5 cacao nib.  Stocks: 2 cacao pod [2], 2 cacao pod
+(plants); cacao sugar biscuits [2], cacao sugar biscuits (prepared
+meals); cacao sugar [2], cacao sugar (powder); 4 cocoa butter
+(liquid); glob, water buffalo fat [8], 5 cocoa solid (glob); 10 cacao
+seeds (seeds); large cocoa butter couverture gem (large gems);
+cocoa butter couverture figurine of Odur (figurines).
+
+Active “Make couverture from fat” task in kitchen takes cocoa solid,
+water buffalo fat, and cacao sugar (in bag).  Darn it, turned just
+into a glob.  Add reaction product¹ to FAT_TEMPLATE.
+ ¹ [MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_CREATURE_MAT:COUVERTURE]
+
+Reaction to make couverture from fat¹ is disabled.  We have 4 cocoa
+solid and cacao sugar [2] in stocks.  There’s a sugar bag nearby,
+so that's probably not it.  No other fats listed in glob, so maybe
+that reaction ate the whole stack.  If so, butcher something else
+(this gets expensive).
+ ¹ COUVERTURE glob, unrotten FAT COUVERTURE_MAT-producing glob,
+COUVERTURE_MAT-producing powder, and sugar-containing bag make
+COUVERTURE_MAT glob.
+
+Kitchen: 13 cacao seeds, 11 cacao pod, 2 cacao sugar, 4 cocoa butter,
+4 cacao nib.  Stocks: cacao pod [4], cacao pod [3], cacao pod [2],
+2 cacao pod (plants); cacao sugar biscuits [2], cacao sugar biscuits
+(prepared meals); cacao sugar [2] (powder); 4 cocoa butter (liquid);
+2 glob, 4 cocoa solid (glob); 13 cacao seeds (seeds); large cocoa
+butter couverture gem (large gems); cocoa butter couverture figurine
+of Odur (figurines).
+
+Killed a bull calf.
+
+Kitchen: 23 cacao seeds, 40 cacao pod, 13 cacao sugar, 4 cocoa butter,
+11 cacao nib.  Stocks: 3 cacao pod [5], 4 cacao pod [4], cacao pod
+[3], cacao pod [2], 4 cacao pod (plants); cacao sugar [5], 2 cacao
+sugar [3], 2 cacao sugar [2], cacao sugar (powder); 4 cocoa butter
+(liquid); 2 glob, cow fat [8], 4 cocoa solid, 7 cocoa mass (glob); 23
+cacao seeds (seeds); large cocoa butter couverture gem (large gems);
+cocoa butter couverture figurine of Odur (figurines).
+
+Make couverture from fat is available, and active.  Task takes cocoa
+mass, cow fat [8], and cacao sugar (in bag).  Made cow couverture.
+Make couverture figurine is available, and ordered.
+
+Kitchen: 19 cacao seeds, 49 cacao pod, 11 cacao sugar, 4 cocoa butter,
+cow couverture (disable cook), 14 cacao nib.  Stocks: 3 cacao pod [5],
+5 cacao pod [4], cacao pod [3], cacao pod [2], 5 cacao pod (plants);
+cacao sugar [5], cacao sugar [3], cacao sugar [2], cacao sugar (powder);
+4 cocoa butter (liquid); 2 glob, cow couverture, 4 cocoa solid, 10 cocoa
+mass (glob); 19 cacao seeds (seeds); large cocoa butter couverture gem
+(large gems); cocoa butter couverture figurine of Odur (figurines).
+
+Make couverture figurine task takes only cow couverture, and makes
+a cow couverture figurine of dwarves.¹
+ ¹ This is a cow couverture figurine of dwarves.  The item is an image
+of dwarves in cow couverture by Likot Ralcagith.
+
+Good enough to post version 1.0.

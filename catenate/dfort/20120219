@@ -1,0 +1,266 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb bedroom chair pile coffer cabinet statue cage animal table master plan
+θ	bed: assigned to a dwarf working in one of the two workshops
+π	chair: 1x1 study assigned to bed owner
+÷	pile preferred drink
+Æ	coffer
+Π	cabinet
+%	pile prepared meals and preferred food
+Ω	preferred statue or animal in cage
+τ	table: 1x1 dining room assigned to bed owner
+=	pile preferred items
+
+πτ%
+÷θ=
+ΠÆΩ
+
+
+nb fibonacci fortress column plan entrance trade depot craft workshop civilization request drawbridge mutual airlock layout
+
+Column 3: entrance, tradecraft, barracks
+
+1x3 channel down from above, don't mine this level
+
+1x1 traps (30)
+3x3 drawbridge
+5x5 trade depot
+1x2 drawbridge
+1x1 traps (16)
+
+1x3 levers for outside, trade, and corridor drawbridges
+1x9 pile trade request dwarf
+3x3 pile goods: crafts and totems of bone tooth horn and shell
+3x3 bone crafter
+3x3 pile refuse: skulls bones shells teeth and horns/hooves
+1x9 pile trade request elf
+3x3 pile furniture mechanisms¹
+3x3 mechanic
+3x3 pile stone non-magma-safe, not stock-economic¹
+ ¹ Siltstone, mudstone, shale, claystone, rock salt, conglomerate,
+granite, diorite, rhyolite, andesite, dacite, slate, phyllite, schist,
+gneiss, cinnabar, cobaltite, jet, puddingstone, graphite, brimstone,
+kimberlite, realgar, orpiment, stibnite, marcasite, sylvite, cryolite,
+pyrolusite, borax, hornblende, serpentine, microcline, saltpeter.
+1x5 pile trade
+3x3 bedrooms (3): broker, mechanic, bone carver
+1x9 pile trade request human
+
+▲^^^^^^^^^^ >pD=======> <         <%X
+▲^^^^^^^^^^ òpgbbwrprbp           ò%%
+▲^^^^^^^^^^ ò===   ===E            b%
+%%%%%%%%/=\ ò===   ====           %d%
+>%O   O |+| <putbwtpso=           % %
+^%      \-/ p===   ====      θ    % %
+^%  O       ====   ====           % %
+^%          =         =           %d%
+^%O   O   - = θ  θ  θ =           %b 
+^%%%%%%%%%= =         =          %%ò
+^^^^^^^^^^^ >pH=======> <         <%X
+
+Column 5:
+[walled refuse]
+refuse during sieges: stairs should have two walls and a door blocking maisma.
+not-preferred statuary, zoo, and engraved meeting hall
+hospital and migrant beds
+water
+barracks
+
+One central 11x11 column for piping of river or pool water to the
+water levels of columns.  (3 wells in case the water supply gets
+tainted, gives time to flush it out and refill reservoir.)
+
+%	unmined wall
+o	well to water cages
+Ω	non-preferred statue
+ℍ	caged animal
+
+X ΩℍΩℍΩℍΩ X
+           
+Ω ℍΩℍ ℍΩℍ Ω
+ℍ Ω%Ω Ω%Ω ℍ
+Ω ℍΩ   Ωℍ Ω
+o    Ω    o
+Ω ℍΩ   Ωℍ Ω
+ℍ Ω%Ω Ω%Ω ℍ
+Ω ℍΩℍ ℍΩℍ Ω
+           
+X ΩℍΩoΩℍΩ X
+
+8	doctors’ bedrooms (4)
+R	traction bed (4)
+Æ	hospital coffer (4)
+θ	hospital bed (groups of 4)
+τ	surgery table (5)
+◘	floor engraving
+
+X       Æ X
+ θ◘θ   θ◘θ 
+Æ◘τ◘ 8 ◘τ◘ 
+ θ◘θ   θ◘θ 
+    R◘R   
+o 8 ◘τ◘ 8 o
+    R◘R   
+ θ◘θ   θ◘θ 
+ ◘τ◘ 8 ◘τ◘Æ
+ θ◘θ   θ◘θ 
+X Æ  o    X
+
+%%%%%%#%%%%%%
+%Xò%      %X%
+%%%%%%x%%%%ò%
+% %       %%%
+% %       % %
+% %       % %
+%·x       x·%
+% %       % %
+% %       % %
+%%%       % %
+%ò%%%%x%%%%%%
+%X%   ·  %òX%
+%%%%%%%%%%%%%
+
+column 8:
+[walled outside farm area];
+farm area;
+stockpile prepared meals, food, and drink;
+crossbows/bowyer/wood/crafter/woodcrafts, 4 bedrooms; 
+furniture/mason/magma-safe non-economic stone¹/mechanic/magma-safe mechanisms, 4 bedrooms;
+furniture/jeweler/magma-safe non-economic stone¹/crafter/tools slabs pots, (cut gems and stone), 4 bedrooms;
+furniture/carpenter/wood/wood furnace/charcoal, 4 bedrooms; 
+2 smelters, 2 bar piles, 2 forges, (charcoal), (weapons and armor), (trap components), 3 bedrooms;
+barracks
+
+ ¹ Sandstone, chert, gabbro, basalt, quartzite, talc, pertrified wood,
+periclase, ilmenite, rutile, chromite, pitchblende, bauxite, olivine,
+orthoclase, mica, anhydrite, alunite, slade.
+
+1x9 meat
+1x9 fish
+1x9 fat
+1x9 egg
+3x3 plants
+3x3 drink
+3x3 cheese
+3x3 seeds
+3x3 leaves
+3x3 milled plant
+3x3 paste
+3x3 pressed material
+3x3 extract
+
+column 13:
+[walled outside animal/corpse/butcher/tanner/kennel with drawbridge]
+stockpiles
+outsiders’ bedrooms
+stockpiles
+(dye), thread/loom/cloth/dyer/clothier, (clothes)
+stockpiles
+leather
+stockpiles
+soap
+stockpiles
+miners’ bedrooms
+stockpiles
+barracks
+
+╔═══════════╗
+║X         X║
+║/bk \      ║
+║           ║
+║           ║
+║\   /      ║
+║bwnbwu     ║
+║           ║
+║           ║
+║ò          ║
+║ò          ║
+║X         X║
+╚═══════════╝
+
+1x9 pile food dye
+3x3 pile food thread
+3x3 bedroom (4)
+3x3 loom
+3x3 pile cloth
+3x3 dyer
+3x3 clothier
+3x3 crafter embroidery
+1x9 pile goods clothes
+
+X         X
+ppft   bwl 
+f=== θ     
+d===       
+=   pc=    
+= θ === θ  
+=   ===    
+=bwd   bwo 
+=    θ     
+=          
+X         X
+
+
+nb embark equipment
+
+
+nb embark skill set
+Metalsmith
+Herbalist
+Grower, Brewer, Cook
+Mechanic
+Appraiser, Judge of intent, Record keeper
+
+Miner
+Miner
+Woodcutter
+Grower, Cook
+Grower, Brewer
+Carpenter
+Mason
+
+Masons, miners, growers, and any craft that your fortress will base
+their economy off of (glass, stonecrafts, armour, etc) will take a lot
+of time, so plan accordingly.
+
+Metalsmith, Weaponsmith, Armorer; Fighter; Haul ore, armor, weapons
+Herbalist (stacks of plants); Fighter; Haul plants
+Miner (more stones); Fighter; Haul stone
+Mechanic (mechanisms); Fighter; Haul stone, mechanisms
+Appraiser, Judge of intent, Negotiator, Record keeper; Fighter; Haul other
+Grower, Cook, Brewer; Haul food
+
+
+nb assign skill dwarf personality
+http://dwarffortresswiki.org/index.php/v0.31:Starting_build
+
+Which dwarf should have which skill?
+
+Dwarves who craft goods they prefer, or work materials they prefer,
+gain a bonus to the quality of the finished work.  This can inform
+your choice of which skills you choose, for example by choosing a
+weaver because you notice a preference for sheep wool yarn, or you
+might choose the skills you want and then try to find a suitable dwarf
+to use that skill.  In the latter case, since all dwarves have one
+metal preference you might assign an armorsmithing skill to a dwarf
+with a preference for iron, steel, or adamantine.
+
+The dwarf with the most social skills will end up being the Expedition
+leader, who will then become the mayor and start making mandates.
+Thus you should avoid giving the most social skills to dwarfs who have
+preferences for things like adamantine.
+
+Dwarves have physical and mental attributes that affect the
+performance of certain skills.  You may wish to give a socially adept
+and patient dwarf the leadership/broker skills, or a dwarf who doesn't
+tire easily a skill which will be in frequent use like mining.  You
+can also try to match skills to personality, some of which have
+obvious implications for their willingness to work long hours or how
+frequently they might take breaks.
+
+Of course, all combined these represent a lot of possible constraints
+on where you assign particular skills, and it would be impossible to
+apply them in total to your entire desired skill load.  Use these as a
+guide, but don't be upset if all your dwarves are anti-social
+psychopaths—someone still needs to be the leader, after all.

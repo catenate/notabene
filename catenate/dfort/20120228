@@ -1,0 +1,58 @@
+nb cacao sugar plant material mill chocolate mod
+	[USE_MATERIAL_TEMPLATE:MILL:PLANT_POWDER_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:criollo cacao sugar]
+		[STATE_COLOR:ALL_SOLID:WHITE]
+		[DISPLAY_COLOR:7:0:1]
+		[MATERIAL_VALUE:5]
+		[EDIBLE_VERMIN]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+		[PREFIX:NONE]
+	[MILL:LOCAL_PLANT_MAT:MILL]
+
+	[USE_MATERIAL_TEMPLATE:MILL:PLANT_POWDER_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:forastero cacao sugar]
+		[STATE_COLOR:ALL_SOLID:WHITE]
+		[DISPLAY_COLOR:7:0:1]
+		[MATERIAL_VALUE:5]
+		[EDIBLE_VERMIN]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+		[PREFIX:NONE]
+	[MILL:LOCAL_PLANT_MAT:MILL]
+
+	[USE_MATERIAL_TEMPLATE:MILL:PLANT_POWDER_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:trinitario cacao sugar]
+		[STATE_COLOR:ALL_SOLID:WHITE]
+		[DISPLAY_COLOR:7:0:1]
+		[MATERIAL_VALUE:5]
+		[EDIBLE_VERMIN]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+		[PREFIX:NONE]
+	[MILL:LOCAL_PLANT_MAT:MILL]
+
+
+nb rock pot barrel compare
+http://www.bay12forums.com/smf/index.php?topic=102691.0
+
+
+nb long thin mountain range
+http://www.bay12forums.com/smf/index.php?topic=100681.msg2998600#msg2998600
+
+Montague: This is all good advice, especially with going for long,
+thin mountain ranges.  I always set the min and max elevations to 100
+and 375 and elevation variance to something like X-600 and Y-1000.
+
+
+nb chocolate mod test
+Created new world “Sil Dakon” to test chocolate mod in 34.03.
+Tropical coniferous forest, warm, heavily forested, thick veg,
+untamed wilds.  Brook, clay, very deep soil, deep metal.
+Default embark to Andrillogem Weaverpaint.

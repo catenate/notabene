@@ -1,0 +1,40 @@
+/dis/Aide
+/fonts/Aide
+/lib/keyboard
+/n/C/Users/jcatena/Downloads/df_31_25_win_s/raw/objects/
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/
+/n/C/Users/jcatena/Downloads/df_34_01_win_chocolate/raw/objects/
+/n/C/Users/jcatena/Downloads/df_34_01_win_vanilla/raw/objects/
+/n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/
+/n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/raw/objects/
+apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_01_win_chocolate/raw/^$1 $1} *
+apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/^$1 $1} *
+apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_01_win_chocolate/raw/objects/^$1 $1} *
+apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_01_win_vanilla/raw/objects/^$1 $1} *
+cp /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/raw/objects/plant_couverture.txt /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/data/save/region1/raw/objects/plant_couverture.txt 
+grep div /lib/keyboard
+grep -n -i REACTION reaction_couverture.txt
+grep -n -i potash entity* | grep -i making
+grep -n -i lye reaction* | grep -i product
+http://bay12games.com/dwarves
+http://df.magmawiki.com/index.php/DF2010:Item_token
+http://df.magmawiki.com/index.php/Improvements
+http://df.magmawiki.com/index.php/Reactions
+http://df.magmawiki.com/index.php/Remains
+http://www.bay12forums.com/smf/index.php?topic=100192.0 # couverture
+kanban edtw /df/ chocolate mod
+nb bedroom
+nb bone craft
+nb couverture layout
+nb embark
+nb industry master plan
+nb outlet
+nb stone purpose
+nbnew
+|fmt -w 50
+|sed -f /lib/sed/ligature
+|sort|uniq
+
+
+apply {cp /n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/^$1 /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/raw/objects/^$1} reaction_couverture.txt plant_couverture.txt material_template_couverture.txt
+cd /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/raw/objects/; apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/^$1 $1} *

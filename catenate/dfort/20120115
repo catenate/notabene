@@ -1,0 +1,139 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb master industry workshop pile plan
+center
+≤ 9 3x3 workshops or 3x3 piles
+(≤ 4 1x9 piles)
+
+Wood
+Carpenter's workshop
+Furniture
+Crafter
+Crafts
+Bowyer
+Crossbow
+Wood furnace
+
+[Stone piles underneath]
+Stone magma-safe, not stock-economic¹
+ ¹ Sandstone, chert, gabbro, basalt, quartzite, talc, pertrified wood,
+periclase, ilmenite, rutile, chromite, pitchblende, bauxite, olivine,
+orthoclase, mica, anhydrite, alunite, slade.
+Mason
+Stone furniture except siege, mechanisms and traction benches, and large pots and slabs.
+(Cut Gems)
+Jeweler
+Furniture (supposedly encrusted)
+Mechanic
+Mechanisms and traction benches.
+Crafter
+Stone finished goods, and large pots and slabs (furniture).
+
+(Bituminous coal, Lignite, Charcoal)
+Smelter for copper/silver
+Bar
+Forge
+Smelter for iron/steel
+Bar
+Forge
+Smelter for other metals
+Bar
+Forge for metalcrafting
+(Weapons, Trap components)
+(Armor)
+(Ammunition, Crafts)
+
+Bituminous coal, Lignite, Charcoal
+(Raw adamantine pile)
+microcline Crafter
+Adamantine thread pile
+microcline Smelter
+Adamantine wafers pile
+microcline Smelter
+Adamantine wafers pile
+microcline Forge
+Weapon pile
+(Armor pile)
+(Armor pile)
+(Armor pile)
+
+(Thread)
+Loom: auto loom dyed thread only
+Cloth
+(Dye)
+Dyer
+Clothier
+Clothes: footwear, headwear, handwear, or legwear of plant cloth, silk, or yarn
+Ash
+Ashery
+Lye
+(Tallow, Oil)
+Soapmaker
+
+[corpse]
+[Butcher]
+Tanner
+leather/tanned hides
+Leatherworker
+leather goods
+
+X         X
+ %%%%%%%%%
+ %ccccBBB%
+ %ccccBBB%
+ %ccccBBB%
+ %%%%%%%+%
+ LLLlllTTT
+ LLLlllTTT
+ LLLlllTTT
+ ggggggggg
+X         X
+
+4 1x7 Farm plots
+4 1x7 Farm plots
+1x7 Seed pile (underground or aboveground)
+1x7 Plant pile (underground or aboveground)
+3x3 Farmer
+3x3 Still
+3x3 Kitchen
+1x1 Quern
+1x1 Screw press
+1x9 Unprepared Fish, Egg, Plants (underground: quarry bush, dimple cup; aboveground: kobold bulb, valley herb, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks)
+1x9 Meat, Fish, Cheese, Leaves, Milled Plants (underground: dwarven wheat flour, dwarven sugar; aboveground: longland flour, whip vine flour), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
+
+Sand
+(Pearlash, Rock crystal)
+Glass furnace
+Glass
+Bituminous coal, Lignite, Charcoal
+Bag
+Bituminous coal, Lignite, Charcoal
+Clay
+(Ash, Cassiterite)
+Kiln
+Ceramics
+
+[Near trade depot]
+Not sandstone, chert, gabbro, basalt, obsidian, quartzite, talc, petrified wood, periclase, ilmenite, rutile, chromite, pitchblende, bauxite, olivine, kaolinite, orthoclase, mica, anhydrite, alunite, raw adamantine
+Stone crafter
+Not adamantine or artifact stone goblets, musical instruments, toys, figurines, amulets, scepters, crowns, rings, earrings, bracelets, totems
+Skull, bone, shell, teeth, horn/hooves pile
+Bone carver
+Not artifact bone/tooth/horn/shell goblets, musical instruments, toys, figurines, amulets, scepters, crowns, rings, earrings, bracelets, totems
+Not sandstone, chert, gabbro, basalt, obsidian, quartzite, talc, petrified wood, periclase, ilmenite, rutile, chromite, pitchblende, bauxite, olivine, kaolinite, orthoclase, mica, anhydrite, alunite
+Stone crafter
+Not adamantine or artifact stone goblets, musical instruments, toys, figurines, amulets, scepters, crowns, rings, earrings, bracelets, totems
+
+
+nb minimum military gear equipment
+General minimum for gear is a helm for the head (I often add a metal
+cap as well); chain shirt (breastplate is good too, but doesn't cover
+some areas that the chain shirt does—I use both); gauntlets for the
+hands and lower arms; greaves for the legs (or chain leggings, but
+greaves cover more); and low or high boots in metal.  I also tend to
+add a cloak, hood, and mittens for at least minimal coverage of other
+areas.  One handed weapon and a shield.
+
+Armor: helm, metal cap; chain shirt, breastplate; gauntlet; greaves,
+chain leggings; low/high boots.  Clothier: cloak, hood, mittens

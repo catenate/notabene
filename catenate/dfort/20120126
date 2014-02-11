@@ -1,0 +1,250 @@
+nb post chocolate mod raw file
+Couverture 0.1: a chocolate-covered mod.
+
+Defined a new plant, cacao pod, which grows year-round on a shrub in
+tropical conifer or moist-broadleaf forest biomes.  The pod can be
+milled into the powder cacao sugar, brewed into the drink cacahuatl,
+or extracted (if it worked) into the extract cocoa liquor.
+
+Cacao seeds can be milled from cacao nibs into the paste cacao mass,
+then pressed into the glob cocoa solids and the oil cocoa butter.
+
+raw/objects/plant_tcacao.txt:
+Spoiler
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/plant_tcacao.txt
+
+This is my first mod, so I'd appreciate any advice on how to get
+things done in the raw files.  Specifically, I think I'd like for
+release 0.2 to make couverture from cocoa butter in one reaction, and
+in another from any fat.  This is my best guess so far.
+
+Spoiler
+reaction_couverture
+
+[OBJECT:REACTION]
+
+[REACTION:MAKE_COUVERTURE_FROM_COCOA_BUTTER]
+	[NAME:make couverture from cocoa butter]
+	[BUILDING:KITCHEN:CUSTOM_C]
+	[REAGENT:lye:150:LIQUID_MISC:NONE:LYE]
+	[REAGENT:lye container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:lye]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:cocoa butter container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:cocoa butter]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:cocoa butter:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:SOAP_MAKING]
+
+[REACTION:MAKE_COUVERTURE_FROM_FAT]
+	[NAME:make couverture from fat]
+	[BUILDING:KITCHEN:CUSTOM_F]
+	[REAGENT:lye:150:LIQUID_MISC:NONE:LYE]
+	[REAGENT:lye container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:lye]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[REAGENT:fat:1:GLOB:NONE:NONE:NONE][REACTION_CLASS:FAT][UNROTTEN]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:fat:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+I obviously need to replace lye with cocoa solids, which is the other
+product when cocoa mass is pressed.  I'm not at all sure how to do
+this, since I don't know how to refer to only cocoa solids (and supply
+the other fields) in the REAGENT line.  I also think maybe my cocoa
+butter reagent line is a little off, since I don't want to also use
+rock nut oil, which I think LIQUID_MISC might permit.
+
+
+nb post chocolate mod raw file
+Couverture 0.2
+
+Cook (melanger) makes couverture in kitchen from cocoa butter and
+various ingredients.
+
+Spoiler
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/reaction_couverture.txt
+
+
+nb soap reference
+b_detail_plan_default.txt:27: 	[ADD_MATERIAL:SOAP:SOAP_TEMPLATE]
+b_detail_plan_default.txt:45: 	[ADD_MATERIAL:SOAP:SOAP_TEMPLATE]
+building_custom.txt:5: [BUILDING_WORKSHOP:SOAP_MAKER]
+building_custom.txt:10: 	[BUILD_LABOR:SOAP_MAKER]
+entity_default.txt:184: 	[PERMITTED_JOB:SOAP_MAKER]
+entity_default.txt:205: 	[PERMITTED_BUILDING:SOAP_MAKER]
+entity_default.txt:209: 	[PERMITTED_REACTION:MAKE_SOAP_FROM_TALLOW]
+entity_default.txt:210: 	[PERMITTED_REACTION:MAKE_SOAP_FROM_OIL]
+entity_default.txt:1254: 	[PERMITTED_JOB:SOAP_MAKER]
+entity_default.txt:1275: 	[PERMITTED_BUILDING:SOAP_MAKER]
+entity_default.txt:1279: 	[PERMITTED_REACTION:MAKE_SOAP_FROM_TALLOW]
+entity_default.txt:1280: 	[PERMITTED_REACTION:MAKE_SOAP_FROM_OIL]
+language_DWARF.txt:1935: 	[T_WORD:SOAP:uben]
+language_ELF.txt:1935: 	[T_WORD:SOAP:dathe]
+language_GOBLIN.txt:1935: 	[T_WORD:SOAP:snubez]
+language_HUMAN.txt:1935: 	[T_WORD:SOAP:kamven]
+language_SYM.txt:1504: 	[S_WORD:SOAP]
+language_SYM.txt:1745: 	[S_WORD:SOAP]
+language_words.txt:17642: [WORD:SOAP]
+material_template_default.txt:1730: [MATERIAL_TEMPLATE:SOAP_TEMPLATE]
+material_template_default.txt:1772: 	[REACTION_CLASS:SOAP]
+material_template_default.txt:1774: 	[SOAP][SOAP_LEVEL:2]
+material_template_default.txt:1819: 	[MATERIAL_REACTION_PRODUCT:SOAP_MAT:LOCAL_CREATURE_MAT:SOAP]
+material_template_default.txt:2572: 	[MATERIAL_REACTION_PRODUCT:SOAP_MAT:LOCAL_PLANT_MAT:SOAP]
+material_template_default.txt:2575: [MATERIAL_TEMPLATE:PLANT_SOAP_TEMPLATE]
+material_template_default.txt:2617: 	[REACTION_CLASS:SOAP]
+material_template_default.txt:2618: 	[SOAP][SOAP_LEVEL:2]
+plant_standard.txt:211: 	[USE_MATERIAL_TEMPLATE:SOAP:PLANT_SOAP_TEMPLATE]
+reaction_other.txt:26: [REACTION:MAKE_SOAP_FROM_TALLOW]
+reaction_other.txt:28: 	[BUILDING:SOAP_MAKER:CUSTOM_T]
+reaction_other.txt:35: 		[HAS_MATERIAL_REACTION_PRODUCT:SOAP_MAT]
+reaction_other.txt:36: 	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:tallow:SOAP_MAT]
+reaction_other.txt:38: 	[SKILL:SOAP_MAKING]
+reaction_other.txt:40: [REACTION:MAKE_SOAP_FROM_OIL]
+reaction_other.txt:42: 	[BUILDING:SOAP_MAKER:CUSTOM_O]
+reaction_other.txt:50: 		[HAS_MATERIAL_REACTION_PRODUCT:SOAP_MAT]
+reaction_other.txt:55: 	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:oil:SOAP_MAT]
+reaction_other.txt:57: 	[SKILL:SOAP_MAKING]
+
+COUVERTURE
+couverture
+
+	[MATERIAL_REACTION_PRODUCT:SOAP_MAT:LOCAL_CREATURE_MAT:SOAP]
+
+
+nb chocolate mod test
+Started DF. Created new world (Ushul Lathon) with default settings.
+Choose tropical coniferous forest, warm, heavily forested, thick
+vegetation, untamed wilds.  Brook, shallow clay, very deep soil,
+aquifer, flux stone.  Default embark.  Tiristamal Rimteacher.
+Designated for gathering several shrubs that look like cacao trees,
+and designated a pile amongst them for cacao pod plants.
+Designated trees around the wagon for cutting.  Told the jeweler to
+grow, mill, brew, gather plants and process them, cook, press, and
+work with wax (to eventually craft the couverture).  One brown (light
+yellow) cacao tree in the cacao pod plant stockpile.  Told the
+stoneworker to cut trees.  Built fishery to get some food.  Built
+carpenter's workshop for barrels.  Built still to make cacahautl.
+Two barrels in the cacao pod stockpile.  Created stockpile for
+cacahautl, and another for cacao seeds.  Set still to brew a drink and
+extract from a plant.  Tried to brew a plump helmet (no barrels), and
+failed to extract (no extract-bearing plants).  Repeat brew.
+With no stone, how will I make a quern, to mill the seeds?  Sounds
+like I need to embark somewhere without an aquifer.  Abandon.
+
+Tropical coniferous forest, hot, heavily forested, thick vegetation,
+calm.  City, stream, clay, deep soil, deep metal, flux stone.  Default
+embark.  Rulushnomal Splashstaves.  Designated a tree-cutting area.
+Any shrubs that look like cacao trees not highlighted are cacao pods,
+so designate them for gathering.  Designate some mining to get stone
+and set up an inside for the bookkeeper's chair.  Built a fishery for
+a local food supply.  Built a carpenter's workshop for barrels and
+chairs.  Built a mason’s workshop for quern, and a mechanic for screw
+press.  Designated pile for cacao pods.  Built four farm plots for
+growing cacao pods.  Built still for cacahautl and failure to extract.
+Designated pile for cacao seeds, and another for cacahautl.  Reserved
+5 barrels for drinks.  Built jeweler since there are a few rough gems.
+Added two chairs and repeating beds to the carpenter.  Built quern and
+screw press.  Designated separate piles for cacao sugar (milled
+plant), cocoa mass (paste), cocoa solids (pressed material), cocoa
+butter (plant extract), cocoa liquor (plant extract), and finally fat,
+to hold every kind of couverture from the Couverture (stable sweet
+fat) workshop.  (Need to replace the bucket in the workshop with a
+quern-like o.) Built a crafter for the jeweler (told to do waxwork) to
+craft the couverture.  Told the fish cleaner to press, cook, process
+plants, brew, mill, and grow.  Quern processed cacao pod [2], with a
+bag, into 2 cacao sugar, and there's a cacao sugar bag in its pile.
+Also a cacao seed bag in its pile.  Kitchen also says 5 cacao seeds.
+Need to set up trade depot or we'll run out of bags.  Construct
+mechanisms and blocks for the drawbridge.  Also told fish cleaner to
+gather plants, since the cacao pod stockpile is empty.  Milled cacao
+seeds to cocoa mass, which ended up in its stockpile.  Got a barrel
+for the cacao pod stockpile.  Built a kitchen to see what it looks
+like when the cookable stuff ends up in a meal.  Three cocoa mass, but
+nothing pressed yet.  Two barrels for cacao pods, one for seeds.  2
+cacao seeds and 3 cacao nibs, according to kitchen.  Set farm plots to
+grow cacao pods year-round.  Why no pressing?  Low-priority job?
+No job queued for screw press.  No PRESS_LIQUID_MAT references I
+missed.  Maybe all the barrels are reserved?  Told carpenter to stop
+making anything but barrels.  Make chocolate crafts doesn’t show up in
+crafter’s workshop.  Got a cacahautl barrel, and another for cocoa mass.
+Kitchen says 3 cacao seeds, 10 cacahautl, 2 cacao sugar, and 5 cacao nibs.
+Turned off brewing for a while, to do something else with plants, and
+since we have plenty of drink.  Designated the keep, since the water
+is drying up, and told the mason to make 2 floodgates and a grate.
+Levers in barracks.  Told the jeweler to also press, since no crafts
+to be done.  Out of cacao seeds, so can't make paste or plant, but 8
+cacao nibs: maybe I need to name these things the same.  Got a barrel
+for each remaining stockpile.
+
+
+
+
+
+Farm plots (cacao pod)
+[Quern]
+[Screw press]
+Plants (cacao pod)
+Seeds (cacao seeds)
+Still
+Kitchen
+Crafter
+
+
+nb chocolate mod test
+Large world Minbazsil.  TMBF warm heavily-forested thick-veg calm.
+Brook clay deep-soil deep-metal flux-stone.  Default embark to
+Inethribar Cityhomage.  What skills to build CMW?  Wax work, cook.
+
+Still, Drink (cacahautl), Plant extract (cocoa liquor).  Cacao pods;
+cacao seeds; barrels, buckets, boxes and bags, bins.  [Quern], [screw
+press], Milled plant (cacao sugar), Paste (cacao mass), Pressed
+material (cacao solids), Plant extract (cocoa butter), CMW, fat and
+couverture (tallow too).  Crafter, coverture crafts.
+
+Kitchen shows 5 cacahautl, 4 cacao pod, 2 cacao seeds.
+
+30?  cacahautl (stop brewing cacao pods), 7 cacao seeds (start
+planting), no cacao pods.
+
+19 cacahautl, 2 cacao pods, 6 cacao seeds.
+
+Set idle fish cleaner to mill and press.  Kitchen says 1 cacao seed, 1
+cacao sugar, 19 cacahautl, 1 cacao pod, 5 cacao seeds.  Stocks says
+plants (cacao pod), powder (cacao sugar), drinks (19 cacahautl), glob
+(cocoa mass), seeds (8 cacao seeds) in individual-item mode (as
+opposed to type mode).  Aha!  In kitchen, cocoa mass is listed under
+cacao seed type (separate from cacao seeds type), so cacao nibs was
+making a useful distinction, if it wasn't preventing pressing the
+mass.  Don't bother to mill cacao pods until we need the sugar to make
+couverture.  Well, we'll need one sugar to one mass-product, so it
+actually does make sense to keep pace, and it makes seeds, good for
+farming and the paste.
+
+Kitchen: 2 cacao seed, 2 cacao sugar, 19 cacahautl, 6 cacao seeds.
+Glob stocks says the two cacao-seed-type items are cocoa mass.
+
+Told mechanic to stop working on making mechanisms, to actually build
+the screw press.  Stop milling, to focus on pressing.  4 cocoa mass
+and 2 rock nut paste in glob stocks.  If there's a difference that
+causes rock nut paste to press but cocoa mass to not press, we'll see
+it here.  First need to get someone to the press.  Aha!  we need jugs
+as well.  The stonecrafter can build one, so let's add a crafter near
+the couverture stockpile.  Now that I've got two jugs I can schedule
+the job "Press liquid from paste".  Cocoa mass and rock jug made cocoa
+solids and apparently cocoa butter.
+
+Kitchen says 4 cacao seed (nib), 3 cocoa butter, 2 cacao sugar, 16
+cacahautl and 3 cacao pod.  Stocks says 3 cacao pod (plants), 2 cacao
+sugar (powder), 16 cacahautl (drinks), 3 cocoa butter (liquid) in
+cocoa butter plant-extract pile, 4 cacao seed [nib] (glob), and 8
+cacao seeds (seeds).  Built kitchen to test reaction (got rid of
+CMW).

@@ -1,0 +1,123 @@
+nb forum thread discuss couverture chocolate mod
+http://www.bay12forums.com/smf/index.php?topic=100192.0
+
+
+nb flow diagram produce cocoa chocolate 
+591: Flow diagram of cocoa and chocolate production (fig. 17.1).
+
+
+nb chocolate mod workshop plan story task test status
+http://www.bay12forums.com/smf/index.php?topic=100192.0
+
+I'm actually skipping tempering as a distinct step, since I'm not sure
+where it should be done (probably kitchen), or whether I want to
+create yet another material (not really).
+
+References:
+Brown, A.  2009.  Good eats: The early years.  Stewart, Tabori and Chang.
+Wood, G.A.R.  and Lass, R.A.  2001.  Cocoa, 4ed.  Blackwell Science.
+
+
+nb _todo pulp bean still alcohol  reaction chocolate mod
+alcohol: cocoa pulp, cocoa nib
+	still
+	# Cocoa 452, 583; Wikipedia Chocolate
+
+
+nb _todo nib quern millstone mass liquor  reaction chocolate mod
+cocoa mass/liquor: cocoa nib
+	quern/millstone grind 
+	# Cocoa 591
+
+
+nb _todo mass liquor screw press cake butter  reaction chocolate mod
+cocoa press cake, cocoa butter: cocoa mass/liquor
+	screw press
+	# Cocoa 591
+
+
+nb _todo press cake quern millstone powder  reaction chocolate mod
+cocoa powder: cocoa press cake
+	quern/millstone mill sieve
+	# Cocoa 591
+
+
+nb _todo butter mass nib sugar milk kitchen crumb  reaction chocolate mod
+$chocolatetype crumb: cocoa butter, cocoa mass/nib, dwarven sugar, milk
+	kitchen mix
+	# Cocoa 594; Good Eats 69.  Apparently crumb is only for milk chocolate, but to keep it simpler I put it for both.
+
+
+nb _todo crumb type quern millstone chocolate  reaction chocolate mod
+$chocolatetype chocolate: $chocolatetype crumb
+	quern/millstone grind conch
+	# Cocoa 594; Good Eats 69
+
+
+nb europe milk chocolate recipe industry scale ingredient quantity
+541: Manufacture of a typical European milk chocolate (fig. 15.1).
+
+
+nb cacao sugar
+Quotes from pages of Wood, G.A.R.  and Lass, R.A.  2001.  Cocoa, 4ed.
+Blackwell Science.
+
+269: However, beans from infected ripe pods may affect the
+fermentation process as they have less sugar in the pulp and a higher
+free fatty acid content (Maclean 1953).
+
+444: Analyses have shown that sugars build up during the last 30–40
+days before the pod is fully ripe which emphasises the importance of
+harvesting ripe pods.
+
+452: The pulp is initially sterile but the presence of sugars and the
+high acidity—pH 3.5—due to citric acid, provide ideal conditions for
+the development of micro-organisms, a wide range of which invades the
+mass of beans through the activity of fruit flies and contamination
+from the fermentary.
+
+Initially, conditions within the mass of beans are anaerobic and this
+favours yeasts of which some sixteen species have been identified on
+cocoa.  The yeasts convert most of the sugars in the pulp to alcohol,
+a reaction which produces a large amount of carbon dioxide.
+
+453: The sugars, initially about 11 per cent, are rapidly metabolised
+and reduced to 1-2 per cent during the first 24-48 hours.
+
+458–459: This indicates that the unripe pods used in this trial were
+not fully developed and presumably the pulp was deficient in sugar.
+
+460: It has recently been realised that fresh beans can vary
+considerably in the ratio of pulp to bean and in the amount of sugars
+per bean.
+
+461: Pulp/bean ratio: Amazon 1.53 g (12 samples); Amelonado 0.93 g (23).
+Sugars/bean: Amazon 243 mg (12); Amelonado 137 mg (15).
+
+Beans with more pulp will restrict gas exchange and make the mass of
+beans more anaerobic and the greater amount of sugars may lead to
+larger amounts of acids in the cotyledons at the end of fermentation
+(Carr et al.  1981).
+
+472: The difference lies in the amount of pulp and the quantity of
+sugars per bean, Amazons having more pulp and sugars than Amelonado.
+
+474: The effect of pressing is to reduce the amount of sugar available
+to micro-organisms and to make the mass of beans more permeable to air
+so that there is a quicker rise in temperature.
+
+476: These differences are related to the presence of larger amounts
+of acetic and lactic acids and these in turn arise partly from larger
+amounts of pulp and sugars.
+
+477: The two main causes for slimy fermentations are unripe pods and
+exposure of the wet beans to rain; both these factors will lead to low
+sugar content in the pulp and a less suitable base for the usual
+micro-organisms.  Slimy fermentations are unusual, but if they occur,
+sugar or molasses should be added to the fermenting mass; if fruit
+flies are absent from the fermentary, they can be attracted by
+suspending a stem of overripe bananas in it.
+
+583: The high content of reducing sugars in sweatings means that they
+have an extremely high chemical oxygen demand so that large units for
+fermentation may create pollution problems (Adams et af.  1982).

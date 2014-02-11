@@ -1,0 +1,147 @@
+nb reservoir drain hatch lever cavern
+Reservoirs should have a drain hatch lever into the nearest cavern.
+
+
+nb pod plan map
+Bedroom
+Dining room with well
+Food store
+Hospital with well
+Military
+Noble
+Outlet
+Piles
+Refuse/sentient corpses
+Tomb
+Vault
+Workshop
+X connect to other pods
+
+X staircases at all four corners
+< staircases at upper-right and lower-left
+V staircases at upper-left and upper-right
+¬ staircases at upper-left, upper-right, and lower-right
+^ staircases at lower-left and lower-right
+/ staircases at upper-right, lower-left, and lower-right
+
+XNblX	V¬XXX
+MBBBT	 <XXX
+MHXOT	 <XXX
+MBBRT	 <XXX
+XNblX	^/XXX
+
+XNblX	V¬XXX
+MVWWP	 <XXX
+MDXWP	 <XXX
+MFWWP	 <XXX
+XNblX	^/XXX
+
+Military can use some of the enclosed stairwells near it for
+military-only connoctions.
+
+
+nb workshop vault map butcher tanner animal corpse refuse tanned hide cage stockpile
+nonsentient Corpses
+tanned Hides
+butcher Refuse except shells/bones/skulls
+caged Animals
+Tanner
+Butcher
+
+X         X
+ #+#######
+ #HHHHHHH#
+ #######+#
+ #AAAAAAC#
+ #RRRRRRC#
+ #BBBTTTC#
+ #BBBTTTC#
+ #BBBTTTC#
+ #########
+X         X
+
+
+nb corpse refuse stockpile
+BTW		Corpse (nonsentient)
+BTW		Refuse (butcher except shells, bones, skulls)
+outlet	Refuse (shells, bones, skulls)
+tomb	Corpse (dwarf/pet)
+refuse	Corpse (sentient)
+refuse	Refuse (except others)
+
+
+nb vault map corpse refuse stockpile airlock
+Refuse (except nonsentient corpse and butcher output)
+Forward dwarf and pet corpses to tombs
+
+X         X
+ #+#######
+ #.......#
+ #######+#
+ #RRRRRRR#
+ #RRRRRRR#
+ #RRRRRRR#
+ #RRRRRRR#
+ #RRRRRRR#
+ #########
+X         X
+
+
+nb stone mountain top town vitorchiano italy
+chrome Goog vitorchiano italy
+
+
+Font /fonts/10646/9x15/9x15.font
+
+nb vault map food store dining room trap plan
++ door or smoothed floor
+Drinks
+Food
+Prepared food
+armor stand
+beds for 1-square dormitories
+chair for bookkeeper
+|_ drawbridge
+lever for drawbridges
+o well
+table
+weapon rack
+^ traps; refuse and corpses if active
+
+X         X
+ #########
+ #^^^^^^^|_
+ #|#######
+ #_lcowal#
+ #bbbbbbb#
+ #+++++++#
+ #ccccccc#
+ #ttttttt#
+ #ttttttt#
+X#ccccccc#X
+ #ccccccc#
+ #ttttttt#
+ #PPPPPPP#
+ #FFFFFFF#
+ #DDDDDDD#
+ #DDDDDDD#
+ #DDDDDDD#
+ #DDDDDDD#
+ #########
+X         X
+
+First layer holds 2 units of food and 4 units of drink for 1 bedroom
+(7 dwarves) for one season, and a well.  With fully-stocked 10-barrels
+and 10-bins, the saferoom can provide for 1 bedroom for 10 seasons; 2
+bedrooms for 5 seasons; 3 bedrooms for 3 seasons; 5 bedrooms for 2
+seasons; or 10 bedrooms for 1 season.
+
+Assuming dwarves sleep 1/3 the time, 7 dormitory beds will provide for
+3 bedrooms’-worth of dwarves to sleep in shifts.
+
+Provides chairs and tables for 3 bedrooms’-worth of dwarves to dine
+and meet.
+
+Provides armor and weapons for the last stand, and a chair for the
+bookkeeper to tell what’s left of the fortress.  (Fuck the mayor,
+he got us into this mess.)

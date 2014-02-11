@@ -1,0 +1,134 @@
+nb chocolate workshop conch roller flywheel table
+[DIM:3:3]
+[BLOCK:1:0:0:0]
+[BLOCK:2:0:0:0]
+[BLOCK:3:0:0:0]
+[TILE:0:1:32:32:32]
+[TILE:0:2:32:32:32]
+[TILE:0:3:32:32:32]
+[COLOR:0:1:0:0:0:0:0:0:0:0:0]
+[COLOR:0:2:0:0:0:0:0:0:0:0:0]
+[COLOR:0:3:0:0:0:0:0:0:0:0:0]
+[TILE:1:1:32:32:32]
+[TILE:1:2:32:32:32]
+[TILE:1:3:32:32:32]
+[COLOR:1:1:0:0:0:0:0:0:0:0:0]
+[COLOR:1:2:0:0:0:0:0:0:0:0:0]
+[COLOR:1:3:0:0:0:0:0:0:0:0:0]
+[TILE:2:1:32:32:32]
+[TILE:2:2:32:32:32]
+[TILE:2:3:32:32:32]
+[COLOR:2:1:0:0:0:0:0:0:0:0:0]
+[COLOR:2:2:0:0:0:0:0:0:0:0:0]
+[COLOR:2:3:0:0:0:0:0:0:0:0:0]
+[TILE:3:1:54:32:232]
+[TILE:3:2:233:32:232]
+[TILE:3:3:157:32:177]
+[COLOR:3:1:6:0:0:0:0:0:6:0:0]
+[COLOR:3:2:6:0:0:0:0:0:6:0:0]
+[COLOR:3:3:6:0:0:0:0:0:6:0:0]
+
+
+nb improve food glaze chocolate
+[REACTION:GLAZE_FOOD_CHOCOLATE]
+	[NAME:glaze food with chocolate]
+	[BUILDING:KITCHEN:CUSTOM_SHIFT_C]
+	[REAGENT:glaze:1:GLOB:NONE:NONE:NONE:NONE]
+		[REACTION_CLASS:COUVERTURE_CRAFT]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:food:1:FOOD:NONE:NONE:NONE]
+		[NOT_IMPROVED]
+		[PRESERVE_REAGENT]
+	[IMPROVEMENT:100:food:GLAZED:GET_MATERIAL_FROM_REAGENT:glaze:COUVERTURE_MAT]
+	[SKILL:GLAZING]
+
+[REACTION:GLAZE_FOOD_COUVERTURE]
+	[NAME:glaze food with couverture]
+	[BUILDING:KITCHEN:CUSTOM_SHIFT_F]
+	[REAGENT:glaze:1:GLOB:NONE:PLANT_MAT:CACAO_THEOBROMA:NONE]
+		[REACTION_CLASS:COUVERTURE_CRAFT]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:food:1:FOOD:NONE:NONE:NONE]
+		[NOT_IMPROVED]
+		[PRESERVE_REAGENT]
+	[IMPROVEMENT:100:food:GLAZED:GET_MATERIAL_FROM_REAGENT:glaze:COUVERTURE_MAT]
+	[SKILL:GLAZING]
+
+
+nb intestine monster noxious vapor squiggle splat
+Hey look kids, it's the intestine monster!  It squiggles and splats!
+Beware its noxious vapors!  (Thanks to Dwarf Fortress, I grossed out
+my wife.:)
+
+
+nb chocolate mod test
+Created a new world, Mon Xestsu, to test glazing with chocolate in the kitchen.
+TMBF, warm, heavy forest, thick veg, wilderness.  Brook, clay, some soil,
+shallow metal.  Standard embark to Lorbamshis Standardfangs.
+
+Set stoneworker to mine, fish cleaner to keep books, fish cleaner and
+jeweler to press, cook, gather and process plants, brew, mill, and
+grow.  Designate entry/craft and couverture industry areas, and gather
+plants and cut trees.  Build fishery and carpenter¹ outside.
+ ¹ Chairs, beds, barrels, bins, buckets.
+
+Huge dry lake basin.  Several defensible large alcoves.
+Tetrahedrite and marble in entry area.
+
+Since there are no gems, but there is tetrahedrite and marble,
+build wood burner and smelter next to mason¹ and mechanic.
+Instead of cocoa liquor, pile other foods and (separately) drinks.
+Store other-material crafts near crafter to store? chocolate
+figurines, and 1x9 prepared meals near kitchen to cover? with
+couverture and chocolate.
+ ¹ Quern, 2 floodgates, wall grate, tables, doors, blocks, coffers,
+cabinets.
+
+Let miner handle craft area alone.
+
+Activate quern.  Finished trade depot.  Kitchen has these couverture
+reactions,¹ none active yet.
+ ¹ Make couverture from fat (f)
+Glaze food with couverture (F)
+Make raw chocolate
+Make bitter chocolate
+Make white chocolate
+Make sweet chocolate
+Make dark chocolate
+Make milk chocolate
+Glaze food with chocolate (C)
+ 
+Kitchen: 6 cacao pod.  Stocks: cacao pod [3], 3 cacao pod (plants).
+No couverture reactions.
+
+Build screw press.
+
+Should probably set up an underground farm later, in soil, for the
+30 seeds.¹  Starting to get seeds from outside plants, so find a
+farming area somewhere defensible.  Clearing out ramps and trees
+blocking the way of a wall to seal in a deep alcove on 146.
+ ¹ Plump helmet, pig tail, dimple cup, cave wheat, sweet pod, rock nuts.
+
+Set the craft-area crafter to churn out mugs.
+
+For now, line up beds along the entrance.  First room to dig out in
+the pod will be the dormitory.
+
+Start still.  Can’t yet activate screw press.  No more milling until
+some bags free up from planting seeds underground, in kitchen and
+outside farm, and dyer.¹ Need to get some more in trade, or set up
+loom and clothier to make bags.  Planting will free up bags, but
+they’ll just be used again from brewing or milling.  So fullest solution
+is trading for and producing bags, which means loom and clothier,
+and an underground farm.
+ ¹ In stocks, bags contain rock nuts, cave wheat seeds, plump helmet
+spawn, pig tail seeds, sweet pod seeds, dimple cup spawn, Longland
+grass seeds, hide root seeds, 2 Longland flour, and redroot dye.
+Use these up with inside farms, followed by outside farms and kitchen,
+then dyer.
+
+Test for couverture and each type of chocolate; couverture and each
+type of chocolate figurine; and couverture and each type of chocolate
+covered prepared meal.  Test that trade with humans brings something
+in the chocolate industry.  Already saw someone prefer cacao seeds,
+generally.

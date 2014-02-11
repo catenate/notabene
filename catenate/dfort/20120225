@@ -1,0 +1,279 @@
+nb _develop reaction chocolate minor mod
+/n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/
+
+
+nb _writing pod still seed pulp husk  reaction chocolate minor mod
+cocoa seeds, cocoa pulp, cocoa pod husk: cocoa pod
+	still threshing: harvest cacao pod
+	cocoa pulp is a PLANT variation which USE_MATERIAL_TEMPLATE:PULP:PULP_MAT (cf CREATURE_EXTRACT_TEMPLATE), with REACTION_CLASS:COCOA.  ROTS.
+	cocoa pod husk is a PLANT variation which USE_MATERIAL_TEMPLATE:SHELL:SHELL_MAT (cf WOOD_TEMPLATE), with REACTION_CLASS:COCOA.
+
+/n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/reaction_couverture.txt:/HARVEST_CACAO_POD/
+/n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/plant_couverture.txt:/SEED/
+
+
+nb _writing seed still nib  reaction chocolate minor mod
+cocoa nibs: cocoa seeds
+	still brewing: ferment and roast seed
+
+
+nb _writing husk still ash  reaction chocolate minor mod
+ash: cocoa pod husk
+	still wood burning: burn plant shell to ash
+	# Cocoa 584
+
+
+nb test chocolate minor mod
+Create new world to test at still: harvest cacao pod to seed, pulp, and
+pod husk; ferment and roast seed to nib; and burn plant shell to ash.
+
+
+nb minor minor mod list
+http://dffd.wimbli.com/category.php?id=13
+
+
+nb glaze minor mod
+http://dffd.wimbli.com/file.php?id=4182
+
+
+nb butcher minor mod
+http://dffd.wimbli.com/file.php?id=5380
+
+
+nb badger minor mod
+http://dffd.wimbli.com/file.php?id=5405
+
+
+nb laminate minor mod
+http://dffd.wimbli.com/file.php?id=4523
+
+
+nb random plant minor mod
+http://dffd.wimbli.com/file.php?id=3752
+
+
+nb random horse minor mod
+http://dffd.wimbli.com/file.php?id=4844
+
+
+nb dwarf creature minor mod
+http://dffd.wimbli.com/file.php?id=5025
+
+
+nb flora fauna minor mod
+http://dffd.wimbli.com/file.php?id=2691
+
+
+nb draconic beast drake minor mod
+http://dffd.wimbli.com/file.php?id=4612
+http://dffd.wimbli.com/file.php?id=4899
+
+
+nb alchemist minor mod
+http://dffd.wimbli.com/file.php?id=3953
+
+
+nb stone letter tile minor mod
+http://dffd.wimbli.com/file.php?id=4876
+
+
+nb fantasy creature mollusk crustacean cetacean tree plant fruit minor mod
+http://dffd.wimbli.com/file.php?id=4681
+
+
+nb paint wood minor mod
+http://dffd.wimbli.com/file.php?id=4462
+
+
+nb synthetic plastic chemistry minor mod
+http://dffd.wimbli.com/file.php?id=4375
+
+
+nb cigar minor mod
+http://dffd.wimbli.com/file.php?id=4274
+
+
+nb smelt bake grind bone block minor mod
+http://dffd.wimbli.com/file.php?id=4262
+
+
+nb balance tissue minor mod
+http://dffd.wimbli.com/file.php?id=3473
+
+
+nb mithril minor mod
+http://dffd.wimbli.com/file.php?id=3763
+
+
+nb burn vermin ash minor mod
+http://dffd.wimbli.com/file.php?id=2257
+
+
+nb bog iron peat minor mod
+http://dffd.wimbli.com/file.php?id=3818
+
+
+nb train library medicine dummy printer minor mod
+http://dffd.wimbli.com/file.php?id=3535
+
+
+nb language engrave word minor mod
+http://dffd.wimbli.com/file.php?id=3442
+
+
+nb mine fossil gem bone horn minor mod
+http://dffd.wimbli.com/file.php?id=3149
+
+
+nb minor modern food minor mod
+http://dffd.wimbli.com/file.php?id=3133
+
+
+nb sawmill farm plot wood stalk log minor mod
+http://dffd.wimbli.com/file.php?id=3096
+
+
+nb finnish language minor mod
+http://dffd.wimbli.com/file.php?id=2921
+
+
+nb plant minor mod
+http://dffd.wimbli.com/file.php?id=2829
+
+
+nb hammer copper wood stone weapon minor mod
+http://dffd.wimbli.com/file.php?id=2828
+
+
+nb atlatl spear sling bullet weapon minor mod
+http://dffd.wimbli.com/file.php?id=2786
+
+
+nb pig ironworks steel forge crucible ilmenite blast furnace batch charcoal minor mod
+http://dffd.wimbli.com/file.php?id=2413
+
+
+nb plant crop grow season minor mod
+http://dffd.wimbli.com/file.php?id=2664
+
+
+nb weight set train armor shield minor mod
+http://dffd.wimbli.com/file.php?id=2669
+
+
+nb outside plant brew mill extract thread dye minor mod
+http://dffd.wimbli.com/file.php?id=2641
+
+
+nb heavy adamantine minor mod
+http://dffd.wimbli.com/file.php?id=2621
+
+
+nb golem colossus stone metal gem minor mod
+http://dffd.wimbli.com/file.php?id=2603
+
+
+nb polish gem minor mod
+http://dffd.wimbli.com/file.php?id=2590
+
+
+nb bonfire display case crucible alchemist acid gunpowder smelt aluminum borax rock salt cap minor mod
+http://dffd.wimbli.com/file.php?id=2579
+
+Ideas, bits and pieces, not the minor mod as a whole.
+
+
+nb fur scale hide carapace wool thread cloth gut feather butcher tan minor mod
+http://dffd.wimbli.com/file.php?id=2544
+
+
+nb gem stat density mass minor mod
+http://dffd.wimbli.com/file.php?id=2568
+
+
+nb illithid mind flayer elder brain slave caste civilization trade minor mod
+http://dffd.wimbli.com/file.php?id=2446
+
+
+nb thatch clay ceramic build material
+http://dffd.wimbli.com/file.php?id=2427
+
+
+nb deep cavern plant minor mod
+http://dffd.wimbli.com/file.php?id=2190
+
+
+nb giant wolf spider anatomy minor mod
+http://dffd.wimbli.com/file.php?id=2028
+
+
+nb darklight iron pitchblende minor mod
+http://dffd.wimbli.com/file.php?id=2137
+
+There’s another, probably more recent, minor mod which adds darklight iron.
+
+
+nb rutile ilmenite smelt titanium minor mod
+http://dffd.wimbli.com/file.php?id=2106
+
+
+nb crematorium minor mod
+http://dffd.wimbli.com/file.php?id=2076
+
+
+nb fish turtle minor mod
+http://dffd.wimbli.com/file.php?id=1327
+
+
+nb train dress wound suture set bone surgery minor mod
+http://dffd.wimbli.com/file.php?id=2022
+
+
+nb coal dust black lung syndrome minor mod
+http://dffd.wimbli.com/file.php?id=1999
+
+
+nb dendrology minor mod
+http://dffd.wimbli.com/file.php?id=1326
+
+Another minor mod incorporates this.
+
+
+nb botany minor mod
+http://dffd.wimbli.com/file.php?id=1965
+
+Another minor mod incorporates this.
+
+
+nb gothic font tile set minor mod
+http://dffd.wimbli.com/file.php?id=1205
+
+
+nb metal alloy slag minor mod
+http://dffd.wimbli.com/file.php?id=1032
+http://i40.tinypic.com/2a8pzpf.jpg
+
+
+nb soil fuel peat coke iron geothite minor mod
+http://dffd.wimbli.com/file.php?id=874
+
+
+nb dress clothes black white dye pipe weed tea cane minor mod
+http://dffd.wimbli.com/file.php?id=741
+
+
+nb cat type minor mod
+http://dffd.wimbli.com/file.php?id=706
+
+
+nb smelter alloy bar gold wootz steel minor mod
+http://dffd.wimbli.com/file.php?id=155
+
+
+nb hunt war pet hawk bat lizard spider minor mod
+http://dffd.wimbli.com/file.php?id=163
+
+
+nb prepared food type minor mod
+http://dffd.wimbli.com/file.php?id=112
+

@@ -1,0 +1,45 @@
+nb chocolate mod test
+Create new world (Udon Satheth) with default settings.  Choose
+tropical moist broadleaf forest, warm, heavily forested, thick
+vegetation, untamed wilds.  Very deep soil, aquifer, shallow metal,
+flux stone.  Default embark.  Idithònul Systemmirrors.  Found no
+Theobroma cacao trees found.  Abandon, quit, restart program.
+
+Create new world (Dathalina) with default settings.  Choose tropical
+coniferous forest, hot, heavily forested, thick vegetation, wilderness.
+Very deep soil, aquifer, deep metal.  Default embark.  Datanèrith
+Ironlabored.  Last search I looked for trees instead of plants.
+
+Not in plants or seeds or wood, so I think I need to move it into
+plants_standard.txt.  Abandon, quit, restart program.
+
+Create new world (Róth Lathon) with default settings.  Choose tropical
+moist broadleaf forest, warm, heavily forested, thick vegetation,
+wilderness.  Stream, very deep soil, aquifer, flux stone.  Default embark.
+Zimkelstinthäd Plainstheater.  Found a red shrub that looks like a
+cacao tree (if it's a cacao shrub, should be green).  Theobroma cacao
+tree is listed at the end of Plants.  Cacao seeds are listed at the
+end of the Seeds menu.  Cacahuatl is listed at the end of the Drink
+(Plant) menu.  Cacao Sugar is listed at the end of the Milled Plant
+menu.  Cocoa Liquor is listed at the end of the Extract (Plant) menu.
+Built a pile for all of these, and around it a still.  Built a farm
+plot to see if I can plant and harvest it.  Building barrels for the
+liquor and cacahautl.  Stockpiled Theobroma cacao trees and a willow
+barrel containing 10 cacahautl.  Stocks show a Theobroma cacao tree,
+15 cacahautl, and 3 cacao seeds.  Built quern.  Sockpiled cacao seed
+barrel, 4 cacahautl barrels.  Haven't yet seen extracted cocoa liquor,
+or grown Theobroma cacao trees.  Was able to make 4 cacao sugar.
+
+Changed Theobroma cacao tree to cacao pods.  Changed shrub color to
+green and picked color to yellow.  Extracting doesn't seem to work,
+even with plant ready.  So maybe mill to paste cocoa mass instead.
+Mix in rock nut template.
+
+Consider milled rock salt to crystal salt, and add to chocolate
+confection.
+
+Save, quit, restart program.  Create new world to reflect recent
+changes.
+
+Reconcile with an outside pickable plant, like BERRIES_STRAW_WILD or
+BERRIES_FISHER or BERRY_SUN.  Take out SHRUB lines at end.

@@ -1,0 +1,116 @@
+nb test chocolate mod
+Only make dark chocolate since the other reactions are not in the entity file.¹
+ ¹ /n/C/Users/jcatena/Downloads/df_31_25_win_s_2/data/save/region17/raw/objects/entity_default.txt
+
+Which civs permit these jobs?
+BUTCHER dwarf human
+COOK dwarf human
+HERBALIST dwarf elf human
+MILKER dwarf human
+MILLER dwarf human
+PRESSER dwarf human
+WAX_WORKER dwarf human
+
+	[PERMITTED_REACTION:MAKE_COUVERTURE_FROM_FAT]
+HERBALIST
+MILLER
+BUTCHER	
+COOK
+
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_RAW]
+HERBALIST
+MILLER
+PRESSER
+COOK
+	
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_BITTER]
+HERBALIST
+MILLER
+PRESSER
+COOK
+	
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_WHITE]
+HERBALIST
+MILLER
+PRESSER
+COOK
+MILKER
+	
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_SWEET]
+HERBALIST
+MILLER
+PRESSER
+COOK	
+	
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_DARK]
+HERBALIST
+MILLER
+PRESSER
+COOK
+	
+	
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_MILK]
+HERBALIST
+MILLER
+PRESSER
+COOK
+MILKER
+	
+	[PERMITTED_REACTION:MAKE_COUVERTURE_FIGURINE]
+WAX_WORKER
+
+So humans and dwarves should both have the couverture reactions.
+
+
+nb channeldells diary 252 minimal fortorial
+Outpost Channeldells, Slate 252, Zulban Hatchedfolded
+
+Now that the barracks are set, we can start training.  We have
+Sibrek and Atír Islandpulley hand-to-hand sparring right away.
+
+Temporary stone workshops are blocking the way to the trade depot, so
+they’ll be first to move to their area.  After that probably the keep,
+to provide a place to sleep, store food and drink and weapons, and eat
+and drink and gather and get water safely.
+
+Once we get another entrance, through the farm area, we can build and
+test the drawbridge over the channel.  Once that's in order, finish
+walling off the farm.
+
+Drawing up plans to remove ramps and wall off the pond on level 142,
+and the alcove southwest of the pool bottom on 141, for more farms
+and pastures.  Should probably wait until we have more dwarfpower.
+
+Pile magma-safe stone in the middle of the stone work area.
+Build mason¹ (I stop mining), jeweler, mechanic,² and crafter.³
+ ¹ Order quern for farm; 2 floodgates and a wall grate for keep’s
+water supply; tables and doors for keep and barracks; and blocks for
+drawbridges: 3x3 by outside, 4 1x4 around barracks, and 1x2 for keep.
+ ² Order and store many mechanisms for levers and connections for
+floodgates and drawbridges.
+ ³ Hive, nest box, pots, jugs.
+
+Give orders to kitchen, still, and farmer’s workshop.  Prevent cacao
+pods from being used up in cooking and brewing.
+
+Digging out water supply to keep, before keep, to give time to get
+mechanisms ready while keep is dug out.  Toward that end, stop masonry
+for a while.  You would think I would know better than to seal myself
+in with a floodgate just before my draft.  Now they’re both down
+there, and we probably won’t make any more progress until we have
+levers and mechanisms to hook them up.  Which means we have to dig out
+the keep first.
+
+In the cellar store prepared food, drink, and useable metal weapons
+and armor.  Set up four beds in the hospital to sleep semi-properly.
+
+Three migrants.  Litast Anguishedcave can operate our smelter if we
+find any metal, and can shear our woolly animals.  Most importantly
+he's good at figuring out what’s wrong with a dwarf, so he gets to be
+chief medical dwarf, have his very own little hospital, and head the
+hospital squad.  Bomrek Ironspotted makes clothes, processes plants,
+cooks, crafts wood, and gets those little threads out of raw adamantine,
+so she’ll be on the farms until we praise the miners.  Stodir Roundedknife
+is another mechanic, so I can get back to masonry and smoothing and
+engraving.
+

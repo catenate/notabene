@@ -1,0 +1,62 @@
+Font /fonts/10646/9x15/9x15.font
+Edit ,s,%,%,g
+|sort
+
+
+nb hospital food dining trap saferoom adamantine weapon armor
+<	up stair
+#	wall grate
+>	down stair
+DB	drawbridge
+ò	levers
+R	traction table
+X	up/down stair
+^	trap
+aw	adamantine weapon and armor pile
+b	bed
+c	chair
+d	drink pile
+f	food pile
+h	container
+o	well
+r	refuse pile
+t	table
+x	floodgate
+~	water
+±	forbidden door
+
+    %%%
+    %X%
+    %#%
+ %%%%+%
+X%ò%%…%   X
+ %ò%%+%%%%
+ %<%~~~~~%
+ %+%%%%%%%
+ %pfdddda%
+ %pfddddw%
+ %pfdddda%
+ %pfddddw%
+ %pfdddda%
+ %%%%%%%%%
+X         X
+ %%%%%%%%%
+ %X+hoh±r%
+ %^%bRb%r%
+ %^%btb%r%
+ %^%bRb%r%
+ %^%bRb%r%
+ %^%btb%r%
+ %B%bRb%r%
+ %D%%%%%%%
+X         X
+ %%%%%%%%%
+ %>  o  ò%
+ %ccccccc%
+ %ttttttt%
+ %ttttttt%
+ %ccccccc%
+ %ccccccc%
+ %ttttttt%
+ %%%%%%%%%
+X         X

@@ -1,0 +1,35 @@
+nb workshop group 
+(tree) cutter (wood)
+broker (trade) depot (wood)
+(wood) furnace (ash, charcoal)	# happy in dining room
+
+miner (stone, stone block) mason (various, stone block)
+
+(rough) jeweler (cut) jeweler (encrusted)
+
+  (wood) carpenter (barrel)
+  farm (pig tail, plump helmet, sweet pod, cave wheat)
+still (alcohol, seed)
+
+miner (stone, stone block) mechanic (mechanism)
+
+(tame) butcher (skin) tanner (leather) leather (various)
+
+  (wood)
+  (tame) butcher (bone)
+bowyer (crossbow)
+(wood) craft (bolt)
+
+  miner (ore)
+  (charcoal)
+smelter (metal bar, pig iron bar, steel bar) metal (bolt)
+
+    kitchen (tallow)
+    (ash) ashery (lye) 
+  soap (soap)
+hospital
+
+  farmer, still (seed) farm (pig tail) farmer (thread) loom (cloth) clothier (rope)
+  miner (stone, stone block) mason (table)
+  miner (stone, stone block) mechanic (mechanism)
+mechanic (traction bench)

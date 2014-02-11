@@ -1,0 +1,90 @@
+nb matchedclasps export
+|sort -nr
+
+dwarves
+192	thread
+189	leather waterskins
+172	goblets
+160	large gems
+159	maces
+157	quivers
+155	shields/bucklers
+152	toys
+142	earrings
+126	footwear
+112	rings
+
+
+nb matchedclasps dwarf bed original seven
+these guys get the first 7 beds
+zon unibathel
+nil tomusathel
+cog thabumasmel
+bim ingtakònul
+zaneg gusilmesir
+cerol sibrekvunom
+ustuth olinerar
+
+the rest get dorms until I build a bedroom for them
+
+
+nb dwarf lullaby delve work fight drink song
+Delve, delve, delve, delve
+Delve the mountain deep
+
+Work, work, work, work
+Work the ore in heaps
+
+Fight, fight, fight, fight
+Fight your home to keep
+
+Drink, drink, drink, drink
+Drink the dwarves to sleep
+
+
+nb analyze efficient farm
+http://www.bay12forums.com/smf/index.php?PHPSESSID=d49fe627302abec1ee1edc6ca25cff05&topic=87721.0
+
+
+nb _todo matchedclasps diary military saferoom burrow plan
+Designate military-144 and saferoom-144 burrows.  Build barracks from
+armor or weapon stand next to the kennel in the military burrow.
+Assign squad to barracks.¹
+ ¹ Squad should not need to sleep, they have their own rooms—
+which won’t be available during a lockdown situation.  But it's their
+job to confront the situation, so they'll either be dead, or the beds
+will be available.
+
+Find magma from the deep delve.  Dig out a workspace just above the
+magma, a workspace level four² levels above the workspace,³ and a
+bedroom level above the workspace.  Channel down one level from lowest
+workspace to magma for the top middle square of the magma smelter.¹
+ ¹ The other magma-driven workshops have different blocked squares,
+so channel out a unique spot for each one.  Set up 4 of each (smelter
+and forge).
+ ² Put two levels of water-works, to supply a hospital and saferoom,
+between the workspace level and the bedrooms.  The other two levels
+are for draining it, or another murky pool, into a cistern or into the
+magma for an obsidian farm.
+ ³ And connected to it by stairs at all four corners.
+
+
+nb magma smelter kiln glass furnace blocked-tile map
+X#X
+XXX
+XXX
+
+
+nb magma forge blocked-tile map
+XXX
+#X#
+XXX
+
+
+nb magma forge labor item
+Weaponsmithing: weapons, trap components, bolts, and ballista
+arrowheads.  Armoring (armorer): armor.  Metalcrafting: chains, and
+everything in the "Other Objects" category (crafts, coins, goblets,
+studding, etc.), except anvils.  Blacksmithing: anvils, blocks, and
+all furniture except chains.  Trapping: animal traps.  Mechanics:
+mechanisms.

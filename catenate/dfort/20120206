@@ -1,0 +1,207 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb chocolate type mod
+/n/C/Users/jcatena/Downloads/df_31_25_win_s_2/raw/objects/material_template_couverture.txt
+
+sugar: no ROTS
+no sugar: no EDIBLE_RAW
+theobromine (solids): no EDIBLE_VERMIN
+no solids: no EDIBLE_COOKED
+
+CHOCOLATE_RAW
+	no EDIBLE_VERMIN
+	no EDIBLE_RAW
+	[EDIBLE_COOKED]
+	[ROTS]
+MAKE_CHOCOLATE_RAW
+	Make raw chocolate
+	cocoa mass/solid
+	cocoa butter
+SCORE ++
+
+CHOCOLATE_BITTER
+	no EDIBLE_VERMIN
+	no EDIBLE_RAW
+	[EDIBLE_COOKED]
+	[ROTS]
+MAKE_CHOCOLATE_BITTER
+	Make bitter chocolate
+	cocoa mass/solid
+	cocoa mass/solid
+	cocoa butter
+SCORE +++
+
+
+CHOCOLATE_WHITE
+	[EDIBLE_VERMIN]
+	[EDIBLE_RAW]
+	no EDIBLE_COOKED
+	no ROTS
+MAKE_CHOCOLATE_WHITE
+	Make white chocolate
+	cocoa butter
+	cacao/dwarven sugar
+	milk
+SCORE ++++
+
+CHOCOLATE_SWEET
+	no EDIBLE_VERMIN
+	[EDIBLE_RAW]
+	[EDIBLE_COOKED]
+	no ROTS
+MAKE_CHOCOLATE_SWEET
+	Make sweet chocolate
+	cocoa mass/solid
+	cocoa butter
+	cacao/dwarven sugar
+SCORE +++++++
+
+CHOCOLATE_DARK
+	no EDIBLE_VERMIN
+	[EDIBLE_RAW]
+	[EDIBLE_COOKED]
+	no ROTS
+MAKE_CHOCOLATE_DARK
+	Make dark chocolate
+	cocoa mass/solid
+	cocoa mass/solid
+	cocoa butter
+	cacao/dwarven sugar
+SCORE ++++++++
+
+CHOCOLATE_MILK
+	no EDIBLE_VERMIN
+	[EDIBLE_RAW]
+	[EDIBLE_COOKED]
+	no ROTS
+MAKE_CHOCOLATE_MILK
+	Make milk chocolate
+	cocoa mass/solid
+	cocoa butter
+	cacao/dwarven sugar
+	milk
+SCORE +++++++++
+
+
+nb stair corridor connect area trade depot
+Minor stairwells (1x1) and corridors (1-wide) interconnect a pod.
+Major stairwells (2x2) and corridors (2-wide) connect pods to other
+pods or special-purpose areas.¹ Each barracks gathers the endpoints of
+four major stairwells, and contains a lever by each stairs to block
+its corridor with a 1-wide drawbridge.  A single 3-wide corridor
+connects trading area to outside.
+ ¹ For example, outside, mines, magma furnaces, caverns.
+
+For example, the barracks nearest outside would have 2x2 stair to the
+trading depot, and a lever by the stair to close a 1-wide draw bridge
+between the trading depot and the stair.  Similarly, it would have 2x2
+stairs to underground farms in the soil, and a walled pen outside; a
+nearby stone-collection 11x11, radiating mine shafts;¹ or directly to
+the barracks of another pod.
+ ¹ Which may wander past the caverns to another stone-collection area,
+connected 2x2 to the barracks of another pod.
+
+
+nb building destroyer wall bridge hatch cover grate
+Building destroyers will not destroy constructed walls and bridges, or
+forbidden hatches and grates from below, and cannot get to things
+blocked by channels, so use these in key defenses.
+
+
+nb barracks plan lever drawbridge choke point isolate
+ %%%%%%XX%
+ ------|’-
+ %%>bd <%%
+ --|------
+  ò< θ >ò 
+ ------|--
+ %%> db<%%
+ -,|------
+ %XX%%%%%%
+ 
+X         X         X         X         X         X
+ %%%%%%%%% %%%%%%%%% %%%%+%%%% %%%%%%%%% %%%%%%%%% 
+ %%%%%%XX% %%%%%%%%% %ò     ò% %%%%%%%%% %XX%%%%%% 
+ %%%%%%XX% %%>bd <%% % <   > % %%> db<%% %XX%%%%%% 
+ %%%%%%%%% %%%%%%%%% %       % %%%%%%%%% %%%%%%%%% 
+ %%%%%%%%% %%%%%%%%% +   θ   + %%%%%%%%% %%%%%%%%% 
+ %%%%%%%%% %%%%%%%%% %       % %%%%%%%%% %%%%%%%%% 
+ %XX%%%%%% %%< db>%% % >   < % %%<bd >%% %%%%%%XX% 
+ %XX%%%%%% %%%%%%%%% %ò     ò% %%%%%%%%% %%%%%%XX% 
+ %%%%%%%%% %%%%%%%%% %%%%+%%%% %%%%%%%%% %%%%%%%%% 
+X         X         X         X         X         X
+
+
+nb zolakònul blizzardmirrored
+Keep an eye on the gorillas.  Respond to the environment with my
+capabilities.  Exploit nature: mine magnetite and limestone, and cut
+down trees, to start metal industry.  Wall off those areas as fortress
+rooms.  There are a few gems, so set up a jeweler.  Build fishery and
+carpenter outside.  That should busy the first 7.
+
+My plans actually have a point.  Execute them in the order they’re
+needed, but it serves needs like water, a dining room, etc., and gets
+practice digging before moving on to mining material I want left
+behind.
+
+
+nb cattenocîg channeldells diary 252
+Outpost Channeldells, Granite 252, Zulban Hatchedfolded
+
+Stopped the wagon on a steep wooded face of sand and siltstone,
+sprinkled with aventurine and a few sard.  Plan rooms of sand to farm
+our crops, and stone for the quern and smelter.  Once we dig out the
+barracks I'll start chiselling stone.  Workshop order: fishery
+(outside), carpenter (outside), entry (trade depot, craft area),
+barracks, farm, stone industry (mason, mechanic, crafter, and
+jeweler), wood industry (carpenter, wood furnace), keep (water, store
+food and drink, hospital using dorm beds, locked refuse, dining room),
+bedrooms.
+
+
+nb industry master plan entrance trap archery range trade depot kennel stone wood bone craft
+In addition to the new barracks chokepoints, we also carry new plans
+for a trade pile and production area.  We'll have levers in the
+barracks for both the 3x3 outside drawbridge, and the 1x2 trade
+drawbridge.
+
+1x9 trade goods requested by the mountainhome
+1x9 trade goods requested by humans
+1x9 trade goods requested by elves
+3x3 non-magma-safe stone pile
+3x3 stone crafter
+3x3 stone mug (finished goods) pile
+3x3 skull, bone, shell, teeth, horn/hoof (refuse) pile
+3x3 bone crafter
+3x3 bone bolt (ammo), teeth/horn/shell craft, skull totem (finished goods) pile
+5x5 trade depot
+5x5 kennel
+3x3 drawbridge (raises up) over 1x5 channel
+1x9 animals, traps and cages
+1x9 random items to sell
+1x2 drawbridge (raises down)
+
+Archery targets
+^	trap
+%	wall
+
+            %%%       
+            %>%       
+            % %       
+            % %       
+            %-%       
+%%%%%%%%%%%%%=%%%%%%% 
+%Dwarves==RTrade   A% 
+%Humans===a        A% 
+%Elves====n        A% 
+%Psm   ===d        A% 
+%===Bwr===o        A% 
+%===   PgsmKnnl %^^^% 
+%Prb   ====     %^^^% 
+%===Bwr====     %^^^% 
+%===   Pgb=     %^^^% 
+%Animal====     %^^^% 
+%%%%%%%%%%%%%%%%%/-\% 
+                ·|+|· 
+                 \-/  

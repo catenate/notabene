@@ -1,0 +1,200 @@
+nb pile list
+ammo: 100-bins, non-siege bolts.
+
+animal: caged animals, empty cages, animal traps.
+
+armor: 10-bins, armor.
+
+bar/block 1: 10-bins, metal bars, stone blocks, glass blocks.
+
+bar/block 2: 10-bins, ash, potash, soap, charcoal, coke.
+
+cloth: 10-bins, woven cloth, thread.
+
+coins: 3000-bins [6 stacks of 500], minted coins .
+
+corpses (sealed): dead dwarves and pets without burial.
+
+finished goods: 25-bins, crafts, clothes, leather goods, jugs.
+
+food: 10-barrels, food, lye, giant desert scorpion venom, dye (bag),
+liquid fire, raw fish, fish meat, drink (barrel), seed (bag).
+
+prepared food: no barrels in food stockpile.
+
+unprepared fish: only unprepared fish in food stockpile
+
+seeds: only seeds (bags in 1–2 food barrels) and potash (3–4 bar/
+block bins) in stockpiles next to farm.
+
+meat: only meat in food stockpile.
+
+plant: only plants in food stockpile.
+
+furniture storage: carpentry, masonry, mechanisms, furniture, sand bags
+
+carpentry: barrels and bins only in a furniture stockpile.
+
+stonework: masonry and mechanisms only in a furniture stockpile.
+
+gem: 10-bins, gem, raw glass
+
+leather: 10-item bins, leather.
+
+refuse: rotting garbage, damaged items, bones, skulls, shells, teeth,
+horns/hooves.  Outside, or sealed with airlock.  Bins for clothing (if
+allowed).
+
+stone: stone, ore.
+
+weapons: 10-bins, weapons, picks, trap components.
+
+wood: cut trees.
+
+
+nb collocate
+(wood) carpenter's workshop (carpentry)
+
+(stone) mason’s workshop, mechanic's workshop (bar/block 1, stonework)
+
+ (stone) siege workshop catapult
+
+(wood) wood furnace (bar/block 2) ashery, soap maker's workshop (bar/block 2)
+
+fishing area (unprepared fish) fishery (meat)
+
+fishery, butcher's shop, farmer's workshop (food, meat, refuse) meat kitchen (food, prepared food)
+
+(seeds) farm (food, plant) quern/millstone [bags], screw press, plant kitchen, still, farmer's workshop (food, prepared food)
+Only farmers harvest.  Disable last season of each plant to avoid
+losing seeds.
+
+farmer's workshop (cloth) tanner's shop, loom (leather, cloth) clothier's shop, leather works (furniture, cloth, leather, wood, stone, finished goods) craftsdwarf's workshop (finished goods) trade depot
+
+[put farm (near surface) and trade (behind drawbridge) areas next to each other for farmer's workshop (threads) and screw press (jugs)]
+
+(wood) wood furnace (charcoal/coke/coal only, ore) smelter, forge, kiln, glass furnace (weapons, armor, furniture, siege ammo, ammo, animal, bar/block 1, bar/block 2)
+[wood furnace in dining room links outside (uses wood), farm (uses food,
+provides ash for ashery to make potash), high-temp production (charcoal),
+and soap production (ash)]
+
+
+nb custom stockpile usage
+http://df.magmawiki.com/index.php/Stockpiles#Uses_for_Custom_Stockpiles
+
+
+nb workshop tier
+Tier 1 Workshops
+b :
+Uses Tier 0 materials: Bone, Wood
+Produces Tier 1 Weapon:Crossbow
+c Carpenter’s workshop: Uses wood from trees to produce various goods.
+Uses Tier 0 materials: Wood
+Produces Tier 1 materials:
+Armor: Buckler, Shield
+Weapons: Training Axes, Training Swords, Training Spears
+Containers: Barrel, Bin, Bucket, Casket
+Building Materials: Block, Grate, Pipe section
+Furniture: Bed, Chair, Table, Cabinet, Chest, Armor stand, Weapon rack
+Furniture: Door, Floodgate, Hatch cover
+Trap Components: Cage, Enormous corkscrew, Menacing spike, Spiked ball
+Finished Goods: Crutch, Splint
+Tools: Animal trap
+j Jeweler’s workshop:
+Uses Tier 0 Item: Rough gem
+Uses Tier 1 Item: Cut gem
+Produces Tier 1 Items: Cut gem, Encrusted objects
+m Mason’s workshop:
+Uses Tier 0 Item: Stone
+Produces Tier 1 Items: Armor stand, Block, Throne, Coffin, Door, Floodgate, Hatch cover, Grate, Cabinet, Coffer, Statue, Table, Weapon rack, Quern, Millstone, Slab
+u Butcher’s shop:
+Uses Tier 0 Items: Tame animals, Corpses of untamed non-sentient animals
+Produces Tier 1 Items: Skin, Fat, Meat, Bone, Prepared organs, Skull, Scale, Hoof, Ivory, Tooth
+t Mechanic’s workshop:
+Uses Tier 0-1 Items: Stone, Table, Rope
+Produces Tier 1 Item: Mechanism
+Produces Tier 3 Item: Traction bench
+w Farmer’s workshop:
+Uses Tier 0 Items: crop, Animal
+Uses Tier 1 Items: Bags, barrels, vial, milk
+Produces Tier 1 Items: Pig tail or Rope reed thread, Quarry bush leaves, Dwarven syrup, Plant extracts, Milk, Cheese
+h Fishery:
+Uses Tier 0 Items: Raw fish
+Produces Tier 1 Items: Fish meat, Shells, Captured live fish
+[edit]Tier 2 Workshops
+n Tanner’s_shop:Verify
+Uses Tier 0 Item: Hide
+Produces Tier 1 Item: Leather
+o Loom:Verify
+Uses: Adamantine strands, Cave spider silk thread, Giant cave spider silk thread, Phantom spider silk thread, Pig tail thread, Rope reed thread
+Produces: ClothVerify
+f Metalsmith’s forge:
+Uses: Metal bars
+Produces: Armor, Weapon, Chain, Crafts, Furniture
+d Dyer’s_shop:Verify
+Uses: Dye, Thread, Cloth
+Produces: Dyed Thread, Dyed Cloth
+l Still:Verify
+Uses Tier 0 Item: Brewable Plant
+Uses Tier 1 Item: Barrel
+y Ashery:Verify
+Uses Tier 1 Items: Ash, Lye
+Produces Tier 2 Items: Lye, Potash
+[edit]Tier 3 Workshops
+e Leather_works:Verify
+Uses: Leather
+Produces: Leather Clothing, Leather Armor, Leather Shield, Leather Quiver, Leather Bag, Leather Backpack, Leather Waterskin, Leather Images (decoration)
+k Clothier’s shop:Verify
+Uses: Cloth
+Produces: Backpack, Bag, Clothing, Quiver, Rope
+[edit]Tier 4 Workshops
+q Quern:Verify
+Uses Tier 0 Items: Blade weed, Cave wheat, Dimple cup, Hide root, Longland grass, Sliver barb, Sweet pod, Whip vine
+Uses Tier 3 Item: bag
+Produces: Dwarven wheat flour,Dwarven sugar,Longland flour,Whip vine flour,Dimple dye,Emerald dye,Redroot dye,Sliver dye
+M (Shift+m) Millstone:Verify
+Requires: Mechanical Power Source (Water wheel or Windmill), and a Millstone (Constructed at Mason’s workshop)
+Uses Tier 0 Items: Blade weed, Cave wheat, Dimple cup, Hide root, Longland grass, Sliver barb, Sweet pod, Whip vine
+Uses Tier 3 Item: bag
+Produces: Emerald dye, Dwarven wheat flour, Dimple dye, Redroot dye, Longland flour, Sliver dye, Dwarven sugar, Whip vine flour
+[edit]Uncategorized Workshops
+s Siege workshop:Verify
+S (Shift+s) Soap maker’s workshop:Verify
+p Screw press:Verify
+z Kitchen:Verify
+Uses: Alcohol, Fish, Food, Meat, Plants, Cheese, Dwarven sugar, Dwarven syrup, Flour, Milk, Prepared organs, Seeds, Fat, Tallow
+Produces: Prepared meals, Tallow
+r Craftsdwarf’s workshop:Verify
+Uses: Stone, Wood, Bone, Shell, Ivory, Tooth, Horn, Pearl, Cloth, Leather
+Produces: Various Trade Items
+
+
+nb first year farm plots
+4 1x7 strips use 2 potash each, leave room in a 10x10 area for 6 workshops, and 15 stockpiles (plant, seed/potash)
+
+spring	plump helmets
+summer	pig tails
+autumn	pig tails
+winter	plump helmets
+
+spring	dimple cups
+summer	cave wheat
+autumn	cave wheat
+winter	dimple cups
+
+spring	sweet pod
+summer	sweet pod
+autumn	plump helmets
+winter	plump helmets
+
+spring	quarry bush
+summer	quarry bush
+autumn	quarry bush
+winter	dimple cups
+
+
+nb embark point milk type barrel wood
+An excellent strategy at embark is to take a minimum of 1 of each kind
+of milk.  Milk costs only 1 point at embark, and comes with a seperate
+barrel for each type, which means you can start with more food and can
+be more efficient with wood supplies.

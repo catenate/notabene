@@ -1,0 +1,207 @@
+nb boldcudgels embark labor
+Kûbuk: jeweler, woodcrafter, stonecrafter, and bonecrafter.
+Cut and set gems at jeweler’s workshop.  Craft wood, stone, and bone,
+including wood bolts, at craftsdwarf’s workshop.
+
+Stukos, miner.  Mine ground.
+
+Obok: woodcutter, brewer, cook, grower, herbalist, operator, potash.
+Cut wood in forest, brew at still, cook in kitchen, farm at plot,
+gather plants in forest, operate smelter/kiln and wood furnace,
+make potash (fertilize) and lye (soap) at ashery.
+
+Mosus: carpenter, bowyer.  Carpenter’s workshop.  Crossbows in
+bowyer’s workshop.
+
+Besmar: stoneworker.  Engrave and mason at mason’s workshop.
+Mechanisms at mechanic’s workshop.  Design buildings.  Mine.
+
+Kib: fish cleaner, butcher, tanner, weaver, clothier, leatherworker.
+Clean fish at fishery.  Butcher animals at butcher’s shop.  Tan hides
+at tanner’s shop.  Make leather at leather works.
+
+Shem: fisherdwarf.  Fish.
+
+Bim: craft leather, wood, stone, bone, glass, clothes, strands,
+pottery, glaze, wax.
+
+Sibrek O.: burn wood at wood furnace, mine ground.
+
+Sibrek L.: craft stone, make soap.
+
+Nomal: swim.
+
+Ast, militia commander, archer squad leader: marksdwarf, armor,
+archer, dodger, spinner, dissect animals.
+
+Rîsen, broker, metal squad leader: hammerdwarf, shield, armor,
+fighter, dodger.
+
+Meng, wood crafter.
+
+Avuz, carpenter.
+
+Goden, stoneworker and engraver and mechanic, civilian squad leader.
+Armor, fighter, striker, dodger.  Clothier.
+
+Atír, glassmaker.
+
+
+nb boldcudgels first year military equipment
+bowyer: build 7 crossbows.
+woodcrafter: 7 [25] wood bolts.
+
+
+nb boldcudgels first year plan
+butcher: butcher designated tame animals, dead untamed animals
+carpenter: build barrels
+carpenter: build bins
+carpenter: build buckets
+carpenter: build carpenter’s workshop
+first year bedroom
+first year cistern
+first year dining room
+first year farm plots
+first year trade depot
+fisherdwarf: designate fishing area
+herbalist: designate gather plants
+jeweler: build jeweler’s workshop
+jeweler: cut gems
+mechanic: build mechanic’s workshop
+miner: test bore 20 levels
+stoneworker: build butcher’s shop outside
+stoneworker: build mason’s workshop
+woodcutter: designate cut trees
+tanner: build tanner's shop
+leatherworker: build leather works
+
+
+nb boldcudgels first year trade depot
+stoneworker: build trade depot
+stoneworker: build craftsdwarf’s workshop
+craftsdwarf (jeweler): craft wood
+craftsdwarf (jeweler): : craft stone
+stoneworker: designate 5x5 finished-goods pile
+miner: 10x10 cave with 3-wide access, big enough for 5x5 trade depot
+stoneworker: build a drawbridge to seal trade depot
+
+
+nb boldcudgels first year bedroom
+3x3 areas of a level
+carpenter: build 7 beds
+carpenter: build 1 private office chair
+build 1 private dining room chair
+designate 7 3x3 bedrooms
+designate 1 private office for expedition leader
+designate 1 private dining room for expedition leader
+hauler: pile stone close to craftsdwarf
+hauler: pile wood close to craftsdwarf
+stoneworker: build 7 coffers
+stoneworker: build 7 cabinets
+
+
+nb boldcudgels first year dining room
+carpenter: build 7 dining-room chairs
+build 7 dining-room tables
+designate 7x7 dining room and meeting hall from central table
+build wood furnace
+pile food
+stoneworker: build ashery
+stoneworker: build still
+stoneworker: build kitchen
+stoneworker: build fishery
+
+
+nb boldcudgels murky pool size level
+level 141
+size 34
+
+drain to level 131 or 121
+
+
+nb boldcudgels first year cistern
+miner: size 30
+hatch cover at pool connected to mechanism in control room
+hatch cover in control room
+stoneworker: build wall grate before stairs up to pool
+mechanic: build mechanisms
+
+
+nb boldcudgels wagon
+level 149
+34
+
+
+nb boldcudgels level plan
+level 1: trade, farm, dining/meeting
+stone/mech, high-temp
+bedroom, soap/hospital (well)
+
+reservoir
+
+
+nb boldcudgels ore
+cassiterite
+kimberlite
+
+
+nb boldcudgels gems water grid
+rose quartz
+red spinel
+peridot
+claro opal
+
+
+nb boldcudgels human export
+208%	plants
+194%	splints
+182%	thread
+178%	goblets
+170%	shields/bucklers
+169%	battle axes
+168%	fish
+164%	large gems
+146%	bracelets
+118%	quivers
+
+
+nb boldcudgels idle
+Asmel, woodworker: 
+Ast T., beekeeper: 
+Ast U., animal dissector: 
+Atír B., glassmaker: 
+
+Atír R., tanner: 
+
+Degël: MLF.
+
+Dastot, dyer, wood cutter, carpenter, bowyer, lye maker:
+build bowyer’s workshop.
+
+Fikod Zo., carpenter: 
+
+Goden S., milker, metal crafter: leave to growing, to not waste metal
+in crafts.
+
+Inod, trapper: 
+
+Meng K., woodcrafter: no wood crafts.
+
+Rakust: whatever.
+
+Sarvesh, cook, weaponsmith, glazer: build metal workshop to make
+weapons.
+
+Shorast, gem setter: ramp up cutting and encrusting.
+
+Stukos, miner: mine some ground.
+
+Tholtig, milker, gem setter, strand extractor, tanner: build jewelry
+workshop, or ramp up cutting and encrusting.
+
+Tosid, metalcrafter: 
+
+
+nb boldcudgels forgotten beast oriole
+The Forgotten Beast Ágen has come!  A great eyeless oriole.  It has a
+pair of squat antennæ and it squirms and fidgets.  Beware its fire!

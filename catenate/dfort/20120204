@@ -1,0 +1,366 @@
+nb test chocolate mod
+Let’s add different kinds of chocolate, instead of cocoa butter
+couverture, since it’s just a label we give it.  Do this in the
+general raws since we’re adding reactions.  All of these products are
+not edible by vermin.
+
+cocoa mass + cocoa butter = bitter chocolate (not edible raw)
+cocoa mass + $animal fat = $animal bitter couverture (not edible raw)
+
+cocoa mass + cocoa butter + cacao/dwarven sugar = sweet chocolate
+cocoa mass + $animal fat + cacao/dwarven sugar = $animal sweet couverture
+
+cocoa mass + cocoa butter + cacao/dwarven sugar + milk = milk chocolate
+cocoa mass + $animal fat + cacao/dwarven sugar + milk = $animal milk couverture
+
+cocoa butter + cacao/dwarven sugar + milk = white chocolate (not edible cooked)
+$animal fat + cacao/dwarven sugar + milk = $animal white couverture (not edible cooked)
+
+cocoa solids + cocoa butter = raw chocolate (rots)
+cocoa solids + $animal fat = $animal raw couverture (rots)
+
+cocoa solids + cocoa butter + cacao/dwarven sugar = dark chocolate
+cocoa solids + $animal fat + cacao/dwarven sugar = $animal dark couverture
+
+Make dark chocolate (solid, butter, sugar) and mold it into a figurine
+of two dwarves.¹ Still called cocoa butter couverture, so maybe I need
+to restart to make the product name it and give it color.
+
+Leave it at dark chocolate and post, while I figure out how to make
+many different kinds of essentially the same thing (from the plant’s
+point of view), since it doesn’t appear to work to assign the name in
+the reaction to differentiate them.  Hm, it's using cocoa mass instead
+of solid, even though I asked for the reagent to be PRODUCT_PRESSED.
+So can't rely on the difference between mass and solid.  Made dark
+chocolate, and molded it into more dwarves.¹
+
+
+nb post chocolate mod
+Subject: Couverture: A chocolate-covered mod.
+
+Couverture 1.0 offers a basic, intermediate-product chocolate industry,
+from cacao shrubs to dark chocolate figurines (in my testing, mostly
+of dwarves, and Odur looking offended).
+
+DESCRIPTION
+
+In tropical conifer forests, and tropical moist broadleaf forests,
+cacao shrubs grow (they look amazingly like cacao trees).
+Gather a cacao pod from a cacao shrub, brew it to cacahautl
+(in a barrel), or mill it to cacao sugar (in a bag).  Mill the resulting
+cacao seeds to cocoa mass, then press it to cocoa solid and
+cocoa butter (in a jug).  Cook a cocoa solid (or mass), cocoa butter,
+and cacao (or dwarven) sugar (if the bag is not in a barrel) to
+dark chocolate, then craft it into figurines.  Substitute animal fat
+for cocoa butter to make couverture (using the term imaginitively,
+as a shelf-stable fat).
+
+In future I'd like to have different types of chocolate (e.g.  raw,
+bitter, sweet, milk, white), probably as different templates in
+material_template_couverture.txt.
+
+I'd also like to cover edible things in chocolate (as an item
+improvement), which I haven't started looking at yet.
+
+Bug reports welcome, and additional ideas in the same spirit. :)
+
+DOWNLOAD
+
+Here is the entire mod.  It requires a few changes to standard files,
+so I include instructions, to better integrate with other mods.
+
+b_detail_plan_default.txt
+[spoiler]
+Add [ADD_MATERIAL:COUVERTURE:COUVERTURE_TEMPLATE]
+to [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
+and [BODY_DETAIL_PLAN:CHITIN_MATERIALS].
+[/spoiler]
+
+entity_default.txt
+[spoiler]
+Add these lines to [ENTITY:MOUNTAIN] and [ENTITY:PLAINS].
+
+	[PERMITTED_REACTION:MAKE_CHOCOLATE_DARK]
+	[PERMITTED_REACTION:MAKE_COUVERTURE_FROM_FAT]
+	[PERMITTED_REACTION:MAKE_COUVERTURE_FIGURINE]
+[/spoiler]
+
+material_template_couverture.txt
+[spoiler]
+material_template_couverture
+
+[OBJECT:MATERIAL_TEMPLATE]
+
+[MATERIAL_TEMPLATE:COUVERTURE_TEMPLATE]
+	[STATE_COLOR:ALL_SOLID:CHOCOLATE]
+	[STATE_NAME:ALL_SOLID:couverture]
+	[STATE_ADJ:ALL_SOLID:couverture]
+	[STATE_COLOR:LIQUID:CHOCOLATE]
+	[STATE_NAME:LIQUID:melted couverture]
+	[STATE_ADJ:LIQUID:melted couverture]
+	[STATE_COLOR:GAS:CHOCOLATE]
+	[STATE_NAME:GAS:n/a]
+	[STATE_ADJ:GAS:n/a]
+	[DISPLAY_COLOR:6:0:0]
+	[MATERIAL_VALUE:1]
+	[SPEC_HEAT:800]
+	[IGNITE_POINT:10508]
+	[MELTING_POINT:10078]
+	[BOILING_POINT:NONE]
+	[HEATDAM_POINT:10250]
+	[COLDDAM_POINT:9900]
+	[MAT_FIXED_TEMP:NONE]
+	[SOLID_DENSITY:500]
+	[LIQUID_DENSITY:NONE]
+	[MOLAR_MASS:NONE]
+	[IMPACT_YIELD:10000]
+	[IMPACT_FRACTURE:10000]
+	[IMPACT_STRAIN_AT_YIELD:100]
+	[COMPRESSIVE_YIELD:10000]
+	[COMPRESSIVE_FRACTURE:10000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:100]
+	[TENSILE_YIELD:10000]
+	[TENSILE_FRACTURE:10000]
+	[TENSILE_STRAIN_AT_YIELD:100]
+	[TORSION_YIELD:10000]
+	[TORSION_FRACTURE:10000]
+	[TORSION_STRAIN_AT_YIELD:100]
+	[SHEAR_YIELD:10000] no data
+	[SHEAR_FRACTURE:10000]
+	[SHEAR_STRAIN_AT_YIELD:100]
+	[BENDING_YIELD:10000]
+	[BENDING_FRACTURE:10000]
+	[BENDING_STRAIN_AT_YIELD:100]
+	[MAX_EDGE:0]
+	[ABSORPTION:100]
+	[STOCKPILE_GLOB]
+	[EDIBLE_VERMIN]
+	[EDIBLE_RAW]
+	[EDIBLE_COOKED]
+	[REACTION_CLASS:COUVERTURE]
+	[REACTION_CLASS:COUVERTURE_CRAFT]
+	[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_CREATURE_MAT:COUVERTURE]
+	[IMPLIES_ANIMAL_KILL]
+
+[MATERIAL_TEMPLATE:PLANT_COUVERTURE_TEMPLATE]
+	[STATE_COLOR:ALL_SOLID:CHOCOLATE]
+	[STATE_NAME:ALL_SOLID:cocoa butter couverture]
+	[STATE_ADJ:ALL_SOLID:cocoa butter couverture]
+	[STATE_COLOR:LIQUID:CHOCOLATE]
+	[STATE_NAME:LIQUID:melted cocoa butter couverture]
+	[STATE_ADJ:LIQUID:melted cocoa butter couverture]
+	[STATE_COLOR:GAS:CHOCOLATE]
+	[STATE_NAME:GAS:n/a]
+	[STATE_ADJ:GAS:n/a]
+	[DISPLAY_COLOR:7:0:1]
+	[MATERIAL_VALUE:1]
+	[SPEC_HEAT:800]
+	[IGNITE_POINT:10508]
+	[MELTING_POINT:10078]
+	[BOILING_POINT:NONE]
+	[HEATDAM_POINT:10250]
+	[COLDDAM_POINT:9900]
+	[MAT_FIXED_TEMP:NONE]
+	[SOLID_DENSITY:500]
+	[LIQUID_DENSITY:NONE]
+	[MOLAR_MASS:NONE]
+	[IMPACT_YIELD:10000]
+	[IMPACT_FRACTURE:10000]
+	[IMPACT_STRAIN_AT_YIELD:100]
+	[COMPRESSIVE_YIELD:10000]
+	[COMPRESSIVE_FRACTURE:10000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:100]
+	[TENSILE_YIELD:10000]
+	[TENSILE_FRACTURE:10000]
+	[TENSILE_STRAIN_AT_YIELD:100]
+	[TORSION_YIELD:10000]
+	[TORSION_FRACTURE:10000]
+	[TORSION_STRAIN_AT_YIELD:100]
+	[SHEAR_YIELD:10000] no data
+	[SHEAR_FRACTURE:10000]
+	[SHEAR_STRAIN_AT_YIELD:100]
+	[BENDING_YIELD:10000]
+	[BENDING_FRACTURE:10000]
+	[BENDING_STRAIN_AT_YIELD:100]
+	[MAX_EDGE:0]
+	[ABSORPTION:100]
+	[STOCKPILE_GLOB]
+	[EDIBLE_VERMIN]
+	[EDIBLE_RAW]
+	[EDIBLE_COOKED]
+	[REACTION_CLASS:COUVERTURE]
+	[REACTION_CLASS:COUVERTURE_CRAFT]
+	[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+[/spoiler]
+
+material_template_default.txt
+[spoiler]
+Add [MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_CREATURE_MAT:COUVERTURE]
+to [MATERIAL_TEMPLATE:FAT_TEMPLATE].
+[/spoiler]
+
+plant_couverture.txt
+[spoiler]
+plant_couverture
+
+[OBJECT:PLANT]
+
+[PLANT:CACAO_THEOBROMA]
+	[NAME:cacao pod][NAME_PLURAL:cacao pod][ADJ:cacao pod]
+	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
+		[MATERIAL_VALUE:2]
+	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+		[EDIBLE_VERMIN]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+	[PICKED_TILE:226][PICKED_COLOR:6:0:1]
+	[GROWDUR:500][VALUE:2]
+	[USE_MATERIAL_TEMPLATE:OIL:PLANT_OIL_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:frozen cocoa butter]
+		[STATE_NAME_ADJ:LIQUID:cocoa butter]
+		[STATE_NAME_ADJ:GAS:boiling cocoa butter]
+		[REACTION_CLASS:COUVERTURE]
+		[PREFIX:NONE]
+		[MATERIAL_VALUE:5]
+		[EDIBLE_COOKED]
+	[USE_MATERIAL_TEMPLATE:COUVERTURE:PLANT_COUVERTURE_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:dark chocolate]
+		[STATE_NAME_ADJ:LIQUID:melted dark chocolate]
+		[STATE_NAME_ADJ:GAS:n/a]
+		[DISPLAY_COLOR:6:0:0]
+		[PREFIX:NONE]
+		[MATERIAL_VALUE:20]
+	[USE_MATERIAL_TEMPLATE:DRINK:PLANT_ALCOHOL_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:frozen cacahuatl]
+		[STATE_NAME_ADJ:LIQUID:cacahuatl]
+		[STATE_NAME_ADJ:GAS:boiling cacahuatl]
+		[MATERIAL_VALUE:2]
+		[DISPLAY_COLOR:6:0:0]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[PREFIX:NONE]
+	[DRINK:LOCAL_PLANT_MAT:DRINK]
+	[USE_MATERIAL_TEMPLATE:MILL:PLANT_POWDER_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:cacao sugar]
+		[STATE_COLOR:ALL_SOLID:WHITE]
+		[DISPLAY_COLOR:7:0:1]
+		[MATERIAL_VALUE:5]
+		[EDIBLE_VERMIN]
+		[EDIBLE_RAW]
+		[EDIBLE_COOKED]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+		[PREFIX:NONE]
+	[MILL:LOCAL_PLANT_MAT:MILL]
+	[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:frozen cocoa liquor]
+		[STATE_NAME_ADJ:LIQUID:cocoa liquor]
+		[STATE_NAME_ADJ:GAS:boiling cocoa liquor]
+		[MATERIAL_VALUE:20]
+		[DISPLAY_COLOR:6:0:0]
+		[EDIBLE_COOKED]
+		[EXTRACT_STORAGE:BARREL]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+		[PREFIX:NONE]
+	[EXTRACT_BARREL:LOCAL_PLANT_MAT:EXTRACT]
+	[USE_MATERIAL_TEMPLATE:SEED:SEED_TEMPLATE]
+		[STATE_NAME_ADJ:ALL_SOLID:cacao nib]
+		[STATE_NAME_ADJ:SOLID_PASTE:cocoa mass]
+		[STATE_NAME_ADJ:SOLID_PRESSED:cocoa solid]
+		[MATERIAL_VALUE:1]
+		[EDIBLE_VERMIN]
+		[EDIBLE_COOKED]
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:PRESS_LIQUID_MAT:LOCAL_PLANT_MAT:OIL]
+		[PREFIX:NONE]
+		[STOCKPILE_GLOB_PASTE]
+		[STOCKPILE_GLOB_PRESSED]
+	[SEED:cacao seed:cacao seeds:6:0:0:LOCAL_PLANT_MAT:SEED]
+	[SPRING][SUMMER][AUTUMN][WINTER]
+	[FREQUENCY:100]
+	[CLUSTERSIZE:5]
+	[PREFSTRING:fermented nibs]
+	[DRY]
+	[BIOME:FOREST_TROPICAL_CONIFER]
+	[BIOME:FOREST_TROPICAL_MOIST_BROADLEAF]
+	[SHRUB_TILE:226]
+[/spoiler]
+
+plant_standard.txt
+[spoiler]
+Add these lines following [STATE_NAME_ADJ:ALL_SOLID:dwarven sugar].
+
+		[REACTION_CLASS:COUVERTURE]
+		[MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT:LOCAL_PLANT_MAT:COUVERTURE]
+[/spoiler]
+
+reaction_couverture.txt
+[spoiler]
+reaction_couverture
+
+[OBJECT:REACTION]
+
+[REACTION:MAKE_CHOCOLATE_DARK]
+	[NAME:Make dark chocolate]
+	[BUILDING:KITCHEN:CUSTOM_SHIFT_D]
+	[REAGENT:cocoa solid:1:GLOB:NONE:NONE:NONE]
+		[PRODUCT_PRESSED]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:cocoa butter container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:cocoa butter]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[REAGENT:sugar:150:POWDER_MISC:NONE:NONE:NONE]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:sugar container:1:BOX:NONE:NONE:NONE]
+		[BAG]
+		[CONTAINS:sugar]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:GLOB:NONE:PLANT_MAT:CACAO_THEOBROMA:COUVERTURE]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+[REACTION:MAKE_COUVERTURE_FROM_FAT]
+	[NAME:Make couverture from fat]
+	[BUILDING:KITCHEN:CUSTOM_F]
+	[REAGENT:cocoa solid:1:GLOB:NONE:NONE:NONE]
+		[PRODUCT_PRESSED]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:fat:1:GLOB:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:FAT]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:sugar:150:POWDER_MISC:NONE:NONE:NONE]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:sugar container:1:BOX:NONE:NONE:NONE]
+		[BAG]
+		[CONTAINS:sugar]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:fat:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+[REACTION:MAKE_COUVERTURE_FIGURINE]
+	[NAME:Make couverture figurine]
+	[BUILDING:CRAFTSMAN:CUSTOM_SHIFT_F]
+	[REAGENT:couverture:1:GLOB:NONE:NONE:NONE]
+		[REACTION_CLASS:COUVERTURE_CRAFT]
+	[PRODUCT:100:1:FIGURINE:NONE:GET_MATERIAL_FROM_REAGENT:couverture:NONE]
+	[SKILL:WAX_WORKING]
+[/spoiler]
+
+THANKS
+
+i2amroy suggested saving, editing save raws, and continuing, which
+I used very effectively to dramatically shorten my test cycle.
+
+Deon offered sugar reactions which use [HAS_]MATERIAL_REACTION_PRODUCT
+instead of just the reaction classes I was using.
+
+i2amroy and Nidokoenig offered other suggestions to shorten the test
+cycle in this thread.  http://www.bay12forums.com/smf/index.php?topic=99970.0

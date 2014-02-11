@@ -1,0 +1,220 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb _todo matchedclasps weapon armor rack nickel
+Weapon and armor racks for each military dwarf’s bedroom.
+
+Use nickel to make armor and weapons.
+
+
+nb _todo military barracks
+Put barracks along long paths so traveling enemies must go through
+them.
+
+X         X
+ ####+#### 
+ #XX...XX# 
+ #XX...XX# 
+ #.......# 
+ +...B...+ 
+ #.......# 
+ #XX...XX# 
+ #XX...XX# 
+ ####+#### 
+X         X
+
+
+nb pod plan level layout
+capital letters are enclosed rooms
+
+Bedroom
+Dining room
+Entrance by craftsdwarves' workshop area
+Food and drink store
+Hospital
+Military barracks
+Noble
+Piles
+Refuse
+Tomb
+Vault for artifacts and coins
+X enclosed stairs to other levels
+butcher/tanner Workshop
+mines and stone storage
+
+NthpN
+NtXpN
+NtRpN
+
+bFDVW
+bbMow
+bbwww
+
+water
+faXrm
+mines
+
+
+nb trade depot archery target range squad marksdwarf outside fortress entrance kennel
+Archery range
+Kennel
+Wall of drawBridge
+^ weapon trap
+
+###########
+#o...o   A#
+#.....   A#
+W..o..   A#
+#.....   A#
+#o...o   A#
+#.....#^^^#
+#.....#^^^#
+#..k..#^^^#
+#.....#BBB#
+#.....#BBB#
+#######WWW#12
+
+
+Unlike other rooms, archery ranges only include the archery target
+from which they were defined—if you have multiple targets in one area,
+each one must be designated as its own archery range, even if this
+causes them to overlap.
+
+Also assign the archery squad to the central barracks.
+
+
+nb mine ore stone pile
+= separate 1x9 pile for each purpose of ore or stone
++ forbid doors once the mine is exhausted
+
+X         X
+#=========
++=========
+#=========
+#=========
++=========
+#=========
+#=========
++=========
+#=========
+X#+##+##+#X
+
+
+nb master industry plan metal stone purpose
+raw adamantine goes in the vault
+
+iron ores and flux stone (no blocks, reserved economic stone):
+hematite, limonite, magnetite; limestone, dolomite, chalk, marble, calcite
+
+other armor and weapon ores (bismuth bronze, bronze, copper, silver):
+silver/copper nuggets, malachite, galena, tetrahedrite, horn silver; obsidian
+
+alloy ores: garnierite, gold nuggets, sphalerite, cassiterite, bismuthinite
+
+fuel: bituminous coal, lignite
+
+rough gems and glass: all
+
+plaster: gypsum, alabaster, selenite, satinspar
+
+sand bags and clay: all
+
+2x magma-safe stone: sandstone, chert, gabbro, basalt, obsidian,
+quartzite, talc, petrified wood, periclase, ilmenite, rutile,
+chromite, pitchblende, bauxite, olivine, kaolinite, orthoclase, mica,
+anhydrite, alunite
+
+
+nb embark search boatsguarded
+World: Nitom Nalish
+5x5
+medium temperature
+flux stone, multiple shallow metals, multiple deep metals
+river (bad idea—alligators), no aquifer, ≤ some soil
+
+temperate savanna
+sparse trees, moderate other
+untabed wilds
+stream in middle
+
+some soil, shallow metal, deep metals, flux stone
+
+dwarves, humans, elves, goblins (war)
+
+Civilization: The Stockade of Webbing
+Fortress: Koganduthnur, "Boatsguarded"
+
+
+nb boatsguarded seven dwarves embark
+Mebzuth A.: mine.
+
+Reg D.: carpentry, make crossbows.  Killed by the alligator Etostèrith
+on embark, along with both dogs.
+
+Kûbuk A.: cut wood, brew, cook, grow, gather plants, operate furnace,
+burn wood, make lye, make potash.
+
+Asmel R.: engrave, mason, mechanic, design building.
+Injured (pale) attacking the alligator Etostèrith on embark.
+
+Dakost Ï.: cut and set gem; craft wood, stone, and bone.
+Killed attacking the alligator Etostèrith on embark.
+
+Kadol È.: clean fish, butcher, tan, weave, clothe, work leather.
+Killed attacking the alligator Etostèrith on embark.
+
+Tobul Î.: fish.  Killed attacking the alligator Etostèrith on embark.
+
+> Loud Whispers: Everything in DF goes wrong from the moment you press embark. 
+
+The alligator Etostèrith (Containedlabors) killed
+4 dwarves of The Livid Merchant expedition and
+injured (pale) the mason immediately upon embark,
+while crossing a 4-wide river to first cut trees
+and dig out the initial fortress entrance.  After
+the initial woodworker's death, the remaining six
+organized the squad “The Clasps of Crying” to
+extract revenge, and so they wouldn’t get whittled
+down one by one.  The miner/expedition leader
+dispatched the alligator, leaving only her and my
+woodcutter uninjured to strike the earth and bury
+their fallen comrades.  The miserable miner,
+however, couldn’t take it, throwing tantrums,
+going insane, and finally going berserk.  She
+killed a horse, killed the injured stoneworker
+(lopping off the left foot with her copper pick),
+and chased around the entire embark area in the
+rain after groundhogs.  Finally she interrupted
+the woodcutter (now expedition leader, and set to
+mining), and chased him, stray cats, and
+groundhogs around, before finally dying of thirst.
+The groundhogs apparently ate away her upper body
+in revenge—saw them scatter just after she died.
+Finally tally to last until traders and migrants
+arrive at “Boatsguarded”: one sleeping dwarf, two
+cats, a yak bull, and the wagon.
+
+
+nb _todo boatsguarded build workshop designate piles embark
+Plan fortress.
+
+Carpenter.  Bowyer.
+
+Cut trees and gather plants on level 141 between ponds down to
+rock-salt downward slope on left.  Zone a pasture here after it's
+cleared.  Farms, still, kitchen, wood furnace, smelter, ashery.
+
+Mason.  Mechanisms.  Trade depot.  Drawbridges.  Smooth floor.
+
+Craftsdwarf.  Jeweler.
+
+Fishery.  Butcher, tan.  Weave, clothier, leatherworking.
+
+Outlet to clear wagon and centralize piles in fortress.
+
+
+nb rebuild embark
+Kûbuk A.: enable mining and most non-competing labors.
+The bedroom north of the military area will be his noble room,
+with tombs for all the other dead embark dwarves.
+

@@ -1,0 +1,98 @@
+nb test chocolate mod
+Kitchen: 8 cacao pod, 2 cacahautl, 4 cacao sugar, 3 cocoa butter,
+8 cacao nib.  Stocks: 2 cacao pod [2], 4 cacao pod (plants); cacao sugar [2],
+2 cacao sugar (powder); cacahautl [2] (drinks); 3 cocoa butter (liquid);
+5 cocoa mass, 3 cocoa solid (glob).
+
+Changed raws of region15 to match post¹, but reaction² ³ still not available.
+ ¹ http://www.bay12forums.com/smf/index.php?topic=99970.0
+ ² COUVERTURE_MAT-producing liquid, Cocoa butter-containing item,
+COUVERTURE_MAT-producing powder, and Sugar-containing bag produce
+Cocoa butter couverture.
+ ³ COUVERTURE_MAT-producing liquid, Cocoa butter-containing item,
+COUVERTURE_MAT-producing powder, and Sugar-containing bag produce
+COUVERTURE_MAT Glob.
+
+Try reducing reaction to just cocoa butter again, no sugar¹ or cocoa solid.²
+Interesting: this doesn't make the reaction³ available.  Maybe the
+object was created without the new properties, so I need to make more
+cocoa butter?  Needed a new jug to store nw cocoa butter, since I'm
+not yet using cocoa butter from the jugs.
+ ¹ 	[REAGENT:sugar:150:POWDER_MISC:NONE:NONE:NONE]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:sugar container:1:BOX:NONE:NONE:NONE]
+		[BAG]
+		[CONTAINS:sugar]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+ ² 	[REAGENT:cocoa solid:1:GLOB:NONE:NONE:NONE]
+		[PRODUCT_PRESSED]
+		[REACTION_CLASS:COUVERTURE]
+ ³ [REACTION:MAKE_COUVERTURE_FROM_COCOA_BUTTER]
+	[NAME:Make couverture from cocoa butter]
+	[BUILDING:KITCHEN:CUSTOM_C]
+	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:cocoa butter container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:cocoa butter]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:GLOB:NONE:GET_MATERIAL_FROM_REAGENT:cocoa butter:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+Kitchen: 7 cacao seeds, 5 cacao pod, 2 cacahautl, 7 cacao sugar, 5 cocoa butter,
+8 cacao nib.  Stocks: 2 cacao pod [2], cacao pod (plants); cacao sugar [2],
+5 cacao sugar (powder); cacahautl [2] (drinks); 5 cocoa butter (liquid);
+3 cocoa mass, 5 cocoa solid (glob), 7 cacao seeds (seeds).
+
+Still can’t make couverture from cocoa butter.  Maybe I should change
+the new has-MAT for the cocoa butter back into the reaction class.
+ ¹ 	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+ ² 	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[REACTION_CLASS:COUVERTURE]
+
+That did it, the reactin is enabled to make couverture from cocoa
+butter.  Now let’s add in the cocoa solids.  Yay!  Still can make
+couverture from cocoa solid and cocoa butter (I think, can't see the
+reaction details).  So it's purely the sugar that messes me up.
+
+Cleared old cacao sugar pile, set new one to accept 0 barrels.¹
+ ¹ http://www.bay12forums.com/smf/index.php?topic=99970.0
+
+Add sugar back in and see if reaction works.  Yes!  So the problem was
+that hiding cacao sugar bags in barrels makes them invisible to the reaction.
+
+Switched back from mechanisms to stonework.
+
+Kitchen: 7 cacao seeds, 5 cacao pod, cacahautl, 7 cacao sugar, 7 cocoa butter,
+8 cacao nib.  Stocks: 2 cacao pod [2], cacao pod (plants); cacao sugar [2],
+5 cacao sugar (powder); cacahautl (drinks); 7 cocoa butter (liquid);
+cocoa mass, 7 cocoa solid (glob), 7 cacao seeds (seeds).
+
+Can't make chocolate crafts yet.  Actually try to make a cocoa butter
+couverture, see where it's stored, visible in the kitchen, and visible in
+stocks; then craft it.
+
+Stored in globs, listed as just a glob, rather than as a cocoa butter
+couverture.  So change the product material back to what it was.¹
+Craft it?  No, there apparently are no COUVERTURE_CRAFT globs.
+So maybe make another one (once we get the a sugar bag out of a
+barrel) that is a cocoa butter couverture.
+ 1 COUVERTURE glob, COUVERTURE liquid, Cocoa butter-containing item,
+COUVERTURE_MAT-producing powder, and Sugar-containing bag produce
+Cocoa butter couverture.
+
+To get bags back, cook the sugar.
+
+7 migrants.  Mistêm Syrupaxe mines, trains animals, and hunts,
+so built kennel, butcher, and tanner.  Cog Armorclobbered smiths weapons,
+so we need a metal industry.  Astesh Ceilingsavage dissects fish and
+swims.  Mestthos Danceurn keeps bees, so we should build a beehive.
+Dastot Clasplanced cooks and carves crossbows, so we need a bowyer.
+Litast Wallsound gathers plants, trains animals, and is a proficient fighter,
+so will captain the second militia squad, the Bolts of Delighting.
+Lòr Openknives presses.  Mûthkat Inkystops hunts and keeps records.
+
+Start military training since we have some job redundancy.

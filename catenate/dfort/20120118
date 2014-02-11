@@ -1,0 +1,84 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb fortress mode overview reference
+http://df.magmawiki.com/index.php/Dwarf_fortress_mode
+modding guide
+Embark
+Starting build
+Stone management
+Trap design
+Machine component
+Manager#Work orders
+Introduction to Farming
+Meat industry
+Nest box
+Metal industry
+Military
+Healthcare
+Standing orders
+Hide Items or Buildings
+
+They may throw tantrums or go completely berserk, killing and
+destroying things.  This is why you want them to be happy.
+
+Generally speaking, any type of thing you can gather on the surface
+you can gather from a cavern, but each ecosystem has its own types of
+flora (eg trees) and fauna (eg fish).
+
+Hunting is also a good way to have a dwarf train the Marksdwarf skill.
+[Gather hunters/marksdwarves in a 2-active archer squad, with a
+crossbow, quiver, and bolts each, wearing leather armor.  Provide
+archery practice for the squad to practice inside, during siege or
+when no animals available to hunt.]
+
+Some people brew all plants and have dwarves only eat meat.
+Dwarves are perfectly happy with this arrangement.
+
+Use the trade depot as a garbage dump.
+
+You can Hide Items or Buildings so that they don't appear
+on the map.  You can later unhide them.
+
+
+nb master industry pod layout plan
+*	stone piles, doors and floor hatches to mines
+0	tomb
+8	dorm
+=	pile
+Barracks
+Dine, drawbridge levers
+Noble
+Refuse
+Vault
+X	stairs
+^	Hospital, refuse, keep entrance traps
+a	adamantine (4)
+c	clothes and soap (3)
+g	glass and ceramics (2)
+l	leather (0)
+m	metal (4)
+s	stone (1)
+w	wood (0)
+θ	bed
+≈	farm
+♠	Food, water, metal weapons and armor
+
+[+1 soil]
+^X≈	004
+
+[0 stone]
+lcR	030
+gwm	204
+DBs	001
+V8θ	000
+θθθ	000
+
+[-1 stone]
+NNNN	222
+NNNN	222
+ ===	000
+ ♠X*	000
+ 000	000
+NNNN	222
+NNNN	222

@@ -1,0 +1,54 @@
+nb outlet stockpile level center
+1x5	wood	Bars: Other Materials (coal, potash, ash, pearlash, soap), Food: Misc. Liquid (lye; no prepared food)
+1x5	wood	Wood, Blocks: Other Materials (glass, wood)
+1x5	wood	Furniture (wood and glass; barrels, buckets, boxes and bags, bins; no sand bags; no artifact)
+1x5	wood	Furniture (wood and glass; except others and siege ammo; no sand bags; no artifact)
+1x5	stone	Gem/Glass, Blocks: Glass, Finished Goods (large gems; glass; no artifact)
+1x5	stone	Blocks: Stone (limestone, dolomite, chalk, marble, bituminous coal, lignite, gypsum, calcite, alabaster, selenite, satinspar)
+1x5	stone	Furniture (stone; doors, floodgates, tables, coffins, cabinets, mechanisms, hatch covers, grates; no sand bags; no artifact or raw adamantine)
+1x5	stone	Furniture (stone; except others and siege ammo; no sand bags; no artifact or raw adamantine)
+1x5	food		Seeds, no prepared food
+1x5	food		Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine), no prepared food
+1x5	animal	Animals, empty cages, empty animal traps
+1x4	metal	Ammo (except adamantine; no artifact), Finished Goods (quivers; no artifact or [raw] adamantine)
+1x5	metal	Bars: Metal (no adamantine), Blocks: Metal (except adamantine)
+1x5	metal	Weapons/Trap Components (only obsidian stone; no adamantine; useable; no artifact), Furniture (weapon racks; no sand bags; no artifact or [raw] adamantine)
+1x5	metal	Armor (no adamantine; useable; no artifact), Furniture (armor stands; no artifact or [raw] adamantine; no sand bags), Finished Goods (armor; no [raw] adamantine; no artifact)
+1x5	cloth		Leather, Refuse (tanned hides)
+1x5	cloth		Cloth and thread (except adamantine)
+1x5	cloth		Finished Goods (metal except adamantine, and other materials; footwear, headwear, handwear, legwear; no artifact)
+1x5	finished	Finished Goods (chains, flasks, goblets, musical instruments, toys, totems, tools; metal except adamantine, and other materials; no artifact)
+1x5	raw		Unprepared Fish, Egg, Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks)
+1x5	food		only prepared food
+1x4	refuse	Refuse (Skulls, Bones, Shells)
+
+1x9	trade	Finished Goods (figurines, amulets, scepters, crowns, rings, earrings, bracelets; no artifact)
+1x9	food		Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
+1x9	drink	Drinks (plant and animal)
+1x9	military	Siege Ammo (anvils, catapult parts, ballista parts, siege ammo, ballista arrow heads; no sand bags; no artifacts), Finished Goods (backpacks; no artifacts)
+1x8	hospital	Finished Goods (splints, crutches)
+x	vault		Total-quality artifact furniture/siege ammo (no sand bags), ammo, finished goods, weapons/trap components, armor; Stone (raw adamantine), Bars: Metal (adamantine), Blocks: Stone (raw adamantine), Blocks: Metal (adamantine), Cloth (adamantine strands, adamantine cloth), Coins (raw adamantine)
+x	glass	Furniture (sand bags)
+x	airlocked	Corpses, Refuse (except others)
+
+nb safe room store food
+1x	food		Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food; no seeds, plants, or drinks
+1x	food		prepared food; no seeds, plants, or drinks
+4x	food		Drink (Plant), Drink (Animal)	
+well
+table (surgery)
+chair (bookkeeping; not next to table)
+meeting room/dining room with tables and chairs
+
+
+nb reserve barrel bin
+"Reserved Barrels/Bins" is a global setting that reserves a certain
+number of barrels or bins, preventing them from being claimed by a
+stockpile until they are filled by a Workshop that requires their use.
+This feature is most often used to ensure that a fortress has ample
+empty barrels for the production of alcohol, although empty barrels
+are also necessary for other jobs.  You can change this setting in the
+stockpile menu p.  If there are 5 reserved barrels, no stockpile will
+claim an empty barrel until you have at least 6 lying around.  In this
+way you can ensure that jobs like making alcohol always have free
+barrels available.

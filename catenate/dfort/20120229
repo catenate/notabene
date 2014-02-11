@@ -1,0 +1,57 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb master industry plan inside outside farm bedroom kitchen still plot seed plant product quern screw press
+3x3 bedrooms (4 inside)
+3x3 kitchen (1 inside; 2 outside)
+3x3 still (1 inside; 2 outside)
+3x3 farmer's workshop (1 inside; 2 outside)
+
+3x3 farm plot and storage (2 inside, 3 outside)
+=	products
+p	plant
+s	seeds
+≈	plot
+
+≈≈≈
+≈≈≈
+sp=
+
+(1x6 plot, seeds, plant, product) (3)
+(1x5 querns, 1x4 screw presses)
+
+╔═══════════╗
+║X≈≈≈≈≈≈sp=X║
+║=bwzbwwbwl≈║
+║p         ≈║
+║s         ≈║
+║≈≈≈≈≈≈≈≈≈≈≈║
+║≈≈≈≈≈≈≈≈≈≈≈║
+║≈sp=sp=sp=≈║
+║≈bwzbwwbwls║
+║≈         p║
+║≈         =║
+║Xooooo╧╧╧╧X║
+╚═══════════╝
+
+X≈≈≈≈≈≈sp=X
+=bwz   ≈≈≈≈
+p    θ ≈≈≈≈
+s      sp=≈
+≈   bww   ≈
+≈ θ     θ ≈
+≈         ≈
+≈≈≈≈   bwls
+≈≈≈≈ θ    p
+≈sp=      =
+Xooooo╧╧╧╧X
+
+
+nb chocolate mod test cobaltpraries
+Tropical coniferous forest, warm, heavily forested, thick veg,
+wilderness.  Brook, some soil, shallow metal, deep metals.
+Default embark to Letmoslâven Cobaltpraries.
+
+Drill down from pool to first layer of rock (dining room, at least 3rd
+level underground) across to other side of column dividing wall,
+then down 1 to water level.

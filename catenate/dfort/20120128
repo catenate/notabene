@@ -1,0 +1,118 @@
+nb chocolate mod test
+Create new large world Defíni Etha to get latest changes to raw files.
+Tropical coniferous forest, temperate, heavily forested, thick
+vegetation, wilderness.  Stream, clay, deep soil, shallow metal, deep
+metal, flux stone.  Default embark to Egensibrek Giftsalve.  Told
+stoneworker to mine, and jeweler and fish cleaner to press, cook,
+process and gather plants, brew, mill, and grow.
+
+
+nb chocolate mod test
+Create new large world Emeelathu to get latest change (fix sugar
+reagent quantity and item token) to raw files.  Tropical coniferous
+forest, warm, heavily forested, thick vegetation, untamed wilds.
+Brook, clay, deep soil, deep metals.  Default embark to Tathtattulon
+Plungeroads.  Told stoneworker to mine; and jeweler and fish cleaner
+to press, cook, process and gather plants, brew, mill, and grow.
+Designated 2 11x11 rooms off entry area for couverture production.
+Built fishery and carpenter (barrels, chair).  Build stoneworker
+(quern), mechanic (screw press), crafter (rock jugs), still (cacahautl
+and seeds), quern (cocoa mass), screw press (cocoa solids and cocoa
+butter), kitchen (couverture). 
+
+Kitchen: 4 cacao pod (brewable, not cookable).
+
+Ask fish cleaner to be bookkeeper, assigned chair, set medium
+precision.
+
+Kitchen: 5 cacao nib, 4 cacao sugar.  Stocks: 4 cacao sugar (powder),
+5 cocoa mass (glob).
+
+Turn on press.
+
+Kitchen: 5 cacao nib, 3 cocoa butter, 4 cacao sugar.  Stocks: 4 cacao
+sugar (powder), 3 cocoa butter (liquid), 2 cocoa mass (glob), 3 cocoa
+solid (glob).
+
+Should have everything I need for couverture: cocoa solid, cocoa
+butter in a container, cacao sugar.  No fat yet for other types, so
+built a butchery.  Created container stockpile for barrels, buckets,
+boxes and bags, bins, coffins, cabinets, armor stands, and weapon
+racks.
+
+Couverture from cocoa butter
+	+Unrotten +COUVERTURE_MAT-producing +glob: cocoa mass or cocoa solid
+	+Unrotten +COUVERTURE_MAT-producing +liquid: cocoa butter
+	+Cocoa butter-containing item: siltstone jug with cocoa butter
+	+Unrotten +COUVERTURE_MAT-producing +powder: cacao sugar
+
+Kitchen: 5 cacao nib, 5 cocoa butter, 4 cacao sugar.  Stocks: 4 cacao
+sugar (powder), 5 cocoa butter (liquid), 2 cocoa mass (glob), 5 cocoa
+solid (glob).
+
+Permitted mountain and plains entities to make chocolate crafts.
+Double-checked that each could also make couverture from either
+cocoa butter or fat.
+
+
+nb couverture production layout plan
+cocoa liquor (plant extract)
+cacahautl (plant drink)
+still
+[]
+cacao pod (plants)
+
+cocoa butter (plant extract)
+cocoa solid (pressed material)
+cocoa mass (paste)
+[Quern, screw press]
+cocoa seeds (seeds)
+
+crafter
+couverture (fat)
+kitchen
+[]
+cacao sugar (milled plant)
+
+
+nb chocolate mod test
+Create new large world Ötstuxstrasp to get latest change to raw files.
+Tropical moist broadleaf forest, warm, heavily forested, thick
+vegetation, untamed wilds.  Stream, some soil, deep metals.
+Default embark to Ònulalen Mirroredmoth.
+
+Kitchen: 4 cacao pod.  Stocks: 2 cacao pod, cacao pod [2] (plants).
+
+Failed to extract.  Cacao pod in still produced cacahautl in barrel.
+Activated quern to mill cacao pod into cacao sugar in bag, and cacao
+seeds into cocoa mass (need both for couverture).  Make rock jugs at
+crafter for cocoa butter from screw press.
+
+Kitchen: cacao nib, cacao sugar, 5 cacahautl, 2 cacao pod, 2 cacao
+seeds.  Don’t cook cocoa nib (no couverture?), cacao sugar (no
+couverture?), cacahautl; cacao pod and seeds already don't cook, but
+cocoa pod brews (disable brew, default cookable?).  Stocks: cacao pod
+[2] (plants), cacao sugar (powder), cacahautl [5] (drinks), cocoa mass
+(glob), 2 cacao seeds (seeds).
+
+Activated screw press to press cocoa mass into cocoa solid, and cocoa
+butter in a rock salt jug.
+
+Kitchen: cocoa butter, 3 cacao sugar, 3 cacahautl, cacao pod,
+5 cacao seeds.  Stocks: cacao pod (plants); cacao sugar [2],
+cacao sugar (powder); 3 cacahautl (drinks); cocoa butter (liquid);
+cocoa solid (glob); 5 cacao seeds.
+
+Can make chocolate crafts, even though I don't have couverture yet.
+Next regen the COUVERTURE_CRAFT reaction class should limit it to
+just couverture, for when I successfully make some.
+
+Kitchen: 4 cacao nib (no cook), cocoa butter (no cook), 4 cacao sugar
+(no cook), 3 cacahautl (no cook), 4 cacao seeds (no cook).  Stocks:
+cacao sugar [2], 2 cacao sugar (powder); cacahautl [3] (drinks); cocoa
+butter (liquid); cocoa solid, 3 cocoa mass (glob); 4 cacao seeds
+(seeds).
+
+Should have enough for a cocoa butter couverture.  Turn off meals,
+to turn on cook for couverture ingredients (cocoa butter, cacao sugar,
+cocoa solid [pressed cacao nib]).

@@ -1,0 +1,153 @@
+nb make couverture reaction variation cocoa solid fat butter cacao sugar fail
+Making couverture doesn’t work, so strip down the reaction to the
+simplest variation that works, then build it up again to see which
+lines cause problems.
+
+reaction_couverture
+
+[OBJECT:REACTION]
+
+[REACTION:MAKE_COUVERTURE_FROM_FAT]
+	[NAME:Make couverture from fat]
+	[BUILDING:KITCHEN:CUSTOM_F]
+	[REAGENT:cocoa solid:1:GLOB:NONE:NONE:NONE]
+		[UNROTTEN]
+		[PRODUCT_PRESSED]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:fat:1:GLOB:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:FAT]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[REAGENT:sugar:150:POWDER_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:COUVERTURE]
+	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:fat:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+[REACTION:MAKE_COUVERTURE_FROM_COCOA_BUTTER]
+	[NAME:Make couverture from cocoa butter]
+	[BUILDING:KITCHEN:CUSTOM_C]
+	[REAGENT:cocoa solid:1:GLOB:NONE:NONE:NONE]
+		[UNROTTEN]
+		[PRODUCT_PRESSED]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:cocoa butter container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:cocoa butter]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[REAGENT:sugar:150:POWDER_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:COUVERTURE]
+	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:cocoa butter:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+
+nb make couverture reaction variation fat cocoa butter
+reaction_couverture
+
+[OBJECT:REACTION]
+
+[REACTION:MAKE_COUVERTURE_FROM_FAT]
+	[NAME:Make couverture from fat]
+	[BUILDING:KITCHEN:CUSTOM_F]
+	[REAGENT:fat:1:GLOB:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:FAT]
+		[HAS_MATERIAL_REACTION_PRODUCT:COUVERTURE_MAT]
+	[PRODUCT:100:1:BAR:NONE:GET_MATERIAL_FROM_REAGENT:fat:COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+[REACTION:MAKE_COUVERTURE_FROM_COCOA_BUTTER]
+	[NAME:Make couverture from cocoa butter]
+	[BUILDING:KITCHEN:CUSTOM_C]
+	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:cocoa butter container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:cocoa butter]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:BAR:NONE:PLANT_COUVERTURE_MAT]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+
+nb chocolate mod test
+Make new large world Oram Niral to test minimized reactions.  Tropical
+coniferous forest, warm, heavily forested, thick vegetation, calm.
+Stream, some soil.  Default embark to Izegobok Apespillar.  Designate
+entrance, trees, and cacao shrubs.  Set stoneworker to mine.  Set fish
+cleaner to work wax.  Set jeweler and fish cleaner to press, cook,
+gather and process plants, brew, mill, and grow.
+
+No product for cooca butter reaction.
+
+[REACTION:MAKE_COUVERTURE_FROM_COCOA_BUTTER]
+	[NAME:Make couverture from cocoa butter]
+	[BUILDING:KITCHEN:CUSTOM_C]
+	[REAGENT:cocoa butter:150:LIQUID_MISC:NONE:NONE:NONE]
+		[UNROTTEN]
+		[REACTION_CLASS:COUVERTURE]
+	[REAGENT:cocoa butter container:1:NONE:NONE:NONE:NONE]
+		[CONTAINS:cocoa butter]
+		[PRESERVE_REAGENT]
+		[DOES_NOT_DETERMINE_PRODUCT_AMOUNT]
+	[PRODUCT:100:1:BAR:NONE:PLANT_MAT:CACAO_THEOBROMA:COUVERTURE]
+		[PRODUCT_DIMENSION:150]
+	[SKILL:COOK]
+
+
+nb chocolate mod test
+Make new large world Emælathu to test minimized reactions.  TMBF,
+warm, heavily forested, thick, wilderness.  Stream, shallow clay, very
+deep soil, aquifer, shallow metals, flux stone.  Default embark to
+Udiblaz Syrupscale.  Designate entrance, trees, and cacao shrubs.  Set
+stoneworker to mine.  Set fish cleaner to work wax.  Set jeweler and
+fish cleaner to press, cook, gather and process plants, brew, mill,
+and grow.  Mine entrance and couverture-industry rooms, and stairs to
+stone.  Built fishery and carpenter outside.
+
+At crafter, make COUVERTURE_CRAFT glob into craft, when such material
+is available.
+
+Aquifer wins, no stone, no desire to learn how to punch through
+aquifer just for this test.
+
+
+nb chocolate mod test
+Emælathu.  TCF, hot, heavily, thick, wilderness.  Brook, clay, deep
+soil, shallow metal, deep metals.  Default embark to Nollogem
+Tonguepainted.  Stonecrafter mines.  Jeweler works with wax.
+Fish cleaner and jeweler press, cook, gather and process plants,
+and grow.  Fish cleaner keeps records.  Built fishery and carpenter.
+Designated refuse pile and cleared trees, plants, couverture industry
+work area (piles, still, kitchen, crafter, quern, screw press, book
+keeper’s chair), and barracks.  Built mason, mechanic, and jeweler.
+Stopped stoneworker mining.
+
+There’s chalk and limonite here, so I could start a metal industry.
+
+Kitchen makes unrotten FAT glob into COUVERTURE_MAT bars, and unrotten
+COUVERTURE liquid (in a cocoa butter container) into cocoa butter (chocolate?)
+couverture.
+
+Woodworker makes bins.  Piles for cut gems, mechanisms, and masonry
+except mechanisms and siege items.  Mason makes qeurn, 2 floodgates,
+grate, and door to trick out keep.  After, will need beds, stone
+blocks, and mechanisms, to install water, zone dorm, and build
+drawbridges.  Wood buckets for industries, chairs (and stone tables)
+for dining room.
+
+Kitchen: 5 cacahautl (default cook, as other alcohols), 6 cacao pod
+(default brew, can't make cookable), 2 cacao seeds (default don’t cook).
+Changed cacao pod to don’t brew, until couverture established.
+Stocks: cacao pod [4], 2 cacao pod (plants); cacahautl [5] (drinks),
+2 cacao seeds (seeds).
+
+Activated quern and screw press.
