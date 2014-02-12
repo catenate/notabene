@@ -1,3 +1,4 @@
+date=`{host date '+%Y%m%d.%H%M%S'}; touch $date; plumb $date
 /dis/Aide
 /fonts/Aide
 /lib/keyboard
