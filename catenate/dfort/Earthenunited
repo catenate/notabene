@@ -1,0 +1,197 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb generate world nïr minbaz land enchant
+
+frequent mineral occurrence
+
+
+nb find embark site
+
+river, no aquifer, multiple shallow metals, multiple deep metals, flux stone
+
+The steppe of umbras: temparate grassland, sparse trees, moderate
+other vegetation, untamed wilds; stream Tuskbeige; clay, little soil,
+shallow metals, deep metals, flux stone.
+
+
+nb embark site outpost belalmeng bersemor earthenunited
+
+Belalmeng, the famous lash, dwarf civilization.
+Bersemor, earthenunited, dwarf outpost.
+The Quick Tomes
+
+
+nb ral vutokfikuk expedition leader miner appraiser judge intent consoler
+
+Orders: mine, broker.
+
+
+nb stinthäd ëlotsåkzul carpenter wound dresser
+
+Orders: produce furniture.
+
+
+nb tholtig melbildodók mason building designer
+
+Orders: cut stone.
+
+
+nb deduk zastaron hunter marksdwarf ambusher
+
+Orders: hunt.
+
+
+nb melbil melbilnish metal smith weapon armor
+
+Orders: mine, eventually smith.
+
+
+nb sazir mistêmkol farmer cook grower
+
+Orders: farm.
+
+
+nb tun nosinggusil mechanic diagnostician
+
+Orders: create mechanisms.
+
+
+nb livestock
+
+two-humped camel
+yak cow
+turkey gobbler, turkey hen
+
+
+nb 11x11 isolate cell drawbridge plan
+
+Each cell decides which other cells to trust,
+of the cells to which it is connected.
+
+%%%%%%%%%%%%%
+%X         X%%
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           %%%%%
+%o         X%
+%ó% ó ó ó ó%%
+%ó% % % % %
+%%%d%d%d%d%
+%%%b%b%b%b%
+%%% % % % %
+
+
+nb well 9x5 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+Two of these could fit in an 11x11 cell with a walkway
+around.
+
+  +lever next to well
+  |
+  | +cistern
+  | |
+  ↓ ↓
+%%%%%%%%%
+% db  %≈%	stairs to river
+% %   %#%	grate
+% %   db%	second lever from well
+%%%%%%%%%
+ ↑
+ |
+ +bottom of primary or secondary well
+
+
+
+nb well 11x11 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+
+ +bottom of secondary well
+ |
+ |+lever next to well
+ ||
+ || +cistern
+ || |
+ ↓↓ ↓
+%%%%%%%%%%%
+% db    %X%	stairs to river
+% %     %#%	grate
+% %     %b%	
+% %     %d%	second lever from well
+% %     % %	
+% %     % %	
+% %     % %	
+% %     % %	
+% %       %	
+%%%%%%%%%%%
+ ↑
+ |
+ +bottom of primary well
+
+
+nb embark done order
+
+Auto loom dyed thread, use dyed cloth.
+Don't cook dwarven wine, ale, beer, or rum.
+
+
+nb 251 spring done order
+
+
+nb doing once order
+
+
+nb doing occasional order
+
+
+nb doing ongoing order
+
+
+nb todo order
+
+general stockpile (11x11 except Corpses, Refuse, Stone, Gems, and Wood) to unload wagon
+kit out embark shelter
+small cistern for embark shelter
+
+designate pen for animals
+fence in and deslope animal pen
+cell: install blocks as drawbridge
+cell: install mechanisms as lever
+cistern: install blocks as drawbridge
+cistern: install mechanisms as lever
+build stone blocks for drawbridges
+build mechanisms for levers
+build butchery
+build fishery
+hunt animals
+designate trees to cut
+build wood workshop, bedroom, to-storage and from-storage
+build mason's workshop, bedroom, to-storage and from-storage
+build 7 stone tables
+build 7 stone chairs
+build 7 wooden beds
+dig first cell
+dig first cistern
+install well in first cistern
+use bucket and rope for well
+designate a broker/appraiser
+build office for appraiser to take stock
+build a trading post
+designate farm
+plant farm
+build barrels for stockpiles
+build bins for stockpiles
+designate storage for mason's 
+wooddwarf cell: with 4 3x3 bedrooms for woodcutter, carpenter, wood burner, and a second; 5 3x3 areas for wood, carpenter’s workshop, furniture, wood burner, and ash; and 4 1x9 areas for 2 more wood and 2 more furniture. 
+farmer/hunter bedrooms and storage: 
+, hunter, and farmer; and 5 3x3 wood storage, carpenter’s workshop, and furniture storage for woodcutter; 
