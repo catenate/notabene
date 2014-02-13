@@ -31,7 +31,7 @@ nb embark
 nb industry master plan
 nb outlet
 nb stone purpose
-nbnew
+nbnow
 |fmt -w 50
 |sed -f /lib/sed/ligature
 |sort|uniq

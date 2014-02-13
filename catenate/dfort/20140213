@@ -1,0 +1,48 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb trade depot
+
+%%%%%%%%%%%%%
+%X         X%	
+%          ó%%≈%	close/open inner drawbridge
+%          ó%%b%	close/open outer drawbridge
+%O   O      %%d%…%%	chain a dog here
+%           db#‼…‼db
+%  O        db#‼…‼db
+%           db#‼…‼db
+%O   O      %%%%…%%	chain a dog here
+%          ó%	open/close water supply from river
+%          ó%	open/close hatches under floor grates to drain to cavern
+%X         X%	
+%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%	General store from wagons and trade
+%X1========X%	nb outlet stockpile level center
+%21==2==3==3%
+%===========%		4 1x9 
+%===========%	(1 mechanisms)
+%=4==5==6===%	(2 trade/goods)
+%===========%	(3 extraneous miscellany to trade)
+%===========%	(4 other bejeweled furniture) 
+%=7==8==9===%
+%===========%		9 3x3
+%===========%	(1 food/seeds food/plants) (2 drinks) (3 food/raw)
+%X4========X%	(4 leather) (5 cloth/cloth cloth/thread) (6 cloth/goods)
+%%%%%%%%%%%%%	(7 bars/other food/lye) (8 cages anvils) (9 hospital)
+
+%%%%%%%%%%%%%
+%X≡========X%	
+%≡≡==   bwt≡%
+%==== θ    =%
+%====      =%
+%=   ≡==   =%
+%= θ === θ =%
+%=   ===   =%
+%=≡==   bwr=%
+%==== θ    =%
+%====      =%
+%X≡========X%	
+%%%%%%%%%%%%%
