@@ -1,0 +1,93 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb 11x11 isolate cell drawbridge plan
+
+Each cell decides which other cells to trust,
+of the cells to which it is connected.
+
+%%%%%%%%%%%%%
+%X         X%%
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           %%%%%
+%o         X%
+%ó% ó ó ó ó%%
+%ó% % % % %
+%%%d%d%d%d%
+%%%b%b%b%b%
+%%% % % % %
+
+
+nb well 9x5 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+Two of these could fit in an 11x11 cell with a walkway
+around.
+
+  +lever next to well
+  |
+  | +cistern
+  | |
+  ↓ ↓
+%%%%%%%%%
+% db  %≈%	stairs to river
+% %   %#%	grate
+% %   db%	second lever from well
+%%%%%%%%%
+ ↑
+ |
+ +bottom of primary or secondary well
+
+
+
+nb well 11x11 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+
+ +bottom of secondary well
+ |
+ |+lever next to well
+ ||
+ || +cistern
+ || |
+ ↓↓ ↓
+%%%%%%%%%%%
+% db    %X%	stairs to river
+% %     %#%	grate
+% %     %b%	
+% %     %d%	second lever from well
+% %     % %	
+% %     % %	
+% %     % %	
+% %     % %	
+% %       %	
+%%%%%%%%%%%
+ ↑
+ |
+ +bottom of primary well
+
+
+nb miner mason mechanic metalsmith bedroom workshop
+
+%%%%%%%%%%%%%
+%X≡========X%	
+%≡      bwm≡%	mason, workshop
+%=    θ    =%
+%=         =%
+%=         =%
+%= θ     θ =%
+%=         =%
+%=      bwt=%	mechanic, workshop
+%=    θ    =%
+%=         =%
+%X≡========X%	mechanisms
+%%%%%%%%%%%%%
