@@ -17,22 +17,6 @@ nb trade depot
 %X         X%	
 %%%%%%%%%%%%%
 
-
-
-%%%%%%%%%%%%%	General store from wagons and trade
-%X1========X%	nb outlet stockpile level center
-%21==2==3==3%
-%===========%		4 1x9 
-%===========%	(1 mechanisms)
-%=4==5==6===%	(2 trade/goods)
-%===========%	(3 extraneous miscellany to trade)
-%===========%	(4 other bejeweled furniture) 
-%=7==8==9===%
-%===========%		9 3x3
-%===========%	(1 food/seeds food/plants) (2 drinks) (3 food/raw)
-%X4========X%	(4 leather) (5 cloth/cloth cloth/thread) (6 cloth/goods)
-%%%%%%%%%%%%%	(7 bars/other food/lye) (8 cages anvils) (9 hospital)
-
 %%%%%%%%%%%%%
 %X≡========X%	mechanisms
 %≡≡==bwt   ≡%	jeweled mechanisms, mechanisms, non-economic stone
@@ -44,5 +28,19 @@ nb trade depot
 %=≡==bwr   =%	tradecrafts (eg rock mugs)
 %====    θ =%
 %====      =%
-%X≡========X%	other craft materials
+%X≡========X%	other craft materials (eg skulls, bone, shells)
 %%%%%%%%%%%%%
+
+%%%%%%%%%%%%%	General store from wagons and trade
+%X1========X%	nb outlet stockpile level center
+%21==2==3==3%	
+%===========%	Plan and fill this to hold contents of wagon
+%===========%	and items traded from caravans.
+%=4==5==6===%	
+%===========%	
+%===========%	
+%=7==8==9===%	
+%===========%	
+%===========%	
+%X4========X%	
+%%%%%%%%%%%%%	
