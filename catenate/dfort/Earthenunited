@@ -1,7 +1,7 @@
 Font /fonts/10646/9x15/9x15.font
 
 
-nb generate world nïr minbaz land enchant
+nb generate world nïr minbaz land enchant continent play
 
 frequent mineral occurrence
 
@@ -17,44 +17,51 @@ shallow metals, deep metals, flux stone.
 
 nb embark site outpost belalmeng bersemor earthenunited
 
-Belalmeng, the famous lash, dwarf civilization.
-Bersemor, earthenunited, dwarf outpost.
-The Quick Tomes
+Belalmeng, the famous lash, first-embark dwarf civilization.
+The Quick Tomes, first-embark group.
+
+Outpost Bersemor, earthenunited.
+
+Kel Kemsor, the metal of entrances, third-embark dwarf civilization.
+The Folded Banner, third-embark group.
 
 
-nb ral vutokfikuk expedition leader miner appraiser judge intent consoler
+nb first embark dwarf cast
 
-Orders: mine, broker.
+Ral Vutokfikuk: expedition leader, miner, appraiser, judge of intent,
+consoler; broker.
 
+Stinthäd Ëlotsåkzul: carpenter, wound dresser.
 
-nb stinthäd ëlotsåkzul carpenter wound dresser
+Tholtig Melbildodók: mason, building designer.
 
-Orders: produce furniture.
+Deduk Zastaron: hunt, marksdwarf, ambusher.
 
+Melbil Melbilnish: metalsmith, weaponsmith, armorsmith.
 
-nb tholtig melbildodók mason building designer
+Sazir Mistêmkol: farmer, cook, grower.
 
-Orders: cut stone.
-
-
-nb deduk zastaron hunter marksdwarf ambusher
-
-Orders: hunt.
+Tun Nosinggusil: mechanic, diagnostician.
 
 
-nb melbil melbilnish metal smith weapon armor
+nb third embark dwarf cast
 
-Orders: mine, eventually smith.
+Edëm Eliksodel, miner: miner, stone crafter.
 
+Eshtân Thothùshrir, miner: miner, mason.
 
-nb sazir mistêmkol farmer cook grower
+Èrith Sodelîmäz, woodworker: wood cutter, carpenter.
 
-Orders: farm.
+Zasit Gikutkosoth, animal trainer: animal trainer, herbalist, building
+designer, butcher, fisherdwarf, fish cleaner.
 
+Ilral Uristlisid, farmer: grower, cook.
 
-nb tun nosinggusil mechanic diagnostician
+Deler Datanegul, farmer: grower, brewer.
 
-Orders: create mechanisms.
+Shorast Dakasavuz, expedition leader: mechanic, appraiser, record
+keeper, negotiator, judge of intent, consoler.
+
 
 
 nb livestock
@@ -141,8 +148,18 @@ and open drawbridge between cistern and river.
 
 nb embark done order
 
+Reclaim to change dwarves since nobody was working other than miner.
+Reclaim again to actually save embark profile.
+The Folded Banner is the expectation of Mountainhome that they'll pack up too.
 Auto loom dyed thread, use dyed cloth.
 Don't cook dwarven wine, ale, beer, or rum.
+Reserve 3 barrels for drink.
+Designate mine and stairs for embark shelter, and general outlet pile.
+Designate mine and stairs for water tunnel from river, and small cistern.
+Designate chop down trees and gather plants.
+Designate pen and training area for animals.
+Designate a stairs shaft down to first cavern to scope metals.
+Appoint novice recordkeeper to be the broker and medium-precision bookkeeper.
 
 
 nb 251 spring done order
@@ -159,10 +176,15 @@ nb doing ongoing order
 
 nb todo order
 
+Designate a chair as an office for the broker/bookkeeper.
 general stockpile (11x11 except Corpses, Refuse, Stone, Gems, and Wood) to unload wagon
 kit out embark shelter
 small cistern for embark shelter
 
+Seal pasture area with walls and drawbridge, and remove up-ramps.
+Reserve 9 barrels for drink.
+Prepare hatches, drop stairs far down to find a good 4M and mine area in the shallows.
+frame mine for stone
 designate pen for animals
 fence in and deslope animal pen
 cell: install blocks as drawbridge
@@ -195,3 +217,20 @@ designate storage for mason's
 wooddwarf cell: with 4 3x3 bedrooms for woodcutter, carpenter, wood burner, and a second; 5 3x3 areas for wood, carpenter’s workshop, furniture, wood burner, and ash; and 4 1x9 areas for 2 more wood and 2 more furniture. 
 farmer/hunter bedrooms and storage: 
 , hunter, and farmer; and 5 3x3 wood storage, carpenter’s workshop, and furniture storage for woodcutter; 
+
+
+nb diary 253 spring
+
+Shorast: 1 Granite.  The Folded Banner stopped aside two other wagons.
+Whatever happened to both of them left their animals as skeletons, and
+scattered a few of their belongings.  No sign of their bodies, either
+dead for burial, or live to take back in chains for deriliction of duty.
+	They barely started to dig out an all-pile below an embark shelter,
+and stairs down a water tunnel and cistern.  The simple plans seem sound,
+from what we can tell, and there are no unusual fissures or echoes
+from the stone, so we’ll continue to set up the embark shelter.
+	I'll start the books now, to know what we can trade before winter.
+Probably mechanisms, to control the many drawbridges that isolate cells.
+The first layer of the embark shelter will be trade, food, and capentry.
+The second will be a general stockpile, to unload the wagon(s), and
+the third will be for the miner, mason, mechanic, and metalsmith.
