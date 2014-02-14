@@ -233,4 +233,21 @@ from the stone, so we’ll continue to set up the embark shelter.
 Probably mechanisms, to control the many drawbridges that isolate cells.
 The first layer of the embark shelter will be trade, food, and capentry.
 The second will be a general stockpile, to unload the wagon(s), and
-the third will be for the miner, mason, mechanic, and metalsmith.
+the third will be for the four ms.
+
+
+nb miner mason mechanic metalsmith bedroom workshop
+
+%%%%%%%%%%%%%
+%X≡========X%	
+%≡      bwm≡%	mason, workshop
+%=    θ    =%
+%=         =%
+%=         =%
+%= θ     θ =%
+%=         =%
+%=      bwt=%	mechanic, workshop
+%=    θ    =%
+%=         =%
+%X≡========X%	mechanisms
+%%%%%%%%%%%%%
