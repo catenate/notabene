@@ -1,0 +1,92 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb embark shelter underground soil layout food trade store stockpile general stonedwarf mechanic mason miner metalworker
+
+Reserve 3 barrels for drink, disable alcohol in cooking.
+
+Wood to make still; and carpenter's workshop, for bins and barrels
+(rock pot can be stone) for effective piles, and to make beds and
+(tables and chairs can be stone).
+
+shelter, shallow-terminal
+
+
+nb farm food drink carpenter furniture trade depot
+
+%%%%%%%%%%%%%	
+%>obp≈≈≈≈≈≈>%%		Well.  Quarry bush.
+%pbp≈bwzbp≈bó%%%	Furniture.  Plump helmet.  Dimple cup.  Sweet pod.
+%u≈≈≈   ≈≈≈p db		
+%=≈≈≈   ≈≈≈≈%%%%	
+%=bwwctcbwl≈%		
+%=   tTt   ≈%		
+%=   ctc   ≈%		
+%=o╧c O   O≈%		Ash.
+%=bwc      ≈%		
+%=      O  ≈%		
+%>         >%		Quern.  Press.  Bookkeeper office chair.
+%%%%%%O   O%%		
+     %%   ó%%
+     %%ddd%%
+     %%bbb%%
+     %     %
+
+# spring, summer, autumn, winter
+plump helmets, pig tails, pig tails, plump helmets
+dimple cups, cave wheat, cave wheat, dimple cups
+sweet pod, sweet pod, plump helmets, plump helmets
+quarry bush, quarry bush, quarry bush, dimple cups
+
+Animal empty cages and animal traps, Wood furniture (bed, bin, minecart, wheelbarrow; no artifact, no [raw] adamantine)
+
+
+nb outlet stockpile food drink hospital supply defense
+
+%%%%%%%%%%%%%	
+%X_¹=======X%	
+%²1========³%	
+%=2=========%	
+%=3=========%	
+%=4=========%	
+%=5=========%	
+%=6=========%	
+%=7=========%	
+%=8=========%	
+%=9=========%	
+%X⁴========X%	
+%%%%%%%%%%%%%	
+
+ 1 Seeds, no prepared food
+ 2 edible Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine), no prepared food
+ 3 Drinks (plant and animal), no prepared food
+ 4 Unprepared Fish, Egg, inedible Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks)
+ 5 Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
+ 6 only prepared food
+ 7 Animals, empty cages, empty animal traps
+ 8 Bars: Other Materials (coal, potash, ash, pearlash, soap), Food: Misc. Liquid (lye; no prepared food), Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+ 9 Cloth and thread (except adamantine)
+ ¹ Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
+ ² Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
+ ³ Armor (no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
+ ⁴ Leather, Refuse (tanned hides)
+
+
+nb miner mason mechanic bedroom workshop stonedwarf
+
+%%%%%%%%%%%%%
+%X_pe======X%	cut gems
+%pbwjbwmbwtp%	no sand bags
+%g         u%	
+%=         t%
+%=bwrθθθbew=%
+%=   θ8θ   =%	dormitory
+%=   θθθ   =%
+%=bwfpb=bes=%	coal and ash bars
+%=   ===   =%	
+%=   ===   =%
+%Xpb=======X%	metal bars
+%%%%%%%%%%%%%
+
+stone and metal items
+no artifact, no [raw] adamantine

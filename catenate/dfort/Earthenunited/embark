@@ -21,3 +21,81 @@ Outpost Bersemor, earthenunited.
 
 Kel Kemsor, the metal of entrances, third-embark dwarf civilization.
 The Folded Banner, third-embark group.
+
+
+nb first embark wagon
+
+anvil
+bag (10)
+barrels (32)
+battle axe (2)
+bucket
+cloth (3)
+crutch
+gypsum (5)
+pick (2)
+rope
+spear (2)
+splint
+thread (5)
+wood (3) of wagon
+
+
+nb second embark wagon
+
+bag (11)
+barrel (32)
+battle axe (2)
+bucket
+cloth (3)
+crutch
+gypsum (5)
+pick
+rope
+splint
+thread (5)
+wood (3) of wagon
+
+
+nb third embark wagon
+
+anvil
+battle axe
+cloth (3)
+drink barrels (12)
+gypsum (5)
+lye barrel
+meat barrels (7)
+milk barrels (11)
+plant barrel
+rope
+sand bags (5)
+seed bags (6)
+thread (5)
+wood (3) of wagon
+spear (2)
+bucket
+splint
+crutch
+
+
+nb third embark farm pile
+
+1x1	Seeds, no prepared food
+1x9	Drinks (plant and animal)
+1x9	Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine), no prepared food
+Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
+
+
+nb third embark general pile
+
+military: battle axe, pick, anvil, spear
+hospital: thread, bucket, splint, crutch, rope, gypsum, lye
+clothes: cloth
+unprepared food: meat, milk
+seed bags
+
+break down wood of wagons for carpenter
+leave barrels on wagons for food and drink storage
+leave bags on wagons for seed storage
+save rest of seeds for real farm cell

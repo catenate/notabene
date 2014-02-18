@@ -274,20 +274,10 @@
 20140212:4: outside pasture animal trainer zone ranger cage trap restraint plant meat nest box
 20140212:20: next embark
 20140213:4: trade depot
-Earthenunited:4: generate world nïr minbaz land enchant continent play
-Earthenunited:9: find embark site
-Earthenunited:18: embark site outpost belalmeng bersemor earthenunited
-Earthenunited:29: first embark dwarf cast
-Earthenunited:47: third embark dwarf cast
-Earthenunited:67: livestock
-Earthenunited:74: 11x11 isolate cell drawbridge plan
-Earthenunited:98: well 9x5 cistern river drawbridge plan
-Earthenunited:121: well 11x11 cistern river drawbridge plan
-Earthenunited:149: embark done order
-Earthenunited:165: 251 spring done order
-Earthenunited:168: doing once order
-Earthenunited:171: doing occasional order
-Earthenunited:174: doing ongoing order
-Earthenunited:177: todo order
-Earthenunited:222: diary 253 spring
-Earthenunited:239: miner mason mechanic metalsmith bedroom workshop
+Aide:27: bedroom
+Aide:28: bone craft
+Aide:29: couverture layout
+Aide:30: embark
+Aide:31: industry master plan
+Aide:32: outlet
+Aide:33: stone purpose

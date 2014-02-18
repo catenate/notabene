@@ -48,6 +48,7 @@ nb trade depot storage shallow
 2x(3x3 material pile, 3x3 workshop, 3x3 crafts pile)
 2 levers to control drawbridges around corridor traps
 Chain dogs at 5-wide space either near depot or outer wall.
+TRAPS BLOCK TRADE CARAVAN
 
 %%%%%%%%%%%%%
 %X≡==   ≡==X%	
@@ -187,6 +188,20 @@ Wood to make still; and carpenter's workshop, for bins and barrels
 %           %	
 %X         X%	
 %%%%%%%%%%%%%
+
+%%%%%%%%%%%%%	
+%X≡========X%	
+%≡≡========≡%	
+%=≡=========%	
+%=≡=========%	
+%=≡=========%	
+%=≡=========%	
+%=≡=========%	
+%=≡=========%	
+%=≡=========%	
+%=≡=========%	
+%X≡========X%	
+%%%%%%%%%%%%%	
 
 
 nb mine search patterns

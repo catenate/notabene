@@ -27,7 +27,7 @@ nb outlet stockpile level center
 1x9	food		Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
 1x9	drink	Drinks (plant and animal)
 1x9	military	Siege Ammo (anvils, catapult parts, ballista parts, siege ammo, ballista arrow heads; no sand bags; no artifacts), Finished Goods (backpacks; no artifacts)
-1x8	hospital	Finished Goods (splints, crutches)
+1x8	hospital	
 x	vault		Total-quality artifact furniture/siege ammo (no sand bags), ammo, finished goods, weapons/trap components, armor; Stone (raw adamantine), Bars: Metal (adamantine), Blocks: Stone (raw adamantine), Blocks: Metal (adamantine), Cloth (adamantine strands, adamantine cloth), Coins (raw adamantine)
 x	glass	Furniture (sand bags)
 x	airlocked	Corpses, Refuse (except others)

@@ -3,14 +3,16 @@ Font /fonts/10646/9x15/9x15.font
 
 nb trade depot
 
+Traps block trade caravan, so no cage traps around ….
+
 %%%%%%%%%%%%%
 %X         X%	
 %          ó%%≈%	close/open inner drawbridge
 %          ó%%b%	close/open outer drawbridge
 %O   O      %%d%…%%	chain a dog here
-%           db#‼…‼db
-%  O        db#‼…‼db
-%           db#‼…‼db
+%           db# … db
+%  O        db# … db
+%           db# … db
 %O   O      %%%%…%%	chain a dog here
 %          ó%	open/close water supply from river
 %          ó%	open/close hatches under floor grates to drain to cavern
