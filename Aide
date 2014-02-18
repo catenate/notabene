@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'Add calendar.  Note quick reference for GNU screen.  Dwarf fortress: update Aide layout slightly.'
+git commit -a -m 'Dwarf fortress: name the red ghost-disperse, Angngotololum, from words in the language file for 40d.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q
