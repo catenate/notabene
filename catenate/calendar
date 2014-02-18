@@ -1,0 +1,12 @@
+# Edit ,|sort|uniq
+# nb `{host date '+%Y%m%d'}
+# nb `{host date '+%m%d'} | grep `{host date '+%m%d'}^' '
+nb 19501108 davidc dcatena birthday
+nb 19520125 karenlc birthday
+nb 197103 davidc karenlc anniversary
+nb 19711029 jasondc david jcatena birthday
+nb 19740618 julierc birthday
+nb 19740814 melissalp birthday
+nb 19741023 dawnmb birthday
+nb 20031004 juliejrc jasondc anniversary
+nb 20051218 ianmc michæl imcatena birthday
