@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'Dwarf fortress: 28 migrants!'
+git commit -a -m 'Dwarf fortress: Start tradecraft and other cells, and wall to protect deramping pastures.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q
