@@ -1,0 +1,10 @@
+Edit ,|sort|uniq
+Edit B < cat files
+New files
+New strrep.py
+du -n
+host python strrep.py
+jira bld strsub
+log
+ls -F | mc
+nbnow

@@ -20,6 +20,7 @@ grep -n -i REACTION reaction_couverture.txt
 grep -n -i lye reaction* | grep -i product
 grep -n -i potash entity* | grep -i making
 grep div /lib/keyboard
+ls -F | mc
 kanban edtw /df/ chocolate mod
 nb bedroom
 nb bone craft
@@ -38,3 +39,4 @@ web http://www.bay12forums.com/smf/index.php?topic=100192.0 # couverture
 |fmt -w 50
 |sed -f /lib/sed/ligature
 |sort|uniq
+web 'http://www.dwarffortress.fr/wiki/index.php?title=Language_DWARF.txt'
