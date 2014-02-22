@@ -95,7 +95,8 @@ Tracker, metalsmith, record keeper, animal caretaker, animal
 dissector, trapper, milker, grower, beekeeper.
 
 Logem Yellsboat, blacksmith.  Marksdwarf, dodger, ambusher.
-Metalsmith, gem cutter, gem setter, animal caretaker, trapper.
+Metalsmith, gem cutter, gem setter, animal caretaker, trapper,
+wood burner.
 
 Fath Lenstome, jeweler.  Gem cutter, gem setter, fish dissector.
 
@@ -118,23 +119,23 @@ siege operator, miner.
 
 îton Cometpaints, cook.  Wax worker, thresher, cook, spinner.
 
-Cog Warmthtrades, fishery worker.  Fisherdwarf, fish cleaner, fish dissector.
+Cog Warmthtrades, fisherdwarf.  Fisherdwarf, fish cleaner, fish dissector.
 
-Kol Bannerrazors, fishery worker.  Fisherdwarf, fish cleaner, fish dissector.
+Kol Bannerrazors, fisherdwarf.  Fisherdwarf, fish cleaner, fish dissector.
 
 Thob Tonedwhipped, fish dissector.  Fish dissector.
 
 Kivish Pagedtemples, fisherdwarf.  Fisherdwarf.
 
-Bëmbul Spraydaggers, grower.  Miller, thresher, grower.
+Bëmbul Spraydaggers, planter.  Miller, thresher, grower.
 
-Lorbam Howlseals, farmer.  Cook,herbalist, dyer.
+Lorbam Howlseals, herbalist.  Cook, herbalist, dyer.
 
-Onol Sabresingle, farmer.  Brewer, cook, herbalist.
+Onol Sabresingle, herbalist.  Brewer, cook, herbalist.
 
 Rovod Blizzardsmerchant, brewer.  
 
-Likot Agesseals, brewer.  Marksdwarf, ambusher, dodger.  Brewer.
+Likot Agesseals, hunter.  Marksdwarf, ambusher, dodger.  Brewer.
 
 Fath Ledbanner, lye maker.  Lye maker, bowyer, fisherdwarf, fish cleaner,
 fish dissector.
@@ -151,3 +152,36 @@ keeper.
 Sibrek Claspgrips, dwarven child.
 
 Ilral Channelstandards, dwarven child.
+
+
+nb third embark fourth immigrant wave
+
+Eshtân Cryptrubbed, ranger.  Marksdwarf, ambusher, dodger.
+Animal dissector, trapper, cheese maker, herbalist, presser.
+
+Datan Stockadetown, metalsmith.  Metalsmith, weaponsmith, armorsmith,
+brewer.
+
+Vucar Crystalstraps, gem setter.  Axedwarf, dodger, shield, armor,
+wrestler, striker, kicker.  Gem setter, diagnostician, wound dresser,
+mason, engraver.
+
+Kulet Smithpeaked, fish cleaner.  Marksdwarf, siege operator, siege
+engineer, bowyer, dodger, shield, armor.  Fish cleaner, fish dissector,
+glassmaker miner, carpenter, miller, cheese maker, gem setter,
+stone crafter, leatherworker, mechanic, wound dresser, suturer,
+animal trainer, animal caretaker, weaver, milker, fisherdwarf, dyer,
+spinner, glazer, ambusher.
+
+Mosus Guilddriven, fish cleaner.  Fish cleaner, lye maker.
+
+Vabôk Bittenmirrors, cook.  Milker, cook, beekeeper.
+
+Likot Charmedplank, beekeeper.  Beekeeper, miller, thresher, grower.
+
+Aban Merchantblockades, mechanic.  Macedwarf, dodger, shield, armor.
+Mechanic, brewer, cheese maker, milker.
+
+Degël Pulledtrade, bone doctor.  Marksdwarf, dodger, shield, armor.
+Bone doctor, wound dresser, tracker, animal trainer, animal caretaker,
+animal dissector.
