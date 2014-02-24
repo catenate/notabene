@@ -101,3 +101,19 @@ Bars: Other Materials (soap), container for gypsum plaster powder
 Cloth and thread (except adamantine; split by well)
 Food (prepared meals only)
  ² surgeon, suturer, diagnostician, bone doctor, wound dresser
+
+
+nb bedroom chair pile coffer cabinet statue cage animal table
+θ	bed: assigned to a dwarf working in one of the two workshops
+π	chair: 1x1 study assigned to bed owner
+÷	pile preferred drink
+Æ	coffer
+Π	cabinet
+%	pile prepared meals and preferred food
+Ω	preferred statue or animal in cage
+τ	table: 1x1 dining room assigned to bed owner
+=	pile preferred items
+
+πτ%
+÷θ=
+ΠÆΩ
