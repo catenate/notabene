@@ -77,3 +77,27 @@ and open drawbridge between cistern and river.
 
 
 nb network military arsenal
+
+
+nb hospital
+
+╔═══════════╗	smoothed floor and walls
+║X====o====X║	hospital stockpiles¹
+║=+++θRθ+++=║	bedroom (5²)
+║=+θ+θτθ+θ+=║	surgery table (4)
+║=+++θRθ+++=║	
+║=θθθ+++θθθ=║	hospital bed (24)
+║oRτR+θ+RτRo║	traction bed (8)
+║=θθθ+++θθθ=║	
+║=+++θRθ+++=║	
+║=+θ+RτR+θ+=║	
+║=+++θRθ+++=║	
+║X====o====X║	dedicated well (4)
+╚═══════════╝	
+
+ ¹ Furniture (buckets; no artifact, no [raw] adamantine)
+Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+Bars: Other Materials (soap), container for gypsum plaster powder
+Cloth and thread (except adamantine; split by well)
+Food (prepared meals only)
+ ² surgeon, suturer, diagnostician, bone doctor, wound dresser
