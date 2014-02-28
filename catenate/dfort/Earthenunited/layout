@@ -79,28 +79,40 @@ and open drawbridge between cistern and river.
 nb network military arsenal
 
 
-nb hospital
+nb hospital soap industry
+containers for gypsum powder in bedrooms
+dedicated well (4)
+surgeon, suturer, diagnostician, bone doctor, wound dresser
 
-╔═══════════╗	smoothed floor and walls
-║X====o====X║	hospital stockpiles¹
+╔═══════════╗	Food (prepared meals only)
+║X====o====X║	Cloth (cloth and thread; except adamantine)
 ║=+++θRθ+++=║	bedroom (5²)
 ║=+θ+θτθ+θ+=║	surgery table (4)
 ║=+++θRθ+++=║	
 ║=θθθ+++θθθ=║	hospital bed (24)
 ║oRτR+θ+RτRo║	traction bed (8)
 ║=θθθ+++θθθ=║	
+║=+++θRθ+++=║	smoothed floor and walls
+║=+θ+θτθ+θ+=║	
 ║=+++θRθ+++=║	
-║=+θ+RτR+θ+=║	
-║=+++θRθ+++=║	
-║X====o====X║	dedicated well (4)
-╚═══════════╝	
+║X====o====X║	Bars: Other Materials (soap)
+╚═══════════╝	Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
 
- ¹ Furniture (buckets; no artifact, no [raw] adamantine)
-Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
-Bars: Other Materials (soap), container for gypsum plaster powder
-Cloth and thread (except adamantine; split by well)
-Food (prepared meals only)
- ² surgeon, suturer, diagnostician, bone doctor, wound dresser
+
+%%%%%%%%%%%%%	Food: Fat (tallow)
+%Xpu=======X%	Furniture (buckets; no artifact, no [raw] adamantine)
+%ppb=   bwyp%	Bars: Other Materials (ash)
+%f=== θ    f%	Lye maker
+%t===      x%	Ashery
+%=   pb=   =%	Soap maker
+%= θ     θ =%	Food: Misc. Liquid (lye)
+%=         =%	Lye maker
+%=bwS   pbS=%	Soap maker’s workshop
+%=    θ ====%	Soap maker
+%=      ====%	Bars: Other Materials (soap)
+%Xpfs======X%	Bars: Other Materials (soap)
+%%%%%%%%%%%%%	Plant Extracts (rock nut oil)
+
 
 
 nb bedroom chair pile coffer cabinet statue cage animal table
