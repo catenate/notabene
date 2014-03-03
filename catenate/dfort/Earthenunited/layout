@@ -104,9 +104,9 @@ surgeon, suturer, diagnostician, bone doctor, wound dresser
 %ppb=   bwyp%	Bars: Other Materials (ash)
 %f=== θ    f%	Lye maker
 %t===      x%	Ashery
-%=   pb=   =%	Soap maker
-%= θ     θ =%	Food: Misc. Liquid (lye)
-%=         =%	Lye maker
+%=   pfl   =%	Soap maker
+%= θ === θ =%	Food: Misc. Liquid (lye)
+%=   ===   =%	Lye maker
 %=bwS   pbS=%	Soap maker’s workshop
 %=    θ ====%	Soap maker
 %=      ====%	Bars: Other Materials (soap)
@@ -133,7 +133,6 @@ nb bedroom chair pile coffer cabinet statue cage animal table
 
 nb loom spinner clothier
 
-1x9 pile food dye
 3x3 pile food thread
 3x3 bedroom (4)
 3x3 loom
@@ -143,14 +142,67 @@ nb loom spinner clothier
 3x3 crafter embroidery
 1x9 pile goods clothes (3)
 
-X         X
-pbwd   bwk 
-f    θ     
-d          
-=   pc=    
-= θ === θ  
-=   ===    
-=pft   bwo 
-==== θ     
-====       
-X         X
+%%%%%%%%%%%%%	pile food dye
+%Xpgc======X%	pile goods clothes¹
+%pbwd   bwkp%	dyer’s shop
+%f    θ    g%	dyer
+%d         c%	clothier’s shop
+%=   pc=   =%	
+%= θ === θ =%	pile cloth (no adamantine)
+%=   ===   =%	clothier
+%=pct   bwo=%	pile cloth thread (no adamantine)
+%==== θ    =%	
+%====      =%	loom
+%Xpgc======X%	pile goods clothes
+%%%%%%%%%%%%%	pile goods clothes
+
+ ¹ armor, legwear, footwear; of yarn, silk, and plant cloth; no artifact
+Armor (no breastplates, mail shirts, armor; helms, caps; high boots, low boots; gauntlets, gloves; greaves, leggings; no shield; no artifact, no [raw] adamantine, only useable)
+
+
+nb inside underground farm
+
+3x3 bedrooms (4 inside)
+3x3 kitchen (1 inside; 2 outside)
+3x3 still (1 inside; 2 outside)
+farmer's workshop (1 inside; 2 outside)
+
+≈≈≈	plot
+≈≈≈
+sp=	seeds, plant, product
+
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+%X≈≈≈≈≈≈sp=X%	dimple, wheat, wheat, dimple → dye, beer, flour
+%=bwz   ≈≈≈≈%	kitchen
+%p    θ ≈≈≈≈%	grower
+%s      sp=≈%	sweet, sweet, plump, plump → rum, sugar, syrup, wine
+%≈   bww   ≈%	cook
+%≈ θ     θ ≈%	farmer’s workshop
+%≈         ≈%	brewer
+%≈≈≈≈   bwls%	rock nut → quarry, quarry, quarry, dimple → leaves, dye, paste, oil
+%≈≈≈≈ θ    p%	thresher
+%≈sp=      =%	still
+%Xooooo╧╧╧╧X%	quern, press
+%%%%%%%%%%%%%	plump helmets, pig tails, pig tails, plump helmets
+
+
+nb barracks
+
+%%%%%%%%%%%%%	weapons
+%Xpz=======X%	ammo
+%p         p%	
+%p         d%	
+%=         =%	
+%=    θ    =%	
+%=   θθθ   =%	
+%=    θ    =%	
+%=         =%	
+%=         =%	
+%=         =%	
+%Xpud======X%	trap components, siege ammo
+%%%%%%%%%%%%%	armor
+
+ Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
+ Ammo (no artifact, no [raw] adamantine)
+ Trap Components (); Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
+  Armor (breastplates, mail shirts, armor; helms, caps; high boots, low boots; gauntlets, gloves; greaves, leggings; no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)

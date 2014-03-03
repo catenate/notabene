@@ -44,17 +44,17 @@ Animal empty cages and animal traps, Wood furniture (bed, bin, minecart, wheelba
 nb outlet stockpile food drink hospital supply defense
 
 %%%%%%%%%%%%%	
-%X_¹=======X%	
-%²1========³%	
-%=2=========%	
-%=3=========%	
-%=4=========%	
-%=5=========%	
-%=6=========%	
-%=7=========%	
-%=8=========%	
-%=9=========%	
-%X⁴========X%	
+%Xpz=======X%	
+%ppfs======p%	
+%ppfp======d%	
+%=pfd=======%	
+%=pf========%	
+%=pf========%	
+%=pfu=======%	
+%=pa========%	
+%=pb========%	
+%=ph========%	
+%Xpl=======X%	
 %%%%%%%%%%%%%	
 
  1 Seeds, no prepared food
@@ -66,7 +66,7 @@ nb outlet stockpile food drink hospital supply defense
  7 Animals, empty cages, empty animal traps
  8 Bars: Other Materials (coal, potash, ash, pearlash, soap), Food: Misc. Liquid (lye; no prepared food), Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
  9 Cloth and thread (except adamantine)
- ¹ Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
+ ¹ Ammo (no artifact, no [raw] adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
  ² Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
  ³ Armor (no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
  ⁴ Leather, Refuse (tanned hides)

@@ -117,8 +117,8 @@ killed Ber with his pick.  The Mountainhome diplomat left unhappy,
 no trade.  Edëm killed Ïngiz, so that’s sorted.  Ber killed Kulet, and
 Edëm killed Sarvesh, so no need for barracks.  7 drink of 225 food for
 4 dwarves and 23 animals.  More miasma.  The merchants’ hammerdwarf
-and the marksdwarf Ùshrir ftook down vomiting and retching Edëm with
-gut shots.  Got a still working, to drink as we die and rot.
+Inod Doortrenches and the marksdwarf Ùshrir ftook down vomiting and
+retching Edëm with gut shots.  Got a still working, to drink as we die and rot.
 
 Moonstone.  30–40–48 drink of 323–333–328 food, for 4 dwarves and
 23 animals.  The merchants have been watching us fall apart, and are
@@ -228,7 +228,7 @@ kobold thief.  Bolts, spear, mace, and wrestling mutilated the enemy,
 and got back to work and military training.
 	We have enough ore, and few enough trees, that it makes sense
 to delve for magma, to power forges and smelters.  Set up a drawbridge
-before we delve deeper than the cavern we found.
+before we delve deeper than the cavern we found.  TODO
 	Appointed Vucar the chief medical dwarf.  Other than a few
 hungry dwarves, the only medical case is that of Ilral Channelstandards,
 who lost the ability to stand, and requires a crutch.  Ilral was brought
@@ -275,7 +275,7 @@ and 1 female dog free to breed and be adopted.
 industries down in the cavern, passing goods through one of two
 chambers: one at a time open to the workshops, and the other open to
 the vampire.  Cave spider webs, as a source of silk, should keep busy
-the weaver, spinner, and clothier.
+the weaver, spinner, and clothier.  TODO
 	My daughter Iden created an artifact hematite grate,
 "The Odors of Amusement"!  It will also go into artifact storage.
 	Who’s idle and why?  Probably temporary, between jobs:
@@ -343,6 +343,116 @@ gather plants and farm.
 	Hospital smoothed walls and floor, we can start to engrave the
 walls to give the injured something to look at, ponder, and study as
 they recover.
+	660 prepared meals, 607 drink, 90 animals (10 pets), 35 plants,
+17 fish, 5 meat, and 278 seeds for 17 farmers (should build another
+underground farm below outside, almost-walled-off farm), 8 crafts-
+dwarves (should build a craft level below the trade depot), 7 fishery
+workers, 6 children, 5 miners, 5 trained animals, 2 macedwarves,
+axedwarf, speardwarf, woodworker, ranger, metalsmith, jeweler,
+and administrator.  Exported 3200 of about 130k wealth.
+	Ordered querns and beds for the new underground farm.
+Set clothes-makers near cavern, and soap-makers below hospital
+(rebember not many non-hospital levels with access to the well).
+	Killed another goblin thief.
+	Due to confusion the area below the hospital was set up to
+make clothes, just like the chamber near the cavern.  Ordered a new
+area dug above hospital (which is where it could be generally) for
+soap-makers (remember to limit non-hospital levels with access
+to its well).
+
+Metal production report.  Restricted marble for use as flux. 
+Should devote copper to (bismuth if we had it) bronze.
+Ordered smelter to produce steel, pig iron, iron; bonze from ores
+and bars, brass; electrum from ores; silver and lead from galena.
+Forge silver war hammer, mace; {bronze crossbow, bolts, spear,
+battle axe, mail shirt, helm, and pick}; [lead chain, sarcophagus].
+
+Production chains:
+	42 hematite → 30 iron [5 anvils, 2 crossbows, pick, cap, dagger] + flux → 2 pig iron + flux → steel → 38 bolts, anvil
+	(9 cassiterite + 29 tetrahedrite | 23 copper nuggets) | (4 tin + 10 copper) → {bronze} → 21 bolts, 2 crossbows, battle axe, buckler
+	170 galena | 12 silver nuggets | 29 tetrahedrite⁰⁻⁴ → 13 silver → 7 silver war hammers, 7 silver maces
+	170 galena → 40 lead → chain, sarcophagus
+	17 gold nuggets + 170 galena | 12 silver nuggets | 29 tetrahedrite⁰⁻⁴ → electrum
+	(10 sphalerite + 29 tetrahedrite | 23 copper nuggets | {malachite}) | ({zinc} + 10 copper) → brass → trade metal products
+
+Requirements:
+	93 marble → flux
+	42 charcoal → fuel
+
+Reserve chains:
+	10 copper → 168 bolts, 6 battle axes, 6 helms, 5 picks, 4 spears, 3 breastplates, 2 daggers, short sword, crossbow, shield
+	4 gold → noble metal products
+	garnierite → 4 nickel → magma-safe metal products
+	{bismuthinite} + 9 cassiterite + 29 tetrahedrite | 23 copper nuggets → bismuth + 4 tin + 10 copper² → bismuth bronze → 33 bolts, 2 picks, 2 crossbows, battle axe
+
+255 Granite.  Should plan a smoothed and engraved burrow with meeting
+halls of dining room, statue garden and zoo.  Since this will be a
+common location for dwarves to gather, it should have its own water.
+So, it could be below the hospital.  Or, grant chairs and tables to
+bedrooms, but then there would be no parties.  To honor avuzuthar
+[mine-first], mining out from walls of burrows, so fortress not so
+kastar [block-square], instead more sazirkib [bridge-netted].
+	704 prepared meals, 559 drink, 90 animals (10 pets), 37 plants,
+28 fish, no meat, and 269 seeds for 53?  dwarves.  It was just brought
+to my attention that Bim had a baby by lye-maker Fath before he died,
+born just before the latest goblin theif baby snatcher was dispatched.
+Her name is Dastot Blotdoor, devoted to Ad Loafcleared the Soapy House,
+of hospitality.  I hope Bim finds hospitality as a single mother.
+	Finished clearing soapmaker area above hospital, and planned
+it out, built soapmaker’s shop and ashery.  Ordered leather armor and
+helms from tanned hides.  Placed hive.
+	Migrants: Athel Bellmansion, swordsdwarf, will replace the
+chief medical dwarf in Laborious Anguish.  Vucar is now led by Urvad
+Pastlanced, swordsdwarf and in the inactive (only 2) Helmed Duties.
+Zas Crystalpaddles joins the Quick Gates.  He and the other mechanic
+will help secure the sazirkib [bridge-net].  Also wood cutter, wax
+worker, fishery worker, fish dissector, 2 farmers, milker, shearer,
+and a child.  Reassign broker administration to Kûbuk Canyontomes?
+No, no other appraiser.
+	Military: Walled Systems (1M=First Melee) under Likot Tombshoved
+uses spear, sword, and mace; Laborious Anguish (2M) under Likot Ceiling-
+field uses hammer, sword, and mace; and Helmed Duties (3M) under Urvad
+Pastlanced uses sword and axe (so far).  Split marksdwarves into Quick
+Gates (2R=Second Ranged) under Logem Yellsboat (because wrestler), and
+Complex Boards (3R)  under Minkot Galleydoors, each allowed 250 bolts
+to the hunters’ 100.  Marksdwarf squads have equivalent competence.
+Need 2 more quivers: slaughter 2 roosters. TODO
+	Fath is fey in the jeweler’s workshop screaming for plant cloth
+(order loom to weave a cloth from pig tail or rope reed thread),
+silk cloth (cave spider silk cloth), rough gems (has rose quartz), and
+bones (not from roosters; try bull and yak bull).  TODO
+	Digging out a level below the trade depot to create trade items:
+carpenter’s workshop (splints), leatherworks (quivers, water skins,
+backpack), craftsdwarf’s workshop (bracelets, toys, amulets), farmer’s
+workshop (thread), a pile for copper battle axes, and a clothier’s
+shop (handwear, footwear).  Each craft level should have 3 beds,
+3 workshops, 3 input 3x3 piles, and 3 output piles (1x9 for each
+trading civilization).  TODO
+	789 prepared meals, 563 drink, 96 animals (11 pets), 20 plants,
+11 fish, no meat, and 276 seeds for 21 farmers, 10 craftsdwarves,
+9 fishery workers, 8 children, 5 trained animals, 4 miners, 2 wood
+workers, 2 jewelers, 2 engineers, 2 macedwarves, stoneworker, ranger,
+metalsmith, administrator, swordsdwarf, and speardwarf.  Exported 3200
+of about 142k wealth.
+	Need to link and flood hospital cistern.  TODO
+	Laid out boundaries of shelter burrow for emergencies,
+including all its levels and levers.
+	Should dig out a level below the farms entirely for prepared meals. TODO
+	Libash Fencelightnings became a legendary woodcutter!
+
+Slate.  More migrants: animal dissector, armorer, 2 gem setters,
+craftsdwarf, 3 farmers, beekeeper, lye maker, tanner, clerk, child.
+Axedwarf Medtob to Walled Systems (1M), transfers mace to Helmed
+Duties (3M), to balance weapons.  Tin Decisions (4M) under Fikod
+Helmcrazy (because wrestler etc) uses sword, mace (Zuglar), and
+hammer (Zaneg).  Both squads of 3 now set to train two at a time.
+Quick Gates (2R) picked up Kadôl, and Complex Boards (3R) drafted
+Stukos.  Yet more migrants: bowyer, jeweler, butcher, lye maker,
+siege engineer.  Lòr to Quick Gates.  Should plan bowyer’s workshop as
+part of dedicated outdoor-activity burrow near animals.  Include bowyer,
+carpenter, kennel, leatherworker, butcher (outside, or with walled-off
+channel to outside), tanner, farmer’s workshop to process plant and
+spin thread from animals, and appropriate piles and bedrooms.  TODO
 
 
 Diary of "Kulet Smithpeaked", accursed of Onget Gravelboulders.
@@ -374,3 +484,7 @@ the stairs.
 
 Opal.  Exploring the cavern a bit.  Many different gems in the walls.
 I really want a drink.
+
+Obsidian.  My first company: a troll and troglodytes.
+
+255 Granite.  The trogdolytes make bold to attack.
