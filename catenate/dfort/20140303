@@ -25,7 +25,6 @@ a forbidden door.
 Lockdown bridges: in addition to the local-control drawbridges, there
 is another set of bridges to isolate major sections of the network,
 all linked to a forbidden master lever that’s behind a forbidden door.
-It look like the C++ interferes with the Precommit C++ builds by
 
 
 nb admin burrow bookkeeper manager meager office
