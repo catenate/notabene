@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'cut and paste error'
+git commit -a -m 'Dwarf fortress: possibly subdivide noble rooms to handle tantrums.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q

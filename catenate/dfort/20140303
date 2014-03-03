@@ -37,14 +37,14 @@ nb admin burrow guard captain sheriff mayor meager quarter dine office
 
 %%%%%%%%%%%%%
 %X         X%	
-%           %	Mayor (decent)
-%  θ  τ  π  %	
+%           %	
+%  θ  τ  π  %	Mayor (decent)
 % ÆΠ  π Æ√♫ %	
-%           %	Captain of the Guard
-%  θ  τ  π  %	
+%           %	
+%  θ  τ  π  %	Captain of the Guard
 % ÆΠ  π  √♫ %	
-%           %	Sheriff (modest)
-%  θ  τ  π  %	
+%           %	
+%  θ  τ  π  %	Sheriff (modest)
 % ÆΠ  π  √♫ %	
 %X         X%	
 %%%%%%%%%%%%%
@@ -52,19 +52,22 @@ nb admin burrow guard captain sheriff mayor meager quarter dine office
 
 nb noble burrow baron
 
-/%%%%%\%/%%%\
+The small rooms could have walls on .s with forbiddable doors and
+no stairs, to isolate tantrumers.
+
+/%%%%%\%/%%%\	
 %X Π   .   X%	
-%      .  τ %	
-%Æ θ   .  π %	
+%      .  τ %	5x5 dining room
+%Æ θ   .  π %	7x7 bedroom
 %      .\   /	
 %      .....%	
 \     / 	\
 %.....      %	
 /   \.      %	
-% Æ  .   0 ♫%	
-% π  .      %	
+% Æ  .   0 ♫%	7x7 tomb
+% π  .      %	5x5 office
 %X   .   √ X%	
-\%%%/%\%%%%%/
+\%%%/%\%%%%%/	
 
 
 nb noble burrow count smooth floor wall
