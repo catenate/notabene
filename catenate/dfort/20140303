@@ -1,0 +1,119 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb flwright midway garden
+
+%%%%%θ %%%%%%
+%%%%%θ %%%%%%
+%%%%%θ ▼%%%%▼
+%%%%%θ %%%%%%
+%%%%%θ %%%%%%
+
+%  Ω%%%% ↑  %
+%   %%%%bw* %%
+%Ω  %%%▲    ▲%
+%   %%%%p*= %%
+%  Ω%%%% ↓  %
+
+
+nb lockdown bridge lever
+
+Lockdown lever: in addition to the local-control levers, all isolating
+drawbridges are also linked to a forbidden master lever that’s behind
+a forbidden door.
+
+Lockdown bridges: in addition to the local-control drawbridges, there
+is another set of bridges to isolate major sections of the network,
+all linked to a forbidden master lever that’s behind a forbidden door.
+It look like the C++ interferes with the Precommit C++ builds by
+
+
+nb admin burrow bookkeeper manager meager office
+
+The chairs in their bedrooms will suffice for the Bookkeeper
+and Manager.
+
+
+nb admin burrow guard captain sheriff mayor meager quarter dine office
+
+%%%%%%%%%%%%%
+%X         X%	
+%           %	Mayor (decent)
+%  θ  τ  π  %	
+% ÆΠ  π Æ√♫ %	
+%           %	Captain of the Guard
+%  θ  τ  π  %	
+% ÆΠ  π  √♫ %	
+%           %	Sheriff (modest)
+%  θ  τ  π  %	
+% ÆΠ  π  √♫ %	
+%X         X%	
+%%%%%%%%%%%%%
+
+
+nb noble burrow baron
+
+/%%%%%\%/%%%\
+%X Π   .   X%	
+%      .  τ %	
+%Æ θ   .  π %	
+%      .\   /	
+%      .....%	
+\     / 	\
+%.....      %	
+/   \.      %	
+% Æ  .   0 ♫%	
+% π  .      %	
+%X   .   √ X%	
+\%%%/%\%%%%%/
+
+
+nb noble burrow count smooth floor wall
+
+╔═══════════╗	
+║X+Π+++++Π+X║	
+║+++++++++τ+║	
+║Æ+θ++++++πÆ║	
+║+++++++++++║	
+║+++++++++++║	
+║+++++++++++║	
+║+++++++++++║	
+║+++++++++++║	
+║♫Æ++++++0+♫║	
+║+π+++++++++║	
+║X+√+++++√+X║	
+╚═══════════╝	
+
+
+nb noble burrow duke smooth floor engrave wall
+
+◘◘◘◘◘◘◘◘◘◘◘◘◘	
+◘X+Π+++++Π+X◘	
+◘+++++++++τ+◘	
+◘Æ+θ+Æ+++ÆπÆ◘	
+◘+++++++++++◘	
+◘++Π++++++++◘	
+◘+++++++++++◘	
+◘++++++++√++◘	
+◘+++++++++++◘	
+◘♫Æ++++♫+0+♫◘	
+◘+π+++++++++◘	
+◘X+√+++++√+X◘	
+◘◘◘◘◘◘◘◘◘◘◘◘◘	
+
+
+nb noble burrow monarch engrave floor wall
+
+◘◘◘◘◘◘◘◘◘◘◘◘◘	
+◘X•Π•••••Π•X◘	
+◘•Æ•Æ•••••τ•◘	
+◘Π•θ•Π•••ÆπÆ◘	
+◘•Æ•Æ•••••Æ•◘	
+◘••Π••••••••◘	
+◘•••••••••••◘	
+◘••••••••♫••◘	
+◘•Æ•••••√•√•◘	
+◘♫ÆÆ•••♫•0•♫◘	
+◘•π•••••√•√•◘	
+◘X•√•••••♫•X◘	
+◘◘◘◘◘◘◘◘◘◘◘◘◘	

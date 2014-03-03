@@ -15,7 +15,7 @@ apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_01_win_chocolate/raw/obj
 apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_01_win_vanilla/raw/objects/^$1 $1} *
 cd /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/raw/objects/; apply {echo $1; diff /n/C/Users/jcatena/Downloads/df_34_02_win_s_chocolate/raw/objects/^$1 $1} *
 cp /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/raw/objects/plant_couverture.txt /n/C/Users/jcatena/Downloads/df_34_03_win_s_chocolate/data/save/region1/raw/objects/plant_couverture.txt 
-date=`{host date '+%Y%m%d.%H%M%S'}; touch $date; plumb $date
+date=`{host date '+%Y%m%d'}; touch $date; plumb $date
 grep -n -i REACTION reaction_couverture.txt
 grep -n -i lye reaction* | grep -i product
 grep -n -i potash entity* | grep -i making
