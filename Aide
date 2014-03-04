@@ -4,7 +4,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add .
-git commit -a -m 'Dwarf fortress: things get interesting.'
+git commit -a -m 'Dwarf fortress: One staircase is not enough to take the flow from a 1-wide water tunnel.'
 git diff
 git fetch
 git log --decorate --graph --oneline --all | sed 10q
@@ -12,6 +12,7 @@ git log --decorate --oneline | sed 5q
 git push origin master
 git rebase origin/master
 git remote add origin git@github.com:catenate/notabene.git
+git reset --hard HEAD
 log
 log git
 ls -F | mc

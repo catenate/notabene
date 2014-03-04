@@ -61,15 +61,15 @@ and open drawbridge between cistern and river.
  || |
  ↓↓ ↓
 %%%%%%%%%%%
-% db    %X%	stairs to river
+% db    %X%	stairs to river: one is not enough to take 1-wide tunnel flow
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
 % %     %#%	grate
-% %     %b%	
-% %     %d%	second lever from well
-% %     % %	
-% %     % %	
-% %     % %	
-% %     % %	
-% %       %	
+% %     db%	second lever from well, a good flood-distance away
 %%%%%%%%%%%
  ↑
  |
