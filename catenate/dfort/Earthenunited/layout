@@ -206,3 +206,20 @@ nb barracks
  Ammo (no artifact, no [raw] adamantine)
  Trap Components (); Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
   Armor (breastplates, mail shirts, armor; helms, caps; high boots, low boots; gauntlets, gloves; greaves, leggings; no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
+
+
+nb metal stockpile
+
+%%%%%%%%%%%%%	silver
+%Xpb=======X%	silver
+%ppb=======p%	steel
+%bpb=======b%	steel
+%=pb========%	pig iron
+%=pb========%	pig iron
+%=pb========%	iron
+%=pb========%	iron
+%=pb========%	bronze
+%=pb========%	brass
+%=pb========%	electrum
+%Xpb=======X%	lead
+%%%%%%%%%%%%%	silver
