@@ -1,10 +1,10 @@
 Font /fonts/10646/9x15/9x15.font
 
 
-nb 11x11 isolate cell drawbridge plan
+nb 11x11 isolate burrow drawbridge plan
 
-Each cell decides which other cells to trust,
-of the cells to which it is connected.
+Each burrow decides which other burrows to trust,
+of the burrows to which it is connected.
 
 %%%%%%%%%%%%%
 %X         X%%
@@ -29,7 +29,7 @@ nb well 9x5 cistern river drawbridge plan
 
 Water levers close drawbridge between cistern and well,
 and open drawbridge between cistern and river.
-Two of these could fit in an 11x11 cell with a walkway
+Two of these could fit in an 11x11 burrow with a walkway
 around.
 
   +lever next to well

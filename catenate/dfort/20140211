@@ -30,7 +30,7 @@ Locate the hospital below the dining room to take advantage of the
 well holes, cistern, central location, and distance from fighting.
 
 
-nb start cell deep middle shallow outside 
+nb start burrow deep middle shallow outside 
 
 Outside: farm, graze, refuse.
 
@@ -70,8 +70,8 @@ nb military trade depot connection shallow
 Train the military right under the trading depot, since it is a wide
 forced opening in the fort, goods traded away (eg mechanisms) could be
 created deep in the fort, and because goods traded for could be needed
-anywhere in the fort.  Trade depot cell should be connected directly
-to mechanism cell and dining cell, to sell mechanisms and eat food,
+anywhere in the fort.  Trade depot burrow should be connected directly
+to mechanism burrow and dining burrow, to sell mechanisms and eat food,
 but should definitely have drawbridges to protect them from incursion.
 
 

@@ -1,8 +1,3 @@
-cast:1: dwarf cast current role
-cast:4: first embark
-cast:22: third embark
-cast:42: first immigrant
-diary:1: diary 253 spring
 embark:1: generate world nïr minbaz land enchant continent play
 embark:6: find embark site
 embark:15: embark site outpost belalmeng bersemor earthenunited
@@ -11,16 +6,24 @@ embark:44: second embark wagon
 embark:60: third embark wagon
 embark:82: third embark farm pile
 embark:90: third embark general pile
-layout:4: 11x11 isolate cell drawbridge plan
+layout:4: 11x11 isolate burrow drawbridge plan
 layout:28: well 9x5 cistern river drawbridge plan
 layout:51: well 11x11 cistern river drawbridge plan
+layout:79: network military arsenal
+layout:82: hospital soap industry
+layout:118: bedroom chair pile coffer cabinet statue cage animal table
+layout:134: loom spinner clothier
+layout:163: inside underground farm
+layout:189: barracks
+layout:211: metal stockpile
+layout:228: jewel stone mechanism cavern
 order:1: embark done order
-order:17: 251 spring done order
-order:20: doing once order
-order:23: doing occasional order
-order:26: doing ongoing order
-order:29: todo order
+order:19: 251 spring done order
+order:22: doing once order
+order:25: doing occasional order
+order:28: doing ongoing order
+order:31: todo order
 shelter:4: embark shelter underground soil layout food trade store stockpile general stonedwarf mechanic mason miner metalworker
 shelter:15: farm food drink carpenter furniture trade depot
-shelter:36: outlet stockpile food drink hospital supply defense
-shelter:67: miner mason mechanic metalsmith bedroom workshop stonedwarf
+shelter:44: outlet stockpile food drink hospital supply defense
+shelter:75: miner mason mechanic bedroom workshop stonedwarf

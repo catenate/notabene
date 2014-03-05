@@ -47,8 +47,8 @@ Prepare hatches, drop stairs far down to find a good 4M and mine area in the sha
 frame mine for stone
 designate pen for animals
 fence in and deslope animal pen
-cell: install blocks as drawbridge
-cell: install mechanisms as lever
+burrow: install blocks as drawbridge
+burrow: install mechanisms as lever
 cistern: install blocks as drawbridge
 cistern: install mechanisms as lever
 build stone blocks for drawbridges
@@ -62,7 +62,7 @@ build mason's workshop, bedroom, to-storage and from-storage
 build 7 stone tables
 build 7 stone chairs
 build 7 wooden beds
-dig first cell
+dig first burrow
 dig first cistern
 install well in first cistern
 use bucket and rope for well
@@ -74,7 +74,7 @@ plant farm
 build barrels for stockpiles
 build bins for stockpiles
 designate storage for mason's 
-wooddwarf cell: with 4 3x3 bedrooms for woodcutter, carpenter, wood burner, and a second; 5 3x3 areas for wood, carpenter’s workshop, furniture, wood burner, and ash; and 4 1x9 areas for 2 more wood and 2 more furniture. 
+wooddwarf burrow: with 4 3x3 bedrooms for woodcutter, carpenter, wood burner, and a second; 5 3x3 areas for wood, carpenter’s workshop, furniture, wood burner, and ash; and 4 1x9 areas for 2 more wood and 2 more furniture. 
 farmer/hunter bedrooms and storage: 
 , hunter, and farmer; and 5 3x3 wood storage, carpenter’s workshop, and furniture storage for woodcutter; 
 
