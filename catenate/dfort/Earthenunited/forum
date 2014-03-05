@@ -6,14 +6,6 @@ ledgers with only a little characterization.  These are not proper,
 coherent stories, and are not summarized and digested as such,
 but stories do of course emerge from the entries.
 
-These might be of interest to someone who wants to follow along
-more closely (than a story with demands of plot and pacing) as
-someone plans, lays out, and implements a fortress.  I currently
-update several times a week, as I find time to play vanilla DF 0.34.11.
-
-I store the files in this github repository:
-https://github.com/catenate/notabene/tree/master/catenate/dfort/Earthenunited
-
 I currently capture these perspectives: expedition (leader), military
 commander (milcom), bookkeeper (ledger), and others (diary).
 I keep lists of (artifacts), dwarves (cast), what I brought on (embark),
@@ -21,6 +13,25 @@ and interpretations of (engravings).  The key to the fort, which started
 with a (shelter), is its (layout), which is guided by translations of
 (fragments) of an ancient dwarven mountainhome-building guide
 (or possibly a travel brochure).
+
+These might be of interest to someone who wants to follow along more
+closely (than a story with demands of plot and pacing) as someone
+plans, lays out, and maintains a fortress.  The fortress layout might
+also be interesting: I’m trying to create a network of highly compact
+and efficient burrows, each isolated from each other by mines and
+drawbridges, where each burrow controls which others it trusts from
+those to which it connects.  I haven’t really seen this style: people
+tend to build big sprawling floor plans (with a broad central staircase
+used past the first delve) that makes it difficult to contain the loss
+of part of the fort.
+
+I store the files in this github repository, including a recent copy
+of the region directory, if you want to take a look.
+https://github.com/catenate/notabene/tree/master/catenate/dfort/Earthenunited
+I currently update several times a week, as I find time for vanilla DF 0.34.11.
+I do intend to try this style again with the new release, whenever it comes out.
+I expect that I will have to alter the outer walls to handle jumpers and climbers,
+at least.
 
 (order) is obsolete, since I use the diaries instead, and (notes) unused.
 
