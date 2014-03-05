@@ -3,7 +3,7 @@ Font /fonts/10646/9x15/9x15.font
 
 nb level cell burrow template layout
 
-%%%%%%%%%%%%%
+%%%%%%%%%%%%%	
 %X         X%	
 %           %	
 %           %	
@@ -15,7 +15,21 @@ nb level cell burrow template layout
 %           %	
 %           %	
 %X         X%	
-%%%%%%%%%%%%%
+%%%%%%%%%%%%%	
+
+%%%%%%%%%%%%%	
+%X         X%	
+%           %	
+%     θ     %	
+%           %	
+%           %	
+%  θ     θ  %	
+%           %	
+%           %	
+%     θ     %	
+%           %	
+%X         X%	
+%%%%%%%%%%%%%	
 
 ╔═══════════╗	
 ║X+++++++++X║	

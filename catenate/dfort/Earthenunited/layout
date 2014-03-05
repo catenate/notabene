@@ -193,9 +193,9 @@ nb barracks
 %p         p%	
 %p         d%	
 %=         =%	
-%=    θ    =%	
-%=   θθθ   =%	
-%=    θ    =%	
+%=   ÷θ=   =%	
+%=   θθθ   =%	2 drink, 2 prepared meals
+%=   ÷θ=   =%	
 %=         =%	
 %=         =%	
 %=         =%	
@@ -223,3 +223,22 @@ nb metal stockpile
 %=pb========%	electrum
 %Xpb=======X%	lead
 %%%%%%%%%%%%%	silver
+
+
+nb jewel stone mechanism cavern
+
+%%%%%%%%%%%%%	cut gems
+%Xpec======X%	cut gems
+%pbwj   bwjp%	jeweler’s workshop
+%e    θ    u%	jeweler
+%c         m%	jeweler’s workshop
+%=   pum   e%	jeweler
+%= θ === θ =%	encrusted mechanisms
+%=   ===   =%	mechanic
+%=bwt   bwt =%	mechanic’s workshop
+%=    θ    =%	mechanic
+%=         =%	mechanic’s workshop
+%Xpume=====X%	mechanisms
+%%%%%%%%%%%%%	mechanisms
+
+no [raw] adamantine, no artifact mechanisms
