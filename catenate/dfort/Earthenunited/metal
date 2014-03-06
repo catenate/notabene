@@ -1,0 +1,46 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb magma metal bar pile smelter forge
+
+%%%%%%%%%%%%%	metal bars: silver
+%Xpb=======X%	metal bars: silver
+%ppb=======p%	metal bars: iron
+%bpb=======b%	metal bars: iron
+%=pb========%	metal bars: pig iron
+%=pb========%	metal bars: pig iron
+%=pb========%	metal bars: steel
+%=pb========%	metal bars: steel
+%=pb========%	metal bars: copper
+%=pb========% 	metal bars: copper
+%=pb========%	metal bars: copper
+%Xpb=======X%	metal bars: silver
+%%%%%%%%%%%%%	metal bars: silver
+
+%%%%%%%%%%%%%	pile armor
+%Xpf=======X%	pile furniture 
+%pbwf   bwfp%	forge furniture (eg lead coffins)
+%af  fθ w  w%	blacksmith
+%=         =%	forge weapons
+%=   pb=   =%	armorsmith
+%=aθ ===wθ =%	pile metal bars
+%=   ===   =%	weaponsmith
+%=bwf   bwf=%	forge armor
+%=a  gθ g  =%	metal crafter
+%=         =%	forge goods
+%Xpg=======X%	pile goods
+%%%%%%%%%%%%%	pile weapons
+
+%%%%%%%%%%%%%	metal bars: lead
+%Xpb=======X%	metal bars: silver
+%p         p%	furnace operator
+%b θ  θ  θ b%	furnace operator
+%=         =%	furnace operator
+%=besbesbes=%	smelter
+%=         =%	smelter
+%=         =%	smelter
+%=ps=ps=ps==%	metal bars: iron
+%===========% 	metal bars: pig iron
+%===========%	metal bars: steel
+%Xpb=======X%	pile coal bars (coke and charcoal), bituminous coal, lignite
+%%%%%%%%%%%%%	metal bars: copper
