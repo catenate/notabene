@@ -1,0 +1,12 @@
+nb bash regular expression match operator + repeat one more character quote
+
+$ re='^[0-9]+$'
+$ n=12345
+$ if test $n =~ $re; then echo match; fi
+bash: test: =~: binary operator expected
+$ if [[ $n =~ $re ]]; then echo match; fi
+match
+$ n=1234d
+$ if [[ $n =~ $re ]]; then echo match; fi
+$ n=abcde
+$ if [[ $n =~ $re ]]; then echo match; fi
