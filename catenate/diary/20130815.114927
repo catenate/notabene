@@ -1,1 +1,11 @@
 nb easy install python setup tools package
+
+host which easy_install
+host rpm -qf /usr/bin/easy_install
+host rpm -qa | grep setup | grep tools
+python-setuptools
+
+host rpm -qa | grep fpm
+
+host which tsql
+host rpm -qf /usr/bin/tsql
