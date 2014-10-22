@@ -1,0 +1,7 @@
+nb dev null no known host strict host key check
+
+~/.ssh/config:
+Host *
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+LogLevel error

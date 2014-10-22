@@ -1,0 +1,19 @@
+nb successive failure resolve system 2 6 side dice
+
+roll two 6-sided dice to try to do or learn or be something
+
+	-1	Catastrophic failure; system crash and lingering failure; next 3 related rolls fail
+	0	Terminal failure; system crash; next 2 related rolls fail
+	1	Terminal failure; subsystem crash and lingering failure; next related roll fails
+
+	2	Failure crashes subsystem; -3 next related roll
+	3	Failure diminishes understanding or ability; -2 next related roll
+	4–5	Marginal failure with compensating lesson or silver lining; upsetting slight shift towards negative change; -1 next related roll
+	6–8	No real change; no difference in next related roll
+	9–10	Marginal success with compensating realization or drawback; confident slight shift towards positive change; +1 next related roll
+	11	Success; realization enhances understanding or ability; +2 next related roll
+	12	Success; unlocking or revelation of deep patterns; +3 next related roll
+
+	13	Unqualified success; configure subsystem for purpose; next related roll succeeds
+	14	Unqualified success; patch subsystem for purpose; next 2 related rolls succeed
+	15	Revolutionary success; econstruct subsystem for purpose; next 3 related rolls succeed

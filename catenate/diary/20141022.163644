@@ -1,0 +1,10 @@
+nb diff option recurse subdir unify context new file empty
+
+       -r  --recursive
+	      Recursively compare any subdirectories found.
+
+       -u  -U NUM  --unified[=NUM]
+	      Output NUM (default 3) lines of unified context.
+
+       -N  --new-file
+	      Treat absent files as empty.
