@@ -1,0 +1,81 @@
+nb jsmith@grubhub.com jeff@allthingsdork.com
+web http://www.allthingsdork.com/
+
+
+nb jsmith responsible automate
+
+Responsibly automate all the things.
+
+Test variable expansion in scripts to make sure it doesn’t fail badly
+when variables are empty.  Test a part or level in isolation of a
+system by mocking calls to other components with side effects.
+Develop tests along with code so code is written, modularized,
+layered, or structured to be testable.
+
+Employees automate things for the next employees, who do not have the
+same model of the system in their heads.  Need to keep automation
+tools and capabilities "live"ⁱ in people’s minds.
+ ⁱ web https://dl.dropboxusercontent.com/u/502901/naurtf.pdf
+
+Automation improves predictability, speed, repeatability, and
+productivity, as good outcomes, but unwieldy, poor automation
+increases the maintenance burden.
+
+Balance effort, complexity, and frequency.
+	Effort increases with handoffs between teams and systems;
+variability and range of inputs; and difficulty of determining, and
+time to act on, a current state before it changes.
+	Levels of complexity: from knowable to unknowable but
+predictable; from simple (car keys) to complicated (cars) to complex
+(traffic patterns).  The most complex systems have relationships
+between elements, and are nonlinear in their internal dynamics and
+responses to external events.
+	Frequency on the low end can be an issue when changes to the
+network are not detected by, or invalidate assumptions in, a script
+which operates on a network.  One solution is to detect and operate on
+current state of network, assuming that new machines behave according
+to the assumptions made by the script, or the script is told by some
+metadata that it’s safe to operate on a certain new machine.  Practice
+processes to detect environmental change, at least on a mocked small
+scale.
+
+Clearly define processes, inputs and outputs, and stakeholders, to
+identify needed processes, inefficiencies, and oppotunities for
+automation.  Consider as a framework SIPOC: supplier, input, process,
+output, customer.
+
+Document intent (eg man pages), to find problems in what the code is
+supposed to do.  Supplement documentation with links (eg, SEE ALSO,
+hyperlinks) to more information, to keep documents at one level of
+abstraction.
+
+Write tests and man pages to document interfaces and intent, have
+junior people write code to fulfill these.
+
+Sanitize input data, or fail with a helpful error message if the input
+data does not make sense.
+
+Start junior people automating simple stuff that happens often.  To
+get involvement from others, be approachable, value participation over
+perfection, break code into libraries or lower abstraction levels, and
+make sure that their first commits are pleasant experiences.  Treat
+customers of automation scripts as partners in the automation process.
+
+Use kanban sorted by customer points, instead of sprints with estimates.
+
+
+nb developer podcast seradio software engineering
+
+web http://www.se-radio.net/
+
+
+nb waffle.io github issue kanban
+
+Turn a github issues list into a kanban board.  (Does github integrate with Trello?)
+
+web https://waffle.io/
+
+
+nb chicago devops days signup code
+
+devops-chicago

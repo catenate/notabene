@@ -1,4 +1,5 @@
 Edit ,|sort|uniq
+catenate/Aide
 du -n | grep -v '^\.git'
 du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
