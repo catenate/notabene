@@ -1,0 +1,114 @@
+nb seradio devops aphillips blog
+
+web http://www.se-radio.net/2016/01/se-radio-episode-247-andrew-phillips-on-devops/
+
+Patrick Debois’s blog
+web http://www.jedi.be/blog/
+
+Gene Kim’s blog
+web http://itrevolution.com/devops-blog/
+
+John Willis’s blog
+web https://blog.docker.com/author/john-willis/
+
+DevOps Cafe
+web http://devopscafe.org/
+
+Puppet Labs 2015 State of DevOps Report
+web https://puppetlabs.com/2015-devops-report
+
+DevOpsDays conference series
+web http://www.devopsdays.org/
+
+The IT Manager’s Guide to Continuous Delivery
+web https://xebialabs.com/resources/whitepapers/the-it-managers-guide-to-continuous-delivery/
+
+“Embracing Downtime: Why 99.999…% Availability Is Not Always Better”
+web http://blog.xebialabs.com/2010/12/08/embracing-downtime-why-99-999-availability-is-not-always-better/
+
+
+nb seradio devops aphillips notes agile continuous delivery devops lean microservice
+
+DevOps is “agile operations”, which takes code from developers through
+build and test to production.  Lean looks at whole continuous-delivery
+pipeline, for pacing and quality control and reducing waste.  DevOps,
+in contrast, tries to reconcile differences and improve processes
+among developers, operators, and system administrators.
+
+Examples of DevOps tools: Puppet, Chef, Nagios, AppDynamics.
+Tooling and automation is a means to the devops end.
+
+Lean has one of the best toolkits (eg, value stream analysis) for
+improving processes.  Faster time from whiteboard to production,
+lower error rate, lower time to audit answers.  Determine which
+metrics we are trying to optimize, and look at the factors which
+affect that metric from end-to-end.  Reduce waste and see where we
+can most easily (work effort or stakeholder approval) or effectively
+(amount of time reduced, stability of maintenance) improve.
+ ⁱ web 'https://en.wikipedia.org/wiki/Value_stream_mapping#Value_stream_mapping_in_Software_Engineering'
+
+DevOps focuses on how collaboration between departments (dev, ops, it),
+not only an automated, self-service manner, but also from a meeting or
+social aspect, makes a better life for all, to mitigate Conway’s Law⁲
+across departments.  Continuous delivery proscribes an end-to-end
+pipeline which presumes a degree of ability to construct a process and
+system across different departments.
+ ⁲ web https://en.wikipedia.org/wiki/Conway%27s_law
+
+“Our highest priority is to satisfy the customer through early and
+continuous delivery of valuable software.”⁳  Value defined not only by
+immediate needs of customers, but also by what will benefit them most
+in the long run, to get off of local maxima of efficiency towards processes
+which are overall more efficient.  Have the same group build and run a
+system, so they know what can be usefully improved, and know how to
+improve it.  Otherwise, the gaps between developers and operators
+become divides over which we must build bridges.
+ ⁳ Principle #1 from the Agile Manifesto, applied to broader context
+than just development.
+web http://www.agilemanifesto.org/principles.html
+
+The temptation is just to do what other people who are “doing DevOps”
+are doing, whether or not it fits to your organization or purpose, and
+when it goes wrong, blame the process rather than your own ability to
+improve your own organization.  For example, most companies are not so
+large as the big companies that employ people who write process books
+(eg, Code Complete), and have different pressures (eg, SEC audits),
+and different problems, goals and metrics to measure them.
+
+In most software-involved industries, both dev and ops are doing forms
+of software development, so can come together in ways that old widget
+designers and manufacturers and maintainers didn’t.
+
+Siloed organizations, and organizations which reward metrics that
+force them to minimize open coöperation with other teams (eg, 5-nines
+uptime retards risky innovation) have difficulty creating any end-to-
+end process, let alone one that involves tradeoffs across the system.
+
+To test with a realistic data set, for example, you can look at technical
+methods used by other companies, but solve the problems in your
+organization which have prevented this from happening so far, in the
+priority order which works for your org, since (for example) early side-
+effects foster buy-in from stakeholders from whom you will need
+later support.
+
+Suggested toolchain categories for DevOps: environment/cloud
+management, server provisioning, application deployment.
+Monitor health/logs/usage of machines and apps.  An orchestrator
+which coördinates activities from code to production effect.
+
+Complex business processes create complex technical solutions.
+Refactor processes or solutions to take advantage of methods that
+better manage the complexity.
+
+DevOps isn’t a goal, isn’t a single state in time where we have
+accomplished a perfect process.  It is a mindset, a methodology,
+which structures actual positive changes in the org, to solve problems
+of the org.
+
+Constant experimentation and learning over implementing proscribed
+processes.  But devops people do tend to use virtualization and
+automation tools and skills to do development in the operations space.
+“If you are going to talk about something like a DevOps team at all,
+they probably should be something like a roving band of gurus,
+if you like, who go around a company trying to help people understand
+the mindset—more like coaches or trainers.”

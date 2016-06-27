@@ -1,0 +1,91 @@
+nb seradio developer anarchy fgeorge blog
+
+Programmer Anarchy at InfoQ
+http://www.infoq.com/news/2012/02/programmer-anarchy
+
+Blog about Developer Anarchy by Martin Jee
+http://martinjeeblog.com/2012/11/20/what-is-programmer-anarchy-and-does-it-have-a-future/
+
+Video of Fred George’s Talk
+https://www.youtube.com/watch?v=uk-CF7klLdA
+
+Two Years of Programmer Anarchy by Antonio Terreno
+http://the-arm.com/2012/08/20/two-years-of-programmer-anarchy/
+
+
+nb seradio developer anarchy managerless process fgeorge blog
+
+web http://www.se-radio.net/2016/03/se-radio-episode-253-fred-george-on-developer-anarchy/
+
+Managerless process “developer anarchy”, extreme or aggressive or
+accelerated agile, sets developers at business goals via metrics and
+lets them figure out how to solve them and up the metrics.  Foster idea
+generation; no stories means no management, prioritization or
+estimation of stories.  Quickly try out internal solutions and
+services and tools released every 4-5 minutes, with fast feedback from
+users, and rapid deployment of solutions (eg microservices) and low
+deployment costs.  High trust environment with customer, where you
+talk about features, but results will come soon and improvements will
+be pipelined.
+
+Example: Rewrote .NET distributed application into a Ruby module to
+gather the algorithm together and make it presentable, discoverable,
+and live in the minds of the programmers.ⁱ  Then wrote in a Clojure
+microservice to port it to a new technology that could take it further.
+Then refactored the Clojurie to improve it and make it do something it
+didn’t before, but was supposed to.  Managers would not have let the
+developers do this, but the new code was so much better it was able to
+handle an extreme use case that the older system was actually couldn’t.⁲
+ ⁱ web 'https://dl.getdropbox.com/u/502901/naurtf.pdf'
+ ⁲ Chance favors prepared code.
+
+To reduce waste, quickly get rid of experiments (disposed by leader)
+and people (disposed and possibly replaced by concierge) that don’t
+work out, and that won’t add value.
+
+Make sure that self-learning developers are working on the problems
+and metrics that are important to the org, and frequently deliver.
+The team (through the concierge) can have a developer who isn’t
+pulling their weight either improve or stop being on the team.
+
+Management-like roles shared among pair-programming coders on
+the team, who jointly own the code base, and use a kanban wall:
+	mentor as senior programmer in a particular technology;
+	ambassador represents team (good communicator) but doesn’t
+make decisions;
+	concierge acquires resources (including people) for team;
+	leader according to current team focus (eg: architecture,
+development, operations) still writes code.
+
+By competence, pay programmers; pay well experts and widely skilled
+people; pay very well the über-expert across many systems.
+
+Unit and acceptance tests are useful where you can’t safely or
+completely test in production and roll back immediately.  What is the
+arithmetic about how much more you can make with a change, versus loss
+if the change doesn’t work and you lose a little time making money
+while you roll back?  I still feel that bits of code with test frameworks
+around them work better and are more reliable than those without.
+
+Competitive advantage from faster iteration and time to market to try
+out small variations on new ideas concurrently and faster than the
+competition.
+
+Each microservice is isolated from the others, so allows different
+tasks to be written in different languages appropriate to the task.
+Communication between microservices and event logs in language-
+neutral OS technologies: files, pipes, bus.
+
+When services are small, it can take less time to write it again for
+the current purpose, than to find and repurpose and generalize
+algorithms that were previously written.  When you find an error,
+is a good time to consider whether the error is elsewhere as well,
+and to add test cases for that error to tools which may be affected
+by such an error.
+
+A lot of small bits (low cost, easy to maintain, easy to manage, only
+coupling where needed) which work well together.  Combine them to
+optimize where needed, and where it makes an actual difference.
+
+Need to see whether the issues addressed by this method are those
+that the org needs addressed.
