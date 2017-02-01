@@ -29,8 +29,6 @@ if {test -r $nbindexes} {
 	rm -f $tmp1 $tmp2
 }
 
-log nb $*
-
 if {! ~ $opt '-x'} {
 	files=`{ls -F >[2]/dev/null | sed 's,\*$,,' | grep -v '~$' | grep -v '.exe$' | grep -v '/$' | grep -v '^Aide$' | grep -v '^nb.log$' | grep -v nbindex}
 	grep -n '^(#|\.\\")?nb ' $files /dev/null | grep -v '^nbindex' | sed 's,nb ,,;s,\.\\",,' > nbindex

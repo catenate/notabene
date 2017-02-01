@@ -14,7 +14,7 @@ ls -F | grep -v '^20' | mc
 nb
 nb map usa
 nb twitter recent study post text
-cd diary; nbnow=`{nbnow}; touch $nbnow; plumb $nbnow
+cd diary; nbnow=`{host date '+%Y%m%d'}; touch $nbnow; plumb $nbnow
 nbnow
 rm *~
 rm 20130108.131959
