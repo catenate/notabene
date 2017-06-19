@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'Expand and reorient board dump.'
+git commit -a -m 'Match paragraph-continuing ellipses.'
 git config --get remote.origin.url
 git diff
 git fetch
