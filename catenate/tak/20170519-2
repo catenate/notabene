@@ -1,0 +1,103 @@
+6x6 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts.
+
+1.	...	a6
+2.	a1	f1
+3.	b2	e2
+4.	b4	e4
+5.	b5	b3
+6.	c3	c4
+7.	c5	c6
+
+To clean up the road against an inexperienced, capture-prone player:
+
+	8.	c-3	c-4
+	9.	2c3+	 b3
+	10.	3b4-
+
+8.	b6	a2
+9.	b1'	c4-
+10.	a3'	a2+
+11.	b2+'	b2
+12.	b1+'	a+6
+13.	c6+	e3
+
+Black plays at the cross of potential roads on the third rank and the
+e file.
+
+14.	2c-6'	2a+3
+15.	a3	3b-3
+
+Not much point to Black playing 4b3+13: it doesn't form more of a road
+for Black, and could be immediately overrun by 4b6-13.
+
+16.	a2	d3'
+17.	a2+	b-3
+
+White's move was forced, to avoid losing all 4 remaining pieces in his
+rank-3 road to 18. 5a+3:1112!.
+
+18.	b3'	2a+3'
+19.	b4-	2c-3
+
+Black is again forced, to avoid losing 3 flats to 4b+3:112, and chose
+the option (between 4a+3 and 2c-3) which minimizes increase to the
+size of the stack at b3.
+
+20.	c3	3b+3'
+21.	2b2+	4a+3
+22.	Ca3!	5b3-
+
+Black has taken so many prisoners that the introduction of the
+capstone completely changes the nature of this game.
+
+23.	a+3	4c3+
+
+Faced with a difficult choice between which set of prisoners to sacrifice,
+Black moves the group which could contribute more towards eir own road,
+and possibly block a road run along the b file.
+
+24.	3b3-	Cc2
+
+A flat will not do, to block either of white's runs from b2, once White
+moves off eir capstone and 3 black prisoners with 25.  4b2-'.  A black
+capstone is necessary to prevent the white capstone from regaining
+control of them.
+
+25.	b2'	Sb4
+
+Black can't use a flat at b4 because 26. b3+ or 5b2+14 is a win for white.
+Because white must use a capstone alone to flatten a wall, white can't
+flatten the standing stone at b4 without leaving black flats at b3, which
+block white's road along the b file.  For white to work around a black
+flat at b3, would require additional white flats at a2 and a3.
+
+26.	a2	b4-
+
+Black wants to reduce reach of white's capstone, and make using it
+reveal a black-controlled stack.
+
+27.	a3	b4
+28.	a4'	a5
+29.	a6'	b4+
+30.	b4'	2b5+
+31.	a6-'	a6
+32.	2a5+'	a5
+33.	3a6-'	a6
+34.	Sb5	a6-
+35.	b-5	4a6-13
+36.	2a+5'	a6
+
+White only has one piece left, but doesn't really want to play it at
+this point, since eir flat could is down by 3.
+
+37.	3b5-	e5
+38.	4b+4'	Sb5
+
+Black needs to stop the run 39. 2b4+11 to make sure there isn't
+a road before ey places eir last piece.
+	
+39.	e6.
+
+White just manages to make a tie in the flat count.
+
+... but it isn't the last piece, each side had 9 more to play on a 6x6 board.

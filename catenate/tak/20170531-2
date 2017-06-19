@@ -1,0 +1,28 @@
+5x5 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts by playing any piece.
+First player strategy: play flats far for influence, only take when forced, only add walls and capstone when forced.
+Second player strategy: play flats close for roads, only take when forced, only add walls and capstone when forced.
+
+This game starts with 5 bombs (a3, c1, c5, e3, e5) and 1 assassin (c3), to force them into play.
+
+1.	---	a5
+2.	a1	e1
+3.	Cc2	d2
+
+The capstone, and standing stones, are immune to the assassin,
+since it cannot stack on them.  The capstone is immune to the bombs,
+although the capstone and standing stones both set off the bombs.
+The assassin is not immune to the bombs.
+
+Bombs are set off by being dropped during a run or throw.  The bomb
+removes from play itself, and the flat it lands on.  Can't move a bomb,
+can only assume control of it by putting a piece on top of it.
+
+4.	b3	d3
+5.	b4	d4
+6.	b5'	c-3
+7.	b-3'	a+5
+8.	a4	d5"
+
+White has no influence close enough to Black's road to stop it.
+
+Winner: Black, by Tinuë.

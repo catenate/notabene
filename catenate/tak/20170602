@@ -1,0 +1,83 @@
+5x5 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts by playing any piece.
+First player strategy: play flats far for influence, only take when forced, only add walls and capstone when forced.
+Second player strategy: play flats close for roads, only take when forced, only add walls and capstone when forced.
+
+This game starts with 5 available bombs (B) and 1 available assassin (A).
+
+Bombs are activated by being dropped during a move or throw, in which
+case they remove from the game both themselves, and the pieces above
+and below them.  If a bomb is the only piece dropped on a square, then
+only it and the piece below it, if any, is destroyed.  If the bomb and
+another piece(s) is dropped, then the bomb, one piece below if
+present, and one piece above it are destroyed.
+
+1.	---	a5
+2.	a1	e1
+
+If this start shifts the first-player advantage to the second player,
+perhaps allowing the first player's second piece to be a standing
+stone or a capstone more finely balances the start?
+
+3.	Cc3	Cd3
+4.	c4	c5
+
+Black starts placing pieces for a rank-5 road, and blocks the shortest
+path of White's possible file-c road.  White in turn places a flat to
+interrupt Black's plans.  Each player continues to build the road ey
+have in mind.
+
+5.	b5	d5
+6.	c2	e5
+7.	c1'	a+5'
+8.	a5	b4'
+
+Why not 8.  ...  a4'?  Playing b4 allows Black to prevent White from
+extending eir road on file c to b4, which would have more influence
+over Black's attempt to finish the road in the a5 corner.  Playing b4
+also starts to build a black road down the b file.
+
+9.	a4	b3'
+10.	a3'	b-3'
+
+White can't play 11.  a+4' or c-4' to capture the black flat on b4,
+because Black doesn't need this piece if ey throws 2a3+11" to
+complete the road on the fifth rank.
+
+11.	c4+'	d-5
+12.	c4	d5'
+13.	a+5'	b4+'
+
+White threatened to cover two pieces in Black's rank-5 road, and win
+the game, with 14. 3b+5:12".  So even if the game is to continue,
+Black wants to neutralize the threat of this run.  White, in turn,
+is interested in neutralizing the threat of the throw up from a3,
+but can't use a4- to do it now, because a5 is open for a black flat
+and the win, which White can't use a4+ to block because of that
+same throw.  14. c4+' 2b+5', then 15. Sa5, just wastes the flat at c4,
+so it's better for white just to go immediately for the standing stone
+to block.  The standing stone could also liberate the white captives
+at b5, and take over several Black spaces with a run up rank 5.
+
+14.	Sa5	4b5-22'
+
+White can't simply block with 15. a+5 because 15. ... 2c5-"
+connects the 7-piece road from a3 to e5.  15. c4+' is superior
+because it takes control of a reserve in the stack at c5, and
+threatens tak with 16. 2c5-" (again, White this time), even if Black
+places a flat with 15. ... c4' and re-establishes tak.
+
+15.	c4+'	d-5
+16.	Sd5	d3+
+
+There is a shift in the immediate goal by both players: from trying to
+build a road, to trying to control the stack at c5.  White wants to limit
+Black's options to run the stack at c5.  Black wants to flatten White's
+second standing stone, block White from using eir reserves to win,
+and get the black capstone closer to the black road, to help.
+
+17.	c3+	d4+
+18.	c4+'	Sc4
+
+White wants to win with 19. 5c5-221", but Black blocks that with a
+standing stone at c4.  White could flatten Black's standing stone,
+but then Black would move eir capstone onto the stack at c5.

@@ -1,0 +1,2 @@
+date=`{host date '+%Y%m%d'}; touch $date; plumb $date
+grep '^Winner' *

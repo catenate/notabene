@@ -1,0 +1,184 @@
+5x5 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts.
+First player strategy: limit first player's options by controlling the board through captures, walls, and the capstone.
+Second player strategy: play flat, only take when forced, only add walls and capstone when forced.
+
+1.	...	a5
+2.	a1	e1
+3.	Cc3	e2
+
+White plays eir capstone early to establish control and influence in
+the center of the board.
+
+4.	e3	d3
+5.	c+3	d4
+
+White wants to firmly shut down this first road attempt.  Black responds
+by playing towards both eir own e-file and rank-5 potential roads,
+as well as the white rank-3 road.
+
+6.	c3	a3
+
+White expands the rank-3 road, and Black blocks the direct path as
+well as building up a potential road along the a file.
+
+7.	b3	a4
+8.	a2'	a+3
+9.	c-3	c3
+10.	2b+3'	e2+
+11.	2d+3	Cd3
+
+Since White moved eir capstone away from the captives, Black takes
+the opportunity to block the white capstone from getting back to them,
+and divides White's road, and starts eir own.  Black also keeps White's
+capstone on the edge, where it has less influence.
+
+12.	3c3-	d2
+13.	4e3-	d1'
+14.	3e-2'	e1+
+15.	e3	e1
+16.	b2'	d+3
+17.	4d+2'	Sd2
+
+Black hems in the white capstone with the black capstone and a wall,
+which prevents it from running down the second file with its captives.
+If White wants to flatten the wall, it has to give up its captives.
+This is a good reason for a capstone to take a flat of the same color
+immediately beneath it, a lieutenant, deputy, or assistant.
+
+18.	b4'	b5
+19.	c5'	a+4
+20.	c4'	d-4
+
+White could also play c3 for tak, but it's better to prevent Black
+from setting up a tak (20.  c3' c4') as ey blocks White's tak.
+
+21.	c5-	d-2
+
+White wants to be able to run the stack at c4 for tak.  It occurs to
+black that running the stack at c2, up the c file, both shuts down
+White's road, and creates one of eir own; or, if White throws the
+capstone onto the standing stone at c2, frees Black's reserves.
+
+22.	3c+4:12	4c2+112'!
+
+White opts to run the stack at c4 up the fourth rank, to spare it from
+Black's control.  Black runs the stack at c2 as far as possible,
+to block White's nearly-diagonal road, set up tak, and get eir
+standing stone out of the way.
+
+23.	d3	c2'
+24.	b+3'	b3
+
+White could block at b4, c4, c3, or c2.  Eir decision should be
+informed by eir ability to play 5e-2 to furnish the final 2 pieces of
+a road on the second rank.
+
+25.	2c3-'	b3-
+
+White had a compound tak: 5e-2, or d2, or c3.
+
+26.	a+2	2e3+'
+27.	d-4	e-3:12'
+
+Black's plan is to run the capstone back with two captives (3c+4) to
+finish the road.
+
+28.	d+4	3c+4
+29.	a2'	Sd2
+
+White cannot flatten the wall at d2, which is in the way of the road
+on rank 2, and which could free Black's reserves at c2, because the 4
+black reserves exposed at e2 would run up file e and win the game.
+
+30.	3c2+	3d+4'
+31.	Sd4	e-4
+32.	5e2+'	2c5-11
+33.	e3+	4e-3
+34.	3e4-111'	d+2
+35.	e1+'	2c3-
+
+White could have won with 36.  3e-2:12, if black did not respond in a
+way which blocked the run.  Here, if White flattens the standing stone
+at c2, ey must also leave a black stone at d2, which gives Black tak
+and the win.
+
+36.	2e2-'	d+3'
+37.	3b2+12	2c-3:11'
+38.	e2+'	d+3'
+39.	3b4-	2d-3:11'
+
+White has to defend against d4-, 4b+3:112, and 2e-3 so it would not
+completely block Black if White added a white flat on any of c3, d3,
+or e3.
+
+40.	2e1+11	2d4-'
+
+White has no walls handy, so is forced to throw eir capstone to make
+any real difference.  White could have temporarily taken control of
+the stack at b3 by moving b4-, but Black has more influence there, and
+would have retaken the stack with another white captive.  Moving the
+capstone could also allow White to run it back to c3, for better
+influence more centrally located.  Black responds by shutting down
+this option and establishing tak.
+
+41.	4e3-22'	3d+3'
+
+42. 2c4- would establish more influence over the stack on b3, but the
+reply run of the stack 42. ... 3b+3:12 is a win for black.  So white
+could either place a wall at d3, to interrupt the run, and lure the
+black capstone off the white reserves at e3 (which Black can't do,
+since it would give white tak and the game); or, interrupt the other
+side of the road, so one run can't fix it.  White could either create
+a wall Black won't think it's worth it to knock down, or get closer to
+a road on rank 4 and reduce Black's flat count by one.
+
+42.	a2+	3b3-12
+43.	a4'	b5-'
+44.	a+4	b3+'
+45.	a+1	d3'
+
+All of Black's roads revolve around b3, but trying to take it is the
+road to Tinuë, since Black has enough pieces to just absorb White's
+offenses:
+
+	46.	2a+3	2b4-'
+	47.	2c4-	3b+3'
+
+	48. 3b1+12 doesn't work because 5c-3:14 is a win for Black,
+	and white has no other play that matters.
+
+Better for White to separate the road on file b from the road on rank 3,
+so Black has to use road pieces from rank 3 to retake the white stack,
+or use the wall and block eir own road.
+
+46.	2c4-	2c2+
+
+Black moves eir wall to get the two white captives out of the way, and
+expose the two flats underneath, with 47. ... 3c3-, which brings the
+wall back closer to block the white capstone.
+
+47.	d2	3c3-'
+48.	d2+	c+3'
+49.	3b1+12	c4'
+50.	3b3+	b5'
+51.	4b4+'	b1
+52.	a2'	c-4
+53.	d5	2b4+"
+
+In addition to 54.  ...  c4, Black threatens to win by 54. ... 5b+5:113.
+54. 2a3+11 is not effective because it connects Black's road at a4
+instead of a5.  Neither b3+, 2b2+11, nor 2e-4:11 touch rank 5, nor
+keep Black from running the stack up rank 5 from b5.  A single wall
+will not keep Black from winning.
+
+b	bwwbbbb -	w	-
+-	bw	-	-	wb
+wb	w	b	bwb	BBwww
+w	wb	Bww	-	wbbw
+-	b	-	b	WWbb
+
+remaining pieces: black 1, white 4.
+
+Black score: 26.
+
+Winner: Black, by Tinuë.

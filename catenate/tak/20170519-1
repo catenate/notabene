@@ -1,0 +1,79 @@
+5x5 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts.
+
+1.	...	a5
+2.	a1	e1
+3.	c3	e3
+
+White plays for center influence, Black plays to create a road threat.
+
+4.	d2	e2
+
+White didn't block the middle of the road, so Black connects them into
+an edge-crawl road of 3.
+
+5.	e4	d4
+
+Black generally develops the road, and separates the white flat
+blocking the road from White's central flats.
+
+6.	c4	d3'
+
+White starts developing a central road, and Black presents the first tak.
+
+7.	d5	e5'
+
+White has many choices as to how to respond (which is a better
+situation than Black is in, in a two-stone start where White plays first).
+Effective moves, and Black's responses to create another tak, include
+8.  c+4 e5-', 8.  d5- e5-', and 8.  e4- d+3'.  However, White playing
+d+2 does the most to interrupt Black's road-building.
+
+8.	d+2	d2
+
+White could play d1 to block the road, but c2 creates enough influence
+to block the road, and also develops eir own central road.
+
+9.	c2	d1'
+10.	d5-	e5-'
+
+White blocks the d-file road and creates a 3-piece road on rank 4,
+while Black again re-establishes tak.  Better for white to add to eir
+flat count, than to capture.
+
+11.	e5	d5'
+
+Effective moves, and Black's responses to create another tak, include
+12. e5- d5-', 12. c+3 e-3', and 12. 2e-2 e2'.  However, White playing c+2
+does the most to interrupt Black's road-building, at the price of
+shifting a white road of 3 to be two crossing white roads of 2, each.
+If Black wants to re-establish a black road on the d or e files,
+ey must capture a white-controlled stack and retake a prisoner.
+
+12.	c+2 	c2
+13.	b2	c+2'
+
+Black elects to take the harder stack.  White could 2e-2, but c+3 is
+more efficient at breaking up Black's road without creating a
+placement opportunity on the road.
+
+14.	c+3	3d2+12'!
+
+This is the key move of the game: leave an open space to increase flat
+count, capture two white stacks, and create a tak threat.  For White,
+the chance to recapture prisoners, as well as (temporarily) block the
+tak threat, is too useful to pass up.
+
+15.	c+4	2d3+'
+
+Black could have 2e-4', at the loss of one flat count, and eir compound
+tak threat.  Black can't run the stack at d4 more than one space
+without increasing White's flat count and giving up control of a space.
+But, in the end, a move of one space is sufficient.
+
+16.	d2	d1+'
+
+White's move is forced, but ineffective at preventing Tinuë.
+
+17.	e-5	3d4+"
+
+Winner: Black, by Tinuë.

@@ -1,0 +1,552 @@
+8x8 me v me.
+
+1.	2e5	a1	# switch colors for this move only
+
+"You get a stack of two in the middle, I get a piece in a corner and
+first move." Balance the first move against 2 stacked pieces with a
+central position, and the flexibility to run in any direction, capture
+an opposing piece, and still keep the current position, all at the
+cost of an eventual move to perform the run, and the disadvantage of
+possibly having two prisoners captured by a wall or capstone
+(the first flat to threaten the stack isn't much of a problem, since
+a run can just cover it).
+
+2.	c2	e2
+3.	f2	2e5-11
+
+3.  e3 would have been a better move for White, if Black hadn't had a
+stack to run over it.  This is the reason why Black is given 2 flats
+in a stack and a central location: a good run can turn the tables on
+White's first-player advantage.
+
+4.	e1	d2
+5.	d1	d2-
+
+Black would like to use d2 and build the e-file road before there d2
+is captured, or there is too much white influence for eir moves to
+provide advantage.
+
+6.	d2	2d+1
+7.	f1	d1
+
+Black needs some influence at the edge to counter White's massing
+attack, without using too many pieces from the road to repair itself.
+
+8.	f-2	e3-
+
+Black would like to keep White from capturing the stack ey created,
+and using it to overrun eir road.
+
+9.	d2-	e3
+
+Black isn't worried about the attack on e1, because if White moves
+first, then Black keeps the stack: 10.  f-1 2e2- 11.  2d+1 e2-.
+White will have to construct a stack with at least one reserve, or use
+a standing stone or a capstone, to break the road "for good".
+
+10.	Sf2	3e-2:12
+11.	e2	3e-1
+
+With the past two moves Black has been trying to limit White's
+influence on eir pieces, build up a road from d1 to e4, and keep eir 5
+white captives.  At this point, it's not really worth it to White to try to
+reconnect eir road with a battle of flats, and Black has provided a
+good opportunity to White to fork em.
+
+12.	Sc1	5d1+14
+13.	c1+	2d2-
+14.	2c2+	Cd2
+
+This seems to Black like a perfect opportunity to introduce one of eir
+capstones: with a move to d3, to flatten White's standing stone now at
+c3 (which could otherwise liberate three reserves with a run after the
+move 2c+3); to block the run c+2 which sets up a white road and blocks
+the black one; and to connect Black's own road from d1 to e4.
+
+w	-	-	bb	-	w
+-	-	ww	BB	w	W
+-	-	Wb	bwww	b
+-	-	-	-	b	-
+
+15.	2c+3	d2+
+
+White's idea is to lure the black capstone up to d3, and then play eir
+own capstone at d2, to block influence of Black's capstone, and the
+two black flats in a stack at d1, on current squares of eir road.
+
+16.	Cd2	7d3+412
+17.	Sc5	d7
+18.	c+4	2d6-11
+19.	e5	6d4+42
+20.	Sd4	5d+5
+21.	Ce6	6e-5
+22.	d4+	d6-
+
+Many other goals can be accomplished under threat.  Here, White wants
+to interrupt Black's road on the d and e files, and build up one of eir own.
+
+23.	e5	8d-5:62
+24.	Sc6	d4
+25.	c6-	b+5
+26.	c6	f4
+
+White adds pieces to a road around the stack at c5, to try eventually
+to liberate eir 6 captives, to keep Black's capstone engaged, and to
+prevent Black from building much of a road.  Black is starting to
+think about how to use a run or a throw of the stack at c5 to supply
+two pieces of a road on ranks 4 and 5.
+
+27.	f5	g4
+28.	g5	h5
+29.	h6	h4
+30.	b6	a5'
+
+Black makes the first tak threat, 30 moves into the game,
+with 31. 2c-5".
+
+31.	b-5	8c-5:62'
+32.	b6-	3a+5'
+33.	d6-	c4'
+34.	2c2+11	4b+5
+
+White missed a chance, somewhere along the line, to run eir capstone
+up to eir rank-5 road with this stack.  That would probably have given the
+2-black-stack at d1 enough useful mobility to make Black's rank-4 road
+stronger.
+
+35.	Sb6	4c-5
+
+Now that Black has two stacks of white prisoners to defend,
+threatening one with a standing stone forces Black to decide whether
+to re-combine them into one large stack, or to move the stack away
+from White's standing stone.  Moving the stack down the b file would
+just expose it to 36. 2c-4, so Black might as well recombine the big
+stack and sit on it.
+
+36.	c5	Cb4
+
+Black needs a capstone to complete eir road because there is too much
+white influence along the c file, and the other capstone is
+effectively pinned.
+
+37.	2c+4	c4
+38.	d3	a4
+39.	c7	b+4
+40.	c8'	c+4'
+
+White threatened to win with 41. e1".  Black threatens to win with
+41. … 3d-4:12", so placing a white flat at b4, or moving the white
+flats at c3 or c5 onto c4, will not block it.  Placing a white standing
+stone at b4 will also not block it, because Black can just move the
+capstone at b5 down one rank, flattening it and completing the black
+road on rank 4.
+
+[a8]
+-	-	w	-	-	-	-	-
+-	-	w	b	-	-	-	-
+-	W	w	-	WW	-	-	w
+b	BBwwwbwwwww	w	wb	w	w	w	b
+b	-	b	BBwbb	b	b	b	b
+-	-	w	w	b	-	-	-
+-	-	-	WW	w	W	-	-
+w	-	-	bb	-	w	-	-
+
+41.	f5-	3d+4:12'
+
+White would like to lure away the black capstone at d4, to better
+build up the road from e1 to c8.
+
+42.	c5-	c5
+43.	2d-5'	2e-4:11
+44.	e6-	3f-4'
+45.	g5-	h-4
+46.	2e-5:11	3c-4
+47.	c5-'	d-7
+
+White's capstone neutralizes the ability of Black to control c4 with the
+stacks at b4 and d4, and puts a strong block in Black's rank-4 road,
+and threatens tak.  Better for Black to respond in a way which forces
+White to use elements of the road to re-establish tak, but best for
+Black to add another flat to the board (after move 47, the flat count
+is 11-10).  Unfortunately, 47. … e1 leads to 48. f-1".  For White,
+47. … d-7 is a bigger problem than d4-, since White can re-establish
+tak with 48. c2' if eir road at and above c3 is not affected.
+
+48.	c8-	c2
+49.	2c7+'	c2+
+50.	d-3	3b4-
+51.	2c3-'	3b+3:12
+
+White can most directly win with eir road on the c file.  If White
+moves the capstone at c4, then Black can most directly win with a
+straight road from a4 to h4, by h4 and 2d-4:11.  Otherwise, Black's
+last move should be 5b5-14", to connect a4 and c3.
+
+52.	b3	h4'
+53.	b+3'	Sc1
+
+Black threatens 2c1+11, which would swing the flat count from 11-10 to
+9-11, and reduce the number of white squares on the c file from 7 to 5.
+
+54.	d-2'	2d-3
+55.	3c2+'	Sc2	
+
+White moves the entire stack of 3 at c2 up to c3, to carry a white
+flat directly under the capstone, so that ey can move the capstone
+by itself to c1, to flatten the black standing stone.  So black adds
+another standing stone to slow down White.
+
+56.	7c+3:2131!	2d1+11
+
+With one run to control 5 squares, White swings the flat count to
+13-8, before Black's move adjusts it to 12-9.
+
+57.	c+3	3d+3:12
+
+At this point, Black would rather challenge White's stacks up the
+third rank, and try to liberate some captives, than take the easy way
+of building up influence down the third rank.
+
+58.	g-3	3e4-
+
+Black would like to block 59. 3f-3:12', which takes the stack at e3
+for White.  By the same token, White is okay with 59. … 5e-3:23, 
+since 60. 3f-3:12' covers the black flats Black exposed.
+
+59.	d3	6e3+123
+
+Black is trying to build up some influence, and maybe another road
+(on file e, or e8 to g1), …
+
+60.	e-2'	8b+5:44'!
+
+or an opportunity to re-establish tak (61. … 5c-5"), and break up
+the tallest stack, and bring eir capstone back into play, and block
+White's tak.  White takes this opportunity to invite Black to add to
+White's flat count, and try to recover eir 4 captives at c5.
+
+61.	b6-	7c5+115!
+
+White uses eir wall to block tak before Black flattens it with 3e-6:111.
+Black takes an opportunity to swing the flat count from 9-9 to 6-11,
+and move the white captives well out of the way.
+
+62.	6f3+312	2g-4
+
+White wants to rebalance the flat count, and interrupt Black's road,
+and take advantage of Black exposing two white captives, building up
+potential roads on file f and rank 6.
+
+63.	2f6-11	c5
+
+White takes captive a stack of mostly black, and Black places a key
+piece at the intersection of roads c8-e1 and rank-5.
+
+64.	3b5+111	b5'
+
+White runs after eir prisoners, before Black takes the initiative to
+block em.
+
+65.	3f4+	Sf3
+
+[a8]
+-	W	bwwwwwb	-	-	-	-	-
+-	w	bw	-	-	-	-	-
+-	w	bw	-	BBww	-	-	w
+b	b	b	BBwwww	bw	WWbwbw	b	b
+b	-	-	WWbb	b	wbbb	b	b
+-	-	w	w	-	-	-	-
+-	-	B	wb	-	W	-	-
+w	-	B	-	-	w	-	-
+
+Black's idea is to claim to liberate eir reserves at f and threaten
+tak, then be flattened by either 66.  f5- 2f+5", or 66. 2d+4:11
+2e4-11.  If White elects instead to liberate eir reserves at c8, and
+then block Black's win (2f5-" reveals a Black road from a4 to h4),
+then Black can run away with the reserves to h4: 66. b+8 f3+'
+67. Sf3 5f+4:14.
+
+This would be better if black first has a stone at g5.  The line of
+play that starts with g5 doesn't end up much better, though, and gives
+White the run up the 8th rank from c8.
+
+	65.	3f4+	g5
+	66.	b+8	2e-6:11
+	67.	6c+8:11112 Sf3
+	68.	4f5+22	f3+'
+	69.	2d+4:11	2e-4:11
+	70.	6f-4:42
+
+66.	b+8	f3+'
+67.	2d+4:11	2e-6:11
+68.	6c+8:11112!	2c7+
+
+White's move 68 swung the flat count from 10-9 to 15-9.
+
+69.	d-8	3c6+:21
+70.	4f5+22	6c+8:132
+
+White has been trying to build up roads in the past few moves,
+but Black has been in a good position to shut em down.
+
+71.	c6	g5
+72.	g6'	2c7-
+73.	b+6'	Sb6
+
+White could have won with 74. 3c-6:12".  Instead, white takes the
+opportunity to build out a road, and capture part of Black's most-
+developed road.  Winning is often a useful forcing function, as one of
+the tines of a fork, to specify the opponent's move, and take another
+good move instead.
+
+74.	3c6-12!	2e-4:11
+75.	c7'	b+6
+76.	d7'	2c+6
+77.	e7'	a7
+78.	a8'	a+7
+
+78. a8' is stronger than 78. b-7' because although it gives Black
+the freedom to move a7, it adds 1 to White's flat count, and creates
+a fork in the winning road, which pushes up the road the location
+Black needs to cover to block the road.
+
+79.	b8'	b+7
+80.	b7'	2c4+
+81.	b+7'	d8-
+
+Black would have liked to play to both d7, to avoid losing 2 flats to
+82. 4c7-112, and allowing White to double the flats on another road
+(from d1 to c8); and c6, to prevent White winning the game with
+82. 3c-7:12".  Alas, not losing the game takes priority over a road,
+and in eir move 82, White swings the flat count from 14-13 to 16-11.
+
+82.	4c7-112!	5d-5
+
+Black's response is to shut down the road-building by capturing 7
+prisoners (the Chandrian?) under a capstone (an Amyr? Kvothe?).
+At this point in the game there are no roads clearly near completion.
+
+w	w	-	-	bwww	BBww	w	Wb
+-	-	-	bw	w	WWb	-	-
+b	b	BBwwwwwbwwb	-	bw	w	b	b
+b	-	wbb	bb	-	WWbwbbb	b	b
+-	-	w	w	-	-	-	-
+-	-	B	wb	-	W	-	-
+w	-	B	-	-	w	-	-
+
+83.	Sd8	3f-8
+
+White's idea was to liberate the 3 white captives at e8.
+
+84.	2f-7:11	3d6-12
+85.	3d-7:12'	4d4+112
+86.	2b+7:11	g-5'
+87.	3d7-12	b6
+
+Black has been neglecting eir flat count (15-10), as they trade
+some interesting road blocks.  White has a better board position,
+14 unplayed pieces (so can end the game sooner with a flat win),
+and 17 pieces captured by Black.  Black has focused most of eir
+effort on ranks 4 and 5, 22 unplayed pieces, and 12 pieces captured
+by white.
+
+88.	b7	Sd7
+
+White has the influence to recover if Black plays d4, whereas a Black
+flat or standing stone at b7 would present much more of a challenge.
+Black would like to lure away the white capstone from d5, or at least
+pin it and get advantage elsewhere.
+
+89.	a6'	b+6
+90.	b6	d7-
+
+Black sees that White would have liked to play 91. 2d-6' and then
+92. d5+".  Playing 91. d5+' first and then 92. 2d-6" would work
+as well, but White can't just flatten Black's standing stone, because
+91. … g5" wins Black the game.
+
+91.	Sg5	3d+6:12
+92.	2f4+11	3f5-'
+
+White and black both liberate some captives, and prepare to race down
+the ranks with runs: White with 92. 5f-6:212', Black with 92. … 6f-4:1131".
+So White has to block the fourth rank first.
+
+93.	3d5-	6c+5'!
+
+White has to block Black's win (e4", f5", or f4+"), in a way that
+cannot immediately be re-established, before ey can run the white
+capstone down rank 6.  Black would like to run 6f4+1131 after the
+white capstone runs down rank 6, but eir nearness to tak, and
+potential to change the board, drives White to take over the stack
+at f4.
+
+94.	3d+4:12	3c5-
+95.	5f-6:212'	7e8-43
+
+White can't play a flat or standing stone at f6 because White can move
+eir capstone to cover that position.  White can't play 96. 8f-4:314,
+leaving a black flat at f4, because 96. … g5" immediately wins the
+game for Black.
+
+96.	5f-4:14	5c-4:14
+
+Black would be willing to trade the captives from c4 for two places
+with a stack of 2 black pieces, if not that White will have enough
+reserves to recapture each of those stacks.  At least Black can give
+it up in a way that doesn't almost give White a win.
+
+97.	4d-4:112	7e+6:214'
+98.	3c6-	d4'
+99.	7a+4:2113'!	5e-7:213
+
+White wants to use the tak threat as a forced distraction, and
+liberate the captives at e7.  Black would rather block the road with a
+throw that moves the captives to where there are already a lot of
+white flats.  The flat count for the hundredth move is 17-10.
+
+100.	b6+'	d1
+101.	4b7-112	Sc3
+
+At this point, with a flat count of 19-8, and no nearly-complete road,
+Black is just playing defense to spoil roads, and trying to liberate
+some captives for a good run to turn things around.
+
+102.	6b4+42	a+5
+103.	2b6-	Sa5
+104.	4c-5	Sc5
+105.	b4	c5-
+106.	e1	4c4+112
+107.	c4'	5c-7:23
+108.	d-1'	c+1
+
+White planned 109. 7b5+34".
+
+109.	5e-4	Se4
+
+Black wants to block 7d+4:223 to build out a white road on rank 4.
+
+110.	5d4-23	e6
+111.	d-2	3d2+21
+
+White's need to run the standing-stone blockade gives Black an
+opportunity to build up a road from d1 to c8 (once White's road).
+
+112.	c1'	2d-1
+
+Black's move serves two purposes: it blocks White's tak threat, and it
+leaves one flat at d1 to be part of the road ey builds.
+
+113.	c2-	c7
+114.	2c1+'	2d-4'
+
+With two parallel roads, there's little chance of either being
+completed, since each player can attack the other's road,
+at the cost of pieces from eir own.  White conceives of a plan to
+build up the stack at c4, and then run it up and over black's road on
+file c.
+
+115.	b+4	d4-
+
+For white, b+4 is better than opening the road with c3+.  Black wants
+to immediately respond to this threat, since White can right-away run
+over three flats on Black's road.  For Black, d4- is better than 3d3-,
+because ey could play the latter to restore the road if White left it alone.
+
+116.	3c2+12	d-1
+
+White could shift plans, to rebuild the road down from c4, since a lot
+of pieces in only one quarter doesn't seem as useful as a nearly-
+complete road across the board.  Or, since it's too easy to break up a
+road as tenuous as the ones in the game so far, White tries the
+approach of building up a quarter to see if that helps.  Or, ceding
+territory in the game is never a good idea, and the best defense
+against Black winning is for White to at least try to build a road,
+and keep Black too busy to build one of eir own.  Also, going down
+file c lets White liberate two captives at c1.
+
+117.	6c4-123	b4
+
+It doesn't help eir road as much as 117.  … d4, but b4 is more
+proactive and helps more to prevent and shut down White's road.
+
+118.	a4	d4
+119.	a+4'	d-4
+120.	2c3+'	3d-3
+121.	3c4-'	2d-3
+122.	5c1+14'	d-2
+123.	5c3-'	b+3
+124.	c2+	8c+2
+
+Black steps the stack at c2 away from any White influence.
+
+125.	8c+3:1412'!	7d2+34'!
+
+White's tak threat is new: a road from a6 to h3.  Black renews the
+road threat from e6 to d4.
+
+126.	c+4	e-4
+127.	Sc4	g-4
+
+Black's looking for a way to liberate some captives.  White can either
+respond to that losing situation, or liberate some captives of eir own,
+a kind of prisoner exchange.
+
+128.	c+3	5f-4
+
+Black wants to get the stack at f4 in position for a better run down
+file e.  Again, White benefits more from exposing eir own reserves.
+
+129.	4d-3:112'	5d4-113
+
+Black plans 2d+1' to threaten to complete the road from d1 to c8.
+
+130.	c+3'	d2+
+131.	a2'	3d-1:111
+132.	b2'	2c-1
+133.	c1	4e4-112"!
+
+Black can complete a road from e1 to c8 by playing c8".
+Black can also complete a road from h6 to a3 by playing
+5e-3:1112".
+
+---
+
+Play if both parties miss the tak threat by Black:
+
+	134.	c-1'	2a+1
+
+At this point White can place eir last unplayed piece, when the flat
+count after the piece is played (currently 15-18) favors em to win.
+The quickest way White can swing the flat count is to throw the
+capstone at b5 to liberate the 4 captives at b1.  White can't throw
+135. 8b5-1331 4b5+211" to allow black to complete the road from
+b8 to d1.
+
+	135.	7b5-1231
+
+---
+
+Play if both players miss the Black threat 5e-3:1112", which completes
+the road from h6 to a3:
+
+	134.	f-2	d1'
+	135.	2e-2	e2'
+
+---
+
+So, white has to block, at once, both the roads e1 to c8 (c8") and
+h6 to a3 (5e-3:1112"), which ey doesn't have enough influence over
+the middle of the board to do.
+
+Winner: Black, by Tinuë.
+
+[a8]
+w	w	-	W	-	-	w	Wb
+Bww	bww	b	bw	-	-	-	-
+w	w	bw	w	b	bw	bw	BBwwww
+B	WWbbbwbbwbbbwb	b	BBwwwwww	bw	-	W	b
+-	wb	W	b	b	-	-	b
+wb	w	w	bwbw	bwbbb	w	WWb -
+w	w	-	b	b	W	-	-
+Bw	bww	w	-	bw	w	-	-

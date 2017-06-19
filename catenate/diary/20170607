@@ -1,0 +1,2 @@
+nb git log diff most recent commit
+git log -p --follow -1 $path

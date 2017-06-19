@@ -1,0 +1,78 @@
+5x5 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts by playing any piece.
+First player strategy: limit first player's options by controlling the board through captures, walls, and the capstone.
+Second player strategy: play flat, only take when forced, only add walls and capstone when forced.
+
+1.	---	a5
+2.	a1	e1
+3.	Cc3	b2
+4.	c2	d4
+5.	c-2	d2
+6.	b4	c4
+7.	c3+	b3
+8.	b4-	b5
+9.	c5	d5
+10.	c3'	d-5
+11.	b4	d5'
+12.	b4+	d3'
+13.	c+3	d2+
+14.	b4'	a+5
+15.	c2	d2'
+16.	c+2	2d3-'
+17.	2c+4	a5'
+18.	b4+	a+5
+19.	Sb4	4b-5'
+20.	b4+	4a5-22
+21.	2b+5	4d-2:13
+22.	Sb1	4b-2
+
+White is so low on flats that eir focus shifts to liberating eir
+reserves at b2.
+
+23.	a1+	b2-
+24.	Sb2	Ca1
+25.	b-2	a1+
+26.	Sb2	a1'
+27.	b-1	4a2+?
+
+Not the best move by black, since it gives white eir 3 reserves on a2,
+but the intent was to not act pinned by the two walls at a2 and b2,
+and to run the moved reserves up on rank 3.  Black, in general, would
+have had a better time flattening white's walls if ey would have had a
+flat of the same color under the capstone, to remain in control of the
+white captives.
+
+28.	b-2	4a+3:22'
+29.	4a2+112	3b-3'
+30.	a2+	2c-3:11
+
+Black firmly locks down the large soft stack (black capstone, 2 black,
+6 white), so building a roads on rank 4, finishing with the run 2a+4.
+Black is looking to build a road on rank 3, finishing with a throw of
+the capstone 2a+3.  Black would have preferred to have another flat
+within the carry limit of the stack at a3, to avoid having to place a
+flat at c3.
+
+31.	c4	c3
+32.	e4'	Sb4
+
+Black could also have 32. ... c3+, but that would have interrupted eir
+own road-building, and would not have invited White to flatten a
+standing stone and free two captives.  This would have allowed White a
+quick response and renewed tak with 33. 3a+3:12', after which Black
+could then have placed a standing stone, 33. ... Sa4, but that would
+have left white with two flats on a road in file b.
+
+33.	2b+3:11	d2
+
+Black sets up a road from a3 to e(1|2), and works some mischief on
+White's plans for a road along the d file.
+
+34.	d1	e2'
+35.	Sb3	b2'
+36.	d1+	d1
+37.	c1	c2-
+38.	c2	b1'
+
+Black wins on the flats (8-6).
+
+Winner: Black, by flats.

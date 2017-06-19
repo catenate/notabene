@@ -1,0 +1,40 @@
+5x5 me v me. Proposed fixed start: white in one corner, black in adjacent corners, white starts.
+
+1.	...	a5
+2.	a1	e1
+3.	c3	e2
+
+White plays for center influence, black plays to create a road threat.  e3?
+
+4.	e3	d3
+5.	d4	e4
+6.	b3	e5'
+7.	d4-'	e4-'
+8.	e4	d4'
+9.	e4-'	a3
+
+Black e2+ better than d4- because white 2e-3 renews threat.
+a3 increases black's flat count, as well as blocking the road.
+
+10.	b2'	e2+
+11.	2d+3	Sd3
+12.	5e3-23	Sd1
+13.	Sd2	d+1
+14.	d+2	5e-1:1112
+15.	Cd2	a2
+16.	d2+	a4
+17.	b-3'	Sb3
+18.	c2'	b-3
+19.	b-2'	3a1+
+20.	c4	a1'
+21.	e2-	Cb3
+
+21. ... 2a+3' is tempting, but leads to 22.	Sb2, which symies the run from a2.
+Much better to block white's capstone throw from d3.
+
+22.	b5	b-3'
+23.	b-5	a3-'
+
+Black could throw to complete a road: 5a+2:2111.
+
+24.	2d3-	

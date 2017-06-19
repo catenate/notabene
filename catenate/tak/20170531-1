@@ -1,0 +1,87 @@
+6x6 me v me. Proposed fixed start: White in one corner, Black in adjacent corners, White starts by playing any piece.
+First player strategy: play flats far for influence, only take when forced, only add walls and capstone when forced.
+Second player strategy: play flats close for roads, only take when forced, only add walls and capstone when forced.
+
+1.	---	a6
+2.	a1	f1
+3.	d4	d6
+4.	c5	c6
+5.	b6	b5
+6.	d5	e6
+7.	e5	f6'
+8.	c5+	c5
+9.	c4	b5+'
+10.	c4+	b+6'
+11.	d5+	c+6'
+12.	b6	b5'
+13.	b-6	b6'
+14.	a5	b-5'
+15.	a+6	a6
+16.	b5	a+6'
+17.	b5+	c-6
+18.	c6	5b6-122
+19.	c+6	e-6
+20.	b2	c2
+21.	c3	c-2'
+22.	b1	c1'
+23.	b1+	2b3-
+24.	a2	3b2+'
+25.	a+2	3b3-
+26.	a2	4b2-
+27.	a+1	c-1
+28.	a+2	2b1+'
+
+29. b3 won't work, since 3b2+ covers it and Black wins with a road on
+the b file.  29. 2c-5 2a+5' isn't very effective, since Black re-establishes tak,
+and White loses an active flat and a captive.  Not only does playing a
+standing stone actually block Black from Tak for a while, it could
+also be used to get back the 3 White captives at b2, or another 3
+white captives at b1.  Black has an interest, however, in not allowing
+such a piece swing.
+
+29.	Sb3	Cc2
+30.	b3-	c-3
+31.	Sb3	Sc2
+
+White is setting up an inconvenient situation for Black's capstone:
+Black could easily use the capstone to flatten White's standing stone
+at b3, but then White would run the stack with 5b+2:212, creating a
+road of 4 pieces.  To block this, Black puts a standing stone in its way.
+
+32.	a1	b2+
+33.	5b2-	Sc1
+34.	Cd1	2c3-11'
+
+Black could win with 5b1+32.
+
+35.	Sb3	2d-6'
+
+36. 2c5+ 4d-6' is not productive for Black, for the same reasons
+stated earlier.  Again a new standing stone tries to recapture some
+captives.
+
+36.	Se6	5d6-14
+37.	Sc4	2c6-
+38.	c+4	f5
+39.	4d4-13	f-5'
+40.	e6-	3c5+
+41.	3e-5:12	d6'
+42.	3c5+	e6
+43.	2d+2'	c+2
+44.	d1+	c+1
+45.	c2	5b+1
+46.	d2-	2d2+11
+47.	d3+	5c1+32'
+
+White can't control the captives at b1 with 48. 2d-1:11, because that would
+give Black tak and the game.  White completely misses the tak threat,
+too focused on building eir own road on the d file.
+
+48.	d2'	3c3+111"!
+
+If Black hadn't won, with a throw that flattened the white standing
+stone at c6, ey could not have played eir last move, because 49. 3d4+12
+would have won White the game.  White took too long to play 5c+6:14 to
+take over the center of Black's road on rank 6.
+
+Winner: Black, by Tinuë.

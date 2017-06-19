@@ -1,0 +1,34 @@
+8x8 me v me.  Proposed fixed start: White in one corner, Black in
+adjacent corners, White starts by playing any piece.  First and second
+player strategy: build roads, divide opponent roads, only take when
+forced, only add walls and capstone when forced.
+
+
+Problems with start: white has tempo/start/extra piece, and an easy
+win condition that forces black to respond.
+
+Separate who has the easy win condition from who has the start/extra piece.
+
+With the proposed start, black has both the start and and two easy win conditions.
+
+Player with the extra piece is the player who plays first.
+
+Player with the easy win condition is the one with a corner-crawl win
+from eir first pieces.
+
+So
+
+
+1.	---	a8
+2.	a1	h1	# fixed
+
+At this point 
+
+3.	Ce5	
+
+Let's see whether having one of White's two capstones in play at the
+beginning of the game, and having White play just like Black, helps
+White win (which ey never seems to do).  Here we're trying to balance
+the leading move (Black's), against better pieces in play (White's),
+and closer positioning (White's).  Also, let's have Black wait to play
+a capstone until ey needs one.
