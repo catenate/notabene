@@ -63,10 +63,15 @@ c3 (which could otherwise liberate three reserves with a run after the
 move 2c+3); to block the run c+2 which sets up a white road and blocks
 the black one; and to connect Black's own road from d1 to e4.
 
-w	-	-	bb	-	w
--	-	ww	BB	w	W
--	-	Wb	bwww	b
--	-	-	-	b	-
+[a8]
+-	-	-	-	-	-	-	-
+-	-	-	-	-	-	-	-
+-	-	-	-	-	-	-	-
+-	-	-	-	-	-	-	-
+-	-	-	-	b	-	-	-
+-	-	Wb	bwww	b	-	-
+-	-	ww	BB	w	W	-	-
+w	-	-	bb	-	w	-	-
 
 15.	2c+3	d2+
 
