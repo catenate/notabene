@@ -1,3 +1,163 @@
 8x8 me v me.
 
-1.	2e5	a1	# switch colors for this move only
+1.	2f6	c3	# switch colors for this move only
+2.	f3	e3
+3.	d3	g3
+4.	g4	f4
+
+White focuses on building a road on rank 3 (possibly ranks 3 and 4).
+Black focuses on interrupting White's road enough to support a file-f road.
+
+5.	e4	f2
+6.	b3	f7	
+
+White could play 6. d4, but since it's two moves to set the road from
+e3 to g3 (e4- and g4-), and also two moves to set the road from d4 to
+g4 (d4 and f3+), and Black could capture f4 with 2f6-11, a better idea
+would be to extend either side of the road towards the edges, and wait
+to decide which path is needed.  Since White is not yet sure whether
+to use d4–h4 or e3–h3, better to build out the road down the third rank,
+and b3 has more influence than a3.
+
+7.	a3	f1
+8.	d4	f8
+9.	h4'	g-3'
+
+White could have won with 10. f3+", to complete the road a3–h4.
+Black can win with 10. f6-", to complete the road f1–f8.
+
+10.	g-4'	2f6-11'
+11.	f6	3f4+12'
+12.	Sf4	2f-5:11
+
+White was forced to play either a standing stone or a capstone at f4.
+A standing stone seems a wiser choice: a capstone lacks mobility at
+this stage of the game, since the stacks it could run or throw from
+are small.
+
+13.	g4	e6
+14.	f4-'	e5-
+15.	f4	e2'
+
+White exerts a gentle pressure by filling in empty places of the road,
+and repeatedly setting up road-opening threats like 16. f-4'.  Even better,
+and more elegant, is that White and Black have been trading off tak threats.
+
+16.	f-4'	Sf4
+
+Black can't place a flat on f4, or throw (3f6-12) to f4 to block, since
+White has two ways to cover a flat white stone and complete the road
+(3f3+12 and 2e+4).  Black loses plays to cover White's flat stones on
+rank 4 (16. … d5- 17. 2e-4' e3+ 18. 3d+4'), since white still has tak,
+and the black flats are in white stacks.  So Black's situation demands
+either a standing stone or a capstone.  The capstone would allow black
+a dominant position, and shut down White's ability to complete this road,
+but only a standing stone is necessary to block and prevent white from
+easily re-establishing tak.
+
+17.	3e4+12	d6
+
+Whichever way Black could take e5 or e6, White could retake the stack
+from the other, with no further influence from Black.  Likewise with
+White taking f6, but White does have an influence advantage to take d5,
+and correspondingly Black is at a disadvantage in influence to take d4.
+So Black could either play d6 or e7, to build up influence to liberate
+the two captives at e6; or e4, to fill out the road from f1 to f8.
+Building influence wins, because success creates the ability to finish
+the road with something like 2e6-12" (assuming no challenge from white
+to force f6 into the fray).  Specifically, d6 seems a better choice since,
+while e7 is directly in the way of White's building a d1–e8 road,
+d6 encourages White to try to build a road immediately next to Black's,
+which makes it easier to break up (both for White and for Black).
+
+18.	e7	e4
+
+E4 is a more important position for Black to establish than f5, since
+it's more challenged, and invites White into a losing exchange like
+19. e5- e3+ 20. d+4 d-6, where Black takes two white captives,
+breaks up the bend in White's road, and sets up a run (5e4+122)
+over White's road on file e.
+
+19.	f5	g5
+20.	f4+	d7
+
+Here capturing is a good move for White because Black can't yet
+capture back, and it moves a white flat into position on h5–a3.
+Black builds road alternatives, and threatens a white flat that
+supports e6.
+
+21.	c5	d+7
+22.	3e+6	e8
+
+Black would like to set emself up to liberate the three prisoners at
+the end of a run from f6.  If White runs 5f-6:14, then Black is
+already set up.  If 6f-6:114, then adding a flat (ie, b6 or c7) to
+take c6 won't help, because White can just retake the stack.
+If 5f6+14, to cover two black flats and complete half a road up the
+f file, then placing a flat at e8 would allow Black to liberate the
+prisoners in the stack, and cover the four white flats on file f with
+e+8 and then 4f8-112.  White could also run up rank 6 with 5f+6:14,
+but other than Black playing f4+, the road to the edge is unchallenged.
+
+23.	5f-6:14	d5+
+24.	e-6	Sd5
+
+In addition to trying to liberate eir prisoners, Black's standing
+stone interrupts White's road a3–h5.
+
+25.	7d-6:52	d-5
+26.	d5'	f4+
+27.	5c6+	Sb7
+28.	5c7+	b8
+29.	f4	b+8
+30.	g4'	2f-5
+31.	f-4'	3e5-
+
+Black can't just place a flat at f4 because 32. 3f3+12" covers it and
+completes the road.  Now is a good time for White to consider placing
+a capstone, to flatten the standing stone holding 3 captives.
+
+32.	Cf4	4e4+
+33.	f-4'	2c5-11
+
+Black can't both keep the 3 prisoners at e5, and block White's win.
+Black can make it expensive, however, taking more prisoners as White
+liberates these.  Black can also create some space for the stack at c8
+to run down the c file.
+
+34.	b4'	2c-3
+
+White could complete the road from a3–h4 with 35. f3+12".
+
+35.	a4'	3b3+
+
+Black could have blocked with 5c8-1112, but better for Black to delay
+running the stack at c8 until White chooses a direction to run the
+stack at e5.  White would like to liberate both stacks of white captives.
+
+36.	e4+	b8
+37.	4e-5:112	5c+8:1112
+38.	f5'	e4+
+39.	d+5'	2e7-11
+40.	e6-"
+
+[a8]
+-	b	b	b	bb	bb	bw	-
+-	B	-	-	-	b	-	-
+-	wb	-	-	-	w	-	-
+-	WWb	w	w	wbwbw	w	wb	-
+w	Bwww	w	w	-	-	w	w
+w	-	-	w	b	Wbw	-	-
+-	-	-	-	b	b	-	-
+-	-	-	-	-	b	-	-
+
+Winner: White, by Tinuë.
+
+Moral of the story is that it can dramatically shorten the game to
+build independently of each other, and not necessarily in your favor.
+
+…
+,
+so Black would be able to run a road where White has little influence,
+but better all around for white to start a cross road, and build up
+influence aross the board in both directions.

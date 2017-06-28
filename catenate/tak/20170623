@@ -1,0 +1,70 @@
+5x5
+White: Jason Catena
+Black: Eric Hetzel
+
+Variation: What if you kept playing once the board was full,
+but couldn't introduce any new pieces?
+
+1.	2c3	a1	# switch colors, this move only
+2.	b1	c1
+3.	d1	c+1
+4.	c1	Cc2
+5.	c+1	c1
+6.	2d-1'	c2-
+7.	c5	c2
+8.	c4	c2+
+9.	c4-	3c1+12'
+10.	d-1	c2-
+11.	b+1	b3
+12.	4c+1:22	a3'
+13.	Sd3	c1
+14.	b1	5c3-'
+15.	Sd2	4c2+'
+16.	b+1'	Sb1
+17.	e2	e4
+18.	e3	e5
+19.	d5	b4
+20.	b5	4c3+
+21.	Sd4	3c4+
+22.	a2	e4+'
+23.	d4+	d4'
+24.	d3+	d3'
+25.	2d+5	b+1
+26.	d-2	e4'
+27.	4e5-	b1'
+28.	b2	b1+'
+29.	b1	b2-'
+
+Both players missed 29. … 3c-1:12" for the win.
+
+30.	b2	d2
+31.	2d1+	3b1+'
+32.	2c-2	c2'
+33.	5b+2:113'	2c1+
+34.	2d-4	c5-
+35.	2c+5:11'	Sa5
+36.	3e-2'	d+3
+37.	4d3+:13	3c+2'
+38.	b+2	5d2-'
+39.	e4-'	4d+1
+40.	d3-'	Sb2
+41.	2e-3	b+2
+42.	2d-3'	c4-'
+43.	Sd3	d1+
+44.	e-2	2C+2'
+45.	3d-4	5d+2'
+46.	a2+	3e2+'
+47.	d3-	4e3+
+48.	a4	3c+3:12
+49.	a2
+
+Winner: White, by flat count 8-7
+
+[a5]
+B	w	w	w	w
+w	b	Wbbwbb	-	Bwwwwbbb
+wb	b	b	b	BBw
+w	-	b	Wb	bw
+w	-	-	b	Bwwwwb
+
+…
