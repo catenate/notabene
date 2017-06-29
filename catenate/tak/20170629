@@ -1,0 +1,51 @@
+5x5
+White: Eric Hetzel
+Black: Jason Catena
+
+1.	2e5	a1	# switch colors for this move only
+2.	a5	a3
+3.	a4	a2
+4.	b1	d1
+5.	b2	b3
+6.	b-2	b2
+7.	b1+	c2
+8.	b-2'	a3-
+9.	a1+	Sa3
+10.	e2	a3-
+11.	e1	4a2+22	
+12.	Sa1	3a+2:12	
+13.	a2	3c+2:12'	
+14.	Sc2	2e5-11'
+15.	c+2	c3'
+16.	d3	c+3'
+17.	2d2+	Cc3
+18.	3d+3	c+3
+19.	4e3+	Se3
+20.	Cd4	d+3
+21.	d+4	Sd4
+22.	d2	c3'
+23.	a2+	3a4-
+24.	Sb4	4a+3
+25.	b-4	3e-2
+26.	Sc2	4b+3
+27.	c+2	4c3-'
+28.	a4-	b4
+29.	3a+3	c4
+30.	a1+	a4'
+31.	4b3+	b3
+32.	a+2	a3'
+33.	2b2+	d+1
+34.	5b4+	b4'
+35.	2b5-		Sc5
+36.	e5	e2
+
+Winner: Black, by flat count (6-4).
+
+[a5]
+w	wbb	B	-	w
+b	Wbb	b	B	WWwbbbb
+b	Wbb	b	w	BBb
+-	-	Bwww	Wbwww	b
+-	-	-	-	bw
+
+…
