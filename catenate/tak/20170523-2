@@ -35,6 +35,9 @@ capstone on the edge, where it has less influence.
 12.	3c3-	d2
 13.	4e3-	d1'
 14.	3e-2'	e1+
+
+One perfect step.
+
 15.	e3	e1
 16.	b2'	d+3
 17.	4d+2'	Sd2
@@ -71,7 +74,7 @@ standing stone out of the way.
 
 White could block at b4, c4, c3, or c2.  Eir decision should be
 informed by eir ability to play 5e-2 to furnish the final 2 pieces of
-a road on the second rank.
+a road on the second rank.  One perfect step.
 
 25.	2c3-'	b3-
 
@@ -103,8 +106,14 @@ at c2, ey must also leave a black stone at d2, which gives Black tak
 and the win.
 
 36.	2e2-'	d+3'
+
+One perfect step.
+
 37.	3b2+12	2c-3:11'
 38.	e2+'	d+3'
+
+Two perfect steps.
+
 39.	3b4-	2d-3:11'
 
 White has to defend against d4-, 4b+3:112, and 2e-3 so it would not
@@ -132,8 +141,13 @@ side of the road, so one run can't fix it.  White could either create
 a wall Black won't think it's worth it to knock down, or get closer to
 a road on rank 4 and reduce Black's flat count by one.
 
+Two perfect steps.
+
 42.	a2+	3b3-12
 43.	a4'	b5-'
+
+One perfect step.
+
 44.	a+4	b3+'
 45.	a+1	d3'
 
@@ -162,6 +176,9 @@ wall back closer to block the white capstone.
 49.	3b1+12	c4'
 50.	3b3+	b5'
 51.	4b4+'	b1
+
+One perfect step.
+
 52.	a2'	c-4
 53.	d5	2b4+"
 
@@ -182,3 +199,5 @@ remaining pieces: black 1, white 4.
 Black score: 26.
 
 Winner: Black, by Tinuë.
+
+Sum of squares: 1 1 1 2 2 1 1 = 5 + 8 = 13.

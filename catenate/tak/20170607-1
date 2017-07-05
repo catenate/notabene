@@ -32,3 +32,5 @@ White win (which ey never seems to do).  Here we're trying to balance
 the leading move (Black's), against better pieces in play (White's),
 and closer positioning (White's).  Also, let's have Black wait to play
 a capstone until ey needs one.
+
+Sum of squares: 0.
