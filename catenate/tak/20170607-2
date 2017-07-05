@@ -192,6 +192,7 @@ last move should be 5b5-14", to connect a4 and c3.
 
 Black threatens 2c1+11, which would swing the flat count from 11-10 to
 9-11, and reduce the number of white squares on the c file from 7 to 5.
+One perfect step.
 
 54.	d-2'	2d-3
 55.	3c2+'	Sc2	
@@ -229,6 +230,7 @@ Black is trying to build up some influence, and maybe another road
 the tallest stack, and bring eir capstone back into play, and block
 White's tak.  White takes this opportunity to invite Black to add to
 White's flat count, and try to recover eir 4 captives at c5.
+One perfect step.
 
 61.	b6-	7c5+115!
 
@@ -410,6 +412,7 @@ White wants to use the tak threat as a forced distraction, and
 liberate the captives at e7.  Black would rather block the road with a
 throw that moves the captives to where there are already a lot of
 white flats.  The flat count for the hundredth move is 17-10.
+One perfect step.
 
 100.	b6+'	d1
 101.	4b7-112	Sc3
@@ -446,11 +449,10 @@ leaves one flat at d1 to be part of the road ey builds.
 113.	c2-	c7
 114.	2c1+'	2d-4'
 
-With two parallel roads, there's little chance of either being
-completed, since each player can attack the other's road,
-at the cost of pieces from eir own.  White conceives of a plan to
-build up the stack at c4, and then run it up and over black's road on
-file c.
+With two parallel roads, there's little chance of either being completed,
+since each player can attack the other's road, at the cost of pieces
+from eir own.  White conceives of a plan to build up the stack at c4,
+and then run it up and over black's road on file c.  One perfect step.
 
 115.	b+4	d4-
 
@@ -489,7 +491,7 @@ Black steps the stack at c2 away from any White influence.
 125.	8c+3:1412'!	7d2+34'!
 
 White's tak threat is new: a road from a6 to h3.  Black renews the
-road threat from e6 to d4.
+road threat from e6 to d4.  One perfect step.
 
 126.	c+4	e-4
 127.	Sc4	g-4
@@ -556,3 +558,8 @@ B	WWbbbwbbwbbbwb	b	BBwwwwww	bw	-	W	b
 wb	w	w	bwbw	bwbbb	w	WWb -
 w	w	-	b	b	W	-	-
 Bw	bww	w	-	bw	w	-	-
+
+Five perfect steps, in five series, each of length one.
+Sum of squares of lengths of series: 1⁲+1⁲+1⁲+1⁲+1⁲ = 5.
+If there had been one series of length 2, then the sum of squares
+would have been 1⁲+1⁲+1⁲+1⁲+2⁲ = 8.

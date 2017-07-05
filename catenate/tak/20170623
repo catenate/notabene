@@ -21,6 +21,9 @@ but couldn't introduce any new pieces?
 14.	b1	5c3-'
 15.	Sd2	4c2+'
 16.	b+1'	Sb1
+
+One perfect step.
+
 17.	e2	e4
 18.	e3	e5
 19.	d5	b4
@@ -47,9 +50,15 @@ Both players missed 29. … 3c-1:12" for the win.
 37.	4d3+:13	3c+2'
 38.	b+2	5d2-'
 39.	e4-'	4d+1
+
+One perfect step.
+
 40.	d3-'	Sb2
 41.	2e-3	b+2
 42.	2d-3'	c4-'
+
+One perfect step.
+
 43.	Sd3	d1+
 44.	e-2	2C+2'
 45.	3d-4	5d+2'
@@ -66,5 +75,9 @@ w	b	Wbbwbb	-	Bwwwwbbb
 wb	b	b	b	BBw
 w	-	b	Wb	bw
 w	-	-	b	Bwwwwb
+
+
+3 perfect steps, in 3 series of length one.
+Sum of squares: 1⁲+1⁲+1⁲ = 3.
 
 …

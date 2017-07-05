@@ -1,0 +1,17 @@
+8x8 me v me.
+
+New terminology: a "perfect step" is a play that both prevents a tak
+threat from becoming a win, and itself results in tak for the player.
+One may measure of the beauty of a game, by how many perfect steps
+there are, how many runs of perfect steps, and the length of the
+longest run of perfect steps.
+
+1.	2h8	a1	# switch colors for this move only
+
+"You get a stack of two in a corner, I get one in another corner and
+first move." Central positioning plus a stack of two might be too much
+an advantage.
+
+
+
+…

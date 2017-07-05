@@ -29,6 +29,9 @@ have in mind.
 5.	b5	d5
 6.	c2	e5
 7.	c1'	a+5'
+
+One perfect step.
+
 8.	a5	b4'
 
 Why not 8.  ...  a4'?  Playing b4 allows Black to prevent White from
@@ -44,6 +47,9 @@ because Black doesn't need this piece if ey throws 2a3+11" to
 complete the road on the fifth rank.
 
 11.	c4+'	d-5
+
+Three perfect steps.
+
 12.	c4	d5'
 13.	a+5'	b4+'
 
@@ -57,6 +63,7 @@ same throw.  14. c4+' 2b+5', then 15. Sa5, just wastes the flat at c4,
 so it's better for white just to go immediately for the standing stone
 to block.  The standing stone could also liberate the white captives
 at b5, and take over several Black spaces with a run up rank 5.
+Two perfect steps.
 
 14.	Sa5	4b5-22'
 
@@ -67,6 +74,9 @@ threatens tak with 16. 2c5-" (again, White this time), even if Black
 places a flat with 15. ... c4' and re-establishes tak.
 
 15.	c4+'	d-5
+
+One perfect step.
+
 16.	Sd5	d3+
 
 There is a shift in the immediate goal by both players: from trying to
@@ -81,3 +91,5 @@ and get the black capstone closer to the black road, to help.
 White wants to win with 19. 5c5-221", but Black blocks that with a
 standing stone at c4.  White could flatten Black's standing stone,
 but then Black would move eir capstone onto the stack at c5.
+
+So far, sum of squares: 1⁲+3⁲+2⁲+1⁲ = 1+9+4+1 = 15.
