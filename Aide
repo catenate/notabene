@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'Fey.'
+git commit -a -m 'Note that color switches in actual notation of first moves.'
 git config --get remote.origin.url
 git diff
 git fetch

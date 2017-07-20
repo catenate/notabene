@@ -6,13 +6,13 @@ One may measure of the beauty of a game, by how many perfect steps
 there are, how many runs of perfect steps, and the length of the
 longest run of perfect steps.
 
-1.	2h8	a1	# switch colors for this move only
+1.	B:2h8	W:a1	# switch colors for this move only
 
 "You get a stack of two in a corner, I get one in another corner and
 first move." Central positioning plus a stack of two might be too much
 an advantage.
 
-2.	b2	g2
+2.	Wb2	Bg2
 3.	b4	b7
 4.	c6	c7
 5.	d7	e7
