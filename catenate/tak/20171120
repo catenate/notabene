@@ -1,0 +1,29 @@
+8x8
+white: me
+black: me
+
+1.	2e5	c3	# switch colors for this move only
+2.	c4	e4
+3.	c2	e6
+4.	c1	e7
+5.	c6	e8
+6.	c7	e3
+7.	c8'	2e-5:11
+
+White would have won with 8 c5.
+
+8.	c4+'	
+
+White would have won with 9 c4.  Now white is two away from a road:
+empty c4, and the stack of black-on-white at c5.
+
+9.	
+
+-	-	w	-	b	-	-	-
+-	-	w	-	b	-	-	-
+-	-	w	-	b	-	-	-
+-	-	bw	b	-	-	-	-
+-	-	-	-	b	-	-	-
+-	-	w	-	b	-	-	-
+-	-	w	-	-	-	-	-
+-	-	w	-	-	-	-	-

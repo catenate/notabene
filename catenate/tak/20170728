@@ -1,0 +1,81 @@
+6x6
+White: Eric Hetzel
+Black: Jason Catena
+
+1.	B:2a6	W:a1
+2.	W:f1	B:c1
+3.	b1	d1
+4.	e1	b2
+5.	a2	b3
+6.	a2-	b4
+7.	e2	b5
+8.	b-1	c2'
+9.	3a+1:111'	a1
+10.	a2'	a+1'
+11.	2c-1	b2-
+12.	Sb2	5b+1:1112!
+
+Flat count 3-8.
+
+13.	b+2	Cb1
+14.	Sa5	2a+6:11'
+15.	a+5	2d-1'
+16.	c2-	b+1'
+
+Flat count 2-7.
+
+17.	Sb1	6c1+312
+
+Flat count 2-9.
+
+18.	b2	d2'
+19.	e-2	d1+
+20.	Sc1	c5'
+21.	c1+	d2+12
+22.	e2	2c4-11
+23.	2c-3	5c-2:32
+24.	b1+	a+2
+25.	2b+5	2b2+
+26.	Sb1	3b3-
+27.	2a2-	c3
+28.	d1	2e1+
+29.	Sc2	b2+
+30.	c2+	Sc2
+31.	6b-2'	Sa3
+32.	Cb2	a3-
+33.	b-2'	Sa3
+34.	2c+3	b5'
+35.	3c-5	2b3+11
+36.	b1+	4b+5:112
+37.	a5	f5'
+38.	3d3+12	e-5
+39.	a+5	2d+5'
+40.	2b+5	3e-5
+41.	3c5+	3d5+
+42.	4c-6	3d4-21
+
+Flat count 2-8.
+
+43.	6a2-	Sb1
+44.	b2+	d5-'
+45.	d1+	Sc3
+46.	2d+2	d2'
+47.	3e-2	c+2
+
+White can't play 47. 4e2+13 because black threatens Tak.
+
+48.	e2+	3e+2:12'!
+49.	e-3	d2+"
+
+Winner: Black, by Tinuë.
+
+Flat count: 1-8.
+
+-	Wbbbb	-	BBww	-	-
+-	-	-	b	-	b
+-	bb	-	b	-	-
+B	Wb	B	bwbw	-	-
+ww	-	-	b	bw	Bw
+WWbwwbwww	B	-	-	-	bww
+
+Sum of squares: 2.

@@ -598,15 +598,15 @@
 20110525:77: trigger behavior
 20110525:86: doc
 20110526:1: sample utf8 poem eat glass hurt pangram
-20110526:5: playlist mknopfler live montreux jazz festival
-20110526:10: ur babylon museum end empire archæology lwoolley
-20110526:26: etufte career history review clear present multiple dimension data ink ratio sparkline
-20110526:37: automate programmer task efficient increment specific environment reduce dross wait language measure perform
-20110526:63: decode gif golang lzw block io reader interface code study slice array
-20110526:69: senator rwyden hold senate consider bill internet protect intellect property act pipa coica
-20110526:94: scan ocr backup shred reduce paper macosx rule
-20110526:103: oberon acme sac clone
-20110526:124: doc
+20110526:6: playlist mknopfler live montreux jazz festival
+20110526:11: ur babylon museum end empire archæology lwoolley
+20110526:27: etufte career history review clear present multiple dimension data ink ratio sparkline
+20110526:38: automate programmer task efficient increment specific environment reduce dross wait language measure perform
+20110526:64: decode gif golang lzw block io reader interface code study slice array
+20110526:70: senator rwyden hold senate consider bill internet protect intellect property act pipa coica
+20110526:95: scan ocr backup shred reduce paper macosx rule
+20110526:104: oberon acme sac clone
+20110526:125: doc
 20110530:1: contagion breath disperse air jcæsar virulent life span math exponent ℯ multiply
 20110530:8: doc
 20110531:1: two letter internet domain country code
@@ -1076,22 +1076,112 @@
 20170628:1: chef swedish bork
 20170705:1: meredith eberhart nimblewill nomad hike ultra light long distance backpack
 20170707:1: rush hemispheres dream heart mind unite sensibility sense liberty
-20170717:1: english fey fay overrefined affected strange otherworldly spellbound  magical fairylike  uncountable  ipa feɪ
-20170717:13: scottish irish  possessing second sight clairvoyance clairaudience
-20170717:16: middle english fey  fated to die
-20170717:19: old english fǣge timid  doomed to die
-20170717:22: proto german faigijaz cowardly wicked
-20170717:25: proto indo european pAik pAig bad  ill meaning
-20170717:28: old saxon fēgi
-20170717:31: dutch veeg doomed  near death
-20170717:34: old high german feigi ungodly  appointed for death
-20170717:37: german feige cowardly
-20170717:40: old norse feigr doomed
-20170717:43: icelandic feigur  doomed to die
-20170717:46: old english fāh outlawed hostile
-20170717:51: faydom
-20170717:54: middle english faie fei magical
-20170717:59: middle french feie fee fairy fae
-20170717:64: mapudungun fey pronoun
-20170717:69: scots fey feys  death premonition premonitory  possessing second sight
-20170717:72: volapük fey feys fairy  ipa fej
+20170717:1: english fey entymology
+20170717:6: english fey fay overrefined affected strange otherworldly spellbound  magical fairylike  uncountable  ipa feɪ
+20170717:18: fey 1922 ereddison worm ouroboros
+20170717:25: scottish irish  possessing second sight clairvoyance clairaudience
+20170717:28: middle english fey  fated to die
+20170717:31: old english fǣge timid  doomed to die
+20170717:34: proto german faigijaz cowardly wicked
+20170717:37: proto indo european pAik pAig bad  ill meaning
+20170717:40: old saxon fēgi
+20170717:43: dutch veeg doomed  near death
+20170717:46: old high german feigi ungodly  appointed for death
+20170717:49: german feige cowardly
+20170717:52: old norse feigr doomed
+20170717:55: icelandic feigur  doomed to die
+20170717:58: old english fāh outlawed hostile
+20170717:63: faydom
+20170717:66: middle english faie fei magical
+20170717:71: middle french feie fee fairy fae
+20170717:76: mapudungun fey pronoun
+20170717:81: scots fey feys  death premonition premonitory  possessing second sight
+20170717:84: volapük fey feys fairy  ipa fej
+20170721:1: english read entymology
+20170721:9: middle english reden
+20170721:12: old english rǣdan counsel advise consult interpret read
+20170721:15: proto german rēdaną advise counsel
+20170721:18: proto indo european Hreh₁dʰ- arrange
+20170721:21: scots rede red advise counsel decipher read
+20170721:24: saterland frisian räide advise counsel
+20170721:27: west frisian riede advise counsel
+20170721:30: dutch raden advise counsel rede
+20170721:33: german raten advise guess
+20170721:36: danish råde advise
+20170721:39: swedish råda advise counsel
+20170721:42: old english read entymology
+20170721:45: proto germanic raudaz
+20170721:48: proto indo european h₁rowdʰós  h₁rewdʰ-
+20170721:51: old frisian rād
+20170721:54: west frisian read
+20170721:57: old saxon rōd
+20170721:60: low german root rod
+20170721:63: dutch rood
+20170721:66: old high german rōt
+20170721:69: german rot
+20170721:72: old norse rauðr
+20170721:75: danish rød
+20170721:78: swedish röd
+20170721:81: icelandic rauður
+20170721:84: gothic ����� rauþs
+20170721:87: ancient greek ἐρυθρός eruthrós
+20170721:90: latin ruber
+20170721:93: old irish rúad
+20170721:96: lithuanian raũdas
+20170721:99: russian рудой rudoj
+20170811:1: witenagemot
+20170811:10: wizengamot
+20170811:25: word hoard kenning dictionary thesaurus
+20170814:1: reap sow
+20170814:12: apt rpm
+20170911:1: regex perl pcre python posix vim syntax program language text editor cli tool
+20170914:1: devops days chicago 2017
+20170914:4: hack human system
+20170922:1: intercal programming language absurd
+20171009:1: golang sam acme glenda 9p harmful inferno werc plan9front trackon 
+20171012:1: harry potter method reason rationality fan fiction eliezer yudkowsky
+20171012:7: miniature tiny travel library napoleon morocco leather print
+20171013:1: tattoo sea scar
+20171016:1: apt dpkg yum rpm command
+20171016:21: heather color landscape words scot gælic  maoim warp skruid glaab roke na luin summer geese
+20171023:1: nesh forms
+20171023:5: old english hnec- derivative transmit error
+20171023:6: old english rare hnessce hnyssce
+20171023:7: old english anglian hnesc hnisc næsc nesc
+20171023:8: old english early middle hnesce
+20171023:9: early middle english nesfhe transmit error
+20171023:10: early middle english nexce nexse
+20171023:11: middle english neche nechs nesch nesche ness nessce nessche nesse nesssse
+20171023:12: middle english nosche transmit error
+20171023:13: middle english 15c nessh
+20171023:14: middle english 15c neshe england region 18c
+20171023:15: middle english 16c nesshe england region 18c
+20171023:16: middle english nesh
+20171023:17: scotch pre 17c nes nesche
+20171023:18: scotch pre-17c 18c– nesch
+20171023:19: scotch 18– nesh
+20171023:20: scotch 19– neshe
+20171023:22: middle english naisch naisshe naysch naysche neiȝsche neis neisch neische neishe neissch neissche neisse neissh neisshe neychs neys neysch neysche neyshe neyssche neysse neyssh neysshe
+20171023:23: middle english nysechere compare, transmit error
+20171023:24: middle english 15c neash
+20171023:25: england region 18c neesh
+20171023:26: england region 18– naish
+20171023:27: scotch pre 17c naiche naysch
+20171023:28: scotch 18 naish
+20171023:30: middle english nasch nasche nassh nasshe
+20171023:31: 16c nash 18c– england region
+20171023:32: 17c gnash irregular
+20171023:33: nash 18c– usa region
+20171023:34: scotch pre 17c nache nasche
+20171023:35: scotch 18c– nash
+20171023:37: niash nish 18c– england region Devon
+20171023:38: nish 18c– usa region newfoundland
+20171023:41: nesh adjective definition quote
+20171030:1: stanza anglo saxon poetry lewis carroll
+20171101:1: mistress liberty roger waters
+20171117:1: 8thlight software craftsmanship manifesto pair programming test driven development
+20171120:1: unix fourth edition manual
+20171120:7: unix sixth edition manual
+20171120:12: continuous delivery benefits
+20171127:1: apt get purge linux image boot disk full
+20171127:6: man page tldr example linux

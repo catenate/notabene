@@ -1,8 +1,10 @@
+
 .
 Edit ,|sort|uniq
 date=`{host date '+%Y%m%d'}; touch $date; plumb $date
 grep '^Winner' *
 grep -i 'sum of squares' *
 grep -i 'sum of squares' * | grep -v ' 0\.$'
+grep Winner `{grep -l 8x8 *}
 mv 20170628 20170629
 …

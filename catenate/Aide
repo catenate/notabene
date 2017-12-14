@@ -3,8 +3,10 @@
 Dump /github/notabene/catenate/dump
 Edit ,|sort|uniq
 Load /github/notabene/catenate/dump
+New hnefatafl
 New stranger
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
+cd diary; nbnow=`{host date '+%Y%m%d'}; touch $nbnow; plumb $nbnow
 dos xrdb -merge solarized
 fortune fortunes | fmt
 grëp StrictHostKeyChecking * | wc -l
@@ -12,14 +14,13 @@ log
 log google python logging info debug
 ls -F | grep -v '^20' | mc
 nb
-nb map usa
+nb jhost
 nb twitter recent study post text
-cd diary; nbnow=`{host date '+%Y%m%d'}; touch $nbnow; plumb $nbnow
 nbnow
 rm *~
 rm 20130108.131959
 sh /dis/Gedit
 sh /git/notabene/sh-inferno/nb plan9port
+tak/Aide
 |fmt
 |tr A-Z a-z
-New hnefatafl

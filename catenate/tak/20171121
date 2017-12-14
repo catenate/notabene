@@ -1,0 +1,12 @@
+nb tak puzzle white play tinuë
+
+web http://takthoughts.blogspot.com/2017/11/puzzle-41-white-to-play-white-to-tinue.html
+
+Black can cover any of {a1, b1, b2, d2, e3} in one move.
+
+If White plays 2c2+, then ey threatens tak with 2c+3, which creates a
+road of {a1, b1, b2, c2, d2, Cd3, e3}.  If Black responds with Se2+,
+then White wins with e2.  
+
+If White plays c3, then ey threatens tak with c+3, which creates a
+road of {a1, b1, b2, Cc2, d2, d3, e3}.

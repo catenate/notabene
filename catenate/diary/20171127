@@ -1,0 +1,13 @@
+nb apt get purge linux image boot disk full
+
+sudo apt-get purge linux-image-4.10.0-35-generic
+
+
+nb man page tldr example linux
+
+web https://github.com/tldr-pages/tldr/tree/master/pages/linux
+
+
+nb tak freenode irc web client
+
+web http://webchat.freenode.net/

@@ -1,0 +1,52 @@
+nb 8thlight software craftsmanship manifesto pair programming test driven development
+
+I’d heard of the agile manifesto before but not this one until last
+night: http://manifesto.softwarecraftsmanship.org/
+
+Me: Those guys at 8th Light are serious about applying the Extreme
+Programming principles to everyday programming life, and building up a
+community of thoughtful, conscientious craftsmen through pair
+programming, test-driven development, constantly learning and
+expanding boundaries, and working very closely with customers to work
+now on what’s most important to them.  On top of that, they seemed to
+me to be talented developers, when I did a little Ruby tic-tac-toe to
+introduce myself to them between jobs.  This is all to say, they
+seemed to me like a good embodiment of the craftsman principles they
+espouse.
+
+I do like the sound of their values.  It seems like the company values
+we have are more business-focused and we don’t have a set of values
+for engineering.  I’ve been trying to pair more, because I don’t do it
+enough.  TDD is maybe an N/A to an SDET?  /shrug I could be wrong.
+
+Me: Pair programming should generally be useful to an organization to
+reduce the truck factor, to state it in the most businesslike terms.
+	TDD should be useful to make sure code never regresses, and
+make sure the code that’s developed is thought about at a higher user
+level than the developer, so the organization doesn’t create waste (in
+the lean programming sense, of code without a clear business purpose).
+	Does it make sense to test your test code?  Excellent
+question, since you do need to stop that recursion somewhere.
+When I write test cases, I don’t write test cases for the test cases
+that test the code I’m writing.  But I do evolve the test suite from
+simpler tests that work, and keep the simpler ones to gauge the
+effects of regressions.  A lot of test case code is also boilerplate
+from other test cases, which helps make sure the code works,
+to either cut and paste, or abstract your test code.
+
+I was at a presentation at 8th light where that’s one of the
+disadvantages of TDD—who watches the watchmen?
+
+Me: Well, since it’s business rather than academia, the decision
+usually comes down to a “good enough” risk analysis, where the cost to
+make sure it’s better outweighs the business loss if it’s wrong or
+broken.  Regressions are really important to catch, since customers
+are sensitive to things not working that used to.  So in that context
+TDD is useful.
+	We’re all part of teams, so pair programming helps us check
+that our mental models of the problems and solutions are correct, and
+live past us.  There’s a school of thought that considers programming
+as an exercise in theory building: code is just incidental, and the
+important thing is the mental model that a team of humans have in
+their heads.  When this dies, the code that’s left over is doomed to
+rust and be worked around, rather than with.

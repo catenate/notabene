@@ -1,0 +1,20 @@
+nb reap sow
+
+“You're going to reap just what you sow.”
+―Reed, Lou et al.  1997.  Perfect day.  BBC.
+https://www.youtube.com/watch?v=iDtO88QyKMM
+
+“Be not deceived; God is not mocked: for whatsoever a man soweth,
+that shall he also reap.”
+Galatians 6:7
+
+
+nb apt rpm
+
+list installed packages
+	rpm: rpm -qa
+	deb: dpkg -l
+
+find an installable package
+	rpm: yum search
+	deb: apt-cache search 

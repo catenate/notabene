@@ -1,0 +1,226 @@
+4x4 board-in-file test, me vs me
+15 flats each, no capstones
+
+1.	2c3	a1	# switch colors for this move only
+2.	a2	c2
+3.	a4'	a3
+
+w	-	-	-
+b	-	bb	-
+w	-	b	-
+w	-	-	-
+
+4.	a4-'	a4
+
+b	-	-	-
+bw	-	bb	-
+w	-	b	-
+w	-	-	-
+
+5.	2a3+'	2c-3:11	
+
+bbw	-	-	-
+b	b	-	-
+w	-	b	-
+w	-	-	-
+
+6.	3a4-'	a4
+
+b		-	-	-
+bbbw	b	-	-
+w		-	b	-
+w		-	-	-
+
+7.	b4'	a4-'
+
+-		w	-	-
+bbbwb	b	-	-
+w		-	b	-
+w		-	-	-
+
+Black could win with the run 4a+3:112, which creates a straight road
+from a3 to d3.
+
+8.	a2+	b-3'
+
+-			w	-	-
+bbbwbwb	-	-	-
+-			-	b	-
+w			-	-	-
+
+Since the carrying capacity is only 4, Black can no longer win with a
+run up the files from a3, though 4a+3:22' would still threaten tak.
+
+9.	Sb3	4a3-22'
+
+-	w	-	-
+bbb	W	-	-
+wb	-	b	-
+wwb	-	-	-
+
+10.	b-3	d2'
+
+-		w	-	-
+bbbW	-	-	-
+wb		-	b	b
+wwb		-	-	-
+
+11.	b2	b1'
+
+-		w	-	-
+bbbW	-	-	-
+wb		w	b	b
+wwb		b	-	-
+
+12.	4a3-	d1'
+
+-		w	-	-
+-		-	-	-
+wbbbbW	w	b	b
+wwb		b	-	b
+
+13.	b2-	d4'
+
+-		w	-	b
+-		-	-	-
+wbbbbW	-	b	b
+wwb		bw	-	b
+
+14.	d3	d2+'
+
+-		w	-	b
+-		-	-	wb
+wbbbbW	-	b	-
+wwb		bw	-	b
+
+15.	2b+1:11	c3'
+
+-		w	-	b
+-		-	b	wb
+wbbbbW	-	b	-
+wwb		-	b	bw
+
+16	2d-1	d2'
+
+-		w	-	b
+-		-	b	wb
+wbbbbW	-	b	b
+wwb		-	bbw	-
+
+White can’t block with a flat at d1, since 17. d1 3a+1:111" completes
+Black’s straight road from d1 to d4.
+
+17.	Sd1	c4'
+
+-		w	b	b
+-		-	b	wb
+wbbbbW	-	b	b
+wwb		-	bbw	W
+
+Black threatens tak with 17. … 3a+1:12.  White can’t respond by
+moving eir wall at d1, since 15. d-1 d1" completes Black’s straight
+road from d1 to d4.
+
+18.	b+4	d-4'
+
+-		-	bwb	-
+-		-	b	wb
+wbbbbW	-	b	b
+wwb		-	bbw	W
+
+19.	d-1	2c+4'
+
+-		-	b		wb
+-		-	b		wb
+wbbbbW	-	b		b
+wwb		-	bbwW	-
+
+20.	d1	d2-'
+
+-		-	b		wb
+-		-	b		wb
+wbbbbW	-	b		-
+wwb		-	bbwW	wb
+
+White can’t respond with a flat at d2, because of the flat at c2; and
+can’t move the wall at c1, because of the run from a1.
+
+21.	Sd2	a4'
+
+b		-	b		wb
+-		-	b		wb
+wbbbbW	-	b		W
+wwb		-	bbwW	wb
+
+Black drives the game to completion by placing eir final (15th) stone.
+Black easily wins on flat count (0–8), since white has been playing a
+very reactive game to Black’s many tak threats (5–15), losing eir
+early lead, and allowing Black to cover all the white flats not covered
+by White’s own flats or walls.
+
+winner: Black, by flat count
+
+If there wasn’t a piece limit… 
+
+White can’t run up rank a from a2 to cover a4 with eir wall, since
+this leaves a black flat at a3, which then allows Black to play b3 to
+complete the straight road from a3 to d3.
+
+22.	b4	a+4'
+
+-		wb	b		wb
+-		-	b		wb
+wbbbbW	-	b		W
+wwb		-	bbwW	wb
+
+23.	a4	2b-4'
+
+wwb		-	b		wb
+-		-	b		wb
+wbbbbW	-	b		W
+wwb		-	bbwW	wb
+
+24.	b4	3a+4'
+
+-		wwwb	b		wb
+-		-		b		wb
+wbbbbW	-		b		W
+wwb		-		bbwW	wb
+
+25.	a4	a3'
+
+w		wwwb	b		wb
+b		-		b		wb
+wbbbbW	-		b		W
+wwb		-		bbwW	wb
+
+White can’t place a flat at b3, because 26. b3 4b4-" completes the
+straight black road from a3 to d3; and also because 26. b3 a3+"
+completes the straight black road from a4 to d4.
+
+White can’t move the flat at a4, because 26. a4- a4" completes the
+straight black road from a4 to d4.
+
+So White has to block the road from a3 to d3 (but not with b3 or a4-),
+while simultaneously preventing a3 from moving to a4.  The white wall
+at a2 is the obvious choice for this mission, if it can be deployed
+without creating a problem.  Since there are, or will be walls at d2
+and a3, there is no concern about any black prisoners left at a2
+immediately running to finish roads on the a file or rank 2.  All the
+same, it is prudent to take as many prisoners with the wall as
+possible, in an academic effort to keep down Black's flat count
+(currently 1–9).
+
+26.	4a2+	4b-4'
+
+wwwwb	-	b		wb
+bbbbW	-	b		wb
+wb		-	b		W
+wwb		-	bbwW	wb
+
+27.	
+
+wwwwb	-	b		wb
+bbbbW	-	b		wb
+wb		-	b		W
+wwb		-	bbwW	wb
