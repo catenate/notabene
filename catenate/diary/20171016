@@ -5,17 +5,25 @@ cat /etc/redhat-release
 cat /etc/os-release
 
 # list installed version of a package
-apt-cache show nodejs
 rpm -qi nodejs
+apt-cache show nodejs
 
 # search for available packages
 yum search et
+apt-cache search keyword
 
 # search for available package versions
 yum list --showduplicates $rpm
 apt-cache madison nodejs
 
 # install the latest version of a package
+sudo apt-get install mcollective-client
+
+# list all installed packages
+rpm -qa
+
+# list files inside a package
+dpkg-query -L 
 
 
 nb heather color landscape words scot gælic  maoim warp skruid glaab roke na luin summer geese
@@ -28,8 +36,8 @@ and the sources of those colors: blueberries that shine green and
 scarlet as well as blue; sage-green bog myrtle, golden tormentil,
 blue milkworts, spaghnum mosses that run to yellow, green, and pink.
 
-There are many Gaelic words for peat, specifying whether it has been
-cut, how dark and heavy it is, and the form in which it has been stacked —
+There are many Gælic words for peat, specifying whether it has been cut,
+how dark and heavy it is, and the form in which it has been stacked —
  and there is a word, maoim, for “a place on the moor where there has
 been peat movement in the past.”
 
@@ -38,6 +46,6 @@ where a flood has receded (warp, Northamptonshire); a steep, slippery
 place where the loose earth has been washed away by weather (skruid,
 Shetland); and an opening between hills through which a distant object
 is visible (glaab, also Shetland).  Roke is fog that rises in the evenings
-from water meadows in East Anglia, na luin is Gaelic for fast-moving
-heat haze on a moor, and summer geese are the wisps of steam that rise
-from a North Yorkshire moor when hot sunshine comes fast behind a rain.
+from water meadows in East Anglia, na luin is Gælic for fast-moving heat
+haze on a moor, and summer geese are the wisps of steam that rise from
+a North Yorkshire moor when hot sunshine comes fast behind a rain.
