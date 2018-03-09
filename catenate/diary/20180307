@@ -1,0 +1,7 @@
+nb date convert time epoch count utc local time zone
+
+host date -d '@0'
+Wed Dec 31 18:00:00 CST 1969
+
+host date -u -d '@0'
+Thu Jan  1 00:00:00 UTC 1970
