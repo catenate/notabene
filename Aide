@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'Words with diacritics.'
+git commit -a -m 'Recent notes.'
 git config --get remote.origin.url
 git diff
 git fetch

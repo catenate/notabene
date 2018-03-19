@@ -16,6 +16,7 @@ ls -F | grep -v '^20' | mc
 nb
 nb jhost
 nb twitter recent study post text
+nb στοα
 nbnow
 rm *~
 rm 20130108.131959
