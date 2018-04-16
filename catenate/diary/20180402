@@ -1,0 +1,25 @@
+nb oracle plsql commit / forward slash
+
+COMMIT.  Use the COMMIT statement to end your current transaction
+and make permanent all changes performed in the transaction.
+A transaction is a sequence of SQL statements that Oracle Database
+treats as a single unit.  This statement also erases all savepoints in
+the transaction and releases transaction locks.
+
+/ executes the most recently executed SQL command or PL/SQL block
+which is stored in the SQL buffer.  You can enter a slash (/) at the
+command prompt or at a line number prompt of a multi-line command.
+The slash command functions similarly to RUN, but does not list the
+command.
+
+[I]t is bad⁲ to use the forward slash following a single SQL statement
+(not in a PL/SQL block), especially when that slash immediately
+follows a DML statement (INSERT, UPDATE, or DELETE).ⁱ
+  ⁱ web 'http://www.peasland.net/2016/10/19/slash-or-no-slash/'
+  ⁲ The command in the buffer will execute again.
+
+
+nb disk usage each subdirectory space sort human readable root
+
+# cd /; du -Sh | grep -v '^0' | awk '$1 !~ /K$/ {print $0}' | sort -h >/tmp/duSh_sorth
+# less /tmp/duSh_sorth

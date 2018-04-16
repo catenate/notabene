@@ -1,0 +1,109 @@
+nb unicode hebrew alphabet
+
+U+05D0   |  א  ב  ג  ד  ה  ו  ז  ח  ט  י  ך  כ  ל  ם  מ  ן  |
+U+05E0   |  נ  ס  ע  ף  פ  ץ  צ  ק  ר  ש  ת  ׫  ׬  ׭  ׮  ׯ  |
+  ⁱ /github/acme-fonts/test/1/acme/Font/hebrew.txt
+
+	"%-", "kmnps",	"ךםןףץ",
+	"%c", "h",	"ח",
+	"%k", "h",	"ח",
+	"%t", "hst",	"טצת",
+	"%s", "hs",	"שס",
+	"%a", "ehy",	"אהע",
+	"%", "bgdhvzyklmnpqr",	"בגדוזיכלמנפקר",
+  ⁲ /emu/port/latin1.h
+
+ת | ט Tav and Tet(h)
+א | ע Aleph and Ayin A-yin (Throat letter)
+כּ | ק Kaf and Qof
+כ | ח Chaf and Chet
+ס | שׂ Samekh (Samech) and Sin (not to be confused with Shin שׁ )
+ב | ו Vet and Vav (in some cases - not to be confused with Bet בּ ).
+
+
+nb hebrew ger רג convert stranger sojourner proselyte
+
+προσελητοσ: one who has arrived
+
+
+nb hebrew name david דוד ד.ו·ד
+
+
+nb hebrew name sakhah החש
+
+
+nb hebrew  sakhah neged ha-zerem  מרזה דגנ החש  swam against flow  stood up accepted ideas
+
+sakhah neged ha-zerem
+מרזה דגנ החש
+swam against the flow (lit.)
+stood up against accepted ideas (fig.)
+
+
+nb hebrew saiche .חעש conscience
+
+חס s ch
+חש s(h) ch
+.ח_ס s a ch e
+.ח_ש s(h) a ch e
+.חעש s(h) ay ch e
+
+pragmatic rightness in thought and action
+subtle and inflected real truth (the wabi-sabi of science)
+correspondence of conscience and the real world
+correct instinct from incorporating awareness of the world
+subconscious understanding of what is right to do
+the still small voice that informs and debates
+balance of conscience and will
+act rightly in conscience informed by a study of the world
+
+web 'http://www.jcrelations.net/Conscience%3A+A+Jewish+Perspective.3107.0.html?L=3'
+
+act rightly/righteous: tsedaq|ah/ot (תוקדצ) morally correct and justifiable (act)
+conscience/guilt/shame: ashamah (הָמְׁשַא) guilt emotion
+study/learn details: madda (עָדַמ) practical knowledge
+
+Morally correct and justifiable acts, based on the emotion of guilt,
+derived from practical knowledge.
+
+Morally correct and justifiable acts, based on conscience, informed by
+practical knowledge.
+
+
+nb hebrew saiche .חעש acrostic
+
+ח
+ע
+ש
+
+
+nb seven laws noah
+
+Not to worship idols.
+Not to curse God.
+To establish courts of justice.
+Not to commit murder.
+Not to commit adultery or sexual immorality.
+Not to steal.
+Not to eat flesh torn from a living animal.
+
+web 'https://www.amazon.com/Seven-Laws-Noah-Aaron-Lichtenstein/dp/B00071QH6S'
+
+
+nb english hebrew dictionary lexicon
+
+web 'http://www.jewishencyclopedia.com/articles/5180-dictionaries-hebrew'
+web 'https://www.lexilogos.com/english/hebrew_dictionary.htm'
+web 'https://www.amazon.com/Oxford-Dictionary-English-Hebrew-Hebrew-English-Hebrew/dp/9653070274'
+
+
+nb hebrew dictionary lexicon jabenner 2016 ancient hebrew lexicon bible
+
+Benner, Jeff A.  2016.  The Ancient Hebrew Lexicon of the Bible.
+Ancient Hebrew research center.
+web 'http://www.ancient-hebrew.org/ahlb/'
+
+
+nb 613 commandments mitzvot (תֹווְצִמ) list positive negative
+
+web 'http://www.betemunah.org/cmds613.html'
