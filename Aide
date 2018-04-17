@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'Why convert: It may be the sand that makes the pearl.'
+git commit -a -m 'We must (only) study the laws of forbidden things.'
 git config --get remote.origin.url
 git diff
 git fetch
