@@ -1,0 +1,22 @@
+nb add jenkins user hostname autossh group sshd config allow authorized keys
+
+ssh -l jason.catena ${hostname}
+
+sudo su -
+groupadd autossh
+sed -i '/^AllowGroups/s/$/ autossh/' /etc/ssh/sshd_config # ok
+sed -i '/^PasswordAuthentication/s/yes/no/' /etc/ssh/sshd_config
+echo 'PubkeyAuthentication yes' >>/etc/ssh/sshd_config
+echo 'AuthorizedKeyFile %h/.ssh/authorized_keys' >>/etc/ssh/sshd_config # bad, start required
+useradd -g jenkins jenkins
+usermod -G autossh -a jenkins
+service sshd reload
+service sshd start
+
+su - jenkins
+mkdir .ssh
+echo '${keyfile_pub}' >.ssh/authorized_keys
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+ssh ${hostname} hostname
