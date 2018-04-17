@@ -1,4 +1,4 @@
-nb add jenkins user hostname autossh group sshd config allow authorized keys
+nb add jenkins user hostname autossh group sshd config allow authorized keys directory permission
 
 ssh -l jason.catena ${hostname}
 
@@ -16,7 +16,25 @@ service sshd start
 su - jenkins
 mkdir .ssh
 echo '${keyfile_pub}' >.ssh/authorized_keys
+chmod 755 ~
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys
 
 ssh ${hostname} hostname
+
+
+nb no idol worship noahide noachide law
+
+web 'https://www.myjewishlearning.com/article/idolatry-the-ultimate-betrayal-of-god/'
+web 'https://en.wikipedia.org/wiki/Idolatry_in_Judaism'
+web 'https://www.chabad.org/library/article_cdo/aid/3201/jewish/Whats-So-Terrible-About-Idolatry.htm'
+web 'http://www.jewishvirtuallibrary.org/idolatry'
+
+web 'https://www.chabad.org/kabbalah/article_cdo/aid/677800/jewish/A-Closer-Look-at-Idol-Worship.htm'
+How to study something bad without being tainted by it.
+
+web 'http://www.jewishanswers.org/ask-the-rabbi-category/from-idolatry-to-conversion/idolatry-and-non-jewish-practices/?p=1963'
+web 'https://outreachjudaism.org/monotheism-and-idolatry/'
+web 'http://www.judaism-islam.com/judaism-entering-a-place-of-idol-worship/'
+web 'https://torah.org/torah-portion/livinglaw-5766-yisro/'
+web 'http://www.jewishencyclopedia.com/articles/15027-worship-idol'

@@ -1353,13 +1353,16 @@
 20180406:1: vowel sound change great vowel shift middle english
 20180406:8: tag file system
 20180416:1: unicode hebrew alphabet
-20180416:17: hebrew ger רג convert stranger sojourner proselyte
-20180416:22: hebrew name david דוד ד.ו·ד
-20180416:25: hebrew name sakhah החש
-20180416:28: hebrew  sakhah neged ha-zerem  מרזה דגנ החש  swam against flow  stood up accepted ideas
-20180416:36: hebrew saiche .חעש conscience
-20180416:56: hebrew saiche .חעש acrostic
-20180416:70: seven laws noah
-20180416:83: english hebrew dictionary lexicon
-20180416:90: hebrew dictionary lexicon jabenner 2016 ancient hebrew lexicon bible
-20180416:97: 613 commandments mitzvot טוצמ list positive negative
+20180416:23: hebrew ger רג convert stranger sojourner proselyte
+20180416:28: hebrew name david דוד ד.ו·ד
+20180416:31: hebrew name sakhah החש
+20180416:34: hebrew  sakhah neged ha-zerem  םרזה דגנ החש  swam against flow  stood up accepted ideas
+20180416:42: hebrew saiche .חעש conscience
+20180416:72: hebrew saiche .חעש acrostic
+20180416:79: judaism seven laws noah
+20180416:92: english hebrew dictionary lexicon
+20180416:99: hebrew dictionary lexicon jabenner 2016 ancient hebrew lexicon bible
+20180416:106: judaism law 613 commandments mitzvot (תֹווְצִמ) list positive negative
+20180416:111: hebrew rule law tradition singular plural possessive
+20180416:118: hebrew asham םשא sin guilt offering trespass wevine
+20180417:1: add jenkins user hostname autossh group sshd config allow authorized keys
