@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'We must (only) study the laws of forbidden things.'
+git commit -a -m 'Recent notes.'
 git config --get remote.origin.url
 git diff
 git fetch
@@ -18,5 +18,6 @@ git reset --hard HEAD
 log
 log git
 ls -F | mc
+nsh git diff --staged
 web github.com/catenate/notabene
 |sort|uniq
