@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'Sedaism.  Live well with others.'
+git commit -a -m 'Nail down hebrew spelling of saiche (ֵחיַס, SAI-chei).'
 git config --get remote.origin.url
 git diff
 git fetch
