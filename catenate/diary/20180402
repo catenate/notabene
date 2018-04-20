@@ -19,7 +19,7 @@ follows a DML statement (INSERT, UPDATE, or DELETE).ⁱ
   ⁲ The command in the buffer will execute again.
 
 
-nb disk usage each subdirectory space sort human readable root
+nb disk usage each subdirectory space sort human readable root du large
 
 # cd /; du -Sh | grep -v '^0' | awk '$1 !~ /K$/ {print $0}' | sort -h >/tmp/duSh_sorth
 # less /tmp/duSh_sorth

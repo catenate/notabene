@@ -1,15 +1,13 @@
 nb unicode hebrew alphabet
 
-U+05D0   |  א  ב  ג  ד  ה  ו  ז  ח  ט  י  ך  כ  ל  ם  מ  ן  |
-U+05E0   |  נ  ס  ע  ף  פ  ץ  צ  ק  ר  ש  ת  ׫  ׬  ׭  ׮  ׯ  |
-  ⁱ /github/acme-fonts/test/1/acme/Font/hebrew.txt
+/github/acme-fonts/test/1/acme/Font/hebrew.txt
 
+	"%+", "vwy",	"װױײ",
 	"%-", "kmnps",	"ךםןףץ",
 	"%c", "h",	"ח",
-	"%k", "h",	"ח",
-	"%t", "hst",	"טצת",
 	"%s", "hs",	"שס",
-	"%", "'bgdhvzyklmn`pqr",	"אבגדהוזיכלמנעפקר",
+	"%t", "hst",	"טצת",
+	"%", "~|:.^bgdhvzyklmn`pqr'\"",	"־׀׃׆אבגדהוזיכלמנעפקר׳״",
   ⁲ /emu/port/latin1.h
 
 ת | ט Tav and Tet(h)
@@ -39,13 +37,15 @@ swam against the flow (lit.)
 stood up against accepted ideas (fig.)
 
 
-nb hebrew saiche .חעש conscience
+nb hebrew saiche .חיעש conscience
 
 חס s ch
 חש s(h) ch
 .ח_ס s a ch e
+.חי_ש s(h) i ch e
 .ח_ש s(h) a ch e
-.חעש s(h) ay ch e
+.חעש s(h) a ch e
+.חיעש s(h) a i ch e
 
 pragmatic rightness in thought and action
 subtle and inflected real truth (the wabi-sabi of science)
