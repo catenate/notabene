@@ -5,7 +5,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'Conscience.  Jordan Peterson.'
+git commit -a -m 'cf tikkun olam'
 git config --get remote.origin.url
 git diff
 git fetch
