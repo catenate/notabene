@@ -15,13 +15,17 @@ log
 log google python logging info debug
 ls -F | grep -v '^20' | mc
 nb
+nb Leviticus	# case-sensitive
+nb calendar
 nb hate speech
-nb hebrew
 nb jhost
 nb judaism law
-nb Leviticus	# case-sensitive
+nb hebrew alphabet
+nb leviticus	# case-sensitive
 nb leviticus 16:20
 nb leviticus 19:15
+nb sam harris
+nb ssh fingerprint
 nb twitter recent study post text
 nb στοα
 nb רג
@@ -33,4 +37,3 @@ sh /git/notabene/sh-inferno/nb plan9port
 tak/Aide
 |fmt
 |tr A-Z a-z
-nb sam harris
