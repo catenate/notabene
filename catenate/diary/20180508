@@ -1,0 +1,77 @@
+nb unicode hebrew alphabet consonant vowel point
+
+/lib/keyboard:/hebrew/
+
+web 'https://unicode.org/charts/PDF/U0590.pdf'
+
+05B0   |  ְ  ֱ  ֲ  ֳ  ִ  ֵ  ֶ  ַ  ָ  ֹ  ֺ  ֻ  ּ  ֽ  ־  ֿ  |
+05C0   |  ׀  ׁ  ׂ  ׃  ׄ  ׅ  ׆  ׇ  ׈  ׉  ׊  ׋  ׌  ׍  ׎  ׏  |
+
+	"%+", "vwy",	"װױײ",
+	"%-", "kmnps",	"ךםןףץ",
+	"%c", "h",	"ח",
+	"%s", "hs",	"שס",
+	"%t", "hst",	"טצת",
+	"%", "~|:.^bgdhvzyklmn`pqr'\"",	"־׀׃׆אבגדהוזיכלמנעפקר׳״",
+  ⁲ /emu/port/latin1.h
+
+u should be schwa, ə (0259)
+	"%u", "heaw",	"ְֱֲֳ",
+	"%a", "hw",	"ַָ",
+	"%e", "hy",	"ֵֶ",
+	"%o", "ho",	"ֹֻ",
+	"%", "i~|:.^bgdhvzyklmn`pqr'\"",	"ִ־׀׃׆אבגדהוזיכלמנעפקר׳״",
+
+05BA  %?          ֺ	hebrew point holam haser for vav
+05BC  %?          ּ	hebrew point dagesh or mapiq
+05BD  %?          ֽ	hebrew point meteg
+05BE  %?          ־	hebrew punctuation maqaf
+05BF  %?          ֿ	hebrew point rafe
+05C0  %?          ׀	hebrew punctuation paseq
+05C1  %?          ׁ	hebrew point shin dot
+05C2  %?          ׂ	hebrew point sin dot
+05C3  %?          ׃	hebrew punctuation sof pasuq
+05C4  %?          ׄ	hebrew mark upper dot
+05C5  %?          ׅ	hebrew mark lower dot
+
+
+nb tetragrammaton jehovah yhwh yhvh nehemia gordon
+
+ye-ho-VAH
+
+הָוֹהְי
+h aw v oh h əh y
+
+ָוְֹי
+aw v oh əh y
+
+Ultimately, Gordon's central argument cites the fact that the Masoretes,
+(who were the foremost medieval Jewish scribes) did not pronounce the
+name and so omitted the middle vowel: the Cholam ("o" sound), when
+copying manuscripts, to prevent their fellow Jews from simply reading
+the name as it was written.⁲  In the past 2 decades he has found several
+places in each of over 100 ancient Hebrew manuscripts where a complete
+set of vowels appear for YHVH.  The complete vowels were most likely
+mistakenly written in by scribes in ancient times as they copied the
+text and they lost concentration for a moment.  The only time full
+sets of vowels were found in these documents they spelled out
+"Ye-ho-VAH".ⁱ
+  ⁱ web 'https://en.wikipedia.org/wiki/Karaite_Judaism'
+  ⁲ Gordon, Nehemia, The Pronunciation of the Name (PDF),⁳
+Karaite korner, archived from the original (PDF) on 2011-08-19.
+  ⁳ host evince /home/jcatena/Downloads/hebrew/yhwh_2.pdf
+
+
+nb karaite judaism tefillin metaphor ten utterances deuteronomy 6:5 6:8 6:9 11:18 exodus 13:9 13:16
+
+web 'https://en.wikipedia.org/wiki/Karaite_Judaism'
+
+
+nb karaite judaism mezuzot metaphor
+
+web 'https://en.wikipedia.org/wiki/Karaite_Judaism'
+
+
+nb karaite judaism tzitzit indigo knot braid tekhelet numbers 15:38 tassel gedelim twisted cords deuteronomy 22:12
+
+web 'https://en.wikipedia.org/wiki/Karaite_Judaism'
