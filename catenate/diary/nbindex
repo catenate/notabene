@@ -1352,19 +1352,19 @@
 20180402:22: disk usage each subdirectory space sort human readable root du large
 20180406:1: vowel sound change great vowel shift middle english
 20180406:8: tag file system
-20180416:1: unicode hebrew alphabet
-20180416:21: hebrew ger רג convert stranger sojourner proselyte
-20180416:26: hebrew name david דוד ד.ו·ד
-20180416:29: hebrew name sakhah החש
-20180416:32: hebrew  sakhah neged ha-zerem  םרזה דגנ החש  swam against flow  stood up accepted ideas
-20180416:40: hebrew saiche .חיעש conscience
-20180416:72: hebrew saiche .חעש acrostic
-20180416:79: judaism seven laws noahide noachide חנ halakhot תחלה
-20180416:92: english hebrew dictionary lexicon
-20180416:99: hebrew dictionary lexicon jabenner 2016 ancient hebrew lexicon bible
-20180416:106: judaism law 613 commandments mitzvot (תֹווְצִמ) list positive negative
-20180416:111: hebrew rule law tradition singular plural possessive
-20180416:118: hebrew asham םשא sin guilt offering trespass wevine
+20180416:1: unicode hebrew alphabet consonants
+20180416:23: hebrew ger רג convert stranger sojourner proselyte
+20180416:28: hebrew name david דוד ד.ו·ד
+20180416:31: hebrew name sakhah החש
+20180416:34: hebrew  sakhah neged ha-zerem  םרזה דגנ החש  swam against flow  stood up accepted ideas
+20180416:42: hebrew saiche .חיעש conscience
+20180416:74: hebrew saiche .חעש acrostic
+20180416:81: judaism seven laws noahide noachide חנ halakhot תחלה
+20180416:94: english hebrew dictionary lexicon
+20180416:101: hebrew dictionary lexicon jabenner 2016 ancient hebrew lexicon bible
+20180416:108: judaism law 613 commandments mitzvot (תֹווְצִמ) list positive negative
+20180416:113: hebrew rule law tradition singular plural possessive
+20180416:120: hebrew asham םשא sin guilt offering trespass wevine
 20180417:1: add jenkins user hostname autossh group sshd config allow authorized keys directory permission
 20180417:26: no idol worship noahide noachide law
 20180417:40: torah study law idolatry allow require 
@@ -1411,11 +1411,34 @@
 20180507:39: leviticus 26 idolatry reward faith punishment covenant
 20180507:43: leviticus 27 preson worth shekels age priest assess value fifth keep animal unclean house land redeem jubilee standard weight donation 
 20180507:47: leviticus 25:10 liberty bell release enslaved jobel yobel yovel yovlim jubilee rashi jehuda ibn ezra ram horn sofar trumpet
-20180507:96: hebrew english tanach tanakh jps 1917
-20180507:102: hebrew english tanach tanakh judaica press rashi commentary
-20180507:108: aramaic translation targum onkelos
-20180507:114: hebrew tanach mishnah talmud midrashim rambam mishnah torah tosfeta
-20180507:124: jewish encyclopedia 1901–1906
-20180507:132: jewish virtual library
-20180507:140: public domain hebrew books
-20180507:148: open siddurim history prayer
+20180507:107: hebrew english tanach tanakh jps 1917
+20180507:113: hebrew english tanach tanakh judaica press rashi commentary
+20180507:119: aramaic translation targum onkelos
+20180507:125: hebrew tanach mishnah talmud midrashim rambam mishnah torah tosfeta
+20180507:135: jewish encyclopedia 1901–1906
+20180507:143: jewish virtual library
+20180507:151: public domain hebrew books
+20180507:159: open siddurim history prayer
+20180508:1: unicode hebrew alphabet consonant vowel point
+20180508:38: tetragrammaton jehovah yhwh yhvh nehemia gordon
+20180508:65: karaite judaism tefillin metaphor ten utterances deuteronomy 6:5 6:8 6:9 11:18 exodus 13:9 13:16
+20180508:70: karaite judaism mezuzot metaphor
+20180508:75: karaite judaism tzitzit indigo knot braid tekhelet numbers 15:38 tassel gedelim twisted cords deuteronomy 22:12
+20180510:1: emor leviticus 21–24
+20180510:4: leviticus 21 priest close kin handle dead body cut hair head beard gash profane name marry adulterer divorcée burn daughter whore harlot anoint oil vestment virgin sanctify 
+20180510:9: leviticus 22:1–16 aaron birth defect offer sacrifice blind lame short long limb broken crush testes hunchback dwarf eye growth boil scar scurvy eat curtain altar sacred donation scruple eruption discharge corpse semen unclean swarm insect wash body water dead carrion lay person laborer slave child redeem pay food 
+20180510:12: conscience scruple
+20180510:15: leviticus 22:17–22 animal fire sacrifice male blemish defect cattle sheep goat vow freewill blind injured maimed wen boil scar scurvy
+20180510:18: leviticus 22:23 freewill animal fire sacrifice ox sheep limb contracted expanded vow
+20180510:21: leviticus 22:24–25 animal fire sacrifice testes bruised crushed torn cut accept offering
+20180510:24: leviticus 22:26–30 animal fire sacrifice youngling 7 days eight days ox sheep goat eat same day
+20180510:27: leviticus 22:28
+20180510:38: leviticus 22:32 profane name
+20180510:41: leviticus 23:1–8 holiday schedule sabbath six seventh days rest no work passover feast unleavened bread
+20180510:44: leviticus 23:9–22 arrive land harvest sheaf wheat sacrifice lamb fire first yearling no blemish flour oil wine no eat fast grain 50 days bread bull rams male goat field edge stranger
+20180510:47: leviticus 23:22–32 atonement deny self fire sacrifice no work
+20180510:50: leviticus 23:33–44 feast live inside booths no work fire sacrifice hadar tree palm leafy willow
+20180510:53: leviticus 24:1–9 lamp olive oil tent meeting burn light twelve loaf bread flour frankincense
+20180510:56: leviticus 24:10–23 blaspheme speak name shelomith dibri tribe dan lay hands stone death murder kill beast blood price maim likewise punishment injury justice
+20180511:1: jeremiah 16 no sons daughters place land mourn feast idolatry other gods
+20180511:4: jeremiah 17:10 individual merit justice even handed no uproot destroy sow reap way fruit deed קר reyk empty content conscience heart remind repay action result

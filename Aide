@@ -6,7 +6,7 @@ du -n | grep Aide
 du | sed 's,^.* ,,' | grep -v '^\.git'
 git
 git add --all .
-git commit -a -m 'This week’s parsha.'
+git commit -a -m 'Karaite tefillin, mezuzot metaphors; tzitzit dye; tetragrammaton research by Gordon.'
 git config --get remote.origin.url
 git diff
 git fetch

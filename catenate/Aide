@@ -4,6 +4,7 @@
 Dump /github/notabene/catenate/dump
 Edit ,|sort|uniq
 Load /github/notabene/catenate/dump
+Mark new diary page
 New hnefatafl
 New stranger
 apply { sed '/^nb doc$/d;s,^nb ,nb '^$1^' ,' $1 >> 201009–201102; rm $1 }  r* s* tea travel twitter u* v* w* y*
@@ -18,9 +19,9 @@ nb
 nb Leviticus	# case-sensitive
 nb calendar
 nb hate speech
+nb hebrew vowel
 nb jhost
 nb judaism law
-nb hebrew alphabet
 nb leviticus	# case-sensitive
 nb leviticus 16:20
 nb leviticus 19:15
