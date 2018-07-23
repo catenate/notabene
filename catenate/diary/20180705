@@ -1,0 +1,4 @@
+nb git log decorate oneline graph limit output length
+
+nsh git log --decorate --graph --oneline -n 100
+nsh git log --decorate --graph -n 100

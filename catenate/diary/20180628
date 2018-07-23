@@ -1,0 +1,17 @@
+nb jenkins ssh cli api server key
+
+web 'https://wiki.jenkins.io/display/JENKINS/Jenkins+SSH'
+
+
+nb xmlstarlet usage examples
+
+web 'http://peter-butkovic.blogspot.com/2013/10/xml-processing-in-shell.html'
+web 'http://xmlstar.sourceforge.net/doc/UG/ch04s01.html'
+web 'http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html'
+web 'https://en.wikipedia.org/wiki/XMLStarlet#Examples'
+
+
+nb imagemagick screenshot import display
+
+host display balloon-54.png
+host import -screen balloon-56.png

@@ -1,0 +1,16 @@
+nb date output format
+
+host date '+%s'
+host date '+%Y%m%d'
+
+
+nb do not edit automatic generate
+
+# DO NOT EDIT: AUTOMATICALLY GENERATED.
+
+
+nb trap signal catch exit hup int quit term tmp temporary file shell script fragment
+
+self=$(basename $0)
+tmp=/tmp/$self.$$
+trap 'rm -rf ${tmp}*' EXIT HUP INT QUIT TERM

@@ -1,0 +1,6 @@
+nb polyglot multiple interpreter valid program example which stephane chazelas node perl python ruby bash tcsh csh ksh93 zsh freedos msdos javascript whitespace
+
+Why not write one piece of code that is simultaneously valid in ~12 languages?
+
+web 'https://news.ycombinator.com/item?id=16415919'
+web 'https://github.com/stephane-chazelas/misc-scripts/blob/master/which_interpreter'
