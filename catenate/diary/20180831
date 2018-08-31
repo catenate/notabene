@@ -1,0 +1,31 @@
+nb weight recent build success average metric
+
+Maybe weight the results so that all the builds older than a week have
+a weight of 1; all the builds from a week ago to two (days) ago have a
+weight of 2; and the past two (days of) runs have a weight of 3.
+By “weight” I mean count one build as if it was several builds, so a
+build in the past two (days) changes the percentage a lot faster than
+a result that’s over a week old.
+
+
+nb podcast recommendations
+
+Adventure Zone
+BBC In Our Time
+Chuck Tingle
+Crimetown
+Hardcore History
+Last Podcast on the Left
+Limetown
+My Brother
+My Brother and Me
+RadioLab
+ReplyAll
+S-Town
+Sawbones
+Slow Burn
+Sword and Scale
+The Adventure Zone
+This American Life
+Welcome to Night Vale
+Within the Wires
