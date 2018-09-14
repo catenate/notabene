@@ -1,0 +1,14 @@
+nb hash type bash which function alias executable path shell builtin
+
+If $command and $(which command) return different output, it may be
+because the $command has a hashed by the shell, which fixes its identity
+as a function or alias or executable (and the path of the executable) or
+shell builtin.
+
+web 'https://unix.stackexchange.com/questions/5609/how-do-i-clear-bashs-cache-of-paths-to-executables'
+
+type $command
+hash -r
+hash -d $command
+help hash
+manos bash
