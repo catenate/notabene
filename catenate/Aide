@@ -18,6 +18,7 @@ ls -F | grep -v '^20' | mc
 nb
 nb Leviticus	# case-sensitive
 nb calendar
+nb conscience
 nb hate speech
 nb hebrew vowel
 nb jhost
@@ -25,6 +26,7 @@ nb judaism law
 nb leviticus	# case-sensitive
 nb leviticus 16:20
 nb leviticus 19:15
+nb patchwork
 nb sam harris
 nb ssh fingerprint
 nb twitter recent study post text
@@ -38,4 +40,3 @@ sh /git/notabene/sh-inferno/nb plan9port
 tak/Aide
 |fmt
 |tr A-Z a-z
-nb conscience
