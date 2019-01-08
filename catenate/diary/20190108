@@ -1,0 +1,4 @@
+nb suckless tools term slock screen lock
+
+sudo apt-get install stterm suckless-tools
+web 'https://tools.suckless.org/'
