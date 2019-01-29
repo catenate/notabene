@@ -1,0 +1,7 @@
+nb ssh config host alias identity file
+
+Host catenate
+  HostName github.com
+  User git
+  IdentityFile /home/jason/.ssh/catenate
+  IdentitiesOnly yes

@@ -1,3 +1,6 @@
+acme:
+	Edit X/notabene/D
+
 aide:
 	catenate/Aide
 	grep -n ':$' Aide /dev/null | sed 's,: , ,g;s,:$, ,g' | fmt
@@ -13,7 +16,7 @@ change:
 	nsh git diff --staged
 
 commit:
-	git commit -a -m 'Recent notes.'
+	log github git commit -a -m 'Recent notes.'
 	git log --decorate --graph --oneline --all -n 10
 	git log --decorate --oneline -n 5
 
@@ -23,11 +26,15 @@ repo:
 	git config --global user.name 'Jason Catena'
 	git remote add origin git@github.com:catenate/notabene.git
 
-origin:
+remote:
 	git fetch
-	git push origin master
-	git rebase origin/master
-	host key catenate
+	git rebase catenate/master
+	git remote
+	git remote add catenate catenate:catenate/inferno-cat.git
+	git remote get-url catenate
+	git remote remove catenate
+	git remote show catenate
+	log github git push catenate master
 	web 'github.com/catenate/notabene'
 
 reflog:
