@@ -1,24 +1,41 @@
-Edit ,|sort|uniq
-apply {ls -l $1} `{git | grep -v '^#' | sed 's,.* ,,'}
-catenate/Aide
-du -n | grep -v '^\.git'
-du -n | grep Aide
-du | sed 's,^.* ,,' | grep -v '^\.git'
-git
-git add --all .
-git commit -a -m 'Recent notes.'
-git config --get remote.origin.url
-git diff
-git fetch
-git log --decorate --graph --oneline --all | sed 10q
-git log --decorate --oneline | sed 5q
-git push origin master
-git rebase origin/master
-git remote add origin git@github.com:catenate/notabene.git
-git reset --hard HEAD
-log
-log git
-ls -F | mc
-nsh git diff --staged
-web github.com/catenate/notabene
-|sort|uniq
+aide:
+	catenate/Aide
+	grep -n ':$' Aide /dev/null | sed 's,: , ,g;s,:$, ,g' | fmt
+
+edit:
+	|sort|uniq
+
+
+change:
+	git
+	git add --all .
+	git diff
+	nsh git diff --staged
+
+commit:
+	git commit -a -m 'Recent notes.'
+	git log --decorate --graph --oneline --all -n 10
+	git log --decorate --oneline -n 5
+
+repo:
+	git config --get remote.origin.url
+	git config --global user.email 'jason.catena@seedcx.com'
+	git config --global user.name 'Jason Catena'
+	git remote add origin git@github.com:catenate/notabene.git
+
+origin:
+	git fetch
+	git push origin master
+	git rebase origin/master
+	host key catenate
+	web 'github.com/catenate/notabene'
+
+reflog:
+	git reset --hard HEAD
+
+search:
+	apply {ls -l $1} `{git | grep -v '^#' | sed 's,.* ,,'}
+	du -n | grep -v '^\.git'
+	du -n | grep Aide
+	du | sed 's,^.* ,,' | grep -v '^\.git'
+	ls -F | mc

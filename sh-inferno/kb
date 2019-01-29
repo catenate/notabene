@@ -1,4 +1,21 @@
 #!/dis/sh
-# ,|sed 's,^([^:]+): ,kb \1	,g'
-(drop cmd) = $*
-$cmd
+nb >/dev/null
+
+echo backlog
+nb kb_backlog
+echo
+
+echo next
+nb kb_next
+echo
+
+echo doing
+nb kb_doing
+echo
+
+echo waiting
+nb kb_waiting
+echo
+
+echo done
+nb kb_done

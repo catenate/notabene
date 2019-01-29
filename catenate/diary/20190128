@@ -1,0 +1,12 @@
+nb identifly identity fly tsa pre check airplane
+
+Identifly: A program to identify yourself before flying in an airplane,
+for eased and speedier passage through security and boarding.
+
+
+nb xkcd install shell script bash pip easy brew npm yum dnf docker pkg apt get sudo steamcmd app update git clone configure make curl 
+
+web 'https://xkcd.com/1654/'
+
+It should be sorted by architectural layer (so os packages first),
+and stop when it finds one that works.

@@ -1123,7 +1123,7 @@
 20170721:75: danish rød
 20170721:78: swedish röd
 20170721:81: icelandic rauður
-20170721:84: gothic ����� rauþs
+20170721:84: gothic 𐍂𐌰𐌿𐌸𐍃 rauþs
 20170721:87: ancient greek ἐρυθρός eruthrós
 20170721:90: latin ruber
 20170721:93: old irish rúad
@@ -1498,3 +1498,31 @@
 20180914:1: git workflow commit repair reset rebase add revert commit push force
 20180914:6: git stash save apply pop workspace index local repo upstream status diff add rm mv commit checkout reset checkout merge rebase cherry-pick revert clone pull reset hard clean
 20181022:1: scuttlebutt patchwork markdown post link reference http web page
+20181022:7: unix ide series shell develop
+20190108:1: suckless tools term slock screen lock
+20190108:7: setup install new develop host
+20190108:20: install docker
+20190109:1: bitcoin unicode symbol
+20190109:13: inferno doc
+20190109:18: inferno font ttf 
+20190109:23: tour acme russcox
+20190109:28: true three button mouse hp DY651A usb optical
+20190114:1: 9front dash manual
+20190117:1: continuous integration cicd certification martin fowler
+20190117:11: oif of if exists neologism
+20190117:16: adhded neologism
+20190117:24: neoörgasm neologism
+20190117:29: scale terraform terraservice module workflow large complex organization hibri marzook enterprise module registry
+20190121:1: ip address hostname separator colon
+20190121:8: continuous integrate integration
+20190121:13: continuous testing
+20190121:18: continuous delivery
+20190121:23: continuous deployment
+20190121:28: continuous monitoring
+20190121:33: continuous delivery architecture certificate integration testing delivery deployment monitoring infrastructure tools security kb_backlog
+20190122:1: mark knopfler playlist
+20190124:1: github markdown guide format text
+20190124:6: sumologic status gmex forum app os dev kb_waiting
+20190124:29: jenkinsx kubernetes trial poc kb_backlog
+20190128:1: identifly identity fly tsa pre check airplane
+20190128:7: xkcd install shell script bash pip easy brew npm yum dnf docker pkg apt get sudo steamcmd app update git clone configure make curl 

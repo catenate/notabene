@@ -1,0 +1,56 @@
+nb continuous integration cicd certification martin fowler
+
+Martin Fowler argues that we don't really need a certification for
+continuous integration, we just need to actually do it.  So while
+companies do offer certification in CI, we might be better off
+figuring out how we can make these practices work in our environment.
+
+web 'https://martinfowler.com/bliki/ContinuousIntegrationCertification.html'
+
+
+nb oif of if exists neologism
+
+	restore most recent backup of _____, if _____ exists
+
+
+nb adhded neologism
+
+	Adhded to "next" queue.
+
+Commenting on the attention-disordered nature of performing actions on
+the to-do queue.
+
+
+nb neoörgasm neologism
+
+The rush of excitement at creating the perfect new word for a situation.
+
+
+nb scale terraform terraservice module workflow large complex organization hibri marzook enterprise module registry
+
+web 'https://www.contino.io/insights/a-model-for-scaling-terraform-workflows-in-a-large-complex-organization'
+
+module "frontend" {
+  source   = "git::github.com/contino/module-webapp?ref=master"
+  product  = "${var.product}-frontend"
+  location = "${var.location}"
+  env      = "${var.env}"
+
+  app_settings = {
+    REDIS_HOST                   = "${module.redis-cache.host_name}"
+    RECIPE_BACKEND_URL           = "${module.recipe-backend.url}"
+    WEBSITE_NODE_DEFAULT_VERSION = "8.8.0"
+  }
+}
+
+A Terraservice has its own CI/CD pipeline.  The pipeline runs unit,
+integration and compliance tests.  It can even autogenerate
+documentation.
+
+The integration and compliance tests run in a sandbox environment, and
+spin up their own test harnesses to exercise changes the Terraservice.
+
+At the end of the pipeline, when tests are green, the Terraservice is
+versioned and tagged.
+
+web 'https://www.hashicorp.com/blog/announcing-hashicorp-terraform-enterprise-module-registry'

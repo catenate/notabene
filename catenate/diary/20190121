@@ -1,0 +1,57 @@
+nb ip address hostname separator colon
+
+user:password@ipaddress:/path
+user:password@hostname:/path
+hostname:ipaddress
+
+
+nb continuous integrate integration
+
+web 'https://en.wikipedia.org/wiki/Continuous_integration'
+
+
+nb continuous testing
+
+web 'https://en.wikipedia.org/wiki/Continuous_testing'
+
+
+nb continuous delivery
+
+web 'https://en.wikipedia.org/wiki/Continuous_delivery'
+
+
+nb continuous deployment
+
+web 'https://en.wikipedia.org/wiki/Continuous_deployment'
+
+
+nb continuous monitoring
+
+web 'https://en.wikipedia.org/wiki/Continuous_monitoring'
+
+
+nb continuous delivery architecture certificate integration testing delivery deployment monitoring infrastructure tools security kb_backlog
+
+Continuous Delivery Architecture, by the DevOps Institute
+https://devopsinstitute.com/certifications/continuous-delivery-architecture-cda/
+
+	Goals, history, terminology, and pipeline.
+	The importance, practices, and transformation of a DevOps
+collaborative culture.
+	Design practices, such as modular design and microservices.
+	Continuous Integration (Cl), such as version control, builds,
+and remediation.
+	Tenets and best practices of Continuous Testing (CT).
+	Continuous Delivery and Deployment (CD): packaging,
+containers, and release.
+	Continuous Monitoring (CM): monitoring and analysis
+infrastructure, process, and apps.
+	Infrastructure and tools: frameworks, tools, and
+infrastructure as code.
+	Security Assurance: DevSecOps.
+	The opportunity to hear and share real-life scenarios.
+
+Successfully passing (65%) the 90-minute examination, consisting of 40
+multiple-choice questions, leads to the candidate’s designation as a
+certified DevOps Continuous Delivery Architect (CDA).  The
+certification is governed and maintained by the DevOps Institute.
