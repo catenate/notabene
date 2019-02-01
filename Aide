@@ -1,19 +1,15 @@
-acme:
-	Edit X/notabene/D
+|aide inferno acme notabene
+|aide inferno aide
+|aide edit sort
+|aide git change
+|aide git commit
+commit:
+	git log --decorate --oneline --graph -n 5
+	git log --decorate --oneline --graph --all -n 5
+	git show HEAD
+	log github git commit -a -m 'Reindex notes in /nb.'
+	log github git commit -a -m 'Update Aide.'
 
-aide:
-	catenate/Aide
-	grep -n ':$' Aide /dev/null | sed 's,: , ,g;s,:$, ,g' | fmt
-
-edit:
-	|sort|uniq
-
-
-change:
-	git
-	git add --all .
-	git diff
-	nsh git diff --staged
 
 commit:
 	log github git commit -a -m 'Recent notes.'
@@ -30,7 +26,7 @@ remote:
 	git fetch
 	git rebase catenate/master
 	git remote
-	git remote add catenate catenate:catenate/inferno-cat.git
+	git remote add catenate catenate:catenate/notabene.git
 	git remote get-url catenate
 	git remote remove catenate
 	git remote show catenate

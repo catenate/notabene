@@ -1,29 +1,3 @@
 nb github markdown guide format text
 
 https://guides.github.com/features/mastering-markdown/
-
-
-nb sumologic status gmex forum app os dev kb_waiting
-
-jason.catena: Sumologic PoC status: We are working today on finishing
-the setup for gmex hosts and deploying it to them, and then setting up
-fix and trade gateways.
-
-justin: I'm super into this, will have CFT be an early adopter for whatever
-we go with.
-
-jason.catena: What would help, at the moment, is to create a list of
-the log files you would like to retrieve for each of your team's
-applications, correlated with the repo which contains the app's
-ansible configuration.
-
-matt: ¹ Log there¹ or it doesn't exist :). Ruby apps (via cap).²
-  ¹ /var/log/seedcx/*
-  ² /opt/seedcx/${app}/shared/logs/${env}.log
-
-jason.catena: Sumologic status: deployed collectors to gmex hosts in
-dev environment, so we're collecting app and os logs for the main
-Forum* apps.
-
-
-nb jenkinsx kubernetes trial poc kb_backlog

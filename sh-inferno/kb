@@ -1,4 +1,5 @@
 #!/dis/sh
+cd /nb
 nb >/dev/null
 
 echo backlog
